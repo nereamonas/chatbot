@@ -1,0 +1,777 @@
+Baliabideen kudeaketa eGelan 
+
+Irakasleentzako eskuliburua 
+
+3. bertsioa (2019/05/30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Honako eskuliburu hau Universidad del Pais Vasco / Euskal Herriko Unibertsitateko Campus Birtualak landu du.
+
+Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago. Lizentzia honen kopia bat ikusteko, bisitatu helbide hau: http://creativecommons.org/licenses/by-nc-sa/3.0/es/
+
+Edukien aurkibidea
+
+	Sarrera	4
+
+	Baliabideen edizioaren oinarrizko funtzionamendua	4
+
+	Aktibatu edizioa:	4
+
+	Elementuen gaineko edizio aukerak	5
+
+	Atalak sortzea, editatzea eta ezabatzea	6
+
+	Editatu gaia (atala)	6
+
+	Atalak ezabatzea	7
+
+	Gehitu baliabide berriak (Sortzea eta argitaratzea)	8
+
+	Editorearen funtzionamendua	10
+
+	Txeratu/editatu irudia	10
+
+	Orokorra	10
+
+	Itxura erlaitza	11
+
+	Txertatu bideoak editorearen testu eremuan	13
+
+	Baliabideak sortzea: etiketak, orriak eta liburuak	13
+
+	Etiketak	14
+
+	Orriak	15
+
+	Liburuak	16
+
+	Liburu bat sortzea eta ezarpenen inprimakia	17
+
+	Liburuko edukien edizioa	18
+
+	Inprimatu PDF gisa liburu osoa edo atal espezifiko bat	19
+
+	Argitaratu kanpoko baliabideak (fitxategiak, karpetak…)	20
+
+	Fitxategiak argitaratzea	20
+
+	“Fitxategia” baliabidearen ezarpenen inprimakia	20
+
+	Karpeta bat argitaratzea	24
+
+	Fitxategi hautatzailearen aukerak	25
+
+	Fitxategi pribatuak	25
+
+	Zerbitzariko fitxategiak	27
+
+	Azken fitxategiak	28
+
+	URLak jaisteko gailua	28
+
+	Baliabideak gehitzea, Drag and drop (herrestan eraman eta askatu) funtzioa erabilita	29
+
+	Inportatu beste ikastaro batzuetako baliabideak eta jarduerak	31
+
+	Erakutsi baliabideen deskribapena ikastaroaren orri nagusian	33
+
+	Paperontzia	34
+
+	Iragazkiak	35
+
+	Math & Science by Wiris	35
+
+	Notación TeX	36
+
+	Hizkuntza anitzeko iragazkiak, bi aukera	36
+
+	Hizkuntza anitzeko iragazki “klasikoa” (multilang)	36
+
+	Hizkuntza anitzeko iragazki “erraza” (multilang2)	37
+
+	Multimedia konektoreak	37
+
+	Auto-esteka glosariora	38
+
+	Jmol	38
+
+	Aurrekariak	38
+
+	Nola lan egin Jmol iragazkiarekin eGelan	38
+
+
+
+
+
+
+
+
+Sarrera
+
+Eskuliburu honetan ikastaro baten inguruan baliabideak sortzeko eta argitaratzeko aukerak azaltzen dira:
+
+“Baliabideen edizioaren oinarrizko funtzionamendua” atalak ikastaroan diren elementuei lotutako edizioa eta kontrolak nola aktibatzen diren azaltzen du (Editatu doikuntzak, Ezkutatu…). Horrez gain, eskura dauden baliabideak (Orrialdea, Artxiboa…) sailkatzen ditu, sorkuntza edo argitalpenerako bideratuko diren kontuan hartuta. Azkenik, atalen ediziorako eta konfiguraziorako dauden aukerak azaltzen ditu. Ondoren, “Editorearen funtzionamendua” atalak azaltzen du nola erabili behar den editorea testuari formatua emateko eta multimedia baliabideak sartzeko. Editorearen aukerak berdinak dira testu formatuduna (zereginen enuntziatua, galdetegien galderak…) sartzeko aukera ematen duten testu eremu guztietan.
+
+Hurrengo bi ataletan eskura dauden tresnak deskribatzen dira: Hirugarren atalak, “Sortu baliabideak: etiketak, orriak eta liburuak” izenekoak, plataformaren berezko tresna horien ezaugarriak deskribatzen ditu; laugarren atalak, “Argitaratu kanpo baliabideak (artxiboak, karpetak…)” izenekoak, beste tresna batzuekin sortutako artxiboak argitaratzeko aukerak azaltzen ditu. Horrez gain, Fitxategi hautatzailean kudeaketarako beste aukera batzuk eskuratu daitezke (Artxibo pribatuak, Azken artxiboak…), edo kanpo baliabideak argitaratu daitezke drag and drop aukeraren bidez. 
+
+Azkenik, eskuliburuaren azken ataletan, eskura dauden beste funtzio praktiko batzuk azaltzen dira, hala nola fitxategiak eta baliabideak inportatzea beste ikastaro batzuetatik, iragazkien konfigurazioa –hizkuntz anitzeko edukiak argitaratzeko esate baterako–, eta zakarrontzia. 
+
+Baliabideen edizioaren oinarrizko funtzionamendua
+
+Aktibatu edizioa:
+
+Ikastaroan, edizio aukerak aktibatzeko, beharrezkoa da "Aktibatu edizioa" botoia sakatzea (Ikusi 1. irudia: Aktibatu edizioa).
+
+
+
+Elementuen gaineko edizio aukerak
+
+Ikastaroa edizio moduan dagoenean, bertan txertatutako baliabide bakoitzak aukera sorta bat izango du atxikia, bere ezarpenak finkatzeko (Ikusi 2. irudia: Menu nagusiko elementuen ediziorako ikonoak). 
+
+
+
+Mugitu: Goitik beherako desplazamendua, ikastaroaren azalean, elementuak berrantolatzeko. 
+
+
+
+2) Izenaren edizio bizkorra: Izena aldatzeko ez da beharrezkoa ezarpenen inprimakira sartzea. Nahikoa da ikono hori sakatzea, eta aldaketak egiaztatzea, Enter sakatuta.
+
+3) Eguneratu: Ikono honi esker, elementu bakoitzaren "Ezarpenak editatu" inprimakira sartu ahal izango gara. 
+
+
+
+4) Eskuinera mugitu: Elementua eskuinerantz mugitzea, gainerako elementuekiko koska efektua sortzeko.
+
+
+
+5) Elementua erakutsi /ezkutatu.
+
+
+
+6) Bikoiztu elementu bat, konfigurazio aukera guztiak bere horretan utzita. Aktibitate baten kasuan, erabiltzaileen ekarpenak ez dira gordetzen.
+
+
+
+7) Baliabidean edo jardueran rolak esleitu. Honen bidez, ikasle bati "Irakaslea, editatzeko baimenik gabe" rola eman diezaiokegu, eta horrek jarduera hori kalifikatzea ahalbidetuko dio. Ez erabiltzea gomendatzen da, non eta ez dugun oso ongi ezagutzen aldaketa horren emaitza zein izango den. 
+
+8) Ezabatu: Ikono honek elementu bat ezabatzeko aukera berresteko orri batera garamatza.
+
+
+
+Atalak sortzea, editatzea eta ezabatzea
+
+Atal bakoitzak hainbat aukera ditu, bere ikuspena eta aurkezpena konfiguratzeko. “Editatu” (1) sakatuz gero, menu zabalgarri bat agertzen da, honako aukera hauekin: 
+
+
+
+Editatu gaia: (ikus jarraian zehaztutako aukerak).
+
+Nabarmendu: atal hau hondo urdin batez nabarmentzen da. Soilik atal bat nabarmendu daiteke.
+
+Ezkutatu gaia: atal honetako edukiak ez daude ikasleen esku. Ikus ezkutuko atalak aurkezteko aukerak, ikastaroaren egitura eta doikuntzen eskuliburuaren “Ikastaroaren formatua” atalean. 
+
+Ezabatu gaia: (ikus jarraian zehaztutako aukerak). 
+
+Editatu gaia (atala)
+
+Hurrengo irudian, gaiaren ezarpenen inprimakia ikusten da.
+
+
+
+Atalaren izena: Eremu honen eskuinaldean kokatutako laukiari markaketa kenduta, atalean lehenetsitako izena editatu daiteke. 
+
+Laburpena: Eremu hau erabil daiteke atalaren edukiak irudi batez ilustratzeko edo alderdi garrantzitsuei buruz informatzeko. 
+
+Eskuragarritasuna mugatzea: eremu honetan, atal osoaren mugak konfigura daitezke (Ikus informazio gehiago “Jarraipena egiteko tresnak, eskuragarritasuna mugatu eta dominak” eskuliburuaren “Mugatu eskuragarritasuna”). 
+
+Atalak ezabatzea 
+
+Ikastaro berri batek, edukirik ez duenak, berez 20 atal ditu. Gelen kudeatzailetik kargatutako edukiak dituzten ikastaroen kasuan, atalen kopurua eduki horien jatorrizko ikastaroaren araberakoa da. 
+
+Gaur egungo eGelaren bertsioan atalen kopurua ezin da espezifikatu Ikastaroaren ezarpenetan. Ezabatu egin beharko dira hurrengo irudian adierazten den moduan: 
+
+
+
+Atal batean edukiak daudenean, behin betiko ezabatzen dira, eta ez dira “Zakarrontzian” geratzen, baliabideak edo jarduerak ezabatzen direnean bezala. 
+
+
+
+Irudian ikus daitekeen moduan, berrespen mezuak ohartarazten digu eduki horiek behin betiko ezabatuko direla. 
+
+
+
+Gehitu baliabide berriak (Sortzea eta argitaratzea)
+
+Edizio modua aktibatuta dagoenean, modulu bakoitzaren eskuinaldean, behean, “Gehitu jarduera edo baliabidea” aukera agertzen zaigu. 
+
+
+
+Aukera horren gainean sakatuz gero, “Jardueren eta baliabideen hautagailua” zabaltzen da. Eskura ditugun baliabide motak behean agertzen dira; beraz, scroll bertikala egin behar dugu horiek ikusi ahal izateko. 
+
+
+
+Hautagailuan eskura dauden baliabideak bi taldetan sailka daitezke: 
+
+Alde batetik, edukiak sortzeko tresnak (etiketa, liburua eta orria; gorriz ageri dira) 
+
+Bestalde, kanpo tresnen bidez sortutako baliabideak argitaratzeko tresnak (fitxategiak, karpetak eta IMS eduki paketea; urdinez ageri dira). 
+
+Horrez gain, sailkapen horretatik kanpo, URL baliabidea (berdez ageri da) dugu, zeinak beste webgune batzuetarako estekak sortzeko aukera ematen baitigu. 
+
+Editorearen funtzionamendua
+
+Editorea tresna nagusia da bai plataforman baliabideak sortzeko (etiketak, orriak, liburuak), bai multimedia testu eremu guztien edukia editatzeko, hala ikastaroaren konfigurazioan (argitaratutako baliabideen deskribapena, jardueren deskribapena…) nola ikastaroa egin bitartean (mezuak foroetan…). Testua sortzeko eta formateatzeko aukera ematen du, eta formateatutako testu horretan kanpoko beste baliabide batzuk txertatzeko tresna ere bada; esaterako, irudiak, irudien bitartez aurkeztutako formulak, bideoak edo audio fitxategiak… 
+
+Editorean erabilgarri dauden aukerak beste zeinahi testu prozesadoreren antzekoak dira. Hona hemen interesgarriak izan daitezkeen aukera horietako batzuen azalpenak. 
+
+Menuaren barrak zabaldu / bildu.
+
+Txertatu irudiak (ikus xehetasunak “Txertatu/editatu irudiak” atalean).
+
+
+
+“Garbitu zabor kodea”, “Garbitu formatua”, “Itsatsi testu lau gisa” eta “Itsatsi Wordetik” aukerek kanpo aplikazioen kodea ezabatzea ahalbidetzen dute beste dokumentu batzuetatik eskuratutako testu zatietan. Testu zatia webgune batetik eskuratu denean, komeni da "Itsatsi testu laua" aukera erabiltzea, eta testua aipatutako testu prozesadoretik datorrenean, berriz, "Itsatsi Wordetik" aukera.
+
+Wiris formulen editorea. Editore birtual baten bitartez, Latex zatiak egiteko aukera ematen du. Iragazki batek sortutako formula irudikatzen duten iruditan eraldatuko ditu zati horiek. 
+
+Editatu HTML kodea (ikus bideoak txertatzeko aplikazioa “Txertatu bideoak editorearen testu eremuan” atalean).
+
+Txeratu/editatu irudia
+
+“Txertatu/editatu irudia” botoia sakatzean, hiru erlaitzeko elkarrizketa koadro bat irekitzen da. Ikus elkarrizketa koadroa hurrengo irudian: 
+
+Orokorra
+
+“Irudiaren URLa” atalean “Bilatu edo igo irudi bat” aukerak fitxategien hautatzailera sartzea eta irudi fitxategi bat hautatzea ahalbidetzen digu.
+
+Irudiaren deskribapenak ikusmen ezgaitasunera egokitutako irakurgailuetarako informazioa ematen du, eta, beraz, ezinbesteko elementu bat da edukien eskuragarritasuna bermatzeko. 
+
+
+
+Itxura erlaitza 
+
+Koadro horri esker, irudi bat txertatu ahal izango dugu paragrafo batean, ezkerreko zein eskuineko kantoian. Eta bestelako aukera batzuk ere izango ditugu; esate baterako, ertzak, marjinak... Hurrengo irudian aukeraketa hauek egin dira: 1) Lerrokatzea ezkerrera, 2) 5 pixeleko espazioa eta 1 pixeleko ertza. Eskuineko laukian, aurrebista bat ikus dezakegu (3). Horrela, irudia paragrafoaren hasieran badago, paragrafoaren testuak irudia inguratuko du. 
+
+
+
+Lerrokatze mota hori egokia izan daiteke irudi txiki baterako. Irudia handiagoa denean, hobe izango da bi paragrafoen artean kokatzea, erdialderantz justifikatuta. 
+
+
+
+Interesgarria izan daiteke, halaber, irudiaren tamaina aldatzea. Lehenik eta behin, eta kontuan hartuta eGela / eGelaPI orri batean irudi batek nekez bete dezakeela 1000 px-etik gorako espazio bat, haren tamaina murriztu dezakegu argitaratu aurretik, kanpo ediziorako tresna bat erabilita. Aukera hori hautatzen ez badugu, irudiaren zabalera egokitu dezakegu, “Blokeatu itxura erlazioa” aukera markatuta edukiz. 
+
+
+
+Konfigurazio aurreratua
+
+Horrez gain, “dimentsioak” eta “estiloak” eremuak modu konbinatuan erabil ditzakegu, irudia horizontalki zentratuta egon dadin eta hura daukan orriaren eremuaren espazioarekiko proportzionala den espazio bat okupatu dezan, baina inoiz ez irudiaren egiazko zabalera baino handiagoa. 
+
+“Itxura” (1) erlaitzean, zabalera eremuan (2) ageri den balioa kopiatzen dugu, eta haren ordez % 100 jartzen dugu (3). Altueraren eremuak (4) hutsik geratu behar du. Azkenean, “estiloa” eremuan, jarraian adierazitako balioak itsatsiko ditugu, “ZABALERA” ordezkatuz zabaleraren eremuan kopiatu dugun balioaz. 
+
+max-width: ZABALERApx; display: block; margin-left: auto; margin-right: auto; border: 1px solid black;
+
+
+
+
+
+Txertatu bideoak editorearen testu eremuan
+
+YouTubeko bideo bat sartzeko, berez aktibatuta dagoen “Multimedia konektoreak” iragazkia erabiltzea da errazena. Iragazki horrek YouTube bideo baterako esteka bat txertaketa bihurtuko du automatikoki, eta “leiho bat webgunearen barruan” sortuko da (iframe) bideo hori ikusi ahal izateko. 
+
+Ostera, gerta daiteke “Multimedia konektoreak” iragazkia erabili nahi ez izatea 1) esteka mantendu nahi delako eta 2) bideoaren txertaketa modu zehatzagoan konfiguratu nahi delako. Gerta daiteke, halaber, sartu beharreko bideoa beste plataforma batetik etortzea (esate baterako, EHUTB edo Vimeo), eta halakoetan “Multimedia konektoreak” iragazkiak ez luke funtzionatuko. 
+
+Iragazki bat nola desaktibatu jakiteko, kontsultatu “Iragazkiak” atala.
+
+“Editatu HTML kodea” bista erabiliz bideo bat txertatzeko aukera ezagutzeko, ikus hurrengo bideoa. 
+
+Baliabideak sortzea: etiketak, orriak eta liburuak
+
+eGelan eskura dauden sormen tresnen bidez baliabide bat sortzeko: 1) Aktibatu edizioa, 2) dagokion moduluan sakatu “Gehitu jarduera edo baliabide bat”, eta 3) hautatu baliabide mota (etiketa, orria edo liburua). 
+
+
+
+Etiketak
+
+Etiketak baliabide mota bat dira, editorean dauden aukerak erabilita konposatutako testu eremu bakar bat dutenak. Orri nagusiaren arlo batean edukia argitaratzea ahalbidetzen dute. 
+
+Horiei esker, ikastaroaren orri nagusiaren itxura eta antolamendu bisuala hobetu ahal izango ditugu. Alabaina, gehiegi erabiliz gero, orri nagusia gehiegi kargatu daiteke, eta horrek arazoak sor litzake, bai edukia behar bezala ulertzeari dagokionez, bai konexioak mantsotzeari dagokionez, orria kargatzeko denbora gehiago beharko dugulako.
+
+
+
+Etiketa bat argitaratzeko: 1) Aktibatu edizioa 2) Dagokion moduluan, sakatu “Gehitu jarduera edo baliabide bat” aukeraren gainean, eta 3) hautatu “Etiketa” baliabidea sortzen ari den menuan. 
+
+Aurreko irudian, etiketak erabiltzeko bi modu erakusten dira: 
+
+Testu labur bat, izenburu edo deskribapen labur modura, hainbat jarduera eta baliabideren esteken artean kokatzen dena, moduluaren barruan azpiatal bat sortzeko edo informazio nabarmena emateko. 
+
+Irudi bat, ahal bada zabala eta altuera gutxikoa, ainguratze bisual baten balioa izango duena moduluaren edukietarako. 
+
+Irudiak erabiltzen direnean, garrantzitsua da egile eskubideak kontuan hartzea eta horien erreferentzia bat ematea, dagokion lizentziari buruzko informazioren bidez edo esteka baten bidez. 
+
+Orriak
+
+Orriak atal espezifikoak dira ikastaro baten barruan, eta edukiak argitaratzeko aukera ematen dute, editorean dauden baliabideak erabilita. Egokiak dira luzera mugatuko edukiak aurkezteko (300-1000 hitz artekoak). 
+
+Informazio mota hori aurkezteko fitxategi bat erabili beharrean orri bat erabiltzeak abantaila hauek ditu. 
+
+Errazago eskuratzen du gailu mugikorretatik sartzen denak
+
+Kanpo edukia txertatzeko aukera ematen du, esate baterako, hainbat plataformatako bideoak (Youtube, Vimeo…), mapak (Google Maps) eta beste eduki mota batzuk. (Ikus “Txertatu bideoak editorearen testu eremuan” informazio gehiagorako) 
+
+
+
+Liburuak
+
+Modulu honek orri multzo batek osatutako egiturak sortzeko aukera ematen du, hainbat hierarkia maila bereizita haren antolakuntzan eta nabigazio arbola espezifiko bat edukita (1). Beraz, alternatiba bat da kanpo fitxategiekiko, esate baterako PDF fitxategi bat, haren edukien luzera gehiegizkoa denean orri baterako. 
+
+
+
+Liburu bat sortzea eta ezarpenen inprimakia
+
+Ikastaro bat sortzeko, edizioa aktibatzen dugu, eta “Gehitu jarduera edo baliabide bat” aukeraren gainean sakatzen dugu, dagokion moduluan. Liburuaren ezarpenen menuan, lehendabizi “Izena” eta “Deskribapena” eremuak betetzen ditugu.
+
+
+
+Horrez gain, “Itxura” atalean, honako aukera hauek konfiguratu daitezke:
+
+Kapitulua zenbakitzea
+
+Edukien taularen zenbakitze aukerak aldatzea ahalbidetzen du. 
+
+ 
+
+Nabigazio diseinua
+
+Liburuaren orrien artean nabigatzeko aukerak aldatzea ahalbidetzen du.
+
+
+
+Titulu pertsonalizatuak
+
+Aukera hau markatuta ez dagoenean, kapituluaren izenburua edukien taulan agertzen da, eta eduki eremuaren goiko aldean, liburuko izenburuaren azpian. Markatzen denean, izenburu hori edukien taulan bakarrik agertzen da, eta izenburu egokia eskuz sar daiteke eduki arloan. 
+
+ 
+
+Ezarpenen inprimakiaren aukerak osatu ondoren, sakatu “Gorde aldaketak eta erakutsi”, liburuko edukien ediziora sartzeko. 
+
+Liburuko edukien edizioa
+
+Liburu batean edukirik ez dagoenean, sartzen garenean inprimaki bat ikusten dugu lehen atalaren edukiak osatzeko. Lehen atala ezin da markatu azpiatal gisa. 
+
+
+
+Lehen atal horren aldaketak gorde ditugunean, edizioa aktibatu beharko dugu orriak sortzeko edo orri berriak editatzeko, Edukien taularen (1) kontrolak erabilita. Liburuaren ezarpen globalak editatzeko, sartu hona: Administrazioa > Liburuaren administrazioa > Editatu ezarpenak (2). 
+
+
+
+Inprimatu PDF gisa liburu osoa edo atal espezifiko bat
+
+Liburu baten edukiak PDF formatuan deskargatu daitezke aukera hauek erabilita: Administrazioa > Liburuaren administrazioa > Inprimatu liburu osoa edo Inprimatu atal hau. Dokumentuaren maketazioa modu automatikoan egiten da, eta, beraz, ezin dugu espero irudiaren orriak ongi zenbatuta geratuko direnik; dena dela, baliabide bat da edukiak offline kontsultatu ahal izateko. 
+
+Argitaratu kanpoko baliabideak (fitxategiak, karpetak…)
+
+eGelan integratutako sorkuntza tresnekin baliabide bat argitaratzeko: 1) Aktibatu edizioa 2) Dagokion moduluan sakatu “Gehitu jarduera edo baliabide bat”, eta 3) aukeratu baliabide mota (fitxategia, karpeta edo IMS eduki paketea). 
+
+
+
+Fitxategia: Era guztietako fitxategiak. Moodlek ezagutzen duen luzapenen bat duten fitxategiak automatikoki aurkeztuko dira, ikono bereizgarri bat dutela. 
+
+Karpeta: Bistaratzeko hainbat aukera dituzten karpetak argitaratu ahal izango dira (beste orri batean zabaltzen den elementu bakar bat, karpeta egitura edo zuhaitz osoa).
+
+IMS eduki paketea: IMS eduki paketeak, hain zuzen, unitate didaktiko bat osatzen duten fitxategiak metatzeko modu estandarra dira. Pakete bat, hortaz, karpeta konprimatu bat da, XML fitxategi bat duena, non haren egitura zehaztuta dagoen. Nabigazio zuhaitz espezifiko bat sortuko da, IMS eduki paketearen barneko antolamenduaren arabera. 
+
+Fitxategiak argitaratzea
+
+Fitxategi bat argitaratzeko: 1) Ikastaroaren edizioa aktibatu, 2) Nahi dugun ikastaroaren bloketik, "Gehitu jarduera edo baliabide bat" sakatu, 3) "Fitxategia" aukeratu, eta 4) "Gehitu" sakatuko dugu. 
+
+Ekintza hori gauzatu ostean, plataformak inprimaki batera eramango gaitu, eta, bertan, nahi ditugun ezarpenak aukeratu, eta argitaratu beharreko fitxategia hautatu beharko dugu. Hurrengo atalean, inprimaki horren atal bakoitzaren aukerak azaltzen dira. 
+
+OHARRA: “Gehitu baliabideak drag and drop (herrestan eraman eta askatu) funtzioaz” azpiatalean azaltzen denez, fitxategi bat argitaratu daiteke gure ordenagailuko karpeta batetik fitxategi bat herrestan eramanez eta gero askatuz.
+
+“Fitxategia” baliabidearen ezarpenen inprimakia
+
+Fitxategi bat argitaratzean, jarraian ageri den inprimakiaren eremuak bete behar dira. 
+
+Orokorra
+
+
+
+Atal honek nahitaezko bi eremu ditu: 
+
+Izena (eskatua), 
+
+Deskribapena. 
+
+“Erakutsi deskribapena ikastaroaren orrian” aukera markatuz gero, deskribapen eremuaren informazioa ikastaroaren orri nagusian ikus daiteke (ikus “Erakutsi baliabideen deskribapena ikastaroaren orri nagusian” aukera). 
+
+Aukeratutako fitxategiak (eskatua): Fitxategia argitaratzeko inprimakia. 
+
+4.1) Eskuineko goiko aldean fitxategien gehieneko tamaina adierazten da. Gero, fitxategiak kargatzeko aukerak erakusten dira: 
+
+4.2) Sakatu "Gehitu" fitxategi hautatzailean sartzeko.
+
+4.3) Edo egin klik testu eremuaren barnean, fitxategi hautatzailean sartzeko.
+
+4.4) Edo fitxategi bat herrestan eraman eta askatu eremuaren barnean. Aukera hori hautatuz gero, ez da beharrezkoa Fitxategi hautatzailera sartzea. 
+
+4.5) Direktorio bat sortu. Puntu honetan ez da gomendagarria, ez baita ikastaroan islatzen eta ikastaroko direktorioen antolaera aplikazioak berak finkatzen baitu. 
+
+Aurreko laukian 4.2 edo 4.3 hautatuz gero, “Fitxategi hautatzailea” irekiko zaigu, eta bertan, fitxategirako jatorri bat hautatu beharko dugu. Hurrengo irudian, berriz, fitxategi hautatzaileak ematen dizkigun aukerak azaltzen dira, "Igo fitxategia" aukeran sartzen garenean. Beste aukera batzuetarako, kontsultatu fitxategi hautatzailearen aukerak azpiatala. 
+
+
+
+ 
+
+Aukeratu fitxategi bat: gure ordenagailuko karpetetara sartzeko botoia.
+
+Gorde honela: Orri nagusian ageri den fitxategiaren izena aldatzeko aukera ematen du. Aldatu ezean, fitxategiaren izena azalduko zaigu.
+
+Egilea: Berez, fitxategia argitaratzen duen erabiltzailearen izen-abizenak erakutsiko dizkigu.
+
+Aukeratu lizentzia: Argitaratzen den fitxategi/obraren lizentzia mota. Creative Commons erako lizentzia bat erabiltzen denean, borondatez lagatzen dira kopia eta banaketa eskubide batzuk. Berez, inprimaki honetan erakutsiko den lizentzia erabiltzaileak erabilitako azkena izango da. Ostera, eremu hori betetzeak ez ditu ondorio praktikorik, informazio hori ez baita ikastaroan argitaratzen. Ikastaroan irakasle rola duten erabiltzaileek bakarrik ahal izango dute informazio hori eskuratu eta aldatu, "Fitxategiaren Kudeaketa" aukerako "Ezarpenak editatu" inprimakiaren "Edukia" eremuko fitxategiaren ikonoan klik eginda (Ikusi 13. irudia: Fitxategi baten lizentziari buruzko informazioa). 
+
+
+
+Ikastaroan fitxategi bat kargatzeko prozesuak iraun bitartean, erabiltzaileak ez du aukeratzen bere antolamendu irizpideen araberako direktorio bat: plataformak berak direktoriotan antolatzen ditu fitxategiak, eta direktorio horiek, berriz, ikastaroaren orri nagusian antolatuta dauden moduan ordenatzen ditu. 
+
+Itxura
+
+"Itxura" atalean, zenbait aukera eskaintzen dira. 
+
+Ondorengo irudian erakutsitakoetatik lehenak; hots, "Erakutsi" aukerak, fitxategia aurkezteko hainbat modu eskaintzen ditu.
+
+Erakutsi 
+
+Parametro horrek fitxategiaren jokamoldea finkatzen du, erabiltzaileak haren gainean klik egiten duenean. Emaitzak alda daitezke, hainbat faktoreren arabera (gailua, nabigatzailea, fitxategiaren luzapena...); dena dela, hona hemen gomendio batzuk: 
+
+
+
+PDF fitxategiak badira, "Automatikoa" aukerak erabiltzailearen nabigatzaileak ezarritako lehentasunei jardutea utziko die. Normalean, nabigatzailearen erlaitz berri batean irekiko da.
+
+Word edo Powerpoint formatuko fitxategiei dagokienez, berriz, "Jaistera behartu" aukerak nabigatzailea dokumentua aurkezten alferrik saiatu dadin saihestuko du, soilik haren kodea erakutsita. Gomendio hori baliagarria da nabigatzailearen bitartez ongi erakutsi ezin den beste zeinahi fitxategirentzat. 
+
+Irudiak oso zabalak ez badira, "Txertatu" parametroak edukiaren arloan erakusten ditu. Irudiak zabalagoak badira, berriz, hobe da "Zabaldu" edo "Pop-up-ean" aukerak erabiltzea. Azken kasu horretan, leiho horien tamaina zehaztu ahal izango da (zabaldu atal honen ezkutuko aukerak). 
+
+Erakutsi tamaina eta Erakutsi mota
+
+Bi lauki horiek markatuz gero, zer fitxategi mota den eta zer pisu duen erakuts daiteke (fitxategi mota, Moodlek ezagutzen badu betiere). Ikus hurrengo irudia. 
+
+
+
+Karpeta bat argitaratzea
+
+Karpetei esker, dokumentu multzoak erakuts daitezke. Karpeta bat argitaratzeko: 1) Ikastaroaren edizioa aktibatu, 2) Nahi dugun ikastaroaren bloketik, "Gehitu jarduera edo baliabidea" sakatu, 3) "Karpeta" aukeratu, eta 4) "Gehitu" sakatuko dugu. 
+
+Karpeta baten ezarpenak editatzeko orrian, beste baliabide batzuetan ageri diren antzeko eremuez gainera (izena edo deskribapena) "Edukia" izeneko atala dugu. Bertan, fitxategiak antolatzeko inprimaki eremua dugu, baita horien bistaratze ezarpenak finkatzeko bi aukera ere. 
+
+
+
+Fitxategiak antolatzeko azpikarpetak sortzeko botoia. 
+
+Erakutsi karpetaren edukia, “Erakutsi beste orri batean” eta “Erakutsi ikastaroaren orrian” aukerak erabilita.
+
+Erakutsi azpikarpetak zabalduta. Aurreko inprimakiaren elementuan "Erakutsi ikastaroaren orrian" aukera sakatuz gero, hobe da aukera hau ez markatzea. 
+
+Erakutsi karpeta jaisteko aukera
+
+Hurrengo irudian karpeta eredu bat erakusten da, aukera hauekin: Erakutsi karpetaren edukia > “Erakutsi ikastaroaren orrian”, Erakutsi azpikarpetak zabalduta (markatuta) eta Erakutsi karpeta jaisteko botoia (markatuta). 
+
+
+
+Fitxategi hautatzailearen aukerak
+
+"Fitxategiak argitaratu" atalean, “Fitxategi hautatzailearen” fitxategi bat igotzeko aukeratik fitxategi bat nola argitaratzen den ikusi dugu. Atal honetan gainerako aukeren ezaugarriak azaltzen dira. 
+
+Fitxategi pribatuak
+
+Fitxategien biltegi edo iturri hau eGelako erabiltzaile guztientzat dago eskuragarri. Haren profilari lotuta dago, eta, beraz, ez dauka zerikusirik egiten ari den ikastaroarekin edo ikastaro jakin batean betetzen duen rolarekin. Direktorio pertsonal horren edukiak kudeatu ahal izateko, Arlo pertsonalera igo, eta Kudeatu fitxategi pribatuak aukera sakatu behar da dagokion blokean. 
+
+
+
+
+
+Hurrengo irudian, fitxategi pribatuak kudeatzeko elkarrizketa koadroa ikusten da. Baimendutako biltegiratze kuotari eta fitxategi bakoitzaren gehieneko tamainari buruzko informazioa gorriz nabarmenduta ageri da. 
+
+
+
+
+
+Direktorio horretara sartzeko, Fitxategi hautatzailean sakatu “Fitxategi pribatuak” aukeraren gainean (1); elkarrizketa koadro horretatik, fitxategi pribatuen direktoriora sar zaitezke, horiek berrantolatzeko (2). Eduki arloan karpetetatik nabigatu, eta fitxategi bat hauta daiteke (3). 
+
+
+
+"Fitxategi pribatuak" direktoriotik fitxategi bat aukeratzen denean ikastaro batean argitaratzeko, bi aukera daude. 
+
+
+
+Fitxategiaren kopia egin: kopia independente bat sortzen da, ikastaroan txertatuko dena.
+
+Sortu fitxategiaren ezizen/esteka bat: ez da kopia berri bat sortzen; beraz, fitxategi hori eguneratuz gero, "Fitxategi pribatuak" karpetan bertsio berri hori kargatuz, bertsio berri hori automatikoki erakutsiko da fitxategia metodo horren bidez lotu den ikastaro guztietan. 
+
+Zerbitzariko fitxategiak
+
+Zerbitzariko fitxategiak ikastaroan argitaratu diren fitxategiak dira, "Fitxategi pribatuak" aukeratik lotutakoak izan ezik.
+
+Ikastaroetan zuzenean argitaratzen diren edukiak ezin dira antolatu; automatikoki antolatzen dira, ikastaroren orri nagusian argitaratu diren ordena beraren arabera. 
+
+
+
+Fitxategi hautatzailean "Zerbitzariko fitxategiak" gordailua aukeratzean, aplikazioak fitxategiak antolatzeko erabilitako direktorioak erakusten dira.
+
+Laukian nabarmendutako aukerek direktorioaren edukiak aurkezteko modua aldatzea ahalbidetzen dute.
+
+Hurrengo irudian ikus daitekeen moduan, ikastaroan argitaratutako fitxategiak modu automatikoan antolatzen dira ikastaroaren direktorioetan.
+
+
+
+
+
+Laukian adierazita dagoen moduan, zabalgarria ez den zerrenda modura dago aukeratuta bistaratzea.
+
+Lauki hori, hain zuzen, ikastaroaren orri nagusiaren pantailaren kaptura bat da, irudiaren gainean jarri dena, "Zerbitzariko fitxategiak" aukerako direktorioak ikastaroaren orri nagusian argitaratutako elementuekin lotzeko.
+
+Laukian nabarmendutako bi karpetak bat datoz "Ikastaroaren laburpena" eta "Ikastaroaren laburpenaren fitxategiak" aukeretan erabilitako irudiekin (Ikastaroari buruzko informazioa, ikastaroen zerrenden orrietan).
+
+Irudian, "Zerbitzariko fitxategiko" bi karpeta ikusten dira, gezien bidez ikastaroaren orri nagusian dagozkien elementuekin lotuta daudenak. 
+
+Azken fitxategiak
+
+Sarbidea dugun ikastaro guztietara igotako azken 50 fitxategiak erakusten ditu.
+
+URLak jaisteko gailua
+
+Aukera honek Interneteko helbide batean argitaratutako fitxategi baten kopia jaisteko eta argitaratzeko aukera ematen du.
+
+Baliabideak gehitzea, Drag and drop (herrestan eraman eta askatu) funtzioa erabilita
+
+Edizio modua aktibatuta dagoenean, gure ordenagailuko karpetetan fitxategi bat aukeratu, eta ikastaroaren orri nagusiraino herrestan eraman ahal izango dugu, han kargatzeko. Fitxategia zer tokitan egongo den agertuko zaigu lauki batean. 
+
+
+
+Fitxategi bat gehitzeko, fitxategia herrestan eraman, eta agertzea nahi dugun ikastaroaren atalean askatu beharko dugu (Ikus aurreko irudia).
+
+
+
+Fitxategien karpeta bat gehitzeko, karpeta konprimatu behar da, eta gero, agertzea nahi dugun ikastaroaren atalera herrestan eraman. Agertuko den elkarrizketa koadroan, berriz, "Deskonprimatu fitxategia eta sortu karpeta" erantzun beharko dugu. Ondoren, igotzeko botoian klik egin. (Ikusi 4. irudia: Konprimatutako .zip karpeta herrestan eraman eta askatu). 
+
+Konprimatutako karpeta askatzean, hiru aukera dituen koadro bat aterako zaigu (Ikusi hurrengo irudia).
+
+
+
+1) Deskonprimatu fitxategia eta sortu karpeta: karpeta bat sortzen da, edukia bistaratu gabe; beste aukera batzuetarako, ezinbestekoa izango da ezarpenak editatzea.
+
+2 eta 3) Sortu fitxategia izeneko baliabidea: .zip fitxategi bat igotzean, fitxategi hori formatu konprimatuan aurkeztuko duen bigarren aukera hautatu ahal izango dugu. Beste luzapen bat duen fitxategi batean igotzen badugu; esate baterako, .rar (3. kasua), plataformak ez du luzapena ezagutuko, eta ikono orokor batekin erakutsiko du fitxategia.
+
+Gehitu SCORM pakete bat: Aukera honek jarduera bati egiten dio erreferentzia; izan ere, autoebaluazioak ditu. Aukera hori hautatzeko, ezinbestekoa da SCORM formatu espezifikoa betetzen duen zip bat erabiltzea (http://docs.moodle.org/all/es/Módulo_de_SCORM).
+
+
+
+
+Inportatu beste ikastaro batzuetako baliabideak eta jarduerak
+
+“Inportatu jarduerak” aukerak irakasle rola dugun beste ikastaro batzuetatik jarduerak edo baliabideak inportatzea ahalbidetzen digu. Bilaketa inprimakira sartzeko, zabaldu “Ikastaroaren kudeaketa” laukia, eta sakatu “Inportatu” itemaren gainean “Ikastaroaren konfigurazioa” zutabean. 
+
+
+
+Gero, aukeratu ea nahi dugun elementuei lotutako zenbait konfigurazio inportatu daitezen, esate baterako, iragazkiak. Non eta ez diren egin inportatu nahi diren ezarpen espezifikoak (iragazkiak, taldeak…), “Jarduerak eta baliabideak barne ditu” bakarrik aukeratzea gomendatzen dugu. Galdetegiak inportatzean, beharrezkoa da “Galdera bankua barne du” aukera markatzea, zeina osorik inportatuko baita. 
+
+
+
+Hurrengo pausoan, inportatu nahi ditugun elementuak aukeratu ditzakegu, hurrengo irudian ikusten den moduan:
+
+
+
+“Erakutsi aukera motak” sakatuz gero, elementu motak hauta daitezke; esate baterako, galdetegi guztiak. Jarraian, osatu prozesua, inportatutako elementuak ikastaro berrian ikusi arte.
+
+ Inportatutako edukiak xede ikastaroan erakutsiko dira, jatorri ikastaroan zeuden atalaren arabera. Inportatutako baliabidea 7. atalean bazegoen, atal berean gordeko da, baita atal hori xede ikastaroan ezkutatuta egonda ere. 
+
+
+
+
+
+
+
+Erakutsi baliabideen deskribapena ikastaroaren orri nagusian 
+
+“Erakutsi deskribapena ikastaroaren orrian” aukera (ikus hurrengo irudia) protagonismoa eman nahi zaien elementuak nabarmentzeko erabil daiteke. Horrela, interesekotzat hartzen den informazioa nabarmendu daiteke, etiketa bat erabiltzeko beharra izan gabe. 
+
+
+
+Azpiizenburu” hau egiteko, multimedia editorearen aukera guztiak erabil daitezke, eta hori lagungarria izan daiteke ikastaroaren orri nagusiaren aurkezpena erakargarriagoa izan dadin eta edukien antolakuntza bisuala hobea izan dadin. 
+
+
+
+Paperontzia
+
+“Paperontziak” azken 21 egunetan ezabatutako jarduerak eta baliabideak berreskuratzeko aukera ematen du. Sartzeko, ireki “Ikastaroaren kudeaketa” taula (1), eta sakatu “Zakarrontzia” (2). 
+
+
+
+Ezabatutako elementuak zerrendan ageri dira, eta bertatik berreskuratu daitezke (1), edo behin betiko ezabatu (2). 
+
+
+
+Horrez gain, garrantzitsua da nabarmentzea jarduerak berreskuratzearekin batera ikasleen eta irakasleen ekarpenak ere berreskuratzen direla.
+
+Iragazkiak
+
+Iragazkiak mekanismo batzuk dira, editorean sartutako edukietan eragiten eta haien aurkezpena eraldatzen dutenak. Esate baterako, Latex kodean idatzitako formula idatzi bat irudi bihurtzen dute, irudia erakutsiz eta edukien hizkuntza aukeratutako nabigazio hizkuntzara egokituz. Segidan, eGela/eGelaPIn aktibatuta dauden iragazkien funtzioak eta erabilera metodoak azaltzen dira.
+
+Iragazki horietako bakoitza desaktibatu daiteke, bai baliabide edo jarduera mailan, bai ikastaro mailan. Ikastaro mailako iragazkien konfiguraziora sartzeko, ireki “Ikastaroaren kudeaketa” taula, eta sakatu “Ikastaroen ezarpenak”. 
+
+
+
+
+
+Math & Science by Wiris
+
+Iragazki honek euskarria ematen dio editorean txertatutako formulen editoreari, eta editorean sartutako notazioa irudi gisa irudikatzeko aukera ematen du. 
+
+
+
+Notación TeX 
+
+TeX notazioan dolarraren ikur bikoitzaz mugatutako matematika formulak iruditan eraldatzen ditu. Informazio gehiago hemen: https://docs.moodle.org/all/es/Filtro_de_notaci%C3%B3n_TeX 
+
+
+
+Hizkuntza anitzeko iragazkiak, bi aukera
+
+eGelak eta eGelaPIk hizkuntza anitzeko bi iragazki ditu, edukiak aukeratutako hizkuntzara egokitzeko erabil daitezkeenak. Jarraian, horien ezaugarriak azaltzen ditugu orientazio gisa, kasu espezifikoetan hautapen irizpideak errazago aukeratzeko: 
+
+Hizkuntza anitzeko iragazki “klasikoa” (multilang) 
+
+HTML kodea editatu behar da, eta haren edizioa konplexua da. Abantaila gisa, plataformaren berezko hizkuntza erakusten du nabigaziorako aukeratutako hizkuntzan bertsio espezifikorik ez dagoenean; euskara da berez konfiguratutako hizkuntza. Hurrengo irudian, lauki grisean dagoen edukia erakusteko beharrezkoa den kodea ikusten da, nabigazio hizkuntza gisa “gaztelania” aukeratuta edukita. 
+
+
+
+Hizkuntza anitzeko iragazki “erraza” (multilang2)
+
+Hizkuntza bakoitzerako zatiak sar daitezke, editore grafikoa erabilita. Horren desabantaila da ez duela edukirik ematen, baldin eta nabigaziorako aukeratutako hizkuntzarekin etiketatutako eduki bat ez badago. Edukiak itzuli ezin badira, konponbide bat izan daiteke itzulpen bateko edukiak errepikatzea, itzulpena ez duen hizkuntzarekin etiketatuz.
+
+
+
+Multimedia konektoreak
+
+YouTubeko bideoen estekak bideo horien txertaketetan eraldatzen ditu. Bideoa txertatzeari buruzko informazio gehiago nahi izanez gero, ikus “Txertatu bideoak editorearen testu eremuan”.
+
+Auto-esteka glosariora
+
+Testua eskaneatzen du, ikastaro bereko glosarioan dauden sarrerak bilatuz, eta esteka bat sortzen du.
+
+Jmol
+
+Moodleren aurreko bertsioetan (eGela/eGelaPI dituen plataforma), modulu espezifiko bat zegoen, molekulen errepresentazioak txeratzea ahalbidetzen zuena. Modulu hori desagertu da, baina iragazki bat dago, aurreko ikastaroetatik jasotako edukiak ikusi ahal izateko. 
+
+Aurrekariak
+
+Jmol kode irekiko ikustaile bat da, egitura kimikoak 3 dimentsiotan ikusteko.
+
+Moodle 1.9.19 edo aurreko bertsioetan, bi modutan instala zitekeen Jmol ikustailea:
+
+Iragazki gisa: Moodle baliabide baten editorean irekitzen da, baina ez du ikono zehatzik.
+
+Baliabide gisa: baliabide erabilgarriak zerrendatzean erants daiteke.
+
+eGelan iragazkia soilik ezarri da; Jmol baliabidea, ordea, ez. Ondorioz, gela berriek EZ dute Jmol baliabiderik.
+
+
+
+Nola lan egin Jmol iragazkiarekin eGelan 
+
+1. urratsa: igo molekula duen jmol fitxategia gure ordenagailutik eGelara.
+
+Gelaren edizioa aktibatu ondoren, “Gehitu jarduera edo baliabidea” hautatuko dugu, nahi dugun gaian, eta “Fitxategia” baliabidea hautatuko dugu (ikus hurrengo irudiak). 
+
+
+
+
+
+Inprimaki bat agertuko zaigu, eta “Izena” eta “Deskribapena” eremuak bete beharko ditugu gutxienez, derrigorrezkoak baitira. “Edukia” atalean, jmol fitxategia gehituko dugu, kontuan izanik “Baliabideen kudeaketa eGelan” dokumentuko jarraibideak (http://www.ehu.es/es/web/cvb/e-gela-materialak), eta klik egingo dugu “Gorde aldaketak eta itzuli ikastarora” botoian.
+
+
+
+
+
+2. urratsa: Egiaztatu eta kopiatu fitxategiaren “jmol web helbidea”.
+
+Fitxategia igo dugunean, klik egingo dugu haren izenean (gure kasuan, “fitxategijmol1”), eta orri bat agertuko zaigu jmol fitxategiaren barne balioekin. Orri horretan, gure nabigatzailean ageri den web helbidearekin geratuko gara (http://egeladesa.ehu.es/pluginfile.php/24/mod_resource/content/1/archivojmol1.mol) (ikus hurrengo irudia). Horretarako helbidea aukeratzen eta kopiatzen dugu, gero beharko dugu eta.
+
+
+
+
+
+3. urratsa: Gehitu “Orria” baliabidea. Baliabide horretan, web esteka bat sortuko dugu aurretik igotako jmol fitxategira. 
+
+Ondoren, nahi dugun gaian, “Gehitu jarduera edo baliabidea” sakatuko dugu, eta “Orria” baliabidea hautatuko dugu. 
+
+ 
+
+5. irudia: Hautatu Fitxategia baliabidea
+
+
+
+Inprimakia agertuko zaigu, eta “Izena” eta “Deskribapena” eremuak beteko ditugu bertan. “Edukia” eremuan, testu editorearen barnean:
+
+“moleculajmol1” jmol molekularen izena idatziko dugu. 
+
+Saguaz, jmol molekularen izena hautatuko dugu, ezkerreko botoia sakatuz eta haren gainetik igaroz. 
+
+Klik egingo dugu kate itxura duen ikonoan: “Txertatu/editatu hiperesteka”. 
+
+
+
+Ondoren agertuko zaigun koadroan, lehen kopiatutako web helbidea itsatsiko dugu (“Orokorra” / “Hiperestekaren URL”). Gure adibidean, honako hau: http://egeladesa.ehu.es/pluginfile.php/24/mod_resource/content/1/archivojmol1.mol. Behin helbidea itsatsita, klik egingo dugu “Txertatun”.
+
+
+
+Nos volverá a aparecer el formulario del recurso “Página” donde comprobaremos que se ha creado el enlace (texto en azul). Finalmente “Guardamos cambios”.
+
+
+
+4. urratsa: Ezkutatu “Fitxategia” baliabidea, ikasleek ikus ez dezaten, eta “Orria” bakarrik ikus dezaten.
+
+Berriro orri nagusian, “Fitxategia” baliabidea ezkutatuko dugu, klik eginez begi forma duen ikonoan. Horrela, ikasleek molekula ikusi ahal izango dute, lehen sortu dugun “Orria” baliabidean sakatuz.
+
+Edizioa desaktibatzeko, “Desaktibatu edizioa” sakatuko dugu.
+
+
+
+8. irudia. Ezkutatu “Fitxategia” baliabidea
+
+Azkenean, ikasleek “formula jmol1” aukeraren gainean sakatzen dutenean, molekula ikusiko dute jmol ikustailearen barnean (ikus hurrengo irudia). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+2Baliabideen kudeaketa eGelan
+
+
+
+
+
+
+
+10Baliabideen kudeaketa eGelan

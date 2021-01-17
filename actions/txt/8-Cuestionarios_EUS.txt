@@ -1,0 +1,712 @@
+Galdetegiak eGelan-n: diseinua, kudeaketa eta erabilera adibideak
+
+Irakasleentzako eskuliburua
+
+3. bertsioa (xx/04/2020)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+El presente manual ha sido desarrollado por el Campus Virtual de la Universidad del País Vasco / Euskal Herriko Unibertsitatea
+
+Esta obra está bajo una licencia Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Internacional de Creative Commons. Para ver una copia de esta licencia, visite http://creativecommons.org/licenses/by-nc-sa/3.0/es/
+
+
+
+		1	Galdera-Bankua eta galdetegia(k) ikastaroan	4
+
+		2	“Galdera-bankuan” galderak antolatu”	5
+
+		2.1	Kategoria bat sortu	6
+
+		2.1.1	Kategoria eta azpikategorien erabilera	8
+
+		3	Galderak sortu	8
+
+		3.1	Galdera sorkuntzan oinarrizko alderdiak	9
+
+		3.1.1	Editorearen erabilera galdera eta erantzunak egitean	9
+
+		3.1.2	Erantzunak nahastu eta aukerak zenbakitu	11
+
+		3.1.3	Feedback-erako eremuak (Orokorra, Konbinatua eta Zehatza)	12
+
+		3.1.4	Saiakera ugari (Penalizazioak saiakera oker bakoitzeko)	13
+
+		3.2	Erabilienak: “Egia/gezurra”, “Aukera anitzak”, “Erantzun laburreko galderak” eta “Zenbakizkoak	13
+
+		3.2.1	Aukera anitzak	13
+
+		3.2.2	Egia/ Gezurra galderak	15
+
+		3.2.3	Zenbakizko galderak	16
+
+		3.2.4	Erantzun laburreko galdera	18
+
+		3.3	“Kalkulatu” en taldea	20
+
+		3.3.1	Kalkulatua	20
+
+		3.3.2	Galdera kalkulatu sinplea	22
+
+		3.3.3	Aukera anitzeko galdera kalkulatua	23
+
+		3.4	Aurkezpen bisualagoa duten galderak (“Lotu” “Hartu eta eraman” “Cloze”...)	23
+
+		3.5	Entsegu galderak	24
+
+		4	Galdetegiaren elaborazioa(1) Tresnen antolakuntza	25
+
+		5	Galdetegiaren elaborazioa (2):  “editatu ezarpenak” formularioan funtzionamendua konfiguratu	25
+
+		5.1	Eskuragarritasuna	26
+
+		5.2	Kalifikazioa	27
+
+		5.3	Diseinua	28
+
+		5.4	Galderen jokaera	28
+
+		5.5	Berrikusketen aukerak	29
+
+		5.6	Itxura	30
+
+		5.7	Aparteko murrizketak saiakeretarako	30
+
+		5.8	Galdetegiaren feedback orokorra	31
+
+		5.9	Jarduera osaketa	31
+
+		6	Galdetegiaren elaborazioa (3): Talde edo erabiltzaile-salbuespenak	32
+
+		7	Galdetegiaren elaborazioa (4): Galderak gehitu	34
+
+		7.1	Galderen aukeraketa, orri banaketa eta “galderak ausaz erakutsi”	34
+
+		7.2	Galderak ausaz gehitu	36
+
+		7.3	Galdetegia aurreikusi	37
+
+		8	Azterketa baten konfigurazio adibidea	38
+
+		8.1	“Editatu ezarpenak” formularioan aukera garrantzitsuak	38
+
+		8.2	“Editatu galdetegia” formularioaren ezarpenak apurka-apurka bukatuz	39
+
+
+
+
+
+
+Galdera-Bankua eta galdetegia(k) ikastaroan
+
+Ikastaro baten baitan galdetegiak gauzatzeko bi tresna bateratu daude: 1) “Galdera-bankua”, zeinak galderak mota ezberdinak sortu eta antolatzeko aukera eskaintzen duen eta 2) “Galdetegia” jarduera, zeinak galdera-bankuko galderen bidez, ikastaroaren baitan galdetegiak sortzea ahalbidetzen duen.
+
+
+
+
+
+“Galdera-bankua” eta ikastaroko galdetegien arteko lotura hau baliteke ez izatea argiegia batzuetan, izan ere galdetegia editatzeko formularioak galderak sortzea ahalbidetzen baitu (3), eta horrela, galderak ondo antolatzeko ezinbestekoa da hauek kategori eta azpikategorietan sailkatzea.
+
+Ondorengo zerrendan,  eGelan galdetegi bat sortu eta kudeatzeko prozeduraren baitan dauden atalak eta hauek eskuliburu honetako atalekin duten erlazioa azaltzen da:
+
+Lehenengo atal edo fasean galdera-bankuan kategoria eta azpikategoriak sortzen dira, galderak egoki antolatzeko (2.1. atala).  
+
+Hurrengo fasean galderak sortzen dira, galdera mota ezberdinen artean egokiena aukeratuz. Konfigurazio aukera batzuk, erantzunen hurrenkera, feedback orokorra, saiakeretako penalizazioa …,  galdera mota ezberdinentzat amankomunak dira. (3. atala)    
+
+Ondoren galdetegiak bete behar duen helburuaren araberako konfigurazioa ezarri beharko da. Galdetegien “ezarpenetan” aukera zabala eskaintzen da eta erabilera ezberdinetara moldatzea ahalbidetzen dute, kalifikatzailean islarik ez duen auto-ebaluaziorako errepaso ariketa batetik, irakasgaiaren azken notan pisu zehatza izango duen ebaluazio proba bateraino. (5. atala). Behar izanez gero, erabiltzaile edo taldekako murrizketak ezarri ahal izango dira (6. atala ikusi)
+
+Ostean, galderak gehitu eta orrikatzea ezarri beharko da. Aldi honetan baita, galderak nahastu edo ausazko galderak gehi daitezke. Bukaeran galdetegiaren aurrebista izango da eskuragarri konprobaketa egin ahal izateko (7.  atala)
+
+Galdetegia ikasleek egiteko prest dago. Ondoren lortutako emaitzak azter daitezke. Badira kasu batzuetan, galdetegian izandako akatsen bat zuzendu ostean (erantzunen baten emaitza aldatu adibidez), “Birkalifikatzeko” aukerak ere.  (Atal hau prestatzen ari gara)
+
+Azken fase edo atala galderak eta galdetegiak gune beren, ikasturte bereko edo aurreko ikasturteetako bi guneen artean bererabiltzearekin bat etorriko da. (Atal hau prestatzen ari gara).  
+
+“Galdera-bankuan” galderak antolatu”
+
+Galdera-bankua ikastaroetan galdetegietako galderak antolatzea eta kudeatzea ahalbidetzen duen tresna da. Galdera-bankutik galderak sortu edo editatu, kategorietan antolatu eta hauek inportatu eta esportatu ahal izango dira.
+
+“Galdera-bankura” sartzeko “Ikastaroaren kudeaketa” panelera joan behar da. Ondoren, “Galdera-bankua” (1) izeneko zutabean “galdera-bankua” (1.1) aukeraren gainean sakatu beharko delarik.
+
+
+
+
+
+Zabaltzen den orrian, “galderak” (1) izeneko fitxan sartu beharko da.  
+
+
+
+Menu zabalgarriari esker (2) zein kategoriako edukia kontsultatu nahi den aukera daiteke 
+
+Ondoren, bilaketa errazteko iragazki batzuk azalduko dira (3). Etiketetarako iragazki bat (3.1) egon badagoen arren, oraindik ez dago galderen etiketen artean bilaketa egiteko iragazkia aktitbatuta. Beste iragazki guztiak erabilgarri daude (3.2). 
+
+“Sortu galdera berri bat” (4) kategoria honen baitan 
+
+Behekaldean kategoriaren baitan dauden galderen zerrenda azaltzen da (5). Gorriz adierazitako ikonoak (5.1) galdera mota adierazten du. Behekaldeko formularioak aldiz (5.2), galderak kategoria batetik bestera mugitzea ahalbidetzen du 
+
+Kategoria bat sortu
+
+Kategoria bat galdera multzo bat da, zeinak azpikategoriak izan ditzakeen. Irakasgaian erabili edo erabiliko diren hainbat galdera antolatu eta sailkatzeko tresna da.
+
+Kategori bat gehitzeko “Kategoria”(1)  fitxan sakatu eta zabaltzen den formularioa bete beharko da:
+
+“Goragoko kategoria” menu zabalgarrian aukeratu (2). Irudian gorriz adierazitako 2 zenbakiak (2.1)  kategoria horrek 2 galdera dituela adierazten du.
+
+ “Izena” (3)  eremuan, kategoriaren izena adierazi beharko da
+
+.Aldaketak gorde (4) 
+
+
+
+
+
+Ondorengo irudian “Galderak” fitxaren edukia ikus daiteke. Kategoria batzuk sortu ondoren, gorriz adierazitako geziak erabiliz hurrenkera aldatu, mailaz igo edo jaistea posible izango da. Galderak dituen kategoria bat ezabatu nahi izanez gero, eduki hori goragoko kategoriara aldatu nahi den galdetuko du sistemak.    
+
+
+
+Azpimarratu behar da Moodlen galdetegi bakoitzak ikastaroko kategorien artean agertzen ez den kategoria  jakin bat daukala. Hori dela eta, erabili nahi den kategoria sortu eta horretan edo aurretik sortutako kategoria batean  galderak gehitzea aholkatzen da- galderak galdetegiari eta ez kategoriarekin lotura izanik, hauek ezin  aurkitu izana ekiditeko. Gertaera hau aurreko ikasturteetako edukiak berreskuratzean gerta daiteke, galdera hauek galdetegiarekin lotura izanik ez dira galdera bankuan ezta galdetegiaren baitan aurkitu ahal izango. Berreskuratzeko, lehenik eta behin, jatorriko ikastarora joan eta galderak esportatu beharko dira ondoren, helmuga ikastaroan inportatzeko, aurrerago azaltzen de bezala.
+
+Kategoria eta azpikategorien erabilera 
+
+Ikastaroa antolatzeko kategoria eta azpikategoriak erabiltzeak abantaila garrantzitsuak ditu. Lehenik eta behin, azaldu bezala, galdetegi batean erabiliko diren galderak biltzeko aukera eskaintzen du. Ondoren, beste bi erabilera azpimarratuko dira:   
+
+Ausazko galderak erabili nahi badira (7.2 atala ikusi) kategori edo azpikategoriaren baitan hauen kopurua zehaztu beharko da- kategorietan antolatuta izateak galderak era egokian ezberdintzea ahalbidetzen du.
+
+Era berean, galdera multzo bat esportatu nahi baldin bada, prozesu hau askoz ere errazagoa izango da ondo antolatuta badaude. 
+
+Galderak sortu 
+
+“Sortu galdera berri bat” gainean sakatu beharko da galdera sortzeko (“Ikastaroaren kudeaketa”>Galdera bankua> Galdera bankua> Galderak fitxa). Ikusi 2. atalean dagoen irudia (“Galdera-bankuan galderak antolatu”).
+
+Ondorengo irudiaren ezkerraldean galdera mota ezberdinen zerrenda azaltzen da : alde batetik, galderen zerrenda (1) ikus dezakegu, bakoitzaren deskribapentxo batekin (2) eta “gehitu” botoia (3) 
+
+
+
+Aipatutako irudian, eskuinaldean, galderak taldeka banatuta ikus daitezke: 
+
+Ohikoenak “Egia/Gezurra”, “Aukera anitzak”, “Erantzun laburreko galdera” eta “Zenbakizkoa”k dira.  
+
+“Kalkulatuen” taldea. Galdera mota hauetan enuntziatuko zenbakizko balioak ausaz aldatzen dira, hori dela eta, ikasle bakoitzak arazoari konponbide propioa aurkitu beharko  dio. 
+
+Aurkezpen bisualena duten galderak (“Lotu” “Hartu eta eraman”, “Cloze”...) 
+
+“Entsegu” motako galderak, zeinak galdera irekiak galdetegian txertatzea ahabidetzen duen.
+
+“Deskribapena” motako galderek, eduki zati bat gaderetan txertatzeko aukera ematen dute.
+
+Galdera mota bakoitzak ezaugarri eta funtzionalitate zehatzak ditu, eta horiek ondoko ataletan azalduko dira. Baina galdera mota bakoitzaren azterketarekin hasi aurretik, guztiek amankomunean dituzten ezaugarriak ezagutuko ditugu.
+
+Galdera sorkuntzan oinarrizko alderdiak 
+
+Galderen sorkuntzarako formularioek elementu komun ugari dituzte ikasleen esperientzia eta aurkezpena aberats dezaketenak, Hau da, testuari editorearen bidez formatua emanez, feedback-a jasotzeko eremuak, penalizazioak, pistak…
+
+Editorearen erabilera galdera eta erantzunak egitean
+
+Editore grafikoaren aukera guztiak eskuragarri daude galderen enuntziatuak idazteko momentuan, eta behar izanez gero, erantzunentzat baita. Adibidez, irudien erabilerak galderei xehetasun gehiago eman diezaiekete, edo ezinbestekoak izan daitezke baita azalpen batean.
+
+
+
+
+
+Erantzunen eremuan ere erabil daitezke, ondorengo irudian ikus daitekeen bezala.
+
+
+
+Baina, irudiak erabiliz gero, neurri egokikoak izatea zaindu behar da, erakutsiko diren lehioaren neurria kontuan izan beharko da edo tamaina aldatzea beharrezko izan daiteke, irudien argitalpenerako dauden aukerak erabiliz (“Itxura” fitxaren baitan)
+
+
+
+Gainera, editoreak formuletarako Wiris editorea eta Tex notazioak barne ditu. Ondorengo irudian formuletarako Wiris editoreak eskaintzen dituen aukerak ikus daitezke.  
+
+
+
+Erantzunak nahastu eta aukerak zenbakitu 
+
+“Erantzunak nahastu”, erantzun anitzdun galdera mota guztietan azaltzen den aukera da. Ondorengo pantaila harrapaketan “aukera anitzeko galdera” motak, ohikoena mota honetako galdera motetan,  duen formularioa agertzen da.  
+
+“Erantzunak nahastu” aukera hau (1) berez markatuta azaldu arren, portaera hau ez da gauzatzen galdetegiaren “Editatu ezarpenak”>”Galderen jokaera” eremuan markatzen ez bada. Funtzionalitate honek galdera batzuetan zentzurik ez luke izango eta hori blokeatzea da asmoa, adibidez azken erantzuna “Aurreko erantzun guztiak okerrak dira” kasuan. 
+
+Gainera, aipatutako aukerarekin  lotuta “zenbakitu aukerak” (2) azaltzen da. Normalean, paper bidez egindako galdetegietan zenbaki eta letrak erabiltzen diren arren erantzunak etiketatzeko, online galdetegietarako ”numeraziorik ez” aukera daiteke.  
+
+
+
+Feedback-erako eremuak (Orokorra, Konbinatua eta Zehatza)
+
+Eremu hauek galdera erantzuten saiatzen ari den ikaslearekin elkarrizketa indartzeko helburua dute. Eremu hauek, galderen jokaeraren baitan “egokitze modua”, “interaktiboa hainbat saiakerekin” aukeratzean azaltzen dira. (“Galderen jokaera” 5.4 atala ikusi) eta beraien bistaratzea, “Berrikusketen aukerak” eremuan konfiguratutakoaren araberakoa izango da (5.5. atala). 
+
+Galderak sortzeko formularioen baitan, ondorengo aukerak aurki daitezke: 
+
+“Feedback”a erantzunetan, “Berrikusketen aukerak” atalean “feedback zehatza” bezala adierazten dena. 
+
+"Feedback orokorra”
+
+"Feedback konbinatua” (erantzun zuzenak ugari direnean). 
+
+Ondorengo irudian, erantzun okerra duen galdera batean azaltzen diren feedback mezuak ikus daitezke: erantzunetan feedback-a (1), feedback konbinatua (2) eta lehenengo pista (3).  
+
+
+
+Ondorengo irudian erantzun guztiak zuzenak direnean azaltzen den feedback-a ikus daiteke, erantzunetan feedback-a (1), feedback konbinatua (2), feedback orokorra (3) eta “Erantzun zuzena”. 
+
+
+
+Saiakera ugari (Penalizazioak saiakera oker bakoitzeko)
+
+Saiakeretan penalizazioak “Editatu ezarpenak” >Galderen jokaera atalaren baitan “Interaktiboa hainbat saiakerekin” edo “Egokitze modua” aukeratzen direnean funtzionatzen du (5.4 atala ikusi). “Penalizazioa saiakera oker bakoitzeko” eremuan ezarritako baloreak saiakera oker bakoitzean aplikatuko den penalizazioa adierazten du. Penalizazioa galderaren guztizko kalifikazioaren araberakoa izango da.
+
+Gaineratu baita, “Interaktiboa hainbat saiakerekin” aukeratzen denean pistak feedback-ean azaltzen direla eta galdera bakoitzeko saikera kopurua dagokion pista kopuruak zehaztuko duela. 
+
+
+
+Erabilienak: “Egia/gezurra”, “Aukera anitzak”, “Erantzun laburreko galderak” eta “Zenbakizkoak 
+
+Aukera anitzak
+
+“Aukera anitzeko” motako galdera sortzeko formularioan batetik, “Kategoria” (1) aukeratzeko menu zabalgarria eta bestetik, “galderaren izena” (2) adierazteko eremua azalduko  dira. Garrantzitsua da izena esanguratsua izatea “Galdera-bankua”n (2.1) erraz aurkitu ahal izateko.  
+
+Ondoren, “Galderaren testua” (3) eta “lehenetsitako puntuazioa” (4) eremuak agertzen dira. Azken honetan erantzunarekin eta penalizazio barik lortuko litzatekeen gehienezko puntuazioa zehazteko aukera dago. 
+
+Hurrengo eremua, “Erantzun bakarra ala anitza” (5) menua dago, zeinaren aukerak zabalgarrian dauden (5.1). 
+
+
+
+Hurrengo irudiak “Erantzunak” atala erakusten du, non testu eremu bat erantzun aukera bakoitzeko eta “kalifikatzaio” bakoitzeko agertuko diren (“Aukera”). Erantzunen guztizko batura %100 izan behar da (1).  
+
+“Erantzun anitzak baimenduta” aukeratuz gero, “Erantzun bakarra edo anitza” eremuan, erantzun okerrek puntuazio negatiboa izan beharko dute (2). Horrela egin ezean, erantzun guztiak aukeratzea posible izango litzateke eta ondorioz, gehienezko puntuazio lortzea.
+
+
+
+Egia/ Gezurra galderak
+
+Formularioko aurreneko eremuak ohikoak dira galdera mota guztietarako (1). Ondoren, “Erantzun zuzena” eremuan (2), enuntziatua egia ala gezurra den zehaztu beharko da (2.1).
+
+
+
+“Penalizazioa saiakera oker bakoitzako” eremua “egokitze modua” aukeratzen denean izango da soilik erabilgarri, beti izango du 1 balioa.  
+
+
+
+Saiakera bakarreko galdetegi batean “Egia / Gezurra” motako galdera bat erantzutean, ezinezkoa da galdera erantzun gabe uztea, soilik erantzuna aldatzeko aukera izango da. Egoera hau ekiditeko, aukera anitzeko galdera bat gehi daiteke, zeinak erantzun aukera biak (zuzena eta okerra) eta beste hirugarren aukera bat (Ez daki/ Ez du erantzuten) izan dezakeen eta puntuazio neutroa.  
+
+Zenbakizko galderak
+
+Zenbakizko galderek “orokorra” atalean beste galdera motek dituzten eremu berdinak dituzte. 
+
+
+
+Irudian ikus daitekeen adibidean, erantzuna eremuan balio bera ezarri da (1.1. eta 2.1), baina aldiz, “errore” (1.2 eta 2.2) tartea eta dagokion “kalifikazioa” (1.3 eta 2.3) aldatuz.  
+
+
+
+Unitateen erabilera
+
+“Zenbakizko” galderek, zenbakizko formatua duten beste galderek bezala (“Galdera kalkulatua” “kalkulatu sinplea” eta “Aukera anitzeko galdera kalkulatua”), erantzunetan erabili beharreko unitateak  eta beraien arteko baliokidetasunak zehaztea ahalbidetzen du.  
+
+Lehenik eta behin, “Unitatearen erabilera” (1) menuan hauen erabilera aukerazkoa edo derrigorrezkoa den zehazten da (1.1 laukiko aukerak). Gaineratu baita, “Unitateak sartu behar dira erabilita” (2) menuan erantzunen formularioan azalduko den metodoa aukeratu beharko dela (2.1: testua sartzeko elementua, aukera anitzeko aukeraketa edo zabaltzen den menua). 
+
+
+
+“Unitateak” atalean “unitatea” (1), laburdura (1.1) eta “biderkatzailea” zehatz daitezke.   
+
+
+
+Ondorengo irudian galdera nola azaltzen den erakusten da. 
+
+
+
+Erantzun laburreko galdera
+
+Irudian “orokorra” (1) ataleko eremuak azaltzen dira. Behekaldean maiuskulak/minuskulak erantzunetan kontuan izango diren adierazteko menua ikus daiteke.    
+
+
+
+Ondorengo irudiko gorriz adierazitako testuak dioen bezala, “*” erabil daiteke komodin gisa. Adibidez, “1 Erantzun”ean” (1.1) 8 izartxo gehitu dira, “Kaspiar itsasoa” gehitzeko aukera izan dadin “Kaspiar”en ordez. “2 Erantzuna”k “kaspiar” (2.1) testua dauka kalifikazio baxuagoarekin (2.2).  
+
+
+
+Ondorengo irudian galderaren aurrebista adierazten da. “Kaspiar itsasoa” erantzun zuzen bezala onartzen da, feedback-ean erantzun zuzena “Kaspiar” (1) dela azaldu arren.
+
+
+
+“Kalkulatu” en taldea
+
+Kalkulatua
+
+Galdera kalkulatuek zenbakizko galderak sortzeko aukera eskaintzen dute, komodin edo wilcards (adibidez {x}, {y}) erabiliz, zeinak galderetan ausazko balioengatik ordezkatuak izango diren. 
+
+Galderen edizioa HIRU orrialdetan egiten da. Lehenengo orrian “Orokorra” “Erantzunak” “Unitateen erabilera” “Unitateak” “Saikera anitzak” atalak daude. 
+
+“Orokorra” atalean kategoria hautatzailea agertzen da. Gainera “Partekatutako komodinak (1.1)  eremuan ”Ez dago partekatutako komodinik kategoria honetan” (1.1) adierazten du. Komodinak dituen galderen bat kategoriaren baitan aurkituz gero, eremu honetan azalduko litzateke.  
+
+“Galderaren testua” eremuan galderako komodinak {} erabiliz zehazten dira. 
+
+
+
+“Erantzunak” atalean, “1 erantzunaren formula” (1)  eremuaren baitan,  formula (1.1), erantzunaren kalifikazioa (1.2) eta tolerantziaren kalkulurako formula daude (1.3). Behealdean zuriune gehiago erantzun gehiagotarako sortzeko aukera ikus daiteke (2).
+
+
+
+“Unitatearen erabilera” eta “Unitateak”(1) atalei buruzko informazioa eskuliburuaren 3.2.3.1 atalean aurki daiteke. Konfigurazioaren hurrengo orrialdera igarotzeko “gorde aldaketak” (2) sakatu.  
+
+
+
+
+
+
+
+Aurreko orrialdean galderaren enuntziatuan sortutako komodinak, pribatuak (galdera honek erabiliko ditu soilik) edo partekatuak (kategoria bereko galdera guztientzat eskuragarri) (1) diren adierazten da.  
+
+Komodinen erabilera galdera bakar batera mugatu nahi izanez gero “aurreko datu multzo pribatu bera erabiliko du” aukeratu beharko da. Aplikazioak datu multzo bat sortu du eta hori dela eta, aipatzen da dagoeneko existitzen den multzoa. . 
+
+Komodinak beste galdera batzuetarako eskuragarri egotea nahi izanez gero, “elkarbanatutako datu-multzo berri bat erabiliko du” aukeratu beharko da.  
+
+Sinkronizazioak galdetegiko galdera guztietan balore berdinak lortzea ahalbidetzen du. Adibidez,  lehen galdera baten balorea, zeinetan {radio}cm duen zirkulu baten perimetroa eskatzen den eta bigarren galdera bat zeinetan {radio}cm duen zirkularen azalera eskatzen den.  
+
+Baina kontutan izan behar da, sinkornizazioak galderak KATEGORIA BEREAN gordez gero eta datu MULTZO KOPURU BERA badute (DATASETS) soilik funtzionatuko duela. 
+
+“Hurrengo orria” botoiaren gainean sakatu komodinen datu multzoa zehazteko. Datu baseko aldagaien definizioa eskuz edo ausaz egin daiteke. Informazio zabalagoa Moodle-eko dokumentazioan. 
+
+Galdera kalkulatu sinplea 
+
+Mota honetako galderek interfaze sinplifikatu bat eskaintzea ahalbidetzen dute: orrialde bakar batean galdera“kalkulatu”etako lehen orriialdeko aukera berdinak azaltzen dira, eta behealdean “aurki itzazu erantzun zuzenaren formuletan dauden komodinak {x..}” agertzen da. 
+
+
+
+Aukera honen gainean sakatuz gero, atal berri bat zabaltzen da non, sortutako komodin bakoitzari balore multzo bat eslei dakiokeen.
+
+
+
+Aukera anitzeko galdera kalkulatua
+
+Galdera mota hauek “kalkulatuak“ bezala funtzionatzen dute, aukera anitz bezala aurkezten diren arren. Ondorengo irudian, enuntziatuko baloreak gainidatzi diren kasu bat aurkezten da (1) eta galdera formularioan sartu diren erantzun aukerak (2).  
+
+
+
+Aurkezpen bisualagoa duten galderak (“Lotu” “Hartu eta eraman” “Cloze”...) 
+
+Galdera moten artean badira aurkezpen bisual eta dinamikoagoak egiteko aukera ematen dutenak. Ondoren hauek zerrendatu eta bakoitzari Moodle-eko dokumentaziora esteka gehitu zaio:  
+
+Lotu eta erantzun laburrak ausaz lotu  galderak.  
+
+“Hartu eta eraman markatzaileak”, “Hartu eta eraman irudira” eta “Hartu eta eraman testura” 
+
+Txertatutako erantzunak (Cloze) eta “Aukeratu falta diren hitzak”
+
+Entsegu galderak
+
+Galdera irekiak egiteko aukera eskaintzen dute, eta beraietan fitxategi edo txantiloia gehi daitezke. Ondorengo irudian erantzun formatuan dauden aukerak (1) ikus daitezke, editore edo hedapena, atxikitako fitxategiei buruzkoa (2), txantiloia (3) eta irakaslearentzako informazioa (4).   
+
+ 
+
+Galdera hauek, eskuz kalifikatu behar diren arren, konfigurazio automatikoa duten beste galdera mota batzuekin konbina daitezke. EZ DA BEHARREZKOA ESKUZKO FEEDBACK-a ERABILTZEA.    
+
+Ondorengo irudiak saiakera bat gauzatuta duen galdetegia erakusten du, non 4. galdera entsegu motakoa den eta ez den kalifikatu. “Kalifikazioa behar du” (1) gainean sakatuz, nota eta komentarioa sartzeko aukera eskaintzen duen formulario bat zabaltzen da. Baina, kalifikazio hau ez da automatikoki taulan isladatzen, “Berriz kalifikatu aukeratutako saiakerak” sakatzea beharrezkoa da (2), eguneratu beharreko saiakerak markatu ondoren.   
+
+
+
+Galdetegiaren helburua berrikuste edo praktikara bideratuta dagoenean, kalfikazioaren “traba” hau “entsegua” galderari 0 balorea esleituz ekidi daiteke. Honela, galdera mota hau hausnarketa pertsonal bat eta kalifikaziorik behar ez duena gehitzeko erabil daiteke. (Ikusi 7.1"Galderen aukeraketa, orri banaketa eta Galderak ausaz erabili")
+
+Galdetegiaren elaborazioa (1): Tresnen antolakuntza
+
+
+
+Galdetegia jarduerak, lehenengo fase batean, ikasleei galderak aurkezteko aukera eskaini eta bigarren fasean, ikasleek emandako erantzunak ikusi eta aztertzeko aukera eskaintzen ditu.
+
+
+
+Prestakuntza edo antolakuntza fasean, batez ere, “Editatu ezarpenak” (1) eta “Editatu galdetegia” (3) orriekin lan egin beharko da- beste elementuak ere garrantzizkoak izango diren arren: 
+
+“Editatu ezarpenak” formularioan, galdetegiaren xehetasunak finkatzen dira. Formulario honetan galdetegiren helburuaren araberako (ebaluazio proba, berrikuspenerako jarduera autoebaluaziorako proba) aukeraketa egingo da. Epeak, iraupena, saiakera, feedback-a etab. ezarriko dira. Hau da galdetegi berri bat sortzean zabaltzen den formularioa, (1.1) menuaren bidez ere sartzerik dagoen arren.
+
+“Talde” eta “erabiltzaile salbuespenen bidez talde edo erabiltzaile jakin batentzat denbora aldetik gelako gehiengoari ezarritako murrizketak aldatzeko aukera dago. 
+
+“Editatu galdetegia” (3) orrian galderak aukeratu eta orrien antolakuntza gauzatuko da. Ausazko galderak gehi daitezkeen tokia ere izango delarik.
+
+“Aurreikusi” (4) elementuak galdetegiaren aurrebista bat eskaintzen du.  
+
+Galdetegiaren elaborazioa (2):  “editatu ezarpenak” formularioan funtzionamendua konfiguratu 
+
+Galdetegi berri bat sortzeko, “edizioa aktibatu” eta “gehitu jarduera edo baliabidea” (1) sakatu dagokion atalean. Zabaltzen den zerrendan “Galdetegia” (2) aukeratu eta “gehitu” sakatu. “Editatu   ezarpenak” formularioa zabalduko da.
+
+
+
+Galdetegia aurretik sortuta baldin badago, izenaren gainean sakatu eta (1) irudian ikus daitekeen bezala “editatu ezarpenak” (2) aukerara jo. 
+
+
+
+Eskuragarritasuna
+
+
+
+Atal honetan galdetegia gauzatzeko hasiera eta bukaera data (1) eta hau gauzatzeko denbora-muga (2) zehatz daitezke. Aukera hauek berez, desgaituta azaltzen dira, baina hauek erabiltzea oso lagungarria da ikasleei galdetegira sarbidea mugatu nahi zaienean.
+
+Epea iraungitzean bidali gabeko saiakerak nola kudeatu ere zehatz daieke (3). Berez markatuta azaltzen den aukera mantenduz gero, bidalketa hauek automatikoki bidaliko dira denbora iraungi ostean – aukera oso interesgarria saiakera bakarra baimendu denerako. Bidalketa automatikoa desgai daiteke eta grazizko epe bat eman (4)…edo ez. 
+
+Kalifikazioa
+
+Atal honetan kalifikazioaren inguruko aukera ezberdinak azatzen dira. Saikera kopurua mugatzea azpimarratzen dugu, ezinbestekoa baita ebaluazio proba baten konfigurazioan. 
+
+Menu zabalgarri honek galdetegiaren nota “kalifikazio liburu”ko zein kategoritan azaltzea nahi den aukeratzea baimentzen du. Honi buruzko informazio gehiago “Kalifikazio liburuari” buruzko eskuliburuan.  
+
+“Gainditzeko kalifikazioa” zehazteak erabilera bi izan ditzake: batetik, “kalifikazio liburuan” emaitza kolore gorriz edo berdez adierazita agertuko da ezarritako nota hori gainditzea lortu den ala ez den lortu arabera. Bestetik, “gainditzeko kalifikazioa behar du” baldintza ezartzeko aukera dago  jarduera osaketa” atalean. Informazio gehiago “Jarduera jarraipena egiteko tresnak, eskuragarritasuna eta dominak” eskuliburuan. 
+
+Atal honetan saiakerak mugatzeko aukera eskaintzen da. Saiakera muga gainditu ez denean edo hauek mugagabeak direnean, ikasleek bidalketa egin ostean saiakera berri bat egiteko aukera izango dute. 
+
+Saiakera bat baino gehiago baimentzen den kasuetan aukera honek azken nota nola kalkulatu zehaztea ahalbidetzen du. (kalifikaziorik altuena, batazbestekoa, lehenengo edo azken saiakerarena).
+
+
+
+Atal honetan biltzen diren aukerez gain, kalifikazioarekin zerikusia duten beste hainbat konfigurazio azaltzen dira, bai galdera bakoitzaren konfigurazioan eta baita galdetegiarenean ere. (7.1 atala ikusi)
+
+Diseinua
+
+
+
+Atal honetan, “orri berria”(1)  izeneko menu zabalgarrian, orri bakoitzean azaltzea nahi den galdera kopurua adieraz daiteke. Beranduago, “galdetegia editatu” formularioan zehaztasun gehiagoz finkatu ahal izango da orri bakoitzean azalduko den galdera kopurua.  
+
+“Nabigazio metodoa” atalean aldiz, “librea” eta “sekuentziala” artean aukeratzea dago. Azken hau “ikasketa prozesu” bat ezartzeko baliagarri izan daiteke, galdetegiak erabilera didaktikoa duenean, edo galderen erantzunak partekatzea mugatzeko, galdetegia ebaluazio proba denerako.  
+
+Galderen jokaera
+
+Atal hau ezinbestekoa da galdetegia ebaluazio proba edo berrikustera bideratutako autoebaluazio proba izango den zehazteko (ikusi “galderen jokaera” (2) izeneko menu zabalgarriak eskaintzen dituen aukerak).  
+
+
+
+“Nahastu galderen barruan” (1) eremuan, berez markatuta azaltzen da funtzionalitate hau eta erantzunak ausaz nahastuko dira aukera anitzeko galderetan, galderen ezarpen zehatzetan besterik adierazi ez bada behintzat. (3.1.2 atala ikusi).
+
+Ondoren, “galderen jokaera” (2) eremua dago, zeinaren menu zabalgarria irudian ikus daitekeen (2.1). 
+
+Batetik, azterketa eta ebaluazio probetarako, “egokitze modua” izeneko aukera dago. Galdetegi berri bat sortzean aukera hau berez markatuta agertzen da. Saiakerak irauten duen bitartean, ez du inolako feedback-ik baimentzen bai aldiz, “saiakera bukatzean”. Kalifikazioa, feedback-a eta erantzun zuzenari buruzko informazioa atzeratzeko “Berrikusketen aukerak” atalean aldaketak egitea beharrezkoa izango da. 
+
+Bestetik, galdetegiak praktika edo berrikuspenera bideratu nahi baldin badira, hauetara egokitutako aukerak badira.   
+
+Egokitze modua eta Egokitze modua (penalizaziorik ez)- Galdera bakoitzean saiakera ugari izateko aukera ematen du hurrengora joan aurretik.    
+
+Interaktiboa hainbat saiakerekin – “Egokitze modua”k bezala, saiakera ugari egiteko aukera eskaintzen du hurrengora joan aurretik, baina kasu honetan, saiakera kopurua pista kopuruak zehaztuko du (3.1.4 atala ikusi). Galderetan adierazitako saiakerak galdetegian(“Editatu ezarpenak> Kalifikazioa” (5.2. atala ikusi) adierazitakoengandik banatuta egongo dira.
+
+Berehalako feedbacka – “Interaktiboa hainbat saikera” moduaren antzekoa da, ikasleek beraien erantzuna segidan bidali eta kalifikatzeko aukera duten heinean. Baina erantzun bakar bat bidal daiteke, eta ez da hau aldatzerik izango. 
+
+Gainera, “eskuzko kalifikazioa” aukera ere bada. Kalifikazio hau, normalean automatikoki kalifikatzen diren galderak kalifikatzeko erabil daiteke. Berez “entsegu” motako galderetan aplikatuko da, galdera hauek dauden galdetegiaren konfigurazioa aldatu beharrik izan gabe. 
+
+Kontutan izan behar da “eskuzko kalifikazioa” aukeratuz gero, eta ikasleek erantzunak bidali baldin badituzte, EZ DELA HAU ALDATZERIK IZANGO EZTA BESTE KALIFIKAZIO AUTOMATIKOen bat aplikatzerik ere. 
+
+Azkenik CBM oinarritutako ebaluazio”metodoa erabil daiteke, beranduagoko edo berehalako feedbacka aukerekin. Ebaluazio mota honetan, erantzun zuzena zehazteaz gain, ziurtasun maila ere finkatu beharra dago. Azken nota ziurtasunaren arabera haztatuko da. Hori horrela izanik, ziurtasun mailarik altuena duen erantzun zuzenak puntuazio osoa jasoko du eta aldiz, ziurtasun maila baxuagoa duen erantzun zuzenak puntuazio baxuagoa jasoko du.    
+
+Berrikusketen aukerak
+
+Atal honetan ikasleak adierazitako lau faseetan zehar ikasleek feedbacketara, erantzunen kalifikazioara…duten sarrera aukerak kontrolatzea ahalbidetzen du. Ondorengo irudian berez markatuta azaltzen diren aukerak ikus daitezke.  
+
+
+
+
+
+
+
+Fasearen deskribapena
+
+Marka hauek noiz ken daitezke
+
+1
+
+"Saiakera egin bitartean" galderak erantzuten ari direneko uneari dagokio Aukera hauek marka gabe azaltzen dira “galderen jokaera” atalean “beranduagoko feedbacka” aukeratu bada.    
+
+Gutxienez, “zuzena bada”markatuta izan behar da “egokitze modua” eta “interaktiboa hainbat saiakerarekin” aukerentzat. 
+
+2
+
+"Saiakera bakoitzaren ondoren" “bidali dena eta bukatu” sakatu eta ondorengo bi minutuei buruz ari da atal hau. 
+
+Aukera guztiak desmarka daitezke azterketa motako konfigurazio baterako.  
+
+3
+
+Beranduago, galdetegia irekita dagoen bitartean; hau da, galdetegiaren ezarpenetan itxiera-data finkatu baldin bada, data horretara arte. 
+
+Aukera guztiak desmarka daitezke azterketa motako konfigurazio batean, baina itxiera-datarik finkatu ez bada, ikasleek ez dute inoiz informazio hori ikusiko 
+
+4
+
+Galdetegia itxi ondoren 
+
+Aukera hauek desmarkatuta azaltzen dira itxiera datarik zehaztu ez bada (Eskuragarritasuna atala ikusi) 
+
+Aukera guztiak desmarka daitezke azterketa motako konfigurazio batean,”Puntuazioak” aukera behin-behinean desmarka daiteke, baina ikasleek beraien kalifikazioa “kaifikazio liburuan” ikusi ahal izateko markatuta egotea beharrezkoa da. 
+
+
+
+Itxura
+
+
+
+“Erakutsi erabiltzailearen irudia”(1) aukerak identifikatu den erabiltzailearen profileko irudia galdetegiaren orrian azaltzea ahalbidetzen du, galdetegia egiten dagoen erabiltzailea identifikatu dena izatea konprobatzeko.   
+
+“Hamartar kopurua kalifikazioetan” (2) eta “Hamartar kopurua galderen kalifikazioetan” (3) aukerek balio hauek finkatzeko aukera eskaintzen dute.   
+
+"Erakutsi blokeak galdetegiari erantzun bitartean” (4) eremua “Egutegia”, “Azken berriak” bezalako blokeei buruz ari da. .
+
+Aparteko murrizketak saiakeretarako 
+
+Atal honetako eremuek galdetegira sarbidea murrizteko aukerak eskaintzen dituzte. “Pasahitza eskatzea” (1), sare-helbide edo IP zehatza erabiltzera behartzea (2) aukerak galdetegia aurrez aurre edo ordenagailu gela batean egiten denerako oso erabilgarria izan daitezke.3 eta 4 aukerek saiakeren arteko denbora tartea finkatzeko aukera eskaintzen dute. “Nabigatzailearen segurtasuna” (5) aukerak aldiz, galdetegia pantaila osoan leiho emergente batean zabaltzeko aukera ematen du, baina ezinezkoa da beste nabigatzaile batekin beste gune batzuetara sartzea ekiditea. Bukatzeko, 6. eremuan galdetegia mobileko aplikazio bidez egitea galaraztea posible da.
+
+ 2. aukeratik 6.era aukera aurreratu bezala adierazten dira, harridura ikurra da horren seinale. Normalean ezkutatuan dauden aukerak dira hauek, eta “erakutsi gehiago” eta “erakutsi gutxiago” sakatuz azalarazten eta ezkutatatzen dira (7).
+
+
+
+Galdetegiaren feedback orokorra 
+
+Feedback orokorra ikasleari, saiakera bukatu ondoren lortutako kalifikazioaren arabera, azalduko zaion testua da. 
+
+
+
+1 eta 3 feedback-ak lortutako kalifikazioaren (2) araberakoak izango dira. Tarteko maila gehiago ezar daitezke (4).   
+
+Jarduera osaketa
+
+Eremu hau ikastaroaren ezarpen orokorretan “osaketaren jarraipena” eremua aktibaturik dagoenean azaltzen da soilik.
+
+
+
+Galdetegiarekin (2) zerikusia duten baldintzak ezartzeko “Osaketaren jarraipena” (1) eremuko menu zabalgarrian “erakutsi jarduera osatu gisa baldintzak betetzen direnean” aukeratu beharko da. Gorriz adierazten dira “gainditzeko kalifikazia behar du”(ikusi 2.1 atala)  eta “aukerako saiakera guztiak osatu” (2.2 atala) baldintza zehatzak. 
+
+Eremu honekin formularioa bukatzen da, eta aldaketak gauzatzeko ezinbestekoa da “gorde“ sakatzea.
+
+Galdetegiaren elaborazioa (3): Talde edo erabiltzaile-salbuespenak
+
+Galdetegiaren menu zabalgarrian “talde-salbuespenak” eta “erabiltzaile salbuespenak” aukerak aurkitzen dira. Hauei esker talde (1) edo erabiltzaile jakin bat(zue)i erabiltzaileen gehiengoari ezarritako denbora murrizketak aldatu ahal izatea baimentzen da. 
+
+
+
+Ondorengo irudian “gehitu talde-salbuespena”(1) aukera ikus daiteke. Beharrezkoa da aurretik ikastaroan taldeak zehaztu izana. Eskuliburuan “Talde eta taldekatzeak” buruzko atala ikusi. 
+
+
+
+Irudi honetan salbuespenak ezartzeko formularioa ikus daiteke. “Salbuetsitako taldea”(1) eremuan zein talderi salbuespena ezarriko zaion zehazteko aukera ematen da. “Eskatu pasahitza” (2) eremuak talde jakin horri pasahitza ezartzea ahalbidetzen du. Lauki gorriaren baitan ikus daitezke zeintzuk diren moldatu daitezkeen denbora murrizketa orokorrak. 
+
+
+
+Salbuespena ezarri ostean, ondorengo zerrendan azalduko da. 
+
+Salbuespen berdinak ezar dakizkioke erabiltzaile jakin batzuei ere.  
+
+
+
+Ohar edo abisu bat azaltzen da salbuespena aplikatu nahi zaion ikasleak galdetegira sartzerik ez duenean. 
+
+Arrazoiak ondokoak izan daitezke:
+
+Galdetegira sarbidea talde bateko partaide izatera baldintzatuta dagoenean, eta ikasle hau talde horretako kide ez denean
+
+Galdetegia ikasleentzat ezkutatuta dagoenean.
+
+
+
+Galdetegiaren elaborazioa (4): Galderak gehitu 
+
+Galderen aukeraketa, orri banaketa eta “galderak ausaz erakutsi” 
+
+Galdetegiaren nondik norakoak zehaztu ondoren, bertan sartu beharreko galderak zehaztu beharko dira. Horretarako “editatu galdetegia”(1) sakatu beharko da. Galdetegira  galderak igo direnean aukera hori albo batean azaltzen den menu zabalgarrian aurki ahal izango da (2). 
+
+
+
+Hurrengo orrian “gehitu” (1) sakatuko dugu galderen kargari dagozkion aukerak ikusteko: “galdera berria”, “galdera-bankutik” eta “ausazko galdera bat”. 
+
+“Nahastu”(cas"Reordenar las preguntas al azar") laukitxoa (2)  eta “editatu izenburua” (3) ere eskuragarri daude. 
+
+“Galdera bankua eta galdetegia(k) ikastaroan” atalean azaldu den moduan, galderak galdera-bankuaren kategorietan antolatzea gomendagarria da. Horregatik, ”galdera berria” aukeraren bidez sortzen denean, zein kategoriatan sortzen den arretaz jarraitu beharko da.   
+
+
+
+“Gehitu > galdera bankutik” aukeratuz gero, galdera bankuaren ikuspegia orokorra zabaltzen da eta kategorien artean mugitu (1) eta galderak aukeratzea (2) ahalbidetzen da.  
+
+
+
+Galderak inportatu baldin badira, “editatu galdetegia” orriak ondoko aukerak eskaintzen ditu: galderen ordena aldatu (1), orrialdeak batu edo banatu, galderen puntuazioa aldatu (3).  
+
+“Giltzarrapoa”k (4) galdera bat gauzatzeko aukera, aurreko galdera bat egiteari baldintzatzatu ahal izatea ahalbidetzen du (4). Funtzionalitate hau eskuragarri dago ondokoekin: 
+
+“Galderen jokaera” atalean “interaktiboa hainbat saiakerekin” edo “berehalako feedbacka”aukerekin  
+
+Nabigazio metodoa “librea”. 
+
+Nahastu aukera markatu barik. 
+
+
+
+Galderak ausaz gehitu
+
+“Gehitu> ausazko galdera bat” aukeratzen denean, kategoria (1) galdera kopurua (2) eta kategoria horretan dagoen galdera kopurua (3) zehazteko aukera zabaltzen da. 
+
+
+
+Galdetegia aurreikusi
+
+Galdetegi baten edizioa bukatzen denean “aurreikusi galdetegia orain” aukera azaltzen da. Aukera bera albo batean dagoen menu zabalgarrian (“aurreikusi”) (2) ere aurki daiteke. 
+
+
+
+Irakasle rola duen edonork BETI izango du “Aurreikusi” aukera ikusgai, zehaztutako ezarpenetaz aparte. Aldiz, ikasleek “berrikusketa” honetara sarbidea “Berrikusketen aukerak”>“saiakera bakoitzaren ondoren” atalean beharrezkoak direnak markatuz gero soilik izango dute.. 
+
+Azterketa baten konfigurazio adibidea 
+
+Atal honetan galdetegia azterketa gisa erabiltzeko kontutan izan beharrekoak zerrendatzen dira. Konfigurazioaren helburuak ondokoak lirateke:  
+
+Galderetara sarbidea ordutegi eta iraupen jakin batera murriztu.
+
+Nabigazio metodoa “sekuentziala”, nahastutako galderekin eta ausaz nahastutako  erantzunekin. . 
+
+Ausazko galderak erabili eta beharrezkoa izanez gero, galdera “kalkulatuak” non, zenbakizko balore “komodinak” ausaz aldatuz doazean  
+
+Erantzun zuzenetara feedbacka eta kalifikazio orokorrera sarbidea proba bukaera arte edo behin betiko murriztu.  
+
+Elementu hauetako batzuk, galderen sorkuntzan zehazten dira. “Erantzun anitzeko” galdera batean adibidez, “aukerak nahastu” markatuz. Kategoria eta azpikategorietan antolakuntza zaintzea ere oso garrantzitsua da, batez ere, “ausazko galderak” edo “sinkronizazioa” galdera “kalkulatuetan” erabiltzen direnean. 
+
+“Editatu ezarpenak” formularioan aukera garrantzitsuak 
+
+
+
+“Hasiera eta bukaera datak” eta”denbora-muga” zehaztu dira “Eskuragarritasuna” atalean. Beraz, ez da beharrezkoa galdetegia ezkutuan mantentzea datu horiek finkatu baldin badira. Saiakera bakarra izanik, denbora bukatzean bidalketa automatikoa izatea aukera egokia da.    
+
+
+
+
+
+“Nabigazio-metodoa”ren baitan “Sekuentziala” metodoa aukeratuko da, honek ikasleari azterketaren berrikuspena era egokian egitea galerazten ez dion heinean.
+
+
+
+“Galderen jokaera” atalean, berez markatuta azaltzen den aukeraketa errespetatuko da.   
+
+
+
+“Berrikusketen aukerak” atalean, kalifikazioak “Kalifikazio liburuan” agertzeko beharrezkoa den elementua “Galdetegia itxi ondoren” puntuazioa markatuta izatea da. Karratutxo edo atal hau galdetegiaren kalifikazioa aztertu ondoren ere markatzerik bada.
+
+
+
+“Editatu galdetegia” formularioaren ezarpenak apurka-apurka bukatuz 
+
+“Editatu ezarpenetako” aukerak zehaztu ondoren “editatu galdetegira” joan beharko da non, nahastu (2) eta ausazko galderak erabili (1)  aukerak aurkitzen diren.  
+
+
+
+
+
+
+
+25
+
+
+
+
+
+4Gestión de recursos en eGela (Moodle 2.7)

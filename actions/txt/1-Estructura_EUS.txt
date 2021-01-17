@@ -1,0 +1,486 @@
+Gela birtualen egitura eta ezarpen orokorrak
+
+Irakasleentzako eskuliburua 
+
+bertsioa (2019/01/09)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Honako eskuliburu hau Universidad del País Vasco / Euskal Herriko Unibertsitateko eCampusak landu du.
+
+Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago. Lizentzia horren kopia ikusteko, sartu http://creativecommons.org/licenses/by-nc-sa/3.0/es/ helbidean.
+
+
+
+
+
+Edukien aurkibidea
+
+	Gela birtualen egitura eta helburua zehaztu	3
+
+	Gela birtualarentzako plataforma	3
+
+	Eskuragarri dauden funtzionalitateak	3
+
+	Ezarpen orokorrak eta estilo grafikoa	5
+
+	Ikastaroaren egitura eta nabigazioa	6
+
+	Ikastaroaren kudeaketa	7
+
+	Editatu ezarpenak (Ikastaroaren ezarpen orokorrak)	8
+
+	Orokorra	8
+
+	Deskribapena	10
+
+	Ikastaro-formatua	12
+
+	Itxura	16
+
+	Fitxategiak eta igoerak	16
+
+	Osaketaren jarraipena	17
+
+	Taldeak	17
+
+	Rolei izena aldatu	18
+
+	Blokeak	18
+
+	Orri baten baitan bloke bat gehitu	19
+
+	Blokeen konfigurazio aukerak	19
+
+	Non agertuko den bloke hau	19
+
+	Orri honetan	20
+
+
+
+
+
+
+
+
+Gela birtualen egitura eta helburua zehaztu 
+
+eGela eta eGelaPIko gela birtualak irakasgai / ikastaro bati lotutako guneak dira. Hauek funtzionalitatea multzo bat eskaintzen dituzte eta intentsitate ezberdinekin edo planteamendu ezberdinekin erabili ahal izango dira behar izan eta testuinguruen arabera. Gela birtualen egitura eta helburua ondorengoek baldintza dezakete: irakasgaiarentzat GAURen azaltzen diren irakaskuntza modalitateak (Magistrala, gelako Praktikak, Mintegia …), pedagogia-antolaketa, partaide kopurua eta hauen jatorria, irakasgaiaren iraupena, banaketa moduluka… Guzti hauek kontutan izanik, gela birtualak izan beharreko egitura eta erabiliko diren funtzionalitateei buruzko erabakiak hartu beharko dira. Irakasgai / ikastaroek erabili beharreko plataforma baldintzatuko dute baita (eGela edo eGelaPI).   
+
+Gela birtualarentzako plataforma 
+
+eGela: Gradu, Master Ofizial, Berezko Titulu eta Doktoregoetarako irakasgaietan irakats-betebeharra daukan irakasle orok eska dezake eGelan dagokion gela birtuala. Eskaria Gela Birtualen Kudeatzailearen  bidez gauzatu beharko da.  Kudeatzaile honen bidez eGelan gune birtualak sortu eta beste kudeaketa ekintzak egitea posible da, hala nola, taldeak bateratu, segurtasun kopien biltegia kontsultatu… eGelan kokatzen dira baita Zeharkako Gela Birtualak – hauek, graduka, mailaka, masterrentzako, berezko tituluarentzako bezala sailka daitezke. 
+
+eGelaPI: eGelaPIn gela birtuala UPV/EHUko edozeinek, bai IIP baita AZPkoek, eska dezakete, beti ere sail edo zerbitzuak behar izan hori bermatuz eta eGelako kasuetatik kanpo gelditzen diren irakasgaiak badira. eGelaPIko guneak eskatzeko prozedura ondorego estekan azaltzen da. 
+
+Eskuragarri dauden funtzionalitateak
+
+Funtzionalitateei dagokienez, zera galdetu beharra egongo da: ikasketa prozedurako zein alderdi bete nahi dira gela birtualaren bidez? Ondoren gela birtual batek eskain ditzakeen funtzionalitateen zerrenda ageri da- ez da zerrenda itxia: 
+
+Baliabide eta/edo informazioa argitaratu: ikasleei jakinarazpenak bidali. Informazioa duten baliabideak argitaratu (tutoretza ordutegiak, egutegiak …), eduki didaktikoak argitaratu (apunteak, aurkezpenak, bideoak …).
+
+Ikasleen jarduera eta bidalketak kudeatu: galdetegiak proposatu (auto-ebaluaketak, testak …), bidalketak jaso, bidalketa kalifikatu edo/eta feedback eman, parekoen ebaluazioa duten jarduerak proposatu, taldekako lanak antolatu, ikasleak taldeka antolatzeko aukerak konfiguratu.
+
+Jarduera kolaboratiboak planteatu: eztabaida eta zalantza foroak, wikiak, formularioen bidez ikasleen ekarpenak jaso (datu baseak), glosategiak.
+
+Prozesua dinamizatu eta jarraipena eman: estatistikak eta aurrerapen taulak kontsultatu, baliabideetara edo ikastaroko ataletara sarbide baldintzak ezarri, dominak lortzeko erronka eta baldintzak ezarri, bilera birtualak sortu, kontsulta/inkestak proposatu, tutoretza edo beste ekintzetarako hitzorduak kudeatu. 
+
+Jarduera edo baliabideak gehitzeko beharrezkoa da 1) Edizioa aktibatzea eta  2) Gehitu jarduera edo baliabidea aukeraren gainean sakatzea zerrenda zabaltzeko. Ikusi ondorengo irudia.
+
+
+
+
+
+
+
+
+
+Ezarpen orokorrak eta estilo grafikoa
+
+Ezarpen orokorrei dagokienez, Ikastaroaren kudeaketa > Ikastaroaren ezarpenak > Editatu ikastaroaren ezarpenak-en  baitan eskuragarri dauden aukerak aztertu beharko dira, esanguratsuenak ondokoak lirateke:   
+
+Ikastaro-formatua (gai-formatua, aste-formatua, fitxen bidezkoa): ikastaroaren moduluak “Gaika” bana daitezke, bakoitzarentzat izenburu bat aukeratuz, edo “Asteka”. Ikastaro oso luzeentzat “Fitxen”  bidezko banaketa erabilgarria izan daiteke, nabigazioa erraztuz eta ikastaroaren ikuspegia hobetuz. Azpi-fitxak (moduluen mailaketa hierarkikoa)   sortzeko aukera era bada horrela ikastaroaren antolaketa hobetuz. 
+
+“Behartu hizkuntza” aukerak, ikastaro jakin batean hizkuntza hautatzailea desagerraraztea ahalbidetzen du. 
+
+“Osaketaren jarraipena” aukera aktibatzeak, ikastaroaren/irakasgaiaren jardueretan aurrerapena kontrolatzea eta jarraitzeko aukera eskaintzen du.  
+
+Estilo grafikoari buruz gogoeta egitea garrantzitsua izango da baita, hau da, eduki eta jarduerak bisualki antolatzeko estrategia. Ondokoa aholkatzen da:  
+
+Elementu grafikoak erabili ataletako gaiak ilustratzeko, neurrian eta jabetza intelektualaren araudiak baimentzen dituen kasuetan.   
+
+Aurreikusten diren lanek izango duten sekuentzia azalerazten duen informazioa argitaratu,  zein elementuk osatzen duten eta aurreikusten den iraupena.  
+
+Gela birtualean beren beregi azaltzen diren blokeak eta “Gehitu blokea” menuaren bidez gehi daitezkeenak aztertu. Egungo bertsioan, bloke hauek goialdean azaltzen den “Ikastaroko Blokeak” izenekoaren baitan koka daitezke. 
+
+“Erakutsi deskribapena ikastaroaren orrian” aukera lagungarria izan daiteke   baliabide eta jardueretan azalpen labur bat gehitzeko eta hau hasierako orrian ikusgai azalduz.  
+
+“Deskribapena” ataleko “testua eta irudia” atalak bete (“Ezarpenak editatu” formularioan)  gela birtuala ikastaro eta irakasgaien zerrendan errazago identifikatzeko.  
+
+
+
+
+
+
+
+ 
+
+
+Ikastaroaren egitura eta nabigazioa
+
+Ondorengo irudian ikastaro baten orrialde nagusian azaltzen diren oinarrizko elementuak azaltzen dira.  
+
+
+
+Ezkerraldeko zutabea zabaldu/ixteko menu “hanburgesa”
+
+Ezkerreko zutabean “nabigazio menua”
+
+“Ikastaroaren kudeaketa” eta “aktibatu edizioa” aukeretarako botoiak
+
+Hizkuntza hautatzaile menua
+
+Material erabilgarriari buruzko menua (dokumentazio eta eskuliburuekin)
+
+Erabiltzailearen menua, “Aginte panela”, Profila, Kalifikazioak, Mezuak eta Aukerak ataletara sarbidea eskaintzen du.
+
+Ikastaroko edukia azaltzen den gunea, kasu honetan “gaika” formatua aplikaturik duela.
+
+Nabigazio menua “(Breadcrumbs)”, plataformatik nabigatzeko baliabide oso lagungarria.
+
+“Zure aurrerapena” ri buruzko laguntza. “Osaketaren jarraipena” aktibatuta dagoenean soilik azaltzen da.
+
+Atal osoa,  izenburu, laburpen eta  edukiarekin
+
+Jarduera osatu bezala adierazteko karratutxoak. Ikasleak eskuz osatu bezala adieraztea edo ezarritako baldintzen bat bete ostean osatu bezala agertzea konfigura daiteke
+
+“Ikastaroko Blokeak” zabaltzeko botoia. Blokerik ez badauka bere baitan, aukera/botoi hau “edizioa aktibatuta” izatean soilik agertuko da.
+
+Eskuinaldeko barran azaltzen diren blokeak.  .
+
+Irudi honetan azaltzen dena adibide bat da soilik. Albo bietako blokeak eta ikastaroaren konfigurazioa irakasleen esku gelditzen dira.  
+
+
+Ikastaroaren kudeaketa
+
+Ondorengo irudian 1) zenbakiarekin nabarmentzen den botoia sakatu “Ikastaroaren kudeaketa”ri buruzko zerrenda zabaltzeko.
+
+
+
+Zerrenda horretan ikastaroaren konfigurazioarekin zerikusia duten aukera multzoa daude: ezarpen orokorrak, erabiltzaile eta taldeen kudeaketa, iragazkiak, kalifikazio liburua, galdera-bankua, txostenak... 
+
+
+
+Lau zutabetan antolatzen da. Aukera erabilienak hirugarren zutabean biltzen diran, batez ere, “editatu ikastaroaren ezarpenak”(1)  izenekoan- eskuliburu honetako ondorengo atalean azalduko delarik. Ikastaroari buruzko ezarpen aurreratu batzuk ez dira aukera honen baitan agertzen, baina “ikastaroaren kudeaketa” (2)  orrian aurki daitezke.  “Ikastaroaren kudeaketa”ren batzen diren aukerei buruzko informazioa ondorengo eskuliburuetan aurki daiteke:
+
+Inportatu, Zakarrontzia eta Iragazkien ezarpenak (3): “Edukia sortu eta baliabideak kudeatu” eskuliburua kontsultatu (prestatze lanetan)
+
+Partaideak, Taldeak eta Matrikulazio-metodoak (4): “Erabiltzaileen kudeaketarako tresnak: erabiltzaileak gehitu eta taldeak” eskuliburua kontsultatu
+
+Galdera-bankua (5): “Sortu eta antolatu galdetegiak” eskuliburua kontsultatu (prestatze lanetan)
+
+Ikastaro eta jarduera,  osaketaren ezarpenak, Agerraldi txostenak eta Dominak (6, 7 eta 8): ondorengoa kontsultatu “Jardueren jarraipena egiteko tresnak, eskuragarritasuna mugatu eta dominak”
+
+Kalifikazio liburuaren ezarpenak (9): “Kalifikazio liburua eGelan” ikusi
+
+Bukatzeko, “Jarduerak” (10) zutabean, ikastaroan erabilitako baliabide eta jardueren zerrenda adierazten da. 
+
+Editatu ezarpenak (Ikastaroaren ezarpen orokorrak) 
+
+Ikastaroaren kudeaketa > Editatu ikastaroaren ezarpena  sakatu.
+
+
+
+Aukera hau sakatu ondoren, formulario bat zabalduko da. Errazago lan egiteko “guztia zabalduta” edo “tolestuta” erakusteko aukera dago baita.
+
+
+
+Orokorra
+
+
+
+
+
+
+
+Ikastaroaren izen osoa plataformako Hasiera orrian, Aginte-panela > Ikuspegi orokorra atalean azaltzen diren ikastaroen zerrendetan azaltzen da. Ikastaroaren orri nagusian, izenburu gisa, ere bai. Irakasleriak alda dezake. 
+
+Ikastaroaren izen laburra Ikastaroko “Nabigazio menuan” (A) eta ezkerraldeko zutabeko “Nire ikastaroak: Martxan” (B) zerrendan agertuko da. Ikastaroaren baitan posta elektroniko bidez helarazten diren jakinarazpen guztien izenburuan ere agertuko da. eGelan irakasleriak alda dezake- eta gomendagarria izan daiteke, izan ere berez, GAURetik hartzen den kodea azaltzen delako-. Aldiz eGelaPIn izen hau ezin daiteke aldatu, baina ikastaro eskaera egiterakoa datu hori norberak zehatz dezake.
+
+Ikastaroaren ikusgarritasuna eremuak ikasleek ikastarora duten sarbidea baldintzatzen du. “Ezkutatu” aukeratuz gero: 
+
+Ikasleek ez dute ikastarora sartzerik eta ez zaio agertuko ikastaro zerrendetan.  
+
+Aldiz, irakasleek beraien ikastaro-zerrendan grisez ikusiko dute. Guneak, berez, ezkutuan sortzen dira ikasleei zabaldu aurretik beraietan lan egin ahal izateko. Ikastaro bat ezkutuan dagoenean, ez du jakinarazpenik sortzen - foroetan idatziz gero ez du posta elektronikora edo mobilera mezurik bidaliko. 
+
+Ikastaroaren hasiera-data eta Ikastaroaren amaiera-datek ikastaro zerrenda ezberdinetan ikastaroak nola sailkatuko diren baldintzatuko dute (Hasiera orriko “Nire ikastaroak: Martxan eta Etorkizunean” ezkerraldean, Aginte-paneleko Ikuspegi orokorrekoan…). Kontutan izan beharreko apunte batzuk:
+
+Ikastaroaren hasiera-data lauhilekoaren hasiera datak finkatzen du eGelan eta eskaera datak eGelaPIn. eGelan irakasleek data hau beraien premietara molda dezakete. Adibidez, astekako formatua aukeratuz gero, lehenengo atalaren hasiera data finkatzeko. 
+
+Ikastaroaren amaiera-datak ez du plataformarako sarbidea baldintzatzen ezta bertako funtzionalitateetara ere (zereginen bidalketa, datetan oinarritutako bukaera irizpideak…). Astekako formatua ezarri nahi izanez gero, ez du amaiera-datak hau baldintzatuko ezta. Ikastaro akademikoaren bukaerarekin bat etorriko da (eGelan) eta eskarian ezarritako datarekin eGelaPIn (gehienezko epemuga urte bat izango da, luzagarria izanik). Amaiera data ezin da aldatu. 
+
+Egungo data baino aurrerako amaiera-data duten ikastaroak Aginte-panela> Ikuspegi orokorra> Ikastaroak-en baitan “Iraganean” sailkatuko dira. Ez dira azaltzen beste zerrendetan
+
+Egungo data hasiera-data eta amaiera-daten artean dagoenean, Aginte-panela> Ikuspegi orokorra> Ikastaroak-en baitan “Martxan” sailkatuko dira ikastaroa. 
+
+Hasiera-data egungo data baina beranduagokoa duten ikastaroak Aginte-panela> Ikuspegi orokorra> Ikastaroak-en baitan “etorkizunean” sailkatuko dira. 
+
+Ikastaroaren ID zenbakia eGela zerbitzuan GAURetik dator eta ezingo da aldatu. eGelaPI plataformaren kasuan, eskaria egitean emandako datuen araberakoa izango da. 
+
+
+
+
+
+Deskribapena
+
+
+
+
+
+Ikastaroaren laburpena eremuak HTML editore bidez gure ikastaroaren deskribapena gehitzeko aukera ematen du. Testu hau izango da “Aginte Panelea”n azalduko dena, baina ez hasierako “Nire ikastaroak” zerrendan. Laburpenari eskainitako gunea ez da oso zabala, 140 karektere soilik onartuz- kopuru horretatik aurrera testua ebaki egingo da. “Erabilera libredun irudiak” (1) gehi daitezke laburpenean adierazitakoaren osagarri gisa. Irudiak jakintza alorretan sailkatutako karpetetan azaltzen dira (2). Beste irudiren bat erabiliz gero, erabilera lizentziak errespetatzea ezinbestekoa izango da.      
+
+
+
+Ondoko irudian konprobatu daiteke:
+
+“Aginte panela” nabigazio menuaren baitan
+
+Berez azaltzen den irudia ordezkatzen duen “erabilera libreko biltegiko” irudia
+
+Aurrerapena islatzen duen adierazlea, beti ere “ikastaroaren osaketaren jarraipena” aktibatuta dagoenean
+
+“Ikastaroaren laburpenean” gehitutako testua 
+
+
+
+Ikastaro-formatua
+
+ 
+
+Ikastaro formatuaren bidez ikastaroaren diseinua zehazten da. 
+
+Formatua (1)
+
+Formatua eremuan lau aukera eskaintzen dituen zerrenda dago. Aukerarik ohikoenak gai-formatua  eta aste-formatua dira, baina gaiak fitxetan aukera ere azpimarratzen dugu.  
+
+Gai formatua- Ikastaroko orrialdea gaika antolatzen da (formatu hau berez aplikatuta agertzen da)
+
+Aste formatua- ikastaroko orrialdea asteka antolatzen da, eta lehen atala ikastaroa hasten den datako lehen astea izango da 
+
+Jarduera Bakarreko formatua- Jarduera edo baliabide bakarra erakusten du (adib. Galdetegi edo SCORM paketea) 
+
+Foro formatua – Ikastaroko orrian foro bat azaltzen da soilik. 
+
+Gaiak fitxetan- Aurkezpen orrian atal guztiak erakutsi beharrean edukia fitxen bidez antolatzea ahalbidetzen du, batetik bestera nabigatuz.
+
+
+
+Ezkutuko atalak (2)
+
+Ezkutuko atalak eremuari esker, aukeratu ahal izango dugu ea ezkutuan dauden atalak ikasleei nola erakutsi. Berez azaltzen den aukera “ezkutuko atalak tolestuta erakutsi” mantenduz gero, ikasleek jakingo dute gai batzuk ez daudela une horretan eskuragarri ikastaroan. Aldiz, beste aukerarekin (“ezkutuko atalak guztiz ezkutatu”) atalak ikasleentzat guztiz ikusezin izango dira.
+
+Ikastaroaren diseinua (3)
+
+Ikastaroaren diseinua aukeraren bidez, eduki guztia aurkezpen orrian agerraraztea sahiesteko aukera eskaintzen da. Bloke bakoitzaren izenburua eta bakoitzaren baitan dauden jarduera edo baliabideen zerrendaketa  azalduko da soilik orrialde nagusian. Bloke bakoitzaren gainean sakatzean bere baitan dagoen eduki guztia kontsultatzeko aukera zabalduko lirateke. Bloke edo atal batetik bestera joateko behealdean azaltzen den hautagailua erabili ahal izango da (gorriz adierazita daude)  Hala eta guztiz ere, edizioa aktibaturik dagoenean, atal guztiak orri berdinean azalduko dira- segur ski, baliabide eta jarduerak atal batetik bestera mugitzea errazteko . 
+
+
+
+Gaiak fitxetan 
+
+Ikastaro formatua “fitxetan” izatea aukeratzen denean formularioan aukerak gehitzen dira. Ondoren konfigurazio posible bat erakusten da.
+
+ Azaltzen diren aukera horien artean, “0 gaiaren bistaratze-modua” atalean “fitxen aurretik (2)” aukeratzea aholkatzen da- modulu hau beti besteen gainetik ikusgai mantentzeko.
+
+
+
+
+
+Ondokoa izango litzateke lau gai dituen ikastaroaren itxura.
+
+
+
+Fitxa eta azpiatalen konfigurazio aurreratua
+
+Fitxa bakoitzak azpiatalak izan ditzake. Horretarako azpiatal bihurtu nahi dugun fitxaren “editatu” menuaren gainean sakatu eta “editatu atala” aukeratuko beharko da.
+
+
+
+Ondoren agertzen den formularioa zabalduko da. Fitxa bakoitzaren izena  (1) adieraz daiteke baita fitxa bat beste bateren menpe dagoen edo ez. (2) Ondoren azpiatal horren izena alda daiteke.  Kasu honetan ez dugu izena aldatuko baina bai azpiatalarena (ikusi zehaztutako konfigurazioaren emaitza ondorengo irudian)  
+
+
+
+
+
+Fitxen ediziorako tresnak
+
+
+
+Ikastaro formatu  hau dela eta, fitxa batetik bestera fitxategiak mugitzea  ez da beste formatuetan bezain intuitiboa. “Edizioa aktibatu”rik dagoela “Fitxen ediziorako tresnak” aukeran sakatuz gero ondoko aukerak azaltzen dira:
+
+Mugitu nahi den fitxa/gaian kokatu -0 gaian izan ezik- eta ondoren, zein fitxa/gaira mugitu nahi den zehaztu beharko da. 
+
+“Ezgaitu” aukera sakatuz gero, “drag and drop” metodoa ezgaitzen da eta baliabideak fitxen artean mugitzea lortzen da.
+
+Bikoiztu oraingo gaia sakatuz gero, fitxa berri bat sortzen da gauden fitxaren eskuinaldean, edukien kopiarekin 
+
+
+
+Itxura
+
+
+
+
+
+
+
+Behartu hizkuntza eremuarekin, ikastaroaren aukera eta menu guztiak aukeratutako hizkuntzan azalduko dira, hizkuntza hautatzailearen menua desagerraraziz.
+
+Albiste-kopurua eremuari esker, bestalde, e ikasleek 'Berriak' foroko zenbat mezu “Azken berriak” blokean azaltzea  nahi den zehatz daiteke
+
+Erakutsi kalifikazioak ikasleei eremuarekin, aktibitateen kalifikazioak ikasleei erakusteko edo ez erakusteko aukera izango dugu. Irakasle bati ikastaro batean ez bazaio interesatzen kalifikazioak erabiltzea, edo ikasle-rola duten pertsonei ezkutatu nahi badizkie, kalifikazioak agerrarazteko aukera desaktibatu dezake, "Ikastaroaren ezarpenetan". Baina horrek ez du galarazten bakarkako aktibitateetarako kalifikazioak erabiltzea edo finkatzea; ikasleek emaitzak “Kalifikatzailean” ikustea  galarazten du soilik.
+
+Erakutsi agerraldien txostena eremuari esker, irakasleek erabaki dezakete ikastaroko aktibitate-txostenak ikasleei erakutsi nahi dizkieten ala ez. Irakasleek beti edukiko dute erregistro hauetara sarbidea..
+
+
+
+Fitxategiak eta igoerak
+
+
+
+
+
+eGELA Zerbitzuan, igo daitezkeen fitxategien gehieneko tamaina 20 MBkoa da. Alabaina, irakasleak bestelako muga baxuagoak ezar ditzake ikastaroan zein aktibitateetan. “Editatu ezarpenak” atalean zehazten den tamaina ikastaro mailan aplikatzen da.  
+
+Osaketaren jarraipena
+
+Erabilera honi esker, irakasleek baldintza batzuk finka ditzakete, bai baliabide, jarduera edo ikastaro osoari, ikasleak ikastaroa osatu duela aintzat hartzeko. Askotariko baldintzak izan daitezke: zenbait aktibitate amaitu izana, muga-data bat jartzea edo irakasleak eskuz egin ahal izatea…
+
+	
+
+	
+
+
+
+Aukera hori aktibatzeko, lehenik eta behin, ikastaroan aktibatu beharko dugu. Hala eginez gero, beste esteka bat azalduko zaigu "Ikastaroaren kudeaketa" menuan: "Ikastaro-osaketa". Esteka horretan klik eginez gero, gure ikasleek ikastaroa amaitu dutela aintzat hartzeko finkatuko ditugun baldintzak definitzeko aukera emango digun formulariora sartuko gara. Informazio gehiago Jardueren jarraipena egiteko tresnak, eskuragarritasuna mugatu eta dominak
+
+
+
+Taldeak 
+
+
+
+Taldeekin lan egiteko aukera ematen dago, bi mailatan: bat, ikastaro mailan (taldeko lana daukaten aktibitateentzat), "Ikastaroaren ezarpenak" formularioko atal honetan definitutako aukera; eta beste bat, aktibitate mailan (dagokion aktibitateak taldeko lana eskatzen badu).
+
+Talde Modua: Hiru dira  aurkituko ditugun aukerak
+
+	Talderik ez: ikasle guztiak komunitate berekoak dira
+
+	Ageriko taldeak: ikasle bakoitzak bere taldearen barnean lan egiten du, baina ikus ditzake beste talde batzuk ere
+
+	Bereizitako taldeak: ikasle bakoitzak bere taldea baino ezingo du ikusi; gainerakoak ikusezinak izango dira
+
+Behartu talde-modua aukeran "BAI" sakatuz gero, talde-modu hori ikastaroaren aktibitate guztietan aplikatuko da.
+
+Lehenetsitako taldekatzea. Taldekatzeak definitu ez badira, "bat ere ez" azalduko zaigu aukera bakar moduan.
+
+Gure taldeak sortzeko, "Ikastaroaren kudeaketa"ra jo eta "Erabiltzailearen estekak" zutabearen baitan > Taldeak aukera sakatu beharko da. Informazio gehiago Erabiltzaileen kudeaketarako tresnak: erabiltzaile gehitu eta taldeak eskuliburuan. 
+
+Rolei izena aldatu
+
+Eremu honetan, plataformaren rolen izenak aldatu ahal izango ditugu, ikastaro mailan. Aldaketak izenari soilik eragingo dio; ez rolari atxikitako baimenei.
+
+Blokeak
+
+Blokeek informazio edo funtzionalitateak gehitzen dizkiete ikastaroei. Bi gunetan azal daitezke:
+
+“Ikastaroko Blokeak” izenekoa zabalduz (ondoko irudian 3 bloke ezberdin dituelarik)
+
+Eskuinaldeko zutabean blokeei egokitutako gunean
+
+
+
+Ikastaroko edukien osagarri gisa interesgarriak izan daitezke. Baina kontuan izan behar da 1) blokeetako edukia ez dela mugikorretako aplikazioetan agertzen eta 2) pantaila estuetan, orriaren behealdean azal daitezkeela.
+
+Helburu ezberdina duten bloke pila daude (duela gutxiko aktibitatea, saioa hasitako erabiltzaileak, jardueraren emaitzak …). Bloke erabilgarri bat,  HTML blokea da, zeinak edukiak alboetako barretan libreki gehitzea ahalbidetzen duen (irudiak, estekak, erabiltzailearen tuit-ak …)
+
+Orri baten baitan bloke bat gehitu
+
+Orri baten baitan  blokeak gehitzeko, Ikastaroko blokeak  zabaldu eta ondoren "Gehitu blokea" aukeratu beharko da (eskuinaldean behealdean).
+
+
+
+Blokeen konfigurazio aukerak
+
+Blokea gehitu ondoren, beronen konfigurazioa zehazteko ikonoan sakatu beharko da.
+
+
+
+Zenbait blokek atal bereziak dituzte- duten erabileraren arabera. Guztietan aldiz, bi atal agertzen dira, kokapena eta ikusteko modua. 
+
+Non agertuko den bloke hau 
+
+
+
+
+
+
+
+Atal honetan blokea non azalduko den zehaztu ahal izango da:
+
+Blokearen jatorrizko kokapena: Blokea sortu zeneko jatorrizko kokapenari buruzko informazioa ematen du 
+
+Erakutsi orri-mota hauetan: hiru aukera eskaintzen ditu:
+
+Edozein motatako ikastaroko hasiera-orria: 
+
+Edozein ikastaro orri: aurrekoan aipatutako gauza bera
+
+Edozein orri: orri guztietan, orriaren arabera bere kokagunea alda dezakeen arren
+
+Lehenetsitako kokapena: ondoko aukerak aurkezten dituelarik:
+
+“Ikastaroko blokeak” atalean, hiru zutabeekin (A, B, C)
+
+Eskuinaldeko zutabean blokeei egokitutako gunean
+
+Lehenetsitako pisua: beste blokeekiko non azaltzea nahi den. -10 goialdean jarriko du, 10 behealdean, 0 neutral da.
+
+Orri honetan 
+
+Ikusgai - Bai edo ez
+
+Kokapena- hemen zehatz daitezke orrian izango duen kokapenari buruzko gurariak.
+
+Pisua:  hemen orrian izango duen pisua adierazi daiteke
+
+
+
+
+
+
+
+
+
+9Estructura y ajustes generales de un aula virtual
+
+
+
+
+
+9Gela birtualaren egitura eta ezarpen orokorrak

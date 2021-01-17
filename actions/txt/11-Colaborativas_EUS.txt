@@ -1,0 +1,229 @@
+Jarduera  Kolaboratiboak 
+
+Glosategiak, Datu baseak eta Wikiak
+
+Irakasleentzako eskuliburua
+
+bertsioa (2017/02/24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Honako eskuliburu hau Universidad del País Vasco / Euskal Herriko Unibertsitateako eCampusak landu du.
+
+Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren  mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago. Lizentzia horren kopia ikusteko sartu  http://creativecommons.org/licenses/by-nc-sa/3.0/es/ helbidean
+
+
+
+Dokumentu hau ez da ikastaroan lantzen diren eduki guztiei buruzko eskuliburu bat, eskeintzen dituen erabilerei buruzko eskema, erabilera ideiak eta informazio zehatzagoa eskaintzen duten beste dokumentu eta baliabideetara estekak eskuragarri jartzen dituen dokumentua baizik. 
+
+eGELAko tresna zehatz batzuk, glosategi, wiki eta datu baseak adibidez, edo kanpoko beste tresna batzuk, Wikipedia , blogak edo YouTube adibidez, ikasleek edukiak era kolaboratiboan  sortzeko euskarri izan daitezke. Eduki hauek adibidez, irakurketarako bidalitako dokumentuaren laburpena egiteko, informazio bilaketa baten ondorioa, termino edo erreferentzia bilduma lortzeko edo ikasgaiari buruzko “apunteak” izan daitezke. 
+
+Ondoren tresna hauei buruzko azalpentxo bat erabilerari buruzko adibideak eskaintzen dira. Ekarpen hauek irakaslegoari eskainitako prestakuntza ikastaro batetik jaso dira - bertan azken zeregin bezala erabilera ideia bat azaltzea eskatzen zitzaien. Dokumentu honetan unibertsitate mailako irakaskuntzan tresna birtual hauek izan dezaketen erabilerari adibideak laburbiltzen dira. 
+
+Glosategiak
+
+Glosategiek termino-definizio zerrendak era kolaboratiboan sortzea ahalbidetzen dute.
+
+“Erakusteko era” ezberdinak daude.
+
+
+
+Formatua
+
+Sarrera
+
+Egilea
+
+Data
+
+Definizioa
+
+Irudia
+
+Erantsiak
+
+Arrunta, hiztegi erakoa
+
+x
+
+-
+
+-
+
+x
+
+x
+
+Esteka
+
+FAQ
+
+x
+
+-
+
+x
+
+x
+
+x
+
+Esteka
+
+Osorik, egilerik gabe
+
+x
+
+-
+
+x
+
+x
+
+x
+
+Esteka
+
+Osorik, egilea eta guzti
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Esteka
+
+Entzikopedikoa
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x*
+
+* Erantsitako irudiak testuarekin batera erakusten dira. 
+
+Irakasleak balioztatze forma ezberdinak ezarri ditzake: 1) ikasleen sarrerak argitaratu aurretik balioztatuak izan beharra dutela eskatzen duen aukera bada 2) Glosategi nagusi eta bigarren mailakoak daude. Irakasleak bigarren mailako glosategitik nagusira terminuak esporta ditzake (ikastaro berean).  
+
+
+
+Irakasleak sarrera bakoitzean izango den  kalifikazioa aktiba dezake 
+
+Bista ezberdinak daude eskuragarri (alfabetikoa, kategoria, data, egilea). Bilatzailea  erabil daiteke baita.
+
+
+
+Partaideek , aktibatuta izanez gero,  sarrerak komenta ditzakete. 
+
+
+
+Ikasleek egindako ekarpenak direnez gero, edukiak gune batetik bestera migratzerakoan  glosategiaren konfigurazioa soilik migratzen dute. Glosategiak datu fitxategi baten bidez edukiak (terminoak, definizioak, erantsitako fitxategia) esportatu/inportatu aukera dauka. Kontutan izan behar da,  inportatzean definizio horren egilea gune berrian ez badago, egile bezala inportazioa gauzatu duen irakasle rola duen erabiltzailea azalduko dela. 
+
+Eskuragarri dago baita, “estekatze automatikoa” aukera, zeinak foro, zereginetan… agertzen diren terminoei automatikoki estekatzea ahalbidetzen duen.
+
+Erabilera adibideak:
+
+Gizarte Zientzietako irakasle baten proposamena: “Proiektuaren gako-hitzak lantzeko bigarren mailako glosategia prestatuko dugu. Glosategiaren ezarpenetan ikasleen partaidetza mota baieztatuz, ikasle nahiz irakasleen artean osatzen joango gara “entziklopedia” erako glosategia. Horren bidez jakingo dugu, -beste gauza askoren artean-, definizioa, egilea eta data zeintzuk diren.” 
+
+Proposatutako irakurgaietatik gutxieneko terminu kopuru bat biltzea eskatzen zaie ikasleei. Zeregin honek  irakasgaia irauten duen bitartean iraungo du eta azken ebaluazioan pisu zehatza bat dauka, puntu erdi hamarretik. Beste batzuetan, puntu estra (eGelak eskaintzen duen aukera, zeinak ezarritako puntuazioa azkenean gehitzea suposatzen duen, beti ere gehienezko nota ez duenean).  
+
+Informazio gehiago https://docs.moodle.org/all/eu/Glosategiak 
+
+Datu baseak 
+
+Ikasleek era kolaboratiboan lantzen hari diren edukientzat interesgarriak izan daitezkeen erreferentzi bibliografikoen edo beste baliabideen  bilduma egiteko erabil daitezke. Hauek dira datu baseen ezaugarri nagusiak: 
+
+Irakasleak diseinatutako txantiloi batean datuak gaineratzeko aukera ematen die erabiltzaileei (Sarrerak testua, irudiak edo bestelako informazio-formatuak izan daitezke)
+
+
+
+Datuen edizio eta bistaratzerako eskuragarri dauden txantiloiak bakoitzaren aurkezpenetara egoki daitezke edo “aldagai” hitzak # ikurren artean gehi daitezke baita: adibidez,  #user# txantiloian gehituz gero, zerrenda edo orriko sarreraren egilearen izena azalduko da . Aldaketak editorearekin egitea posible bada ere, akatsen edizio eta garbiketarako errazagoa da  HTML oinarrizko ezagutza izanez gero.
+
+
+
+Irakasleak,  ikasleek beste kideen sarrerak ikusi ahal izateko, bete beharreko sarrera kopuru bat ezar dezake. Gainera irakaslearen onarpena behar izatea edo iruzkinak gehitzeko  aukerak aktiba daitezke. 
+
+
+
+Erabilera adibideak:
+
+Biologiako irakasle batek bere lehen mailako Graduko ikasleei datu base bat egitea eskatzen die beraiek gai bakoitzean egokienak derizkien hitzekin. Gainera, ikaskideek egindako ekarpenak baloratzea eskatuko zaie. Jarduera honekin ikasleek beraien informazio iturriak dibertsifikatzea bilatzen da: “Klaseko apunteak eta Wikipedia albo batera uzten lagunduko die honek edozein gai prestatzerakoan” 
+
+Informazio gehiago: https://docs.moodle.org/all/eu/Datu-basea
+
+Wikis       
+
+Wikia web gune kolaboratiboa da- edukiak editatu, orrialde berriak sortu…. Alde batetik, edizio baimen kontrol “falta” hau izan arren  bestaldetik bertsioen historiko bat gordetzen dute, horrela ustekabean ezabatuz gero, behar den bertsioa berreskuratzea posible delarik. Dokumentu kolaboratzaileengandik bereizten da wikia baita esteken bitartez lotutako dokumentu multzoa den heinean. Hau da, hasierako orrialdean salbu, ez dago orrialdeen arteko hierarkiarik.  
+
+eGelan wiki bat sortzean, “Elkarlanerako wikia” edo “Norbanakoaren wikia” aukerak zabaltzen ditu- azken aukera hezkuntza plataforma batean ohikoena izan ez arren, interesgarria izan daiteke bidalketa indibidulen jarraipena egiterakoan. 
+
+
+
+Berezkoa formatua (HTML) behartutako formatu bezala markatzea komeni da; izan ere, eGelako beste ataletako edizio bera mantentzea lortzen baita. Formatu aukeraketa agertzearen arrazoia wikiak sortu zirenean banda zabalera urria izanik, komunikazioak arintzeko asmoz sortu ziren kodigo zehatzak wikien testuetarako. Baina gaur egun, banda zabalera arazoa ez denez, komenigarria da erabiltzaileek ezagun duen edukien editorea mantentzea. Gainera, horrela ikasleek orrialde bat sortzen duten bakoitzean formatua aukeratu behar izana saihesten da.   
+
+
+
+Aurreko baliabideekin alderatuz, wikiak ez du kalifikazio atalik. Ikasle bakoitzaren partaidetza baloratzeko tresna zehatzik ere ez du. Orrialde bat zein ikaslek editatu duen zehazteko tresna bat bada, baina informazio orokorra lortu nahi baldin bada, (Kudeaketa>>Wikiaren kudeaketa>>Agerraldiak ) jarduera agerraldietara jotzea beharrezkoa da. 
+
+Orrialde berriak sortzea eta barne loturak baliteke erabiltzaile bezala gehien harritu dezakeen atala izatea eta ikasleei azaltzean zailtasun gehien ematen dituena izaten baita  
+
+
+
+Orrien goialdean erlaitzen bidez informazio gehigarria eskaintzen da (editatu, iruzkinak…)
+
+
+
+ Aurreko irudiak ikus daitekeenez, irakasle rola dutenek “Kudeaketa” izeneko erlaitza izango dute, zeinak orriak eta orri bertsioak ezabatzea ahalbidetzen duen. 
+
+
+
+Erabilera adibideak:
+
+Wikiak laburpen edo edukien zati zehatzetarako erabil daitezke, berrikuste aukerak eta balioztatze aukerak sartuz
+
+Adibidez, Ingeritzako irakasle batek,  Puzzle metodologiaren bidezko zereginaren baitan sortutako adituen taldeei wiki bat (bakoitzak duen lan taldeari aholkularitza eman  beharreko gaiari buruz). Wiki hauek irakasleak aztertu ondoren, ikasleen esku jartzen dira.  
+
+Antzeko beste egoera batean, Ingenieritzako beste irakasle batek gaiaren edukien zati bat wiki bidez sortzea proposatzen die. Ikasleak “elkar ikusten duten” taldeetan lan egiten dute eta irakasleak erregularki gainbegiratzen die.  Ondoren, ikasle bakoitzak beste taldeetako lanak gainbegiratzen ditu. Bukatzeko, irakasleak laburbildu eta talde bakoitzari taldekideengandik jasotako komentarioak bidaltzen dizkie, eta hauek  beraien lana berrikusi beharko dute (edo zergatik egiten ez duten argudiatu).  
+
+Diseinu sofistikatu baten bidez Biologiako irakasle batek bi fasetan bereizten duen planteamendua du. Lehenik, talde bakoitzak ahozko aurkezpen bat egiten du eta ondoren, tailerra izeneko tresnaren bidez idatzizko dokumentu batean islatzen du aurkezpen hori. Ikaskide eta irakasleen komentarioak kontutan izanik, irakasleari  bigarren bertsioa bidaltzen die. Azken berrikusketa egin ondoren, beste taldekideek egindako lanarekin batera irakas-edukia sortzeko erabiliko dute. 
+
+Arkitekturako irakasle batek beraien ikasleek egin behar dituzten praktikak gainbegiratzeko wikien erabilera proposatzen du. Ikasleek aurrerapen eta intzidentzia guztiak apuntatu behar dituzte tresna honetan, eta gelan egin beharreko aurkezpenerako lagungarri izango da. Era berean, orrialde bakoitzeko “Historia” izeneko erlaitzak lana era egokian egin denaren fede emango du. 
+
+Informazio gehiago: https://docs.moodle.org/all/eu/Wikiak
+
+
+
+
+
+		Jarduera kolaboratiboak, Glosategiak, Datu baseak eta Wikiak	7
+
+
+
+
+
+2Conclusiones base de datos MoodleCourse.docx

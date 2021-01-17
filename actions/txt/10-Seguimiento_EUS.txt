@@ -1,0 +1,590 @@
+Jardueren jarraipena egiteko tresnak, eskuragarritasuna mugatu eta dominak 
+
+Irakasleentzako eskuliburua
+
+1. bertsioa (2018/09/09)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Honako eskuliburu hau Universidad del País Vasco / Euskal Herriko Unibertsitateko eCampus-ek landu du.
+
+ Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago.  Lizentzia horren kopia ikusteko, sartu http://creativecommons.org/licenses/by-nc-sa/3.0/es/ helbidean
+
+Edukiak
+
+	Partaideak	3
+
+	Txostenak	4
+
+	Agerraldiak	5
+
+	Une honetako agerraldiak	5
+
+	Ikastaroaren jarduera	5
+
+	Ikastaroaren partaidetza	6
+
+	Jarduera-osaketa	6
+
+	Nola gaitu funtzio hauek?	7
+
+	Jarduera-osaketa tresnaren konfigurazioa	7
+
+	Gainditzeko gutxieneko kalifikazioa konfiguratu	9
+
+	Non azalduko da informazio hau?	9
+
+	Estatistikak	10
+
+	“Osaketaren aurrerapena” blokea	11
+
+	Konfigurazioa	11
+
+	“Osaketaren aurrerapen” blokearen itxura	14
+
+	Ikastaro osaketa	17
+
+	Konfigurazioa	17
+
+	Mugatu eskuragarritasuna	22
+
+	Baldintzen konfigurazioa (1) murriztuta baina agerian	22
+
+	Baldintzen konfigurazioa (2) ezkutuko elementua	23
+
+	Eskuragarritasuna mugatzen duten baldintzak ezabatu	24
+
+	Dominak (edo Badges)	25
+
+	Konfigurazioa	25
+
+	Gehitu domina berria	25
+
+	Kudeatu dominak	26
+
+	Jasotako dominak kudeatu	27
+
+	“Atal umezurtzetan” dauden esteka ezkutuak	29
+
+
+
+
+
+
+
+
+Partaideak
+
+“Partaideak” atalean ikastaroan matrikulatutako erabiltzaileen zerrenda azaltzen da. Atal honetan azaltzen diren aukerak Kudeaketa > Erabiltzaileak atalean daudenetatik bereizi behar dira – azken honetan erabiltzaileei alta/baja ematea, rolak aldatzea … aukerak daude. 
+
+
+
+Azaltzen den partaide zerrendatik, partaide guztiak edo baten bat aukeratu eta horiekin ekintza desberdinak egiteko aukera dago.
+
+Besterik adierazi ezean, “Partaideak” atalean erabiltzaileen zerrenda plataformara izandako azken sarreraren araberakoa izango da eta lehenengo 20ak erakutsiko ditu soilik. Kopuru hau baino gehiago direnean taularen beheko aldean orri desberdinetan banatzeko aukera edo orri bakar batean azaltzeko aukera izango da.
+
+Taularen goiko aldean bilaketa mugatzeko aukera desberdinak ematen dituen zenbait menu daude - ondorengo irudian ikus daitekeen bezala
+
+
+
+Menu honek kurtsoz aldatzeko aukera ematen du
+
+Rola aldatzeko aukera ematen du
+
+Bilaketa taldeen arabera egiteko aukera ematen du
+
+Epe jakin  bat baino gehiago sartu gabe egon diren erabiltzaileak bilatzeko aukera ematen du
+
+Zerrenda aurkezteko era aukera daiteke (“Laburra” edo “Xehetasunekin”)
+
+Taularen beheko aldean, aukeratu guztiak  edo bat ere ez  ikus daiteke eta aukeratutako erabiltzaileekin egin daitezkeen ekintzen zerrenda zabaltzen da:
+
+
+
+Mezua bidaltzeko aukera (honen inguruko informazioa “Mezularitza” atalean)
+
+Oharra, banakakoa edo guztientzakoa, gehitzeko aukera. Irakasleari erabiltzaile jakin bati buruz edo orokorrean oharpen bat gehitzeko aukera ematen dio. Aipatu baita, ohar hauek hiru testuinguru izan ditzaketela (ikusi 4. irudia)
+
+
+
+Ohar “pertsonala” idazten duenak bakarrik ikusiko du. “Ikastaro”ko oharra ikasgelako irakasle guztiek ikusiko dute. “Gunea” testuinguruko oharra aldiz, eGela-n irakasle rola duen edozeinek ikusiko du.
+
+Txostenak
+
+Partaideen blokea kontsultatzea jarduera kontrolatzeko era azkarra da; izan ere, ikasleak gunera sartzen ari diren jakitea ahalbidetzen du eta. Baina ikastaroko jardueren nondik norakoari buruzko informazio zehatzagoa izateko Kudeaketa > txostenak aukerara kontsulta daiteke. Berez, eGelako gune guztiek ondoko aukerak erabilgarri dituzte.
+
+
+
+
+
+
+
+ Multzo honetan azaltzen diren aukerak (Agerraldiak, Une honetako agerraldiak, Ikastaroaren jarduera, Ikastaroaren partaidetza eta Jarduera-osaketa) eGela eta eGelaPI plataformetan eskuragarri daude.
+
+“Jarduera-osaketa” aukera azaltzeko aurretik ikastaroko ezarpenetan aktibatu behar da. 
+
+“Estatistikak” aukera soilik eGelaPIn azaltzen da. 
+
+Agerraldiak
+
+Atal honek aukera multzo bat eskaintzen du, eta ikastaroan sartu diren erabiltzaileak irizpide ezberdinen arabera (“Taldea”, “Izena”, “Data” “Jarduera edo Baliabidea”, “Ekintza” (ikusi, gehitu, eguneratu, ezabatu).banatzeko aukera ematen du. Lortutako datuak (ordua, IP helbidea, erabiltzailearen izena, ekintza, baliabide edo jarduera) orrian bertan edo fitxategi batean deskargatzeko aukera izango da.
+
+Erregistratuta gelditzen diren ekintzak ondokoak dira: atal ezberdinetara sarbidea, fitxategien deskarga, jardueretan egindako ekarpenak eta edizio baimendun erabiltzaileek egindako aldaketak. Beraz, ikastaroaren garapena, informazio galerak, plataformaren funtzionamendu akatsak aztertzeko  tresna oso erabilgarria da. Baina, “datu gordinak” diren heinean beraiekin lan egitea oso konplexua gerta daiteke. Lortutako informazioarekin nola lan egin eskuliburu honetatik kanpo geldituko litzateke.
+
+Une honetako agerraldiak
+
+Aparteko leiho batean azken hamar agerraldiak azaltzen dituen taula aurkezten du 
+
+Ikastaroaren jarduera
+
+Ikastaroei buruzko informazio orokorra azaltzen duen taula erakusten du, baliabide edo jarduera bakoitzeko lerro bat duelarik eta ondoko informazioa  zutabeetan ( Ikustaldiak, Harremana duten blog-sarrerak, Azken sarrera ) antolaturik. Baliabide interesgarria da erabiltzaileak ikastaroko atal guztietara sartzen diren aztertzeko. Partaideek bidalketarik  egin ez dutenean Ikastaroan izaten ari diren aurrerakuntza aztertzeko baliagarri da, izan ere, aurrerakuntza ez baita “Jarduera-osaketa”ko taulan islatzen.
+
+ 
+
+
+
+	
+
+“Ikastaroaren jarduera” aukerak erakusten duen taulak irakasle roldun erabiltzaileak ere azaltzen ditu, goialdeko irudian gorriz adierazten den bezala. Kasu honetan, ikasleek eskuragarri ez duten dokumentu bat izango litzateke beraz, islatzen diren agerraldi irakasle roldun erabiltzaileenak izango lirateke. Gainontzeko kasuak erabiltzailearen rolaren arabera bereiztean ezinezkoa da.
+
+Ikastaroaren partaidetza
+
+Atal honek erabiltzaile bakoitzeko eta atal bakoitzeko informazioa azaltzen du.  Ondorengo irudian ikus daiteken bezala, fomularioak jarduera mota (1), noizko agerraldiak aurkeztea nahi den (2), zein rol dun erabiltzailea aztertu nahi diren (3), eta zein ekintza mota (Ikusi edo Mezua) jasoko diren (4) zehazteko aukera ematen du. Lortutako taulan (5) kontsulta bakoitzerako dauden erabiltzaile kopurua eta (6) partaide bakoitzak duen agerraldi kopurua agertuko dira
+
+
+
+	
+
+Jarduera-osaketa 
+
+Plataformak ikastaroko jardueretan ikasleek duten aurrerapen maila ezagutzeko duen  tresna da hau. Informazio honen hartzaileak hauek dira:
+
+Ikaslea alde batetik, jardueretan izandako aurrerapenari buruzko informazioa
+
+Irakaslea beste aldetik, ikasle guztien aurrerapenei buruzko informazio orokorra
+
+Gainera, tresna honi esker lortutako informazioa plataformarentzat berarentzat ere erabilgarri da, baliabide eta jardueretara baldintza jakin batzuen arabera egindako sarrera kontrolatzeko.
+
+Nola gaitu funtzio hauek?
+
+Aukera hauek berez, aktibatu gabe daude. Aktibatzeko ondorengo irudian Kudeaketa > Ikastaroaren kudeaketa > Ezarpenak editatu azaltzen den aukera markatu behar da.
+
+
+
+
+
+
+
+Behin funtzio hau gaituta, ikastaroko baliabide eta jardueren formulario guztietan ordoren irudian azaltzen diren atalak erakutsiko dira: 
+
+Jarduera-osaketa. Irakasleak baliabide edo jarduera bat noiz gainditu den zehazteko irizpide ezberdinak aukera ditzake
+
+Mugatu eskuragarritasuna: baliabide edo jarduera batean izandako osatze mailaren arabera, baliabide edo jarduera berri batera sarrera mugatu
+
+
+
+Jarduera-osaketa tresnaren konfigurazioa
+
+3 aukera eskaintzen dituen menua azalduko da lehenik eta behin – ondorengo irudian ikus daitekeen bezala:
+
+
+
+(2) Erabiltzaileek eskuz marka dezakete jarduera osatu gisa
+
+(3) Erakutsi jarduera osatu gisa baldintzak betetzen direnean
+
+Bigarren edo hirugarren aukera markatuz gero, ikastaroko orrialde nagusian dagokion baliabide edo jarduerarekin lotura duen laukitxoa azaltzen da.
+
+Bigarren aukeraren kasuan, ikasleak nahi duenean eskuz markatu ahal duen laukitxoa ikusiko du, zeina tik  urdin batekin nabarmenduko den. Irakasleak tik  gris bat ikusiko du, zeina jarduera eskuz markatzeko konfiguratua izan denaren adierazgarri izango den.
+
+
+
+
+
+Hirugarren aukerarekin aldiz (Erakutsi jarduera osatu gisa baldintzak betetzen direnean), baldintza batzuk aurkezten dira- ezberdinak baliabide edo jardueraren arabera. 
+
+Ikusi beharra dago: ikasleak jarduera hau osatzeko ikusi beharra du. Baliabideetan oso ohikoa da aukera hau, baina ia gehienetan eskuragarri dago. Irakasleak datu bat hautatu behar du erregistratutakoen artetik – baina, baliteke guztiz fidagarria ez izatea, ez baitugu baliabideari eskainitako benetako arretari buruzko informaziorik – edo ikasleak emandakoaren artean- oso subjektiboa izan daitekeena
+
+Kalifikazioa behar du:
+
+Ikasleak kalifikazioa jaso behar du jarduera hau osatzeko. Baldintza hau kalifikatzea ezin bestekoa duten jardueretan onargarria da. Kasu honetan, ikasleak kalifikazioa jasotzean bakarrik ikusiko du laukitxoa osatua. “Gainditzeko kalifikazioa” egonez gero, laukitxoko informazioak ikasleari gainditu duen edo ez erakutsiko dio. Kasu honetan ezinezkoa da item honetako kalifikazioa ezkutatzea – aukera hau baliogabetua egongo litzateke.
+
+Ikasleak bidalketa egin behar du jarduera honetan osatutzat emateko.  Aukera hau jardueretan azaltzen da eskuragarri
+
+(foroetan) Mezuak/ eztabaidak/ erantzunak behar dira:  foroetan parte-hartze era ezberdinen artean aukera daiteke jarduera osatua bezala hartzeko.
+
+Irakasleak jardueraren osaketarako irizpideak zehazten dituenean ikasleak jarduera horri lotutako karratutxoak irizpide horiek bete dituen edo ez erakusten du. Irakasleak kasu guztietarako, aldiz, irudian azaltzen den azkena ikusiko du (automatikoki-gaitua) zeinak jarduera nola konfiguratu duen adierazten dion.
+
+
+
+
+
+Baldintza osatutzat hartzeko formularioan itxiera-data bat zehaztu daiteke. Data hau ez da zertan entregatze-dataren berdina izan behar eta ez dute ikasleek ikusiko.
+
+Behin ikasleek ikastaroan aurrera egin dutenean ez da posible baldintzak aldatzea, datu baseetako informazioa galdu barik.
+
+Gainditzeko gutxieneko kalifikazioa konfiguratu
+
+Jarduera bat gainditu den edo ez jakiteko, gainditzeko gutxieneko kalifikazioa zehaztea beharrezkoa da.  Horretarako, jardueraren ezarpenaren baitan, kalifikazioa atalera jo beharko da. Ondorengo irudian, zeregin baten ezarpenetan zabaltzen den formularioa agertzen da. 
+
+Honela, jarduera gainditutzat emateko beharrezkoa den gutxieneko kalifikazioa ezartzea ahalbidetzen da.
+
+
+
+Aurreko irudian ikus daitekeen moduan, ezarritako muga hori gainditzen ez duten kalifikazioak gorriz azalduko dira “Kalifikatzailean”.
+
+
+
+Non azalduko da informazio hau?
+
+Hurrengo irudian, ikasleei informazio hau nola azaltzen zaien erakusten da
+
+
+
+Irakasleek Kudeaketa > Ikastaroaren kudeaketa > Txostenak > Jarduera – osaketa atalera joaz, ikastaroko elementu guztiak (jarduera eta baliabideak) eta ikasle guztiak azaltzen diren taula izango dute -ondorengo irudian ikusi ahal den bezala.
+
+
+
+
+
+
+
+Ikasle bezala “jarduera osaketarako” ezarritako baldintzak ez daude ikusgai. Beraz, baldintza hauek ikasleek ezagutzeko, adibidez,  jardueren enuntziatua azaltzea komenigarri izan daiteke. 
+
+
+
+Estatistikak
+
+Estatistikak eGelaPIn daude soilik eskuragarri, izan ere, erabiltzaile kopuru handia dagoen plataformetan (eGela) errendimendua kaltetzea  eragina dezake eta. Grafiko batean jarduera aktibitate tamaina astekako tarteetan azaltzen da (agerraldi kopuru gordina. Ondorengo irudian azaltzen den bezala, 1) zein ikastarotan kontsulta egin nahi den, 2) txostenean azalduko diren erabiltzaileen rola eta 3) kontsulta egingo den denbora tartea aukera daitezke.
+
+
+
+“Osaketaren aurrerapena” blokea
+
+“Osaketaren aurrerapena” blokea jardueren jarraipenerako tresna da, ikastaroko ikasleen aurrerapena begi-bistakoagoa egitea ahalbidetuz, ikasle zein irakaslearentzat. Bloke honi esker, “aurrerapen barra” bat erakusten da, non zati bakoitzak ikastaroko elementu bat edo batzuk (baliabide edo jarduerak) adierazten dituen. Zati bakoitzaren osaketa egoeraren zein den arabera, kolorea aldatzen da: Urdina (egingabe), Orlegia (eginda eta gainditua) eta Gorria (eginda eta gainditugabea).
+
+Konfigurazioa
+
+Bloke honekin lan egiteko aurretik baliabide edo/eta jardueretan osaketarako baldintzaren bat finkatzea ezin bestekoa da. Eskuliburu honetako adibideetarako, ondoko irudian azaltzen den bezala,  konfigurazio hau zehaztua duten baliabide bat eta bi jarduerekin lan egingo dugu.
+
+
+
+
+
+Ondoren bloke hau ikastaroan gehitu beharko da. Ekintza hau egiteko 1) edizioa aktibatu eta 2) ezkerraldeko zutabearen behealdean, “Gehitu blokea”ren barne “Osaketaren aurrerapena” izenekoa aukeratu.
+
+
+
+Aukeraketa hau egin ondoren, bloke berria ezkerraldean txertatuko da. 
+
+
+
+Irudian adierazitako ikonoa sakatuz gero, aukera ezberdinak erakusten dituen menu bat zabalduko da; lehenengo agertzen den “Konfiguratu osaketaren aurrerapena blokea” aukeratuko dugu.. 
+
+Ondorengo irudian zabaltzen den formularioa ikus daiteke. 
+
+
+
+Aukera honek baliabide eta jarduerak bi irizpideren arabera antolatzeko aukera azaltzen du. Jardueraren ezarpenetan osaketa irizpidean data/ denbora zehaztu ez bada, hobe da “ikastaroaren ordena”  aukeratzea. 
+
+Mezu honek,  blokean dauden elementu guztiek ez dutela data osaketa irizpide bezala zehaztuta adierazten du.
+
+Elementu ugari direnean barran agertu beharrekoak aurkezpen era ezberdinen artean aukeratu daiteke.
+
+Aukera hau aktibatuz gero, aipatutako ikono horiek barraren zati bakoitzean agertuko dira, osaketaren aurrerapena adieraziko duten koloreez gain 
+
+Aukera hau aktibatuz gero, aurrerapen portzentaia ikaslearen bistan azalduko da. 
+
+“Erakutsi gehiago” sakatuz gero, aukera gehiago agertzen dira- ondoko irudian ikus daitezkeenak..
+
+
+
+Aukera honi esker, bloke hau erabiltzaile guztientzat edo talde jakin batentzat ikusgai egotea defini daiteke.
+
+Aukera honek, blokearen izenburua aldatzea ahalbidetzen du. Beti letra larriz agertuko da.
+
+“Jarduerak barne” jarduera osaketa duten jardueren artean aukeraketa egitea ahalbidetzen du (“Aukeratu jarduerak” zehaztuz). Elementu bat baino gehiago aukeratu edo desaukeratzeko “Ctrl” tekla erabili.   
+
+
+
+Blokearen ezarpenetan blokea non agertzea nahi den aukera daiteke (eskuineko/ezkerreko zutabeetan). Ondorengo irudiko adibidean, eskuinaldeko zutabean goialdean eta edozein motatako ikastaroko hasiera-orrian agertzea zehaztu da, horrela alboko eskuinaldeko zutabea ez duten baliabide eta jardueren orrietan agertzea saihestuz.
+
+Oso garrantzitsua da “Non agertuko den bloke hau” (1) eta “Orri honetan” (2) ataletan aukeraketa berdina egitea.
+
+
+
+“Osaketaren aurrerapen” blokearen itxura 
+
+Ondoko irudian, probako ikasle baten “Osaketaren aurrerapena” blokearen itxura ikus daiteke, eta bertan ondorengo ezarpen aukeraketa egin delarik: ikonoak gehitu, portzentajeak erakutsi eta blokearen izena aldatu.  
+
+
+
+Gainera, irakaslearen bistan, “ikasleen ikuspegi orokorrera” daraman esteka agertzen da, eta ondokoa erakusten du
+
+
+
+Bukatzeko, ondorengo irudian ikastaroko hasiera-orrian blokearen itxura azaltzen da. 
+
+
+
+
+
+
+Ikastaro osaketa
+
+“Ikastaro-osaketa” funtzionalitateak “Osatu” egoera izateko baldintza multzo bat ezartzeko aukera ematen du. Baldintzak irizpide ezberdinen arabera ezar daitezke:  
+
+Irizpide kuantitatiboak: ikastaroan kalifikazio emaitza bat gainditzea, elementu jakin batzuen “jarduera-osaketa” izatea edo matrikulazio iraupena 
+
+Ikastaroko ebaluazio edo norberak eskuz osatzeko baldintzak  
+
+Beste ikastaro batzuen osaketan oinarritutako baldintzak 
+
+Erabilpen honek ikastaroko helburuak bete izana azaleraztea du helburu. Beste gertaera batzuk izateko baldintza izan daiteke baita, ikastaroa “osatu” duen ikasleek domina bat jasotzeko adibidez.
+
+Konfigurazioa 
+
+“Osaketa aurrerapena” ez bezala, erabilpen hau beti dago aktibatuta. Hala eta guztiz ere, egoki funtzionatzeko konfigurazioa aztertu beharra dago:
+
+Ikastaroaren osaketarako baldintzak ezarri beharko dira.
+
+Ikastaroaren ezarpenetan “Osaketaren jarraipena” gaitzea komenigarria da; izan ere horrela, “Ikastaroaren osaketa” zehaztean “jardueraren osaketa” baldintza bezala ezar daiteke eta.   
+
+Ikasleek “Ikastaro-osaketa”ri buruzko txostena kontsultatu ahal izateko “Ikastaro-osaketaren egoera” izeneko blokea gehitu beharra dago. 
+
+“Norberak eskuz osatu” baldintza aukeratuz gero, “Auto-osaketa” blokea gehitu  beharra egongo da aukera hau ahalbidetzeko. Eskuliburu honek ez du aukera hau sakontzen. 
+
+ 
+
+Beraz ondoko pausoak jarraitu beharko dira konfigurazioa zehazteko
+
+Kudeaketa > Ikastaroaren kudeaketa > Ikastaroaren-osaketa menura jo beharko da. 
+
+
+
+Zabaltzen den orrialde honetan baldintza multzo bat agertzen da, eta hauek “Ikastaro osaketa” zehazteko balioko dutenak.
+
+
+
+Lehenik eta behin, “Ikastaroa osatutzat” izateko baldintza “guztiak” edo “batzuk” bete behar diren aukeratu beharko da.   
+
+Ondorengo irudietan, baldintza mota biren konfigurazioa ikus daiteke: “Jarduera osaketa” eta “Eskuz besteren batek osatu” baldintzak. 
+
+
+
+Irudian ikus daitekeen bezala,hiru elementurentzat “Jarduera-osaketa” baldintza aukeratu da. Baldintza hau ezartzeko ezinbestekoa da ikastaroko ezarpenetan “Osaketaren jarraipena” aktibatuta izatea. 
+
+
+
+“Eskuz besteren batek osatu” baldintza honetan irakasleak (irakasle roldunak) markatu ahal izango du ikastaroa bukatu/osatu bezala. 
+
+Hurrengo pausoa, ezkerraldeko zutabean agertzen den “Gehitu blokea”n “Ikastaro-osaketaren egoera” blokea aukeratu.
+
+
+
+
+
+
+
+Ondorengo irudian “Ikastaro-osaketaren egoera” blokea behin ikastaroan ezarri ondoren, ikus daiteke. Itxura ezberdina da rolaren arabera. Bi egoeretan ikastaroaren txostenera daraman esteka ageri da.
+
+. 
+
+
+
+Ondorengo irudian irakaslearen txostena (“Ikastaro-osaketaren egoera” blokean “ikastaroaren txostena ikusi” sakatu) ikus daiteke. 
+
+
+
+“Jarduera osaketarako” baldintzak konfiguratzean “Kudeaketa” > “”Ikastaroaren kudeaketa”ren baitan beste menu bat azaldu da.  Beraz, (1) baldintzak zehazteko orria. (2) Txostenen baitan, aurretik aipatutako txostenera jo daiteke. 
+
+
+
+Ondoren azaltzen dena izango da ikasleak “Ikastaro-osaketaren egoera” blokeko “zehaztapen gehiago” aukeraren gainean sakatzean. 
+
+
+
+
+
+
+
+
+Mugatu eskuragarritasuna 
+
+Funtzionalitate honek ikastaroko elementu zehatz batzuk ikusi edo elementu zehatz batzuetara sarbidea izateko baldintzak ezartzea ahalbidetzen du:
+
+Elementu jakin batzuk ezkutuan edo sarbide mugatua izan dezatela ezar daiteke. 
+
+Elementu hauek eskuragarri izango dira ikasleek ezarritako baldintzak betetzen dituztenean.
+
+Murrizketa hauek ikastaroko baliabide eta jarduera guztietan eta atal/sailetan ezar daitezke. 
+
+Baldintza hauek ezartzeko baliabide, jarduera edo atal bakoitzeko ezarpenetara jo beharko da. Irudian ikus daitekeen bezala, “jarduera-osaketa”, “data”, “kalifikazioa”, “taldea”, “taldekatzea”, “erabiltzaile-profila” dagozkion baldintzak ezar daitezke. 
+
+
+
+
+
+Murrizketa hauetako batzuk ez dira eskuragarri izango aurretiaz sortu ez badira- hori gertatzen da irudian gorriz markatutako aukeretan. 
+
+
+
+Baldintzen konfigurazioa (1) murriztuta baina agerian 
+
+Ondorengo irudian “eskuragarritasun baldintzak” ezberdinak zehaztu direla ikus daiteke. Ikasle roldun erabiltzaileak baldintza “guztiak” edo “edozein” betetzea aukera daiteke
+
+
+
+Hurrengo bi irudietan murrizketa duen elementuaren egoera ikus daiteke. Elementuaren izena grisez azaltzen da eta elementuari lotutako baldintzak adieraziko dira ondoren. Baldintza/k bete ondoren ondokoa gertatzen da:
+
+Ikasle bistan, baldintza bete ondoren elementuaren izenburua urdinez adieraziko da eta baldintzak desagertuko dira.
+
+Irakasle bistan, gris mantenduko da baldintza bete ez duten ikasleak dauden bitartean. Baldintzen inguruko informazioa beti izango da ikusgai.
+
+
+
+
+
+
+
+
+
+
+
+Baldintzen konfigurazioa (2) ezkutuko elementua 
+
+Murrizketa aplikatu zaion elementua baldintzak bete bitartean ezkutuan izateko “begi” formako ikonoan sakatu beharra dago (hurrengo irudian gorriz markatua azaltzen da).
+
+
+
+
+
+Begi itxurako ikonoa sakatzean ikasleek ez dute elementua ikusiko. Irakasleek aldiz, baldintza betetzen ez duten bitartean ikasleek ezkutuan izango dutela adierazten duen esaldia ikusiko dute.. 
+
+
+
+
+
+ 
+
+Eskuragarritasuna mugatzen duten baldintzak ezabatu 
+
+Eskuragarritasuna mugatzen duten baldintzak ezabatzeko ondorengo irudian markatutako “X”n sakatzea baino ez dago. 
+
+
+
+Dominak (edo Badges)
+
+Dominak ezarritako helburu bat lortzeagatik ikasle bati egoki dakizkiokeen aitorpena dira. Automatikoki edo eskuz aman daitezke. Jolas dinamika batean edo ikasleen partaidetza sustatzeko erabil daitezke.
+
+Dominak ikastaro edo leku mailan eslei daitezke.
+
+Erabiltzailean profilean agertzen dira. Ikastaro mailan esleitu direnean,  ikastaroan matrikulatuta dauden guztiek  izango dituzte ikusgai. 
+
+Mozilla Open Badges- ekin bateragarriak dira. Beraz, OpenBadges –eko motxilara esportatu daitezke eta ondoren sare sozialetan  atxiki (Linkedin, Facebook…).
+
+Konfigurazioa 
+
+Gehitu domina berria
+
+
+
+
+
+Dominak > Gehitu domina berria atalean sartu beharko da. Zabaltzen den formularioan dominari buruzko xehetasunak (izena, deskribapena, irudia eta emaileari buruzko informazioa) adierazi beharko dira. Emaileari buruzko xehetasunak adierazterakoan testu planoa denez, nahi dena adieraz daiteke. Gainera, iraungitze data ere zehatz daiteke- besterik adierazi ezean, mugagabea izanik. 
+
+
+
+Dominetan agertzea nahi den irudia karratua izan behar da- osorik ager daitezen- eta ez da handiegia izan behar. Openbadges orrian sartzerakoan posta elektroniko helbide bat eskatuko du, baina irudi hauek diseinatzeko tresna nahiko intuitiboa eskaintzen du.
+
+Dominaren xehetasun guztiak azaldu eta gorde ondoren, aplikazioak “kudeatu dominak” atalera bideratzen du, non domina aitortzeko irizpideak zehaztu beharko diren. 
+
+Kudeatu dominak 
+
+Irizpideak
+
+
+
+Eskuz ematea rolaren arabera: domina eman dezaketen rolak zeintzuk eta rol guztiek onartzea beharrezko bada adierazi beharko da.
+
+Ikastaro osaketa: “Ikastaro osaketa” atalean aipatutako baldintzen araberakoak izango dira eskuragarri azaltzen diren aukerak. Besterik adierazi ezean, gutxieneko kalifikazio bat eta domina lortzeko data ezar daitezke. 
+
+Jarduera-osaketa: honetan azaltzen diren aukerak, aurretik jarduera osatutzat egoteko ezarritako irizpideen araberakoak izango dira. 
+
+
+
+Gaitu sarbidea
+
+Irizpidea zehaztu ondoren, ezinbestekoa da “gaitu sarbidea” sakatzea erabiltzaileek domina irabazteko aukera izateko. 
+
+
+
+Dominak kudeatu
+
+“Domina kudeatzeko” atal honek aukera ezberdinak zabaltzen dituzten hainbat fitxa ditu: 1)  “ikuspegi globala” informazio orokorra erakusten du, (2) “Editatu zehaztasunak” domina sortzerakoan zehaztutako datuak editatzeko aukera zabaltzen da. (3) “Irizpideak” honetan irizpideak erakutsi eta aldatzeko aukera ematen da, (4) “Mezua” jakinarazpen mezua editatzea ahalbidetzen du, (5) “Jasotzaileak” hartzaile zerrenda. Eskuz ematea aukeratuz gero, “Jasotzaileak” fitxak duen jasotzaile zerrendatik  zeintzuk izango diren aukera daiteke. Behin domina emanez gero, ezin daiteke kendu, domina ezabatzen den kasuetan izan ezik- kasu honetan domina mantendu edo ezabatu nahi den aukera ahal izango da. 
+
+Domina sortzen den momentuan ezarpen asko blokeatuta gelditzen dira (irizpideak, iraungitze data…)
+
+Jasotako dominak kudeatu
+
+Domina bat lortzen denean, erabiltzaileek jakinarazpen bat jasoko dute bere posta elektronikoan. Jasotzaileak domina kontsultatzeko ondorengo aukerak ditu:   
+
+Ikastaroaren barruan, Nabigazioa > Oraingo ikastaroa > Dominak > Ikastaroko dominak atalean 
+
+
+
+
+
+Erabiltzailearen profilean  joaz Aukerak > Dominak > Kudeatu dominak 
+
+
+
+
+
+Dominaren behealdean aukera ezberdinak azaltzen dira: 1) domina deskargatu eta 2) domina erakutsi/ezkutatu.   
+
+Domina deskargatuz gero, hau OpenBadges-eko motxilan gehi daiteke publikoki erakusteko. OpenBadges-ek domina hori egiazkoa dela ziurtatuko du motxilan gehitu aurretik. Motxilan gordetako dominak sare sozial ezberdinetan (Linkedin edo Twitter)  argitara daitezke.
+
+Erabiltzailearen profilean  joaz Aukerak > Dominak > Dominen hobespenak  atlean irabazitako dominak automatikoki erakusteko aukera desmarkatzeko aukera azaltzen da. Plataformako erabiltzaileentzat leku mailan (plataforma) irabazitako dominak erakutsiko dira soilik.
+
+
+
+“Atal umezurtzetan” dauden esteka ezkutuak 
+
+Atal umezurtza, ikastaroaren ezarpenetan atal kopurua zehazterakoan kopuru horretatik kanpo gelditu den edukidun atala izango litzateke. Adibidez, hasiera batean edukia zuten 2 ataldun ikastaroan “ikastaroan ezarpenetan” atal bat soilik izango duela adierazten dugu. Orduan 2. atalak- ezkutuan dagoeneak- edukia dauka (irudian azaltzen den bezala)  
+
+ 
+
+
+
+Ikasle eta irakasleek- edizioa desaktibatuta baldin badute- atal hau ez dute ikusiko, baina elementu horretara esteka eman izanez gero eskura izango dute. Aukera honek,  berez ikastaroan sartu gabe dagoen elementu batera sarbidea izatea ahalbidetzen du. 
+
+
+
+
+
+
+
+
+
+
+
+10Jardueren jarraipenerako tresnak (1) : Partaideak eta Txostenak 
+
+
+
+
+
+
+
+2eGela gunean matrikulatutako erabiltzaileak (Moodle 2.5)
