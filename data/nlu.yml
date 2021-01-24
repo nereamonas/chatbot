@@ -1,0 +1,28 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - kaixo
+    - hola
+    - aupa
+    - buenos días
+    - buenas tardes
+    - egun on
+    - arratsalde on
+
+- intent: goodbye
+  examples: |
+    - Agur
+    - Adios
+
+- intent: affirm
+  examples: |
+    - bai
+    - si
+    - claro
+
+- intent: deny
+  examples: |
+    - no
+    - ez

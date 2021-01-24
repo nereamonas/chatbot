@@ -1,0 +1,269 @@
+Text,Class
+Banco de preguntas y cuestionario(s) del curso,1
+"Dentro de un curso existen dos instrumentos combinados para la realización de cuestionarios: 1) el ""Banco de preguntas"", que permite la creación y organización de los distintos tipos de preguntas y 2), el módulo de actividad ""Cuestionario"", que permite crear distintos cuestionarios dentro del curso, alimentándose de las preguntas del ""Banco del preguntas"". ",1
+"Esta relación entre el ""Banco de preguntas"" y los cuestionarios de un curso puede ser confusa, porque el formulario de edición de cada cuestionario permite también crear preguntas (3), quedando en segundo plano el hecho de que estas preguntas se están también guardando en el ""Banco de preguntas"". Por esta razón, se recomienda crearlas desde el ""Banco de preguntas"",. porque es más fácil mantener una buena organización,. ",1
+En el siguiente listado se exponen las fases de un ciclo completo de creación y gestión de cuestionarios en eGela y su relación con los apartados de este manual:,1
+En una primera fase abordamos la creación de las categorías y subcategorías del banco de preguntas para una correcta organización de las baterías de preguntas (Apartado 2.1). ,1
+"La siguiente fase corresponde a la creación de las preguntas, eligiendo entre los distintos tipos de preguntas y las correspondientes opciones de configuración. También hay opciones de configuración que son comunes a todos o casi todos los tipos de preguntas, como el orden de las respuestas, la retroalimentación general, las pistas o las penalizaciones por intentos (Apartado 3). ",1
+"A continuación. comenzamos a trabajar con la herramientas de elaboración del cuestionario (Ver esquema en el apartado 4), En primer lugar, debemos establecer una configuración conforme al tipo de aplicación del cuestionario. El formulario ""Editar ajustes"" del cuestionario ofrece un amplio repertorio de opciones y permite ajustarse a opciones tan diversas como un ejercicio de repaso para la auto-evaluación sin ningún peso en la calificación o una prueba evaluativa con un peso decisivo en la nota final de una asignatura (Apartado 5). Si es necesario, podremos establecer excepciones para usuarios o grupos (ver Apartado 6)",1
+En la cuarta fase insertamos las preguntas y establecemos la paginación. Es también en esta fase cuando se puede barajar el orden de las preguntas o insertar preguntas aleatorias. Al finalizar esta fase podremos realizar una previsualización del cuestionario para comprobar que su desarrollo es el esperado. (Apartado 7),1
+"El cuestionario está listo para ser realizado por el alumnado. Posteriormente podremos analizar los resultados. También existen opciones en algunos casos para realizar una ""recalificación"", después de corregir errores en el diseño de un cuestionario, como por ejemplo modificar la puntuación de las respuestas de una pregunta. (Apartado en fase de elaboración). ",1
+"La fase final corresponde con la reutilización de las preguntas y los cuestionarios, dentro de la misma aula, entre dos aulas del mismo curso académico o entre dos cursos académicos (Apartado en fase de elaboración).  ",1
+"Organizar las preguntas en el ""Banco de Preguntas""",2
+"El Banco de preguntas es una herramienta que nos va a permitir organizar y gestionar la incorporación de preguntas en los cuestionarios de nuestro curso. Desde el banco de preguntas vamos a poder crear o editar preguntas, organizarlas en categorías e importarlas y exportarlas.",2
+"Para acceder al ""Banco de preguntas"", abrimos el panel ""Gestión de curso"". Pulsamos sobre ""Banco de preguntas"" (1.1) dentro del bloque ""Banco de preguntas"" (1)",2
+"Al pulsar sobre ""Banco de preguntas"" en el panel ""Gestión de curso"" se accede a la pestaña ""Preguntas"" (1). ",2
+El menú desplegable (2) permite seleccionar la categoría cuyo contenido se va a desplegar.,2
+"A continuación se encuentra una serie de filtros para las búsquedas (3). Aunque existe un filtro para etiquetas (3.1), todavía no está activada la opción para etiquetar las preguntas. Sí pueden utilizarse el resto de los filtros disponibles (3.2). ",2
+Crear una nueva pregunta (4) dentro de esta categoría.,2
+En la parte inferior aparece el listado de preguntas contenidas en la categoría (5). El icono destacado en rojo (5.1) identifica el tipo de pregunta. El formulario situado en la parte inferior (5.2) permite mover preguntas de una categoría a otra.,2
+Crear una categoría,2
+"Una categoría es un conjunto de preguntas, que a su vez puede contener subcategorías. Es un instrumento para organizar o clasificar las múltiples preguntas que están incluidas o van a ser incluidas en un curso. ",2
+"Para añadir una categoría pulsamos sobre la pestaña ""Categoría"" (1) y rellenamos el formulario: ",2
+"Elegimos la ""Categoría padre"" en el menú desplegable (2). El número 2 destacado en rojo en la imagen (2.1) indica que esta categoría contiene 2 preguntas. ",2
+"En campo de texto ""Nombre"" (3), incluimos el nombre de la categoría. ",2
+Guardamos cambios (4),2
+"En la imagen siguiente vemos la vista de la pestaña ""Preguntas"". Cuando se han creado varias categorías, podemos usar las flechas destacadas en rojo para cambiar el orden o subir y bajar de nivel de jerarquía. Si borramos una categoría con preguntas nos pregunta si queremos trasladar la preguntas a la categoría superior.",2
+"Tenemos que destacar que en Moodle, cada cuestionario dispone de una categoría propia de preguntas que no se visualiza en la ventana de categorías del curso. Es por ello que aconsejamos crear la categoría que queramos utilizar y añadir las preguntas a esa categoría o a una ya existente para evitar el problema de no encontrar nuestras preguntas al no estar asociadas a una categoría sino a un cuestionario. Esto ocurre porque, en ocasiones, en el proceso de migración de contenidos de un curso académico al siguiente, estas preguntas asociadas a un cuestionario no aparecen en el banco de preguntas ni se traspasan con dicho cuestionario. Para poder recuperarlas, deberemos entrar en el curso origen y proceder a exportar estas preguntas e importarlas en el curso destino como se explica más adelante.",2
+Aplicaciones de las categorías y sub-categorías,2
+"La utilización de las categorías y sub-categorías para organizar el curso tiene algunas ventajas importantes. En primer lugar, como ya se explicado, nos permite agrupar las preguntas que se van a asignar posteriormente a los cuestionarios. Destacamos además otros dos aspectos:",2
+"Si queremos utilizar preguntas aleatorias (Ver apartado 7.2), tendremos que escoger un número determinado de preguntas dentro de una categoría o sub-categoría, de modo que tener una buena organización de las preguntas es lo que nos permite discriminar estas preguntas de forma adecuada. ",2
+"Del mismo modo, si queremos exportar un conjunto de preguntas, este proceso será mucho más sencillo si están bien organizadas ",2
+Crear preguntas,3
+"Para crear preguntas pulsamos sobre ""Crear una pregunta nueva"" en la pestaña ""Preguntas"" del ""Banco de preguntas"". Ver imagen en el apartado 2 (""Organizar las preguntas en el ""Banco de Preguntas""). ",3
+"En la parte izquierda de la siguiente imagen se muestra el cuadro de diálogo para elegir un tipo de pregunta, que presenta 1) el listado de preguntas, 2) el área donde se muestran las descripciones de los tipos seleccionados y 3) el botón ""Agregar"". ",3
+"Además, en la parte derecha, se muestran los distintos tipos de preguntas, agrupados por ""familias"":",3
+"Las más frecuentes: ""Verdadero/Falso"", ""Opción múltiple"", ""Respuesta corta"" y ""Numérica""",3
+"La ""familia"" de las ""Calculadas"". En estas preguntas los valores numéricos del enunciado varían de forma aleatoria, de forma que cada estudiante tiene que buscar su propia solución al problema. ",3
+"Preguntas con una presentación más visual, (""Emparejamiento"", ""Arrastrar y soltar"", Cloze...)",3
+"Las preguntas de tipo ""Ensayo"", que permiten realizar preguntas abiertas dentro de un cuestionario. ",3
+"Las preguntas de tipo ""Descripción"" que permiten insertar un fragmento de contenido entre las preguntas del cuestionario.",3
+"Cada uno de los tipos de preguntas tiene características y funciones específicas, que se van a tratar en los apartados posteriores. Sin embargo, antes de comenzar con su descripción sistemática, en el siguiente apartados vamos a tratar algunas características comunes a todos o casi todos los tipos de preguntas.",3
+Aspectos generales en la creación de preguntas,3
+"Los formularios de creación de preguntas tienen muchos elementos comunes que pueden enriquecer su presentación y la experiencia del alumnado, como el uso del editor para dar formato al texto, los campos para retroalimentación, el uso de unidades y equivalencias entre unidades, las penalizaciones y pistas...",3
+El uso del editor en la redacción de preguntas y respuestas,3
+"Todas las opciones del editor gráfico están disponibles para la redacción de los enunciados de las preguntas y, cuando procede, para las respuestas. Por ejemplo, utilizar imágenes puede aportar precisión a las preguntas, o incluso ser imprescindible para la exposición de una pregunta. ",3
+"Las imágenes pueden utilizarse también en los campos de las respuestas, como se muestra en la siguiente imagen.",3
+"Sin embargo, cuando se usan imágenes, hay que intentar usar imágenes adecuadas a las dimensiones de la ventana donde van a mostrarse o modificar su tamaño usando las opciones en el cuadro de diálogo para la publicación de imágenes, en la pestaña ""Apariencia"". ",3
+"Además, el editor cuenta con el editor de fórmulas integrado Wiris y la notación Tex. La imagen siguiente muestra las opciones del el editor de fórmulas integrado Wiris. ",3
+"Para más información sobre la inserción de imágenes y fórmulas con el editor, consultar el apartado ""Inserción / Edición de imágenes"" en el manual Gestión de recursos en eGela.",3
+Barajar las respuestas y numerar las opciones,3
+"La opción ""¿Barajar?"" o ""¿Barajar las respuestas?"" (1) aparece en todas los tipos de preguntas donde se presentar varias opciones de respuesta. La siguiente imagen muestra una captura del formulario del tipo de pregunta de ""Opción múltiple"", el más frecuente entre los que tienen con estas características. ",3
+"La opción ""¿Barajar las respuestas? (1) aparece marcada por defecto, pero este comportamiento no se produce si esta opción no está también marcada en el apartado del formulario ""Editar ajustes > Comportamiento de las preguntas"" del cuestionario. Se trata sobre todo de poder bloquear este comportamiento en preguntas donde se perdería el sentido. Por ejemplo, en una pregunta donde la última respuesta fuese ""Todas las respuestas anteriores son incorrectas"". ",3
+"Además, asociado a esta opción está la opción ""Numerar las elecciones"" (2). Aunque tradicionalmente, en los cuestionarios realizados en papel, se utilizan números o letras para etiquetas las respuestas, en un cuestionario realizado online se puede optar por realizarlo ""Sin numeración"". ",3
+"Los campos para retrolimentación (General, Combinada y Específica)",3
+"Estos campos pueden ser utilizados para reforzar el diálogo con el/la estudiante que esté intentando resolver la pregunta. Estos elementos de retroalimentación se muestran en los cuestionarios de modo ""Adaptativo"" o ""Interactivo con múltiples intentos"" (Ver apartado 5.4 ""Comportamiento de las preguntas"") y su visualización depende de la configuración en el apartado 5.5 ""Opciones de revisión"".",3
+"Dentro de los formularios de creación de preguntas, se encuentran las siguientes opciones: ",3
+"Retroalimentación en las respuestas, denominado ""Retroalimentación específica"" en el apartado ""Opciones de revisión"". ",3
+Retroalimentación general,3
+Retroalimentación combinada (cuando hay varias respuestas correctas). ,3
+"En la imagen siguiente vemos los mensajes de retroalimentación en una respuesta parcialmente incorrecta: la retroalimentación en las respuestas (1), la retroalimentación combinada (2) y la primera pista (3, ver apartado 3.1.4 ""Múltiples intentos (Penalizaciones por cada intento incorrecto)""), ",3
+"En la siguiente imagen, se muestra la retroalimentación cuando las respuestas son totalmente correctas, con la ""Retroalimentación"" en las respuestas (1), la ""Retroalimentación combinada"" (2), la ""Retroalimentación general"" (3) y la ""Respuesta correcta"". ",3
+"Esta es la misma retroalimentación que aparecerá después de realizar el intento y enviado las respuestas, en la página de Revisión. ",3
+Múltiples intentos (Penalizaciones por cada intento incorrecto),3
+"Las penalizaciones en los intentos funcionan cuando se ha escogido en ""Editar ajustes > Comportamiento de las preguntas"" ""Modo adaptativo"" o ""Interactiva con varios intentos"" (Ver apartado 5.4). El valor introducido en ""Penalizaciones por cada intento incorrecto"" (1) define la penalización aplicada por cada intento incorrecto. La penalización es proporcional a la calificación total de la pregunta. ",3
+"Además, únicamente cuando el cuestionario está en modo ""Interactiva con varios intentos"", se muestran las pistas en la retroalimentación y el número de intentos queda definido en cada pregunta por número de pistas correspondiente. ",3
+"Las más frecuentes: ""Verdadero/Falso"", ""Opción múltiple"", ""Respuesta corta"" y ""Numérica""",3
+Opción múltiple,3
+"En el formulario de creación de preguntas de ""Opción múltiple"" aparecen, en primer lugar, el menú desplegable para seleccionar la ""Categoría"" (1) y el campo para escribir el ""Nombre de la pregunta"" (2). Es importante escribir un nombre identificativo para poder encontrar las preguntas en el listado del ""Banco de preguntas"" (2.1). ",3
+"A continuación, aparecen los campos ""Enunciado de la pregunta"" (3) y ""Puntuación por defecto"" (4). Este último campo permite especificar la puntuación máxima, que se obtendría con la respuesta y sin ninguna penalización. ",3
+"A continuación, tenemos el menú ¿Una o varias respuestas? (5), cuyas opciones están desplegadas en el cuadro destacado (5.1). ",3
+"La imagen siguiente muestra el apartado ""Respuestas"", con un campo de texto para cada una de las opciones de respuesta (""Elección"") otro para la ""Calificación"" de cada opción. El total de las respuestas correctas debe sumar 100% (1). ",3
+"Si se escoge la opción ""Se permiten varias respuestas"" en el menú ¿Una o varias respuestas?"", las respuestas incorrectas deben tener una puntuación negativa (2). De lo contrario, se puede marcar todas las respuestas y obtener la puntuación máxima de la pregunta. ",3
+Preguntas de Verdadero / Falso,3
+"Los primeros campos del formulario son los habituales para el resto de los tipos de preguntas (1). A continuación, en el campo ""Respuesta correcta"" (2), indicar si el enunciado es verdadero o falso (2.1). ",3
+"En el campo ""Penalización por cada intento"", que solo se aplica en el modo ""Adaptivo"", el valor es siempre 1. ",3
+"Cuando se ha contestado a una pregunta de tipo Verdadero / Falso en un cuestionario con un único intento, no es posible volver a dejar sin respuesta la pregunta, solo cambiar la opción de respuesta. Para evitar esta situación se puede usar en su defecto una pregunta de Opción múltiple que incluya las dos opciones de respuesta (la opción correcta y la incorrecta), más una tercera opción con el texto NS/NC y puntuación neutra. ",3
+Preguntas numéricas,3
+"Las preguntas numéricas presentan los mismos campos que otras preguntas en el apartado ""General"". ",3
+"En el apartado de las respuestas (1 y 2). En el ejemplo que se muestra en la imagen, se ha mantenido el mismo valor en el campo respuesta (1.1 y 2.1), pero variando el margen de ""Error"" (1.2 y 2.2) y la ""Calificación"" asociada (1.3 y 2.3) . ",3
+Tratamiento de las unidades,3
+"Las preguntas ""Numéricas"", así como otros tipo de preguntas donde las respuestas tienen formato numérico (""Calculada"", ""Calculada simple"", ""Calculada opción múltiple""), permiten especificar las unidades que deben utilizarse en las respuestas y establecer equivalencias entre las mismas. ",3
+"En primer lugar, en el menú ""Tratamiento de las unidades"" (1) se especifica si el uso de las unidades será opcional u obligatorio (ver opciones desplegadas en el recuadro 1.1). Además, el menú ""Las unidades se introducen empleando"" (2) elegiremos el método que se mostrará en el formulario de respuesta (2.1: en el mismo campo, en una selección de opción múltiple o en una ventana emergente). ",3
+"En el apartado ""Unidades"" se pueden especificar cada ""Unidad"" (1), su abreviatura (1.1) y el ""Multiplicador"" correspondiente. ",3
+En la siguiente imagen se muestra la presentación de la pregunta:,3
+Respuesta corta,3
+"La imagen siguiente muestra los campos del apartado ""General"" (1). En la parte inferior se encuentra el menú para indicar si se tienen en cuenta las mayúsculas y minúsculas en las respuestas. ",3
+"Como se indica en el texto en rojo en la imagen siguiente, se puede usar el carácter '*' como comodín. Por ejemplo, en la ""Respuesta 1"" (1.1) se han incluido 4 asteriscos, en previsión de que se pueda introducir ""Mar Caspio"" en lugar de ""Caspio"". La ""Respuesta 2"" tiene el texto ""caspio"" (2.1) con una calificación más baja (2.2). ",3
+"En la siguiente imagen se muestra una previsualización de la pregunta. La respuesta ""Mar Caspio"" (2) es aceptada como correcta, aunque la retroalimentación indica que la respuesta correcta es ""Caspio"" (1). ",3
+"La familia de las ""Calculadas""",3
+Calculada,3
+"Las preguntas calculadas permiten crear preguntas numéricas mediante el uso de comodines o wildcards (por ejemplo {x}, {y} ), que son sustituidos por valores aleatorios en las preguntas.",3
+"La edición de las preguntas se realiza en TRES páginas sucesivas. En la primera página se incluyen el apartado ""General"", ""Respuestas"", ""Tratamiento de las unidades"", ""Unidades"" y ""Múltiples intentos"". ",3
+"En el apartado ""General"" se muestra el selector de la categoría de la pregunta. Además, el elemento ""Comodines compartidos"" indica ""No hay comodines compartidos en esta categoría"" (1.1). En el caso de existir preguntas con comodines en la misma categoría, estos se mostrarían en este apartado. ",3
+"En el apartado ""Enunciado de la pregunta"" están destacados los comodines de pregunta, delimitados por {}.",3
+"En el apartado ""Respuestas"", el apartado ""Fórmula para la respuesta 1"" (1) incluye la fórmula (1.1), la calificación de la respuesta (1.2) y la fórmula para el cálculo de la tolerancia (1.3). En la parte inferior, el botón para crear más opciones de respuesta (2). ",3
+"Para consultar las opciones sobre los apartados ""Tratamiento de las unidades"" y ""Unidades"" (1) ver el apartado 3.2.3.1. Para pasar a la siguiente página del configuración, pulsar sobre ""Guardar cambios"" (2). ",3
+"Los comodines creados en el enunciado de la pregunta, en la página anterior, pueden ser privados (usados únicamente por esta pregunta) o compartidos (accesibles para todas las preguntas de la misma categoría) (1). ",3
+"Si queremos limitar el uso del comodín a esta única pregunta, elegir ""usará el mismo conjunto de datos privado que antes"". La aplicación ya ha creado un conjunto de datos y por ello se refiere a un conjunto existente. ",3
+"Si queremos que los comodines estén disponibles para otras preguntas, elegir ""usará un nuevo conjunto de datos compartido"". ",3
+"La opción de sincronización permite obtener los mismos valores en todas las preguntas de un cuestionario. Por ejemplo, el valor para en una primera pregunta que pidiera el perímetro de un círculo de {radio}cm y una segunda pregunta que pidiera la superficie un círculo de {radio}cm.",3
+"Sin embargo, la sincronización SÓLAMENTE funcionará si las preguntas se guardan en la MISMA categoría y tienen el MISMO NÚMERO DE CONJUNTOS DE DATOS (DATASETS).",3
+"Pulsar sobre ""Siguiente página"" para definir los conjuntos de datos de los comodines. La definición de las variables del conjunto de datos se puede hacer de forma manual o aleatoria. Más información en la documentación de Moodle",3
+Calculada simple. ,3
+"Este tipo de preguntas ofrece una interfaz simplificada, en una única página, donde encontramos las mismas opciones que en la primera página de la pregunta ""Calculada"", salvo que en la parte inferior se encuentra la opción ""Encuentre los comodines {x..} presentes en las fórmulas de la respuesta correcta"" (1).",3
+Pulsando sobre esta opción se despliega una nueva sección que permite generar un conjunto de valores para cada uno de los comodines creados. ,3
+Calculada Opción múltiple,3
+"Este tipo de preguntas tiene el mismo funcionamiento que las de tipo ""Calculada"", salvo que se presentan en forma de opción múltiple. En la imagen siguiente se muestra un ejemplo de pregunta donde se han sobreimprimido los valores del enunciado (1) y de las opciones de respuesta (2) introducidas en el formulario de edición de la pregunta. ",3
+"Preguntas con una presentación más visual, (""Emparejamiento"", ""Arrastrar y soltar"", Cloze...)",3
+"Dentro de las opciones de tipo de pregunta disponibles existe un conjunto de opciones que permiten presentaciones más dinámicas y visuales. Se listan a continuación estas opciones, con sus correspondientes enlaces a las páginas de documentación de Moodle: ",3
+"Las preguntas de ""Emparejamiento"" y ""Emparejamiento aleatorio"" (basadas en preguntas de tipo ""Respuesta corta""). ",3
+" ""Arrastrar y soltar marcadores"", ""Arrastrar y soltar sobre una imagen"" y ""Arrastrar y soltar sobre texto""",3
+"Respuestas anidadas Cloze y ""Elige la palabra perdida""",3
+"Las preguntas de ""Ensayo""",3
+"Permiten realizar preguntas abiertas dentro de un cuestionario, que pueden incluir archivos adjuntos y una plantilla. En la siguiente imagen se muestran opciones en el formato de respuesta (1) como el editor o la extensión, opciones relativas a los archivos adjuntos (2), plantilla (3) e información para los evaluadores (4). ",3
+"Estas preguntas, aun cuando se deben calificar de forma manual, se pueden combinar con otras preguntas en cuestionarios configurados para cualquier tipo de configuración automática (Retroalimentación diferida, Retroalimentación inmediata...). NO ES NECESARIO UTILIZAR LA RETROALIMENTACIÓN MANUAL en el cuestionario.  ",3
+"La siguiente imagen muestra un cuestionario con un intento realizado, donde la pregunta 4 es un ensayo y por lo tanto no se ha calificado. Pulsando sobre ""Requiere calificación"" (1) permite acceder a un formulario donde introducir una nota y comentario, en una ventana emergente. Sin embargo. esta calificación no se traslada de forma automática a esta tabla. es necesario pulsar sobre ""Volver a calificar los intentos seleccionados"" (2), marcando aquellos intentos que se deseen actualizar. ",3
+"Cuando el objetivo del cuestionario está orientado a la revisión o la práctica, se puede evitar este ""obstáculo"" de la calificación, atribuyendo a la pregunta ""Ensayo"" una puntuación de 0. De esta manera, se puede usar esta pregunta para inducir una reflexión personal que no está asociada a ninguna calificación. (Ver apartado 7.1 ""Selección de preguntas, paginación y ""Mostrar preguntas al azar"")",3
+Elaboración del cuestionario (1) Organización de las herramientas,4
+"El cuestionario es el módulo de actividad que permite, en una primera fase, presentar las preguntas al alumnado, y en una segunda fase, ver y analizar los resultados de las respuestas introducidas por el alumnado. ",4
+"En la fase de preparación, trabajaremos principalmente en dos páginas ""Editar ajustes"" (1) y ""Editar cuestionario"" (3), aunque también serán de utiliidad el resto de los elementos señalados: ",4
+"en el formulario de la página ""Editar ajustes"" (1) se configura el funcionamiento del cuestionario. Es en este formulario donde se escogen las opciones que se ajustan a la finalidad del cuestionario, ya sea una prueba evaluativa o una actividad de revisión o autoevaluación. Se establecerán por lo tanto los plazos y duración de ejecución, los intentos permitidos, el acceso a la retroalimentación, etc... Este es el formulario al que se acceder al crear un nuevo cuestionario, aunque también se puede acceder dentro de este menú. (1.1)",4
+"los elementos ""Excepciones de grupo"" y ""Excepciones de usuario"" (2) permiten modificar para un grupo o usuario determinado las restricciones temporales establecidas para el conjunto de participantes en el aula.",4
+"en el cuadro de dialogo de la página ""Editar cuestionario"" (3) es donde se seleccionan las preguntas y se organiza la paginación. También es el lugar donde se podrán añadir preguntas aleatorias.",4
+"el elemento ""Vista previa"" ofrece una previsualización del cuestionario (4). ",4
+"Elaboración del cuestionario (2): configurar el funcionamiento en ""Editar ajustes""",5
+"Para crear un cuestionario nuevo, Activar edición y pulsar sobre ""Añade una actividad o un recurso"" (1) en la sección correspondiente. A continuación, seleccionar ""Cuestionario"" (2) y pulsar sobre Agregar. Accederemos en primer lugar al formulario ""Editar ajustes"". ",5
+"Si el cuestionario se ha creado con anterioridad, abrir en el menú desplegable de la página principal del cuestionario.(1) y pulsar sobre ""Editar ajustes"" (2).",5
+Temporalización,5
+"Este apartado permite establecer el plazo temporal para la realización del cuestionario (1) y el tiempo permitido para la realización del mismo (2). Estas opciones están deshabilitadas por defecto, pero su uso es muy habitual cuando se quiere restringir al alumnado el acceso a las respuestas correctas. ",5
+"También se puede elegir cómo gestiona el cuestionario los envíos pendientes cuando ha concluido el tiempo establecido (3). Si se mantiene la opción marcada por defecto, estos envíos se realizan de forma automática al agotarse el tiempo, una opción que siempre es buena cuando se ha permitido  un único intento. También se puede desactivar este envío automático pero permitir un plazo de gracia (4) o no desactivarlo completamente. ",5
+Calificación,5
+"En este apartado se encuentran distintas opciones relacionadas con la calificación. Destacamos la opción de limitar el número de intentos, fundamental en la configuración para prueba evaluativa. ",5
+"Este menú desplegable nos permite seleccionar la categoría del ""Libro de calificaciones"" donde se añadirá la nota de este cuestionario. Más información en el manual sobre el ""Libro de calificaciones"". ",5
+"Establecer una ""Calificación para aprobar"" puede tener dos aplicaciones: por una parte, el color de las notas en el ""Libro de calificaciones"" será de color verde o rojo en función de que superen o no la cifra establecida; por otra parte, marcar este umbral permite utilizar el criterio ""Requerir calificación aprobatoria"" como condición en el apartado ""Finalización de la actividad"". Más información en el manual ""Herramientas de seguimiento, restricción de acceso e insignias"". ",5
+"Esta opción permite limitar los intentos de realización y envío del cuestionario. Cuando los intentos no se han agotado o son ilimitados, el alumnado tiene la opción de realizar un nuevo intento después de cada envío. ",5
+"En los casos en los que hay más de un intento, esta opción permite especificar cómo se calcula la nota final (Calificación más alta, Promedia, Primer intento, Último intento).",5
+"Además de las opciones contenidas en este apartado, hay otras configuraciones relacionadas con las puntuaciones en la configuración de cada pregunta y en la edición del cuestionario (Ver apartado 7.1 Selección de las preguntas, paginación y ""Mostrar preguntas al azar"")",5
+Esquema,5
+"En este apartado, en el menú desplegable ""Página nueva"" (1), se puede elegir el número de preguntas que van a mostrarse por página. Más tarde, en el formulario ""Editar cuestionario"", se podrá especificar con mayor precisión las preguntas incluidas en cada página. ",5
+"Por otra parte, el menú ""Método de navegación"" permite elegir entre las opciones ""Libre"" y ""Secuencial"". Esta última puede ser usada para fijar un itinerario de aprendizaje, en un caso de uso didáctico de un cuestionario, o para limitar las opciones de compartir respuestas de las preguntas, en un uso del cuestionario como prueba evaluativa. ",5
+Comportamiento de las preguntas,5
+"Este es el apartado fundamental para definir si el cuestionario será una prueba evaluativa o una autoevaluación orientada a la práctica y revisión de los contenidos (ver opciones en el menú desplegable (2.1) asociado al campo ""Comportamiento de las preguntas"" (2)). ",5
+"En primer lugar, el campo ""Ordenar al azar las respuestas"" (1) está marcado por defecto y mostrará en desorden las respuestas de preguntas con opciones múltiples, siempre y cuando no se haya establecido lo contrario en la configuración específica de la pregunta (Ver apartado 3.1.2 ""Barajar las respuestas y numerar las opciones"").",5
+"A continuación, aparece el campo ""Comportamiento de las preguntas"" (2), cuyo menú desplegable puede verse en la imagen (2.1). ",5
+"Por una parte, para exámenes y otras pruebas evaluativas, contamos con la opción ""Retroalimentación diferida"". Esta opción es la que aparece por defecto cuando se crea un nuevo cuestionario. No permite que exista ningún tipo de retroalimentación que oriente al alumnado sobre las respuestas correctas ""durante el intento"", pero sí permite acceder a esta información ""después del intento"". Para posponer el acceso a la calificación, retroalimentación y respuestas correctas es necesario modificar la configuración en el apartado ""Opciones de revisión"". Ver un ejemplo de configuración de examen en el apartado. 8 ""Ejemplo de configuración de examen"". ",5
+"Por otra parte, contamos con otras opciones adaptadas a cuestionarios orientados a la práctica y revisión  ",5
+Modo adaptativo y Modo adaptativo (sin penalizaciones) - Permite realizar intentos sucesivos sobre una misma pregunta sin necesidad de pasar a la siguiente pregunta.    ,5
+"Interactiva con varios intentos - Como el ""Modo adaptativo"", permite realizar varios intentos de una misma pregunta sin pasar a la siguiente, aunque en este caso el número de intentos de cada pregunta viene definido por el número de ""pistas"" (Ver apartado 3.1.4 ""Múltiples intentos (Penalizaciones por cada intento incorrecto)"" Los intentos correspondientes a las preguntas son independientes de los intentos específicados para el cuestionario en ""Editar ajustes > Calificación (Ver apartado 5.2)",5
+"Retroalimentación inmediata - Similar al modo ""Interactiva con varios intentos"" en cuanto que el alumnado puede enviar su respuesta inmediatamente durante el intento del examen, y ser calificado. Sin embargo, solamente se puede enviar una respuesta y esta no se podrá cambiar a continuación..",5
+"Además, también existe la opción de usar una ""Calificación manual"". Este tipo de calificación puede con aplicarse a cuestionarios con preguntas habitualmente calificadas de forma automática en las que se prefiera hacer una calificación manual. Se aplica por defecto en las preguntas de tipo ""Ensayo"", sin variar la configuración global del cuestionario donde estuviesen incluidas estas preguntas. ",5
+"Es importante retener que, si se aplica la ""Calificación manual"", NO SE PODRÁ REVERTIR Y APLICAR otro tipo de calificación automática una vez que el alumnado ha enviado sus respuestas ",5
+"Finalmente, podemos usar el método de ""Evaluación basada en la certidumbre"" (CBM por sus siglas en inglés ""Certainty based marking""), en sus dos versiones de Retroalimentación diferida o retroalimentación inmediata. Con este tipo de evaluación, se debe precisar, además de la respuesta correcta, el nivel de certeza relativo a esta respuesta, en una escala de tres niveles. La nota final se verá ponderada en función de la certidumbre, de manera que una respuesta correcta con el máximo de certidumbre obtendrá la puntuación completa, pero la puntuación de la misma respuesta se reduce si se ha marcado un nivel de certidumbre menor. ",5
+Opciones de revisión,5
+"Este apartado permite controlar el acceso del alumnado a las pistas, retroalimentación y calificación asociada a las preguntas y al conjunto del cuestionario durante las cuatro fases que se distinguen. La imagen a continuación muestra las opciones que aparecen marcadas por defecto, sin haber modificado ningún valor en este apartado ni en el resto de los apartados del conjunto de este formulario. ",5
+Descripción de la fase,5
+Cuándo podemos desmarcar estas casillas,5
+"Durante el intento se refiere al momento en el que se están respondiendo las preguntas. Estas casillas están desactivadas con ""Retroalimentación diferida"" en ""Comportamiento de las preguntas""   ",5
+"Por lo menos, la casilla ""Si fuese correcta"" de esta fase debe estar marcada para ""Modo adaptativo"" e ""Interactivo con múltiples intentos""",5
+"Inmediatamente después del intento se refiere a los dos primeros minutos después de que se haya pulsado ""Enviar todo y terminar"".",5
+Todas las casillas de esta fase se pueden desmarcar en una configuración de tipo examen ,5
+"Más tarde, cuando el cuestionario está aún abierto; es decir, hasta que cumple la fecha de cierre del cuestionario, si esta fecha está establecida.",5
+"Todas las casillas de esta fase se pueden desmarcar en una configuración de tipo examen, aunque si no se establece una fecha de cierre, el alumnado no accederá nunca a esta información",5
+Después de cerrar el cuestionario. ,5
+Estas casillas están desactivadas si no se ha establecido una fecha de cierre (Ver apartado 5.1 Temporalización),5
+"Todas las casillas de esta fase se pueden desmarcar en una configuración de tipo examen. La casilla ""Puntos"" puede desmarcarse temporalmente, pero tendrá que estar marcada para que el alumnado pueda ver su calificación en el ""Libro de calificaciones"". ",5
+Apariencia,5
+"La opción ""Mostrar la imagen del usuario"" (1) permite que la imagen de perfil del usuario identificado se muestre en la página del cuestionario, con el objeto de comprobar que la identidad de quien está realizando un cuestionario coincide con la del usuario identificado. ",5
+"Las opciones ""Decimales en las calificaciones"" (2) y ""Decimales en las calificaciones de las preguntas"" (3) permiten establecer de forma específica este valor.  ",5
+"Mostrar bloques durante los intentos (4) se refiere a los bloques del curso, como ""Calendario"" o ""Actividad reciente"".  .",5
+Restricciones extra sobre los intentos,5
+"Estas opciones permiten añadir restricciones al acceso al cuestionario. La utilización de una contraseña (1) o el establecimiento de un rango en la IP o dirección de red (2) se pueden utilizar cuando el cuestionario se realiza de forma presencial, en una sala de ordenadores. Las opciones 3 y 4 permiten establecer demora entre los intentos. La opción ""Seguridad del navegador"" (5) permite que el cuestionario se abra en una ventana emergente a pantalla completa, pero este sistema no asegura que no se pueda acceder a otras ventanas de otros navegadores. Finalmente, la opción 6 impide, por defecto, la realización de cuestionarios con la aplicación móvil, aunque sigue siendo siempre posible que el cuestionario se realice usando el navegador de un dispositivo móvil. ",5
+"Las opciones entre la 2 y la 6, marcadas como avanzadas con un punto de exclamación al lado del icono de ayuda, están ocultas en el formulario. Se pueden desplegar y colapsar pulsando sobre ""Ver más"" y ""Ver menos"" (7). ",5
+Retroalimentación global,5
+"La retroalimentación global consiste en un texto que el alumnado leerá una vez haya completa un intento, en función de la calificación obtenida.",5
+"Los comentarios (1 y 3) se mostrarán en función de la calificación obtenida (2), Pueden establecerse más niveles intermedios (4). ",5
+Finalización de la actividad,5
+"El campo ""Finalización de la actividad"" solo aparece en el formulario ""Editar ajustes"" cuando el ""Rastreo de finalización"" está activado en ""Panel de Gestión"" > ""Editar la configuración del curso"". ",5
+"Para poder establecer las condiciones disponibles para la actividad ""Cuestionario"" (2) es necesario marcar en el desplegable ""Rastreo de finalización"" (1) la opción ""Mostrar la actividad como completada cuando se cumplan las condiciones"". Aparecen destacadas en rojo las condiciones específicas ""Requerir calificación aprobatoria"" (2.1, ver apartado 5.1 ""Calificación"") y ""O todos los intentos disponibles completados"" (2.2)",5
+Este es el último apartado del formulario. Es necesario guardar los cambios para aplicarlos (3). ,5
+Elaboración del cuestionario (3): Excepciones de usuario o de grupo,6
+"En el menú desplegable de administración del cuestionario encontramos los elementos ""Excepciones de grupo"" y ""Excepciones de usuario"". Estas opciones permiten modificar para un grupo (1) o usuario (2) determinado las restricciones temporales establecidas para el conjunto de participantes en el aula. ",6
+"En la imagen siguiente se muestra la opción para ""Agregar excepción de grupo"" (1). Es necesario que se hayan establecido grupos previamente en el curso. Ver manual ""Grupos y agrupamientos""",6
+"En la siguiente imagen se muestra el formulario para establecer excepciones. El campo ""Reemplazar grupo"" permite elegir el grupo al que se otorga la excepción (1). El campo ""Se requiere contraseña"" permite establecer una contraseña para este grupo (2). En el recuadro destacado en rojo (3) se pueden ver las modificaciones que pueden realizarse sobre las restricciones temporales del cuestionario. ",6
+Una vez establecida la excepción queda registrado en el siguiente listado.,6
+Las mismas modificaciones se pueden aplicar a usuarios específicos. ,6
+Un mensaje de advertencia aparece cuando el alumnado para quien se ha especificado la excepción no puede acceder al cuestionario. ,6
+Las razones para esta advertencia pueden ser: ,6
+El acceso al cuestionario está condicionado a la pertenencia a un grupo del que no forma parte el/la estudiante.,6
+El cuestionario está oculto para el alumnado.,6
+"Elaboración del cuestionario (4): Añadir preguntas en ""Editar Cuestionario""",7
+"Selección de preguntas, paginación y ""Mostrar preguntas al azar""",7
+"Una vez que hemos preparado el funcionamiento del cuestionario vamos a definir las preguntas que vamos a incluir en el mismo. Para ello pulsaremos sobre Editar el cuestionario (1). Cuando se han cargado preguntas en el cuestionario, el acceso a ""Editar cuestionario"" se puede encontrar en el menú desplegable (2). .",7
+"En la página de edición, pulsamos sobre ""Agregar"" (1) para desplegar la opciones de carga de preguntas en el cuestionario: ""una pregunta nueva"", ""del banco de preguntas"" y ""una pregunta aleatoria"". ",7
+"La casilla ""Reordenar las preguntas al azar"" (2) y la opción ""Editar cabecera"" (3) también están disponibles en este formulario",7
+"Como se ha expuesto en el apartado 1 ""Banco de preguntas y cuestionario(s) del curso"", es conveniente mantener la organización de las baterías de preguntas en categorías dentro del ""Banco de preguntas"". Por ese motivo, cuando se crean preguntas usando la opción ""Agregar > una pregunta nueva"", es recomendable prestar atención a la categoría donde se están creando. ",7
+"Cuando se pulsa sobre ""Agregar > del banco de preguntas"" se accede a una vista del banco de preguntas que nos permite desplazarnos entre las categorías (1) y seleccionar las preguntas (2). ",7
+"Cuando se han importado las preguntas, la página ""Editar cuestionario"" permite mover el orden de las preguntas (1), unir y separar páginas (2) y modificar la puntuación de las preguntas (3)",7
+"El ""candado"" (4) permite condicionar el acceso a una pregunta a la realización de la pregunta anterior. Sólo disponible con: ",7
+Comportamiento de las preguntas Interactivo con intentos múltiples o Retroalimentación inmediata ,7
+Método de navegación configurado a 'Libre'. ,7
+"Opción ""Reordenar las preguntas al azar"" desactivada.",7
+Añadir preguntas aleatorias,7
+"Cuando pulsamos sobre ""Agregar > una pregunta aleatoria"" se muestra un cuadro de diálogo que permite seleccionar la categoría (1) y especificar el número de preguntas (2). Se indica el número de preguntas en la categoría (3). ",7
+Previsualización del cuestionario,7
+"Cuando se finaliza la edición de un cuestionario aparece la opción ""Previsualizar el cuestionario ahora"" (1), opción que está también siempre disponible en el elemento ""Vista previa"" (2) del menú desplegable.",7
+"Cuando se realiza una ""Vista previa"" con rol docente aparece SIEMPRE, independientemente de las ""Opciones de revisión"" seleccionadas, una página de revisión del cuestionario, con la información de las respuestas correctas, calificación, retroalimentación. El alumnado sólo tiene acceso a esta revisión cuando las casillas correspondientes del apartado ""Opciones de revisión > Inmediatamente después de cada intento"" están marcadas. ",7
+Ejemplo de configuración de un examen,8
+En este apartado se recoge un resumen de las opciones recomendadas para el uso de un cuestionario para una situación de examen. Los objetivos de esta configuración serían: ,8
+Acotar el acceso a las preguntas en una franja horaria y duración determinadas.,8
+"Establecer una navegación secuencial, con preguntas desordenadas y respuestas barajadas al azar (En este punto debe valorarse si esta configuración no afecta a la capacidad del alumnado de revisar adecuadamente su examen). . ",8
+"Uso de preguntas aleatorias y, si es procedente, preguntas ""Calculadas"" con valores numéricos ""comodín"" que variarán de forma aleatoria. ",8
+Retroalimentación sobre respuestas correctas y calificación general oculta hasta la finalización de la prueba o incluso de forma permanente. ,8
+"Algunos de estos elementos, por lo tanto, parten de la elaboración de las preguntas. Por ejemplo, las respuestas a las preguntas de ""Opción múltiple"" y cualquier otro tipo que presente varias opciones se barajan por defecto (ver apartado 3.1.2 Barajar las respuestas y numerar las opciones""). También es importante mantener una buena organización de las preguntas en categorías y sub-categorías, para el uso de ""Preguntas aleatorias"" y ""sincronización"" de preguntas ""Calculadas"".",8
+"Opciones importantes en ""Editar ajustes""",8
+"La duración y la franja horaria quedan especificadas en el apartado Temporalización (1). Por lo tanto, no es necesario tener el cuestionario oculto, dado que el alumnado no puede acceder a las preguntas. Por otra parte, dado que solo hay un intento, la opción ""El envío se realiza automáticamente"" cuando se agota el tiempo es adecuada. ",8
+"En el apartado ""Calificación"" > ""Intentos permitidos"" se especifica 1 intento (1)",8
+"Se marca la opción ""Secuencial"" (1) en ""Método de navegación"", siempre que se considere que esta opción no está impidiendo al alumnado realizar la revisión del examen de forma adecuada. ",8
+"En el apartado ""Comportamiento de las preguntas"", mantenemos las opciones que aparecen por defecto. ",8
+"En el apartado ""Opciones de revisión"", el único elemento necesario para que las calificaciones aparezcan en el ""Libro de Calificaciones"" es la casilla ""Puntos"" en la columna ""Después de cerrar el cuestionario. Esta casilla puede marcarse con posterioridad, después de que se haya revisado la calificación del cuestionario. ",8
+"Finalizando del configuración en ""Editar cuestionario""",8
+"Cuando hemos finalizado de especificar las opciones en el formulario ""Editar ajustes"" pasamos al formulario ""Editar cuestionario"", donde podremos usar las opciones para utilizar preguntas aleatorias (1) y Reordenar las preguntas al azar. ",8
+"Consultar los ""Resultados"" y retroalimentación",9
+Recalificar,9
+Anular una pregunta?,9
+Reutilizar cuestionarios y preguntas,10
+Duplicar cuestionarios dentro de un curso,10
+Importar cuestionarios de otros cursos,10
+Importar / Exportar preguntas desde el banco de preguntas,10
+"Para importar y exportar archivos de preguntas, utilizaremos los correspondientes enlaces del bloque “Administración”.",10
+Desde Campus Virtual recomendamos de entre los formatos admitidos para la importación y exportación de archivos los fomatos GIFT y Moodle XML porque son los únicos que podemos encontrar en ambas categorías.,10
+El proceso de exportación e importación de las preguntas es el siguiente:,10
+Accedemos al curso donde tenemos las preguntas que queremos utilizar en otro curso,10
+En la página principal del curso clicamos en el bloque actividades sobre el enlace “cuestionarios” o procedemos a editar el cuestionario del que queremos exportar las preguntas a un archivo (Ver página siguiente).,10
+Imagen 11: Bloque actividades,10
+Clicamos sobre el enlace exportar,10
+"Imagen 13: Administración del cuestionario, exportar",10
+Y se nos abrirá la siguiente página (ver imagen 14):,10
+"a) Elegimos el formato GIFT  o Moodle XML (En la ayuda podemos ver qué formato se adapta mejor a nuestras necesidades, porque explica para que vale cada uno de ellos).",10
+"b) Seleccionamos mediante una pestaña desplegable, la categoría donde se encuentran las preguntas que queremos exportar.",10
+c) Marcamos las casillas “Escribir categoría a archivo” y “Escribir contexto a archivo”.,10
+d) Una vez hecho todo lo anterior pinchamos en “Exportar preguntas a un archivo”.,10
+Imagen 14: Exportar preguntas ,10
+"La imagen siguiente nos ofrece las opciones de descargar. Seleccionamos guardar archivo. Se trata de un archivo de intercambio de información en formato XML, es decir, es un archivo de código preparado para que lo lean las máquinas, no las personas",10
+Imagen  15: Opciones de descargar archivo de preguntas exportadas,10
+"La aplicación nos dará un nombre descriptivo del archivo pero si queremos cambiarlo, elegimos la opción “Guardar como”",10
+Una vez que ya tenemos el archivo con las preguntas podemos realizar la importación de las preguntas. Nos situaremos en el curso donde queremos disponer de las preguntas. Pulsamos sobre el enlace importar,10
+"Imagen 16: Administración, banco de preguntas, importar",10
+Se nos abre la siguiente página (ver imagen 17):,10
+Elegimos el formato en el que hayamos realizado la exportación del archivo que vamos a importar.,10
+Clicamos encima de la pestaña “General” para que aparezcan todas las posibles opciones. ,10
+"Seleccionamos mediante una pestaña desplegable, la categoría donde queremos importar las preguntas.",10
+ Marcamos las casillas “Obtener categoría de archivo” y “Obtener contexto de archivo”.,10
+" En la opción “Coincidir calificaciones”, marcamos la casilla “Error si la calificación no está en lista”.",10
+ En la opción “Detenerse si se produce un error” marcamos “no”.,10
+"En el apartado “Importar preguntas de un archivo” O bien, pulsamos en el botón “Seleccione un archivo…”   “Subir un archivo” “Examinar…”  dentro de nuestro ordenador elegimos el archivo que habíamos exportado anteriormente y pinchamos en “Subir este archivo”. O bien, si nuestro navegador nos lo permite, arrastramos directamente el archivo exportado anteriormente al cuadro del apartado “Importar preguntas de un archivo”(en el caso de IE deberemos tener una versión igual o superior a la 10)",10
+Pulsamos el botón importar,10
+Imagen 17: Importar archivo,10
+"Imagen 18: Importar archivos, opciones menú general",10
+5.- Nos aparece en la pantalla el texto “Procesando preguntas del archivo importado” y todas las preguntas que hemos importado en una lista.,10
+6.- Clicamos en el botón “continuar” que nos aparece debajo del todo y ya tenemos las preguntas en el nuevo curso.,10
+Imagen 19: Importando preguntas,10
+"Para meter las preguntas en el cuestionario que queramos, sólo tendremos que ir al cuestionario y elegir las preguntas que nos interesen del banco de preguntas que hemos importado.",10
+"Imagen 20: Editando cuestionario, añadir preguntas",10
+Esta será la forma de proceder si al recuperar nuestros cuestionarios vemos que no nos aparecen las preguntas en el banco de preguntas por haberlas asociado al cuestionario en vez de a una categoría tal y como se ha explicado en la página 4 de este documento o en cualquier caso que queramos importar preguntas a nuestro banco de preguntas.,10
+Correo de Daniel ,10
+"Explicación cómo redactar todos los formatos que admite el formato GIFT para escribir cualquier tipo de pregunta de tipo test (incluyendo comentarios / puntuaciones parciales / numéricas / respuesta corta, etc..)",10
+Está bastante bien:,10
+https://www.youtube.com/watch?v=LesDv6ezv6w,10
+https://www.youtube.com/watch?v=LesDv6ezv6w,10

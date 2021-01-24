@@ -1,0 +1,33 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+
+responses:
+  utter_saludar:
+  - text: "Hola, tienes alguna pregunta?"
+
+  utter_diPregunta:
+  - text: "Dime tu pregunta, intentaré ayudarte"
+
+  utter_noDiPregunta:
+  - text: "Vale, cualquier cosa que necesites puedes consultarme"
+
+  utter_goodbye:
+  - text: "Adios"
+
+  utter_haSidoDeAyuda:
+  - text: "Muchas gracias"
+
+  utter_noHaSidoDeAyuda:
+  - text: "Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona"
+
+actions:
+  - action_default_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

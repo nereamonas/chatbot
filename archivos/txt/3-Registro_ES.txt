@@ -1,0 +1,241 @@
+Control manual o automático de las asistencias
+
+Manual para el profesorado 
+
+Versión 1 (9/01/2019)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Este manual ha sido desarrollado por eCampus (Universidad del País Vasco / Euskal Herriko Unibertsitatea)
+
+Esta obra está bajo una licencia Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Internacional de Creative Commons. Para ver una copia de esta licencia, visite http://creativecommons.org/licenses/by-nc-sa/3.0/es/.
+
+Índice de contenidos
+
+		1	Descripción	3
+
+		2	Configuración	3
+
+		2.1	Nomenclatura a utilizar (Status set)	6
+
+		2.2	Definición de las sesiones	7
+
+		2.3	Marcado manual (docente o estudiantes) o automático ("Grabación del estudiante")	7
+
+		3	Usuarios temporales	10
+
+		4	Gestión del registro de asistencias	11
+
+		4.1	Sesiones	11
+
+		4.2	Informe	11
+
+		4.3	Exportar	11
+
+
+
+
+
+
+
+
+Descripción
+
+El módulo de asistencia instalado en eGela permite indicar la asistencia del alumnado a las distintas sesiones de la asignatura. 
+
+El módulo permite trabajar con sesiones de tipo “Común” y de tipo “Grupal”. Las sesiones de tipo “Común” son aquellas a las que debería asistir todo el alumnado matriculado. Las sesiones de tipo “Grupal” permiten especificar cuáles de los grupos de estudiantes definidos en eGela deberían asistir. A la hora de anotar la asistencia a una sesión, solo figurará el alumnado correspondiente al tipo de sesión definido.
+
+El registro de las asistencias se puede realizar de tres formas distintas; 1), manual por parte del profesorado, 2), manual por parte del alumnado y 3), automático, en función de los registros en la plataforma)
+
+Configuración
+
+Para activar el módulo de asistencia en su curso active la edición del curso, pulse en “Añade una actividad o un recurso” (1) y seleccione la actividad de tipo Asistencia (2). 
+
+
+
+
+
+La configuración de la actividad de tipo Asistencia es similar a la de cualquier otra actividad o recurso de eGela, a excepción de dos apartados.
+
+
+
+En función del valor que se indique en la opción “Modo de grupo” del apartado “Ajustes comunes del módulo”, se limita el tipo de sesiones que se pueden definir en la actividad.
+
+No hay grupos. Todas las sesiones dentro de la actividad serán de tipo “Común”. Esto es, en el listado para marcar la asistencia figurará todo el alumnado matriculado en el aula de eGela.
+
+Grupos separados. Todas las sesiones dentro de la actividad serán de tipo “Grupal”. Para cada sesión que se defina dentro de la actividad habrá que indicar qué grupo, o grupos, de los que tengamos definidos en el aula de eGela, son los que tienen que asistir a dicha sesión. En el listado para marcar la asistencia solo aparecerá el alumnado perteneciente a dicho grupo o grupos.
+
+Grupos visibles. Las sesiones dentro de la actividad pueden ser de tipo “Común” o de tipo “Grupal”. Al definir cada sesión hay que indicar si es una sesión “Común” y por lo tanto afecta a todo el alumnado o es una sesión “Grupal” en cuyo caso habrá que indicar a qué grupo, o grupos, afecta. A la hora de marcar la asistencia, en el listado de estudiantes aparecerá únicamente el alumnado afectado: todo el matriculado si la sesión es de tipo “Común”, el perteneciente a los grupos indicados si es de tipo “Grupal”.
+
+El campo “Dirección de red predeterminada” del apartado “Restricciones extra” permite definir desde qué direcciones IP se puede anotar la asistencia en las sesiones definidas en esta actividad.
+
+
+
+Nomenclatura a utilizar (Status set)
+
+En esta pestaña se gestiona la nomenclatura que se usará para controlar la asistencia. Por defecto el conjunto de estados que se utiliza es: Presente, Berandu, Salbuetsia y Ez dago, pero cada docente puede personalizarlo como desee o definir nuevos conjuntos de estados (1).
+
+
+
+Por cada estado que se defina es obligatorio indicar un acrónimo (2) y una descripción (3).
+
+De manera opcional se le puede asignar una puntuación a dicho estado para utilizarlo posteriormente como una calificación (4). 
+
+Si vamos a permitir que el alumnado indique su propia asistencia, se puede establecer durante cuánto tiempo (en minutos) desde que comienza la sesión está disponible cada estado (5).
+
+También se puede indicar qué estado se va a asignar por defecto al alumnado que no indique ningún estado (6).
+
+Por último, se puede eliminar un estado u ocultarlo para que no pueda utilizarse (7).
+
+
+
+
+Definición de las sesiones
+
+Para añadir las sesiones cuya asistencia queremos controlar hay que seleccionar la pestaña “Añadir sesión”. 
+
+
+
+Las opciones que encontraremos en el apartado “Añadir sesión” de esa pantalla son:
+
+Tipo de sesión (1). En función del ajuste de “Modo de grupo” que hayamos indicado al definir la actividad, el tipo de sesión (Común o Grupal) aparecerá directamente o tendremos la opción de elegir el tipo de sesión e indicar los grupos afectados.
+
+Fecha de la sesión (2): día de en el que va a tener lugar la clase cuya asistencia se quiere controlar.
+
+Tiempo (3): intervalo horario de la clase cuya asistencia se quiere controlar.
+
+Estado establecido (4): Este ajuste solo se muestra si tenemos definido más de un conjunto de valores (ver apartado Nomenclatura a utilizar (Status set)).
+
+Descripción (5): Si queremos añadir una descripción a la sesión.
+
+Crear evento de calendario por sesión (6): si se marca esta opción, se creará un evento en el calendario de la asignatura en eGela para cada sesión definida.
+
+En el apartado “Añadir varias sesiones” (6) podemos indicar si la sesión que estamos definiendo se va a celebrar de manera periódica. Para ello hay que marcar la opción “Repetir la sesión como se indica a continuación” y seleccionar qué días de la semana tiene lugar la sesión, cada cuántas semanas se repite y hasta cuándo se desea repetir.
+
+Marcado manual (docente o estudiantes) o automático ("Grabación del estudiante")
+
+En el apartado “Grabación del estudiante” encontramos TRES opciones para establecer cómo se realiza el marcado de las asistencias (1, manual por parte del profesorado, 2, manual por parte del alumnado y 3, automático, en función de los registros en la plataforma). . 
+
+El profesorado marca manualmente las asistencias. Esta es la opción que aparece por defecto. La casilla “Permitir a los estudiantes marcar su asistencia” (1) está desmarcada.
+
+Si la casilla “Permitir a los estudiantes marcar su asistencia” (1) está marcada, se pueden escoger otras opciones. 
+
+El alumnado marca manualmente la asistencia. En el menú “Marcado automático” (2), marcar la opción “Desactivado” (2.1).
+
+El sistema marca automáticamente la asistencia cuando existen registros de actividad en el plazo horario establecido en la sesión. En el menú “Marcado automático” (2), marcar la opción “Sí” (2.2). Es necesario marcar un límite de minutos en la opción de estado “Presente” (Ver “Status set” > “Available for students (Minutes) en la configuración de los estados. IMPORTANTE: Si la sesión se va a desarrollar fundamentalmente en una reunión virtual Collaborate y el alumnado accede a la sala antes del plazo establecido para la sesión, no se generarán registros en eGela y por lo tanto su asistencia no quedará registrada. 
+
+
+
+Además, la opción “Establecer sin marcar al final de la sesión” (2.3) funciona como la opción de marcado manual por el alumnado (Desactivado – 2.1), pero marca de forma automática el estado establecido por defecto (normalmente, “Ez dago”) al finalizar la sesión a quienes no hayan marcado su asistencia. 
+
+Aunque se permita al alumnado anotar su propia asistencia, el profesorado siempre puede, en cualquier momento, marcar la asistencia de alguien que no la haya anotado o eliminar la asistencia de alguien que sí que la haya marcado.
+
+El marcado de asistencia para el alumnado solo está activo durante el intervalo horario definido para la sesión. El alumnado no puede marcar su asistencia antes de que comience la sesión, ni una vez que haya finalizado.
+
+Student password (3): Permite indicar una contraseña que se solicitará al alumnado cuando quieran marcar su asistencia a la sesión. Se puede activar que la contraseña para cada sesión se genere de manera aleatoria e incluso que se genere un código QR que mediante su lectura facilite al alumnado el indicar su asistencia.
+
+Selecciona automáticamente el estado más alto disponible (4): Si se selecciona esta opción, al alumnado que indique su asistencia se le asignará directamente el estado que tenga asignada mayor calificación. En caso de que no existiera un estado con mayor calificación que el resto, el alumnado obtendría un error y su asistencia no quedaría registrada.
+
+Además, pulsando sobre “Mostrar más” (5) se muestran las siguientes opciones suplementarias. 
+
+Los estudiantes solo pueden registrar la asistencia propia desde estos ordenadores (6): si se desmarca la opción “Use default”, permite especificar el rango de direcciones IP desde las que se puede indicar la asistencia.
+
+Evitar que los estudiantes compartan la dirección IP (7): si se selecciona “Sí”, dos estudiantes distintos no podrán indicar su asistencia usando el mismo dispositivo. La opción “Specified time in minutes to release IP” permite indicar cuántos minutos deben pasar para que dos estudiantes distintos puedan usar el mismo dispositivo para indicar su asistencia.
+
+
+
+
+Usuarios temporales
+
+En esta pestaña se pueden crear usuarios para que aparezcan en el listado de posibles asistentes y que el profesorado pueda indicar su asistencia. Estos usuarios temporales que se crean no pueden acceder a eGela y por lo tanto no van a poder indicar su propia asistencia. Debe hacerlo el profesorado.
+
+Esta opción es útil si tenemos que registrar la asistencia de alguna persona que no está incluida en nuestra aula de eGela.
+
+Los usuarios temporales que se hayan creado se pueden editar, borrar o unir a un usuario existente en eGela.
+
+
+
+Con la opción de “Unir usuario”, los registros de asistencia que tengan el usuario temporal y el usuario de eGela se integran siguiendo la siguiente tabla:
+
+Usuario de eGela
+
+Usuario temporal
+
+Efecto
+
+Tiene datos de asistencia
+
+Tiene datos de asistencia
+
+Los datos de asistencia del usuario temporal se añaden a los datos de asistencia del usuario de eGela. En caso de discrepancia, se mantiene el dato del usuario temporal.
+
+No tiene datos de asistencia
+
+Tiene datos de asistencia
+
+Los datos de asistencia del usuario temporal se asignan al usuario de eGela.
+
+Tiene datos de asistencia
+
+No tiene datos de asistencia
+
+Se mantienen los datos de asistencia del usuario de eGela
+
+En todos los casos, el proceso de unir usuario finaliza con el borrado automático del usuario temporal.
+
+
+
+
+Gestión del registro de asistencias
+
+Sesiones
+
+	Permite gestionar todas las sesiones que estén creadas aplicando distintos filtros para facilitar su búsqueda (1).
+
+	
+
+	Por cada sesión del listado se puede obtener/mostrar el código QR y la contraseña generados (2) para que el alumnado pueda indicar su propia asistencia si así se ha configurado. 
+
+	Desde este listado el profesorado también puede gestionar la asistencia del alumnado a cada sesión. Si la sesión todavía no tiene asistencia grabada, se muestra el icono indicado con un (4) y si ya tiene asistencia grabada (o autograbada por el alumnado) se muestra el icono indicado con el (3).
+
+	Al acceder a gestionar la asistencia a la sesión se mostrará el listado de alumnado que debería haber asistido a la sesión, según se hayan definido los ajustes de la misma, y el profesorado podrá indicar o modificar la asistencia previamente indicada. En el caso de la asistencia que haya sido marcada por el propio alumnado, en el campo de Observaciones aparecerá el mensaje “Autograbado”.
+
+	Mediante el icono (5) se puede acceder a los ajustes de la sesión y modificarlos si es necesario y mediante el icono (6) se puede eliminar la sesión.
+
+	También se pueden seleccionar distintas sesiones y mediante el menú (7) eliminar las seleccionadas o modificar la duración de las mismas.
+
+Informe
+
+	La pestaña de “Informe” permite visualizar el registro de asistencia llevado a cabo hasta el momento. Ofrece una serie de filtros para facilitar la visualización de la información.
+
+Exportar
+
+	La pestaña “Exportar” permite exportar la información de asistencia a formato Excel, OpenOffice o texto plano. Ofrece una serie de opciones que permiten configurar la información concreta a exportar.
+
+
+
+6

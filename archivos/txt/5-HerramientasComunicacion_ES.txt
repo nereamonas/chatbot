@@ -1,0 +1,193 @@
+Herramientas de comunicación: mensajería y foros 
+
+Manual para el profesorado 
+
+Versión 3 (09/09/2016)
+
+
+
+
+
+
+
+El presente manual ha sido desarrollado por el eCampus de la Universidad del País Vasco / Euskal Herriko Unibertsitatea
+
+Esta obra está bajo una licencia Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Internacional de Creative Commons. Para ver una copia de esta licencia, visite http://creativecommons.org/licenses/by-nc-sa/3.0/es/.
+
+Indice de contenidos
+
+	Introducción	2
+
+	Mensajería	2
+
+	Configuración del foro y de las opciones de suscripción	5
+
+	Tipos de foro	5
+
+	Configurar y comprobar la suscripción al foro	6
+
+	Foro de “Avisos” (antes “Foro de novedades”)	6
+
+	Suscripción a hilos de debate específicos	7
+
+	Número de suscriptores	7
+
+	Fijar hilos de debate en la parte superior del listado	8
+
+
+
+Introducción
+
+eGela cuenta con dos herramientas de comunicación fundamentales: la mensajería interna, que nos permite enviar mensajes individuales o colectivos, y el foro. Además, estos dos sistemas de comunicación están vinculados al correo electrónico, puesto que cuando un usuario recibe un mensaje por ambos canales – mensajería o foros– también puede, en función de las opciones de configuración que tenga en su perfil, recibir una notificación en su cuenta de correo electrónico. 
+
+Este apartado realiza una descripción no exhaustiva de las herramientas mensajería y foro. Admás, se explican las opciones de configuración que tiene un usuario para controlar las notificaciones que quiere recibir en su correo electrónico.
+
+Mensajería
+
+Para enviar un mensaje a un participante en un curso de eGela podemos acceder a su perfil pulsando sobre su nombre en la tabla de participantes (ver sección Participantes). Dentro de la página de su perfil podernos encontrar un enlace que nos llevará al formulario para enviar un mensaje a este usuario. En la imagen que se muestra a continuación el usuario IKASLE 1 ha accedido al perfil de IRAKASLE 1  para enviarle un mensaje.
+
+
+
+Imagen 26: Enlace para enviar un mensaje a un usuario, en su perfil
+
+Al pulsar sobe “Enviar mensaje” se muestra un formulario para redactar el texto del mismo.
+
+
+
+Imagen 27: Formulario para redactar el mensaje
+
+El destinatario de este mensaje puede ver en su Navegación > Mi perfil > Mensajes  de Moodle que tiene un mensaje “sin leer”. Además, de acuerdo a la configuración de notificaciones que tenga cada usuario, tendrá otras notificaciones, como mensajes de correo electrónico o ventanas emergentes al entrar en eGela.
+
+
+
+Imagen 28: Mensaje sin leer
+
+Al leerlo, este mensaje pasa de la categoría de “mensajes sin leer” a la categoría “Conversaciones recientes” dentro del “Panel de mensajes”.
+
+
+
+Imagen 29: Mensaje recibido
+
+Este sistema de mensajería puede resultar útil para comunicaciones puntuales e individuales entre participantes en un curso, pero presenta dos problemas:
+
+Cuando se manda un mensaje colectivo, el registro de mensaje no muestra a todos los destinatarios
+
+Las notificaciones dependen de la configuración de los usuarios, y por lo tanto puede que el destinatario nunca lea el mensaje.
+
+Para enviar un mensaje a todos los estudiantes de un curso el mejor método es un foro (ver indicaciones en el siguiente apartado). Para escribir un mensaje a una parte de los estudiantes de un curso (por ejemplo, los que no han entregado una tarea) y conservar un registro claro de los mensajes enviados, se puede utilizar la siguiente fórmula:
+
+Dentro del curso donde se quiere enviar el mensaje, ir a la sección Navegación > Curso Actual > Participantes (ver apartado Participantes en este mismo manual)
+
+Asegurarse de que estamos viendo todos los participantes del curso en la tabla de “Participantes” (pro defecto solo muestra los 20 primeros) pulsando sobre “Mostrar (número total de participantes expresado en cifra)” en la parte inferior de la tabla
+
+Seleccionar “Enviar mensaje” en el menú desplegable “Con los usuarios seleccionados” (ver apartado Participantes en este mismo manual)
+
+Seleccionar y copiar la lista con los nombres y direcciones de correo electrónico, como se muestra en la imagen 26.
+
+Abrir una hoja de cálculo vacía (por ejemplo MS Excel), pulsar sobre la primera celda de la primera fila y pegar el contenido del portapapeles
+
+Seleccionar la segunda columna para recuperar todos los correos electrónicos
+
+Desde la aplicación de correo que se use habitualmente, pega el contenido del portapapeles en el campo destinatarios
+
+
+
+Imagen 30: Lista de participantes
+
+Configuración del foro y de las opciones de suscripción
+
+El foro es la herramienta de comunicación más importante de un curso eGela porque ofrece un sistema de comunicación flexible que puede adaptarse a distintas necesidades dentro de un aula virtual. Existen varios tipos de foros con formas de funcionamiento específicas. El docente también puede configurar las opciones de suscripción que le parezcan adecuadas.
+
+Para crear un foro hay que 1) pulsar sobre “Activar edición” 2) pulsar sobre “Añadir una actividad o un recurso” en el bloque correspondiente y seleccionar la opción Foro.
+
+Tipos de foro
+
+Foro de novedades: Se crea por defecto en cada curso de eGela, en el bloque 0. Sus características fundamentales son que todos los estudiantes están suscritos por defecto y que los estudiantes no pueden contestar a los mensajes.
+
+Foro para uso general: Se organiza en hilos de debate. Todos los participantes pueden crear hilos nuevos y participar en los existentes
+
+Debate sencillo: tiene un único hilo de debate. Es útil para una discusión corta/limitada de tiempo de un solo tema o materia
+
+Cada persona inicia un debate: este tipo de foro es un término medio entre un debate largo y uno corto y enfocado. Los estudiantes tienen menos capacidad de maniobra, pero más que en el debate sencillo.
+
+Foro de preguntas y respuestas: este foro se usa cuando tienes una pregunta en particular que seas que sea contestada. En un foro P&R, los tutores lanzan la pregunta y los estudiantes contestan con posibles respuestas. Por defecto, un foro P&R requiere que un estudiantes conteste una vez antes de ver las respuestas de los otros estudiantes.
+
+Configurar y comprobar la suscripción al foro
+
+Dentro de las opciones de configuración del foro se incluye el apartado Suscripción y seguimiento > Modalidad de suscripción. Las opciones so 1) opcional (inicialmente desactivada pero configurable por el usuario), 2) forzosa, 3) automática (inicialmente activada pero configurable por el usuario) y 4) deshabilitada.
+
+
+
+Imagen 31: Modalidad de suscripción
+
+Foro de “Avisos” (antes “Foro de novedades”)
+
+El foro de "Avisos" es el nuevo nombre para el "Foro de novedades"
+
+
+
+Foro de avisos
+
+Cuando se crea un curso contiene un único elemento, un foro donde los estudiantes no pueden participar y al que están todos suscritos. Este foro se llama ahora por defecto "Avisos". En aquellos cursos que han importado contenidos de cursos anteriores, el nombre se mantiene. 
+
+Suscripción a hilos de debate específicos
+
+
+
+Cuando las opciones de configuración del foro están marcadas como "Suscripción opcional" o "Suscripción automática", es posible seleccionar los hilos a los que queremos estar suscritos pulsando sobre los iconos que apaceren en la parte derecha de cada hilo.
+
+El icono que aparece en la primera línea, un punto, indica que no se recibirán notificaciones de este hilo
+
+El icono que aparece en la segunda línea, un sobre, indica que se recibirán notificaciones
+
+Dentro del hilo de mensajes también hay un indicador que nos muestra si estamos o no suscritos al foro y que nos permite cambiar esta opción.
+
+
+
+Número de suscriptores
+
+Cuando consultamos los usuarios suscritos a un foro podemos ahora saber el número total y poder así compararlo con el número de participantes en el curso. Por ejemplo, en el curso donde está incluido el foro que aparece en la siguiente imagen hay un total de 5 participantes, de los cuales 2 están suscritos al foro.
+
+
+
+NOTA: La pantalla que se muestra en la imagen solo aparece cuando la edición está desactivada. En caso contrario aparece una pantalla donde el docente puede modificar la lista de suscriptores.
+
+Fijar hilos de debate en la parte superior del listado
+
+Los docentes pueden establecer que un determinado hilo quede siempre fijado en la parte superior. Esta opción está disponible dentro del propio hilo o al escribir el primero de los mensajes.
+
+
+
+Cuando un hilo está "fijado" en la parte superior aparece un icono mostrando este estado.
+
+
+
+Enlace permanente
+
+Cada uno de los enlaces de un foro cuenta con un enlace permanente que permite referenciarlo de forma más precisa.
+
+
+
+Pulsando sobre "Enlace permanente" (1) el mensaje queda marcado con una barra azul (2) y podemos copiar el enlace al hilo de debate incluyendo el ancla que nos conduce directamente al mensaje.
+
+Duplicación de mensajes cuando se usan grupos
+
+Cuando se configura un foro en modo grupos, los usuarios con rol docente pueden redactar un mensaje global que se mostrará a todos los grupos, formándose tantos hilos de debate grupos existan en el curso. Para ello se deberá marcar la opción señalada en la imagen
+
+
+
+
+
+
+
+9     
+
+
+
+
+
+
+
+
+
+9

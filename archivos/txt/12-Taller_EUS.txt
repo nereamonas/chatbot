@@ -1,0 +1,360 @@
+Tailerra sortu eta kudeatu (Parekoen ebaluazioa)
+
+Irakasleentzako eskuliburua 
+
+1. bertsioa (2/03/2016)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabla de contenido
+
+	Nola azaldu ikasleak bidali behar duen jarduera?	4
+
+	Nola ebaluatzen dituzte ikasleek beraien kideak ?	5
+
+	1 Kalifikazio-estrategia	5
+
+	2 Ezarpenak editatu > Kalifikazioen ezarpenak	6
+
+	3 Ezarpenak editatu > Feedbacka (gaitu edo desgaitu aukera hau parekoen ebaluazioan)	6
+
+	4 Editatu ebaluazio formularioa	7
+
+	Nola antolatzen da ebaluatu beharreko lanen esleipena?	7
+
+	Irakasleak ere ebaluatzen  du?	8
+
+	Aldi batetik bestera nola igarotzen da?	9
+
+	Nola balioztatzen dira notak eta nola ixten da jarduera?	9
+
+	Ebaluazioen kalifikazio fasea	9
+
+	Tailerraren ixtea	10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tailerra konfiguratzeko kontutan izan beharreko aukera kopurua oso altua da eta posible da aurrera egiteko gogogabetzea. Eskuliburu honen helburua tresna honen erabilera ahalik eta errazen eta ulergarrien egitea da; nahiz eta, hasieran zailtasunak baino ikusi ez arren, parekoen ebaluazioa baimentzen duen sistema malgua eskaintzen du. 
+
+Lehenik eta behin, zehaztu beharra dago tailer bat martxan jartzeko behar diren konfigurazio aipamen guztiak ez direla baliabidearen “ezarpenen” formularioan agertzen, beste atal bi kontutan izan beharko dira baita. Beraz, hiru atal erabiliko ditugu:
+
+Tailerraren kudeaketa > Ezarpenak editatu (hasierako formularioa)
+
+Tailerraren kudeaketa > Editatu ebaluazio-formularioa
+
+Tailerraren kudeaketa > Esleitu bidalketak
+
+Gainera, ”tailerraren planifikazioa” (1go irudia) taula ere erabilgarri dago zeinak 1) atal bakoitzean egiteke dauden zereginak erakusteko eta konfigurazio atal zehatzera zeharbidearekin 2) oharrak ikusteko (bidalketak, epeak) eta 3) aldiz edo fasez aldatzeko (bidalketa-alditik ebaluazio-aldira automatikoki igarotzen da).
+
+
+
+1go irudia: “Tailerraren planifikazio” taula
+
+Gainera, formularioak eskaintzen dituen aukeren artean ez galtzeko, komeni da zein erabaki hartuko diren argi izatea eta hauek non islatu behar diren Tailerraren baitan. Hori dela eta, eskuliburu hau galdera hauen inguruan antolatu da: 
+
+Nola azaldu ikasleak bidali behar duen jarduera? 
+
+Nola ebaluatzen dituzte ikasleek beraien kideak? 
+
+Nola antolatzen da ebaluatu beharreko lanen esleipena
+
+Irakasleak ere ebaluatzen  du? 
+
+Aldi batetik bestera nola igarotzen da? 
+
+Nola balioztatzen dira notak eta nola ixten da jarduera? 
+
+Nola azaldu ikasleak bidali behar duen jarduera? 
+
+Tailerraren lehen aldian zehazten da informazio hau, taulan “bidalketa-aldia”rekin identifikatzen da. Funtsean zein den egin beharreko lana, zenbat fitxategi eta zein motakoak bidali behar dituzten- bidali behar izanez gero-, zehaztu beharko da. 
+
+Garrantzitsuena, ikasleak tailerraren “bidalketa-aldian” sartzean ikusiko duen informazio Ezarpenak editatu > Bidalketaren ezarpenak > Bidalketarako argibideak atalean azaltzen dena dela ulertzea da 
+
+
+
+2. irudia: Bidalketaren ezarpenak
+
+Kontuz Ezarpenak editatu > Orokorra > Deskribapena  eremuan informazio garrantzitsua jartzearekin  izan ere, ikasleek bidalketa aurreko aldian soilik ikusiko baitute, posible da inoiz ez ikustea, Ezarpenak editatu > Orokorra > Erakutsi deskribapena ikastaroaren orrian  karratua bete ezean behintzat. Aldi bakoitzeko epe guztiak erakusteko modu egokia izan daiteke hau; nahiz eta informazio hau “tailerraren planifikazio” taulan azaltzen den (oso letra tamaina txikian). 
+
+
+
+3. irudia: Erakutsi deskribapena ikastaroaren orrian seinalatu ezean deskribapena ez dago eskuragarri ikasleentzat 
+
+Kontutan izan behar da baita ebaluazio-aldiko argibideak dagokion aldira iritsi arte ez direla erakutsiko, 4. irudian ikus daitekeen bezala (irudi honetan ikusten da ikasleak ez duela argibide gehiago ikusten) Beraz, komeni da “bidalketarako argibideen” baitan, tailerraren baldintzak osatzeko berriro atal honetara bueltatu behar direla adieraztea azalpetxoren baten bidez .   
+
+
+
+4. irudia: Ikaslearen bista 
+
+Bestalde, “Bidalketaren ezarpenak” atalean “Baimendu epez kanpoko bidalketak” aukera agertzen da (2. Irudia ikusi)- aukera hau “Aldi batetik bestera nola igarotzen da?” galderan sakontzean ikusiko da. Aipatutako eskuliburuko atal horretan, besteak beste, Ezarpenak editatu > Eskuragarritasuna inguruan ere arituko gara, non bidalketa eta ebaluazio datak zehaztuko diren. 
+
+Nola ebaluatzen dituzte ikasleek beraien kideak ?
+
+1 Kalifikazio-estrategia
+
+Aspektu honen inguruko erabakiak Tailerraren kudeaketa > Ezarpenak editatu > Kalifikazioen ezarpenak > Kalifikazio-estrategia gunean hartzen dira
+
+1go taula: Kalifikazio-estrategiak
+
+Kalifikazio-estrategiak
+
+Zenbakizko kalifikazioa 
+
+Bai/Ez kalifikazioa 
+
+Eskala (edo mailak) 
+
+Oharra*
+
+Deskribapena
+
+Metatutako kalifikazioa
+
+Bai
+
+Ez
+
+Ez 
+
+Bai
+
+Alderdi zehatzei  buruz iruzkinak eta kalifikazioak egiten dira 
+
+Iruzkinak
+
+Ez
+
+Ez
+
+Ez
+
+Bai
+
+Alderdi zehatzei buruz iruzkinak egiten dira baina ez da kalifikatzen.
+
+Errore kopurua
+
+Ez**
+
+Bai
+
+Ez
+
+Bai
+
+Egindako baieztapenen inguruko iruzkinak eta bai/ez kalifikazioak egiten dira 
+
+Argibideak
+
+Ez**
+
+Ez
+
+Bai
+
+Ez
+
+Alderdi zehatzei buruzko maila ebaluazioa egiten da.
+
+*Iruzkinak desgaitu edo aukerazkoak izan daitezke  ** Kalifikazioa azkenean zenbaki bat izango da, baina ebaluatzaileren irizpideen araberako 
+Taula honek ia erabat berregiten du Moodle 2.4 para el profesor  Conde Vides et al. (Gabinete de Tele-Educación de la Universidad Politécnica de Madrid) eskuliburuaren 179. orrian  azaltzen dena
+
+
+
+Atal honetan zehaztu beharko dira baita bidalketaren kalifikazioaren eta ebaluazioaren kalifikazioaren pisu espezifikoak (5. irudia ikusi).  Emandako ebaluazioen bitartez lortutako kalifikazioa beste kide batzuek lan berdinentzako emandako ebaluazioen. Kalkulu hau irakasleak  Kalifikazioa ebaluatzeko aldian haztatu ahal izango du. Informazio gehiago ikusteko, joan “Nola balioztatzen dira notak eta nola ixten da jarduera?” atalera.
+
+
+
+5. irudia: Kalifikazioen ezarpenak
+
+2 Ezarpenak editatu > Kalifikazioen ezarpenak
+
+Atal honenetan bi ekintza baino ezin dira gauzatu
+
+Parekoen ebaluazioa gauzatu behar duten ikasleentzako argibideak idatzi. Ikasleek jarraibide hauek aldi honetara heltzean ikusiko dituzte, bidalketa argibideen azpian. 
+
+Ikasleek beraien lana beste kideena ebaluatu aurretik auto-ebaluatu ahal izango duten zehaztu.
+
+
+
+
+
+6. irudia: Ebaluazioaren ezarpenak
+
+
+
+ 7. irudia: Ikasleek ebaluaziorako argibideak dagozkien aldian ikusiko dituzte 
+
+3 Ezarpenak editatu > Feedbacka (gaitu edo desgaitu aukera hau parekoen ebaluazioan) 
+
+Ezarpenak editatu > Feedbacka atalean ikasleek beraien kideen lanak ebaluatzean izango dituen feedback aukerak mugatuko dira. Garrantzitsua da ondokoa bereiztea (6. irudia ikusi) 
+
+Ikasleak izango dituen feedback aukerak. 
+
+Irakasleak ikasleei egindako ohar (ondorio) orokorra, zeina prozedura guzti hau bukatzean ikusiko duten
+
+
+
+
+
+8. irudia: Ondorioak
+
+4 Editatu ebaluazio formularioa
+
+Tailerraren ezarpenak konfiguratzea bukatzean, ikasleek beste kideen bidalketak ebaluatzeko jarraitu beharreko “ebaluazio formularioa” konfiguratu  ahal izango da. “Ebaluazio formulario” honetan azalduko diren aukerak eskuliburu honetako 1 eta 2 puntuetan hartutako erabakien arabera izango dira. Azaltzen diren formularioak nahiko argiak dira, baina komeni non aurki daitezkeen argitzea. Bi aukera daude:
+
+
+
+Kudeaketa blokea > Tailerraren kudeaketa > Editatu ebaluazio-formularioa.
+
+Tailerraren planifikazioan azaltzen den lasterbidea erabiliz. 9. irudian ikus daitekeenez, ekintza hau marka gris batez agertzen da aldi honetan, eta gorriz tailerra hurrengo aldira igaroko balitz. 
+
+9. irudia:  Ebaluazio-formulariora sarbidea tailerraren planifikaziotik 
+
+Nola antolatzen da ebaluatu beharreko lanen esleipena?
+
+Bidalketen esleipenerako aukeretara sarbidea izateko:
+
+1) Kudeaketa blokea > Tailerraren kudeaketa > Esleitu bidalketak.
+
+2) Tailerraren planifikazioan azaltzen den lasterbidea erabiliz. (10. irudia ikusi)
+
+
+
+10. irudia: Esleitu bidalketara sarbidea tailerraren planifikaziotik 
+
+Esleipena hiru era ezberdinetara gauza daiteke:  
+
+Eskuz egindako esleipena: ikasle bakoitzarentzat, berak ebaluatuko dituen kideak eta bere lana ebaluatuko duten kideak zehazten dira. Ez da beharrezkoa ebaluatu beharreko kopuru bat finkatzea. Esleipen mota  hau,  ikasle kopuru txikia den kasuetarako izan ezik,  erabilgarri gerta daiteke barne prozeduretan sor daitezkeen desorekak zuzentzeko (ebaluatzaile bako bidalketak, epez kanpo egindako bidalketak…).  
+
+Ausazko esleipena: bidalketa guztiak eginak daudenean ikasle bakoitzak egin beharreko ebaluazio kopurua eta gainerako ezarpenak finkatzen dira eta ondoren, esleipena gauzatzen da.   
+
+Esleipen automatikoa: mota honek esleipenari buruzko zehaztasunak gorde eta bidalketa aldia bukatu ostean berau gauzatzeko aukera ematen du. 
+
+
+
+11. irudia:  Esleipen automatiko eta ausazko esleipenerako ezarpenak 
+
+Esleipen automatiko edo ausazkoa aukeratuz gero, kontutan izan beharko da Ezarpenak editatu > Bidalketaren ezarpenak Azken orduko bidalketak (2. irudia ikusi) aukera markatu bada, aurrerantzean egindako bidalketak ez baitute ebaluatzailerik esleituta izango. 
+
+Irakasleak ere ebaluatzen  du? 
+
+Irakasleak beti ebalua dezake, horrela finkatu duelako edo bidalketa batzuetarako gerta daitezkeen ebaluazio hutsuneak osatzeko. Ez dago leku jakin bat aukera hau zehazteko; kalifikazio ebaluatzeko aldian eskuragarri dagoen taulan azaltzen den bidalketaren izenean sakatu  beharko da soilik. Informazio gehiago  Nola balioztatzen dira notak eta nola ixten da jarduera? Eskuliburu honen atalean.
+
+Aldi batetik bestera nola igarotzen da?
+
+Tailerra ikasleen esku jartzeko aurreko aldi edo faseetako galderak ebatzi behar izango dira. Hori dela eta, galdera honekin bukatzen dugu “tailerraren konfigurazioa”. Aldi batetik bestera igarotzea kudeatzeko kontutan izan beharrekoa izango da:
+
+	1. Planifikazio-taulak bonbillatxoaren gainean sakatuz  aurrera edo atzera  egitea ahalbidetzen du. 12. irudiak azaltzen duen moduan, fase edo aldi aldaketa hau eskuz egingo da, aipatzen den kasua salbu.  
+
+
+
+12. irudia: Aurrera edo atzera tailerreko fase edo aldietan 
+
+
+
+
+
+2. Ezarpenak editatu > Eskuragarritasuna atalean. Honetan bidalketa(1) eta ebaluazio epeak (3) zehaztu daitezke eta hurrengo aldira igarotzea automatizatu daiteke (2).
+
+
+
+13. irudia: Eskuragarritasuna
+
+Ezarpenak editatu > Bidalketaren ezarpenak Azken orduko bidalketak (2. irudia ikusi) markatu bada, komenigarria izango litzateke aldi batetik bestera igarotzea ez automatizatzea.  
+
+Nola balioztatzen dira notak eta nola ixten da jarduera? 
+
+Ebaluazioen kalifikazio fasea 
+
+Behin tailerra,  bidalketa eta ondoren ebaluazio aldian dagoenean, irakasle bistak kalifikatzailearen azpian “tailerraren kalifikazio-txostena” azalduko du (15. irudia ikusi).
+
+“Kalifikazioak ebaluatzeko aldira” igarotzean oraindik ez dira notak azaltzen. Hauek azaltzeko  “kalifikazioak birkalkulatu” (1) sakatu beharko da (14. irudia sakatu). Kalkulu hau eskalan (2) egindako aukeraren araberakoa izango da (oso arina- arina- zuzena – zorrotza- oso zorrotza).
+
+
+
+14. irudia: Kalifikazio ezarpenak 
+
+
+
+ 15. irudia: Tailerraren kalifikazio txostena 
+
+Kalkulua egin ostean, bi ekintza egin daitezke: 
+
+ 
+
+Bidalketak ebaluatu: Bidalketaren izenburuan sakatuz, irakasleak bere kalifikazioa gehi dezake ikasleenari, edo 15. irudian adierazi bezala, baldintza guztiak bete zituen ikaslearen bidalketaren ebaluazio hutsuneak osatzeko. Irakasleak bere ebaluazioak pisu gehiago izatea ezar dezake. Bestalde, irakasleak bidalketa egin duenari feedback testua bidal dakioke- ebaluatzeko behar izanik gabe- edo bidalketa hori tailerra bukatzean beste ikasleei eskuragarri jartzea aukera dezake baita. 
+
+Ebaluazioak ebaluatu: kalifikazioaren gainean sakatzean formulario bat zabaltzen da. Irakasleak momentu horretan ikasleek egindako ebaluazioa haztatu edo aldatu dezake eta baita egindako ebaluazioaren harira feedback testua bidali. 
+
+
+
+Tailerraren ixtea 
+
+Kalifikazioen berrikustea bukatu eta beharrezko egokitzeak egin ostean, irakasleak tailerra itxi dezake. Momentu horretan ikasleak bere kalifikazioa zein den eta “ondorioak” atalean adierazitako testua ikusi ahal izango ditu.   
+
+
+
+ 16. irudia: Ikaslearen bista 
+
+
+
+
+
+2Tailerra sortu eta kudeatu (Parekoen ebaluazioa)

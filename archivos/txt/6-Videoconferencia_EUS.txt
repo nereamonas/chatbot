@@ -1,0 +1,467 @@
+Bideokonferentziak Collaborate Ultra erabiliz
+
+Irakasleentzako eskuliburua 
+
+2. bertsioa (2020/11/11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Honako eskuliburu hau Universidad del País Vasco / Euskal Herriko Unibertsitateko eCampusak landu du.
+
+Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago. Lizentzia horren kopia ikusteko, sartu http://creativecommons.org/licenses/by-nc-sa/3.0/es/ helbidean.
+
+
+
+
+Edukien argibidea
+
+		1	Bileretarako gune birtual bat sortu eGela/eGelaPIn	3
+
+		1.1	eGela / eGela PI bilera gunea konfiguratu	3
+
+		1.1.1	Orokorra	4
+
+		1.1.2	Beste konfigurazio batzuk	5
+
+		1.1.3	eGela / eGela PItik bilera gunera sarbidea	5
+
+		2	eGela /eGelaPItik kanpo bilera gunea sortzea	6
+
+		3	Blackboard Collaborate Ultra bilera gunera sarbidea	8
+
+		3.1	Nabigatzaile eta sistema eragileekin bateragarritasuna	8
+
+		3.2	Erabili beharreko beste gailuen ezarpenak	9
+
+		3.2.1	Audio irteera konprobatu (bilerara sartu aurretik)	9
+
+		3.2.2	Mikrofonoa partekatu (audio sarrera)	10
+
+		3.2.3	Kamera partekatu	10
+
+		3.2.4	Audio eta bideo ezarpenak	12
+
+		3.3	Tutorialak (erabiltzaileentzako tour-ak)	13
+
+		4	Bilera guneko rolak	13
+
+		5	Saioak moderatzea eta edukiak aurkeztea	13
+
+		5.1	Grabazioak kontrolatzea eta deskargatzea eta saioa ixtea (Eskuinaldeko menuan azaltzen diren aukerak moderatzaile rolarekin)	14
+
+		5.2	Edukiak, bertaratuak eta baimenak kudeatzea eta doikuntza pertsonalak egitea (Eskuinaldeko menuan azaltzen diren aukerak moderatzaile rolarekin)	15
+
+		5.2.1	Nire ezarpenak (Pertsonalak eta saioarenak)	15
+
+		5.2.2	Edukiak partekatu (Pantaila partekatu, Fitxategiak aurkeztu eta Arbela)	16
+
+		5.2.3	Partaideak (Partaideen zerrenda eta aurkezle bihurtu)	21
+
+		5.2.4	Txat komunikazio tresna	22
+
+		6	Saioaren interakzioak dinamizatzea (egoerak, audio- eta bideo-kontrola eta hitz-txandak)	23
+
+		6.1	Nire egoera eta ezarpenak (Feedback azkarrak "egoeraren" bidez)	24
+
+		6.2	Audio eta bideo kontrolak	24
+
+		6.3	Eskua altxatu	24
+
+		7	Grabaketak	25
+
+		7.1	Grabazioak mantentzeko eta ezabatzeko protokoloa	27
+
+		7.1.1	EHUtb bideo-biltegia	28
+
+		7.1.2	EHUbox hodeian biltegiratzea	29
+
+
+
+
+
+
+Bileretarako gune birtual bat sortu eGela/eGelaPIn 
+
+Beharrezkoa da gela birtual bat izatea:
+
+eGela: GAURen Gradu, Master ofizial, Berezko Titulu eta doktoregorako irakasgaietan irakaskuntza karga duen irakaslegoak eGelan guneak eduki ditzake. Guneen sorrera edo alta Ikasgela Birtualen Kudeatzailearen bidez gauzatuko da. Kudeatzaile honen bidez, irakasleek eGelan guneak sortzeaz aparte, beste hainbat ekintza ahalbidetzen ditu baita: taldeen bateratzeak, segurtasun kopien kontsulta, edukien karga... eGelan dute tokia baita Gela Birtual Transbertsalek, hauek ikasturte mailan, gradu mailan,  master edo berezko titulu mailan sor daitezke. 
+
+eGelaPI: UPV/EHUko edozein kidek (IIP zein AZP) eska dezake eGelaPIn gune bat. Beharrezkoa izango da eskariak Sail, zerbitzu ikastegi edo ikerketa taldearen babesa izatea. eGelaPIko guneak Aginte panela >Ikastaro eskaerak blokearen bidez gauzatuko dira. Informazio gehiago ondoko estekan. .
+
+ eGela / eGela PI bilera gunea konfiguratu
+
+eGela/ eGelaPIn Blackboard Collaborate Ultra bilera gune bat sortzeko, 1) edizioa aktibatu 2) “gehitu jarduera edo baliabidea” botoia sakatu eta 3) “Collaborate” jarduera aukeratu. 
+
+
+
+Orokorra
+
+Ondorengo irudian “Orokorra” atalean zehaztu beharrekoak adierazten dira. 
+
+"Saioaren izena”, ikastaroaren orrialde nagusian eta jardueraren orrian azalduko da.
+
+“Deskribapena”, jardueraren orrian azaltzen da, eta aukerazkoa ikastaroaren orrialde nagusian erakustea (2.1. laukitxoa). 
+
+“Hasiera” ordua eta data. Bilera gunea adierazitako ordua baino 15 minutu arinago eskuragarri izango da. 
+
+"Iraupena”. “Ikastaroaren iraupena” aukeratuz gero, hasiera datan adierazitako egunetik aurrera gunea beti eskuragarri izango da. 
+
+Beste konfigurazio batzuk
+
+Konfigura daitezkeen beste aukera batzuk ondoko irudian ikus daitezke.
+
+Kalifikazioa aktibatzea posiblea izan arren, “kalifikatzailean” bertan egitea hobe litzateke. Eskuliburura esteka 
+
+ “Moduluen ezarpen komunak” atalaren baitan, talde-modua zehatz daiteke, “taldeek ezin elkar ikusi” edo “taldeek elkar ikusten dute” aukerekin. Aukera biekin ondorio berdina lortuko da, ikasle bakoitzak dagokion taldeko bilera gela sarbidea izango du. Baina Blackboard Collaborate Ultrak eskaintzen dituen “Lan taldeak” erabiltzea gomendagarriagoa litzateke. 
+
+OHARRA: talde konfigurazio ikastaro mailan zehaztu baldin bada, jarduera mailan aldatzeko aukera izango da (eskuliburua kontsultatu) Gune birtualeko ikaslego guztiarekin bilera bat egin nahi izanez gero, bilera birtualak eGela/eGelaPI-z kanpo gauzatzeko aukera eskuragarri izango dela kontutan izan. (ikusi 2. Atala “eGela /eGelaPItik kanpo biera gunea sortzea”)Bilera guneei eskuragarritasuna muga dakieke, beste jarduerei bezala. 
+
+Ikastaroaren kudeaketa >Ikastaroaren ezarpenak> Osaketaren jarraipena aktibatu bada,  jarduera hau osatu gisa hartzeko baldintzak (“bilera gunera sartu” ”kalifikazioa jaso”) zehaztu ahal izango dira atal honetan.  
+
+eGela / eGela PItik bilera gunera sarbidea
+
+Behin konfigurazioa bukatuta, gunera sarbidea ematen duen orrialdea sortzen da. “Sartu saiora” botoia sakatu gunean sartzeko. Botoi hau azaltzen ez bada, konfigurazio datuak aztertzea beharrezkoa izango da- “hasiera data” “iraupena”... 
+
+eGela /eGelaPItik kanpo bilera gunea sortzea
+
+Zerbitzu hau ondoko helbidean eskuragarri dago https://ehu.eus/bilerak.
+
+LDAP erabiltzaile eta pasahitza sartu ondoren, bilera gune zerrenda eta “saioa sortu” (crear sesión) botoia (1) agertuko dira. Saioaren izena, data eta beste ezarpenak zehaztu beharko dira.
+
+
+
+Hauek dira partaide ugariko (10 partaide baino gehiago) bilera guneak izan beharko lituzkeen gomendatutako ezarpenak . Partaide jakin batzuei “hitza emateko” unean-uneko rola eslei dakieke. (ikus 5.2.3. Partaideak atala)
+
+
+
+Ondoren irudian, dagoeneko sortuta dagoen bilera gunera sarbidea erakusten du. eGela/ eGelaPIrekin lotura ez duen bilera gunea sortzen denean, partaide guztiak gonbidatu gisa sartuko dira, gunea sortu duena salbu. Aurretik gonbidatu rolak izan ditzakeen aldaerak zehaztu beharko dira “gonbidatu partaide” edo “gonbidatu aurkezle”(2). “Partaide” rola erabiltzea gomendatzen da  Ondoren, “guneko esteka” kopiatu eta mezu bidez partaide izango denari helarazi.  “Partaide” (participante) rola erabiltzea gomendatzen da, gunearen dinamikara egokitzen den heinean, behintzat(4. Bilera guneko rolak atala ikusi).
+
+Esteka horrekin partaideak zuzenean bilera gunera sartu ahal izango dira, gunean izan nahi duten izena zehaztu ondoren. Ez da beharrezkoa LDAP erabiltzailea bilera gune hauetara sartzeko.  
+
+
+
+Ondorengo irudian agertzen den bezala, bilera gunearen sortzaileak, “moderatzaile” rola izateko hiru puntutxuen gainean sakatu (1) eta ondoren “saiora sartu” (2) botoia sakatu beharko du.  
+
+Kontutan izan behar da baita, bilera gunearen sortzaileak telefono zenbaki bidezko sarbidea eskain dezakeela Internet konexiorik ez duen norbaiti.  Esteka honek entzun eta hitz egiteko aukera ahalbidetzen ditu, baina ez pantailan azaltzen diren edukiak ikustea. Probintziarteko deia izango da eta erabiltzen duenarentzat dagokion kostua izango du. 
+
+Blackboard Collaborate Ultra bilera gunera sarbidea
+
+Nabigatzaile eta sistema eragileekin bateragarritasuna 
+
+Ondorengo helbidean nabigatzaile eta sistema eragileei buruzko eguneratutako informazioa aurki daiteke.  
+
+https://help.blackboard.com/es-es/Collaborate/Ultra/Moderator/Get_Started/Browser_Support
+
+2020/03/11an deskargatutako taula honetan nabigatzaile eta sistema eragile bateragarriak azaltzen dira- garrantzitsua da nabigatzaileen bertsio eguneratuak izatea. 
+
+
+
+Erabili beharreko beste gailuen ezarpenak 
+
+Audio irteera konprobatu (bilerara sartu aurretik)
+
+Bilera gunera sartu aurretik ekipoan aukeratu dagoen audio irteera konprobatzea komeni da. Ondorengo irudian Window 7 sistema eragilea duen ordenagailuko ezarpen aukerak ikus daitezke. 
+
+Ondorengo irudian, erreprodukzio gailuen aukeraketa ahalbidetzen duen gunea erakusten da. 
+
+
+
+Ordenagailuan audio erreprodukziorako eskuragarri dauden gailuen zerrenda azaltzen da. Marka edo seinale orlegiak lehenetsitako gailuak zeintzuk diren adierazten du. Beste aukeraren bat lehenetsi bezala aukeratzeko, eskuin botoiarekin nahi den gailuaren gainean klik egin beharko da.
+
+Mikrofonoa partekatu (audio sarrera)
+
+Saioa hastean, lehenetsitako  audio gailua (1) eta bide horretatik sartzen den doinu maila adierazten dira (2). Gainera, menu hedagarri batean (3) ordenagailuan erabilgarri dauden gailuen zerrenda zabaltzen da, beraietako bat aukeratu nahi izanez gero. 
+
+Audio maila onargarria izanez gero, “Sí funciona” sakatu (4). Horrela ez balitz, “No, necesito ayuda” 
+
+
+
+Aukeraketa hau aplikazioan egin beharrean, nabigatzailean egitea ere posible da (Firefox pantaila harrapaketa).
+
+
+
+Audioaren kalitatea hobetzeko eta itzulketak saihesteko mikrofonoa integratuta duten entzungailuak erabiltzea gomendatzen da. Aldi berean aktibatuta dauden mikrofono kopurua ere zaintzea garrantzitsua da.  
+
+Kamera partekatu 
+
+Audio sarrerarako gailua aukeratu ondoren, nabigatzaileak kamera gailu hori erabiltzeko baimena eskatuko digu. 
+
+
+
+Chrome-ekin egindako pantaila harrapaketa
+
+
+
+Firefox-ekin egindako pantaila harrapaketa
+
+
+
+Ondoren,  kamera erabiltzeko prest dagoela baieztatzeko eskatzen da, “Si funciona” aukeratuz (1).  Kamerak ez du irudirik azalduko behealdean azaltzen den kamera ikonoa sakatu eta aktibatzen den arte (2).
+
+
+
+Audio eta bideo ezarpenak
+
+Ondorengo irudian “Nire ezarpenak”(Mis ajustes)  “Audio eta bideo ezarpenak” (Ajustes de audio y video) atalaren baitan dauden aukerak ikus daitezke. (ikus 5. Bilera gunearen funtzionalitateak)
+
+Gailuak egoki funtzionatu ezean, baimenak esleitzeko prozesua eta audio eta kamera konfiguratzea berrabiarazi daitezke (1)
+
+Gainera, bilerako partaide orok gunearen zenbakia eta pin pertsonala erabil ditzake (2) audioa jaso eta emateko. PIN zenbakia erabiltzaile bakoitzarentzat ezberdina da eta ohiko audio sarbide-irteerak baliogabetzen ditu.
+
+
+
+
+
+Bestalde, emandako baimenak bertan behera utz daitezke adierazitako elementuaren gainean sakatuz. 
+
+
+
+Tutorialak (erabiltzaileentzako tour-ak)
+
+Lehenengoz bilera gunean ordenagailu batetik sartzean, “tutoriala hasi” (iniciar tutorial)aukera azaltzen da (1). Aukera hau beranduagorako utzi nahi izanez gero, “beranduago” (mas tarde) (2) aukeratu.
+
+
+
+Bilera guneko rolak 
+
+Hiru rol mota izan daitezke  bilera gunearen baitan:
+
+“Moderatzaile” (Moderador) rolarekin bilera guneko partaideen rolak kudea daitezke, edukiak aurkeztu eta bilera grabatu. Rol hau izango dute,  bai eGela/eGelaPI bidez bilera gunea sortzen duten irakasleek eta baita, https://ehu.eus/bilerak (ikus 2. eGela/eGelaPItik kanpo bilera guneak sortu) aukeraren bidez sortu dutenek ere.
+
+“Aurkezle” (Presentador) roldunek arbela, fitxategiak eta pataila parteka ditzakete, baina ezin izango dituzte “Edukiak patekatu” (Compartir contenido) ataleko beste aukera guztiak erabili (sondeoak, tenporizadore, lan taldeak). Ezin izango dituzte ezta erabiltzaile ezta grabaketak kudeatu ere. 
+
+“Partaide” (Participante) rola dutenen baimenak saioaren ezarpenetan zehazten dira. Rol hau dute eGela/ eGelaPI bidez bilera gunera sartzen diren ikasleek. 
+
+ https://ehu.eus/bilerak bidez sortutako guneetan erabiltzaileak gonbidatu bezala sartzen dira, ezarpenetan zehaztutako baimenekin (ikus 2. “eGela/eGelaPi-tik kanpo bilera gunea sortu”)
+
+Saioak moderatzea eta edukiak aurkeztea
+
+Ondorengo pantaila harrapaketan alboetako panelak ikusgai daudelarik, aukera guztiak ikus daitezke.  
+
+
+
+Hurrengo elementuak nabarmenduko dira:
+
+Ezkerraldeko menu zabalgarria. Ezkerraldean goialdean azaltzen den ikonoan (1.1.) sakatuz zabaltzen da . Berton azaltzen dira “Grabaketa hasi”(Iniciar grabación)(1.2) eta “Saioa itxi” (1.3)(Cerrar sesión) aukerak ere. 
+
+Eskuinaldeko menu zabalgarria. Eskuinaldean behealdean dagoen ikonoan sakatuz zabaltzen da menu hau (2.1). Behealde horretan aurkitzen dira baita “Txat” (Chat), “Partaideak”(Asistentes), “Edukiak partekatu”(Compartir contenido) eta “Nire ezarpenak”(Mis ajustes) aukerak ere. 
+
+Erdigunean behealdeko azaltzen diren aukerak: “Nire egoera eta Ezarpenak” (Mi estado y Ajustes), “Audioa partekatu” (Compartir audio), “Bideoa partekatu” (Compartir vídeo) eta “Eskua altxatu” (Levantar la mano). 
+
+Grabazioak kontrolatzea eta deskargatzea eta saioa ixtea (Eskuinaldeko menuan azaltzen diren aukerak moderatzaile rolarekin)
+
+Atal honetan grabaketak egiteko aukera azpimarratuko dugu, irudian agertzen den bezala (1).  Ikusi aurrerago grabazioen kudeaketari buruzko atal espezifikoa. Gainera, behealdean, saioa ixteko ("Cerrar sesión") aukera dago (2).
+
+
+
+
+
+Edukiak, bertaratuak eta baimenak kudeatzea eta doikuntza pertsonalak egitea (Eskuinaldeko menuan azaltzen diren aukerak moderatzaile rolarekin)
+
+Nire ezarpenak (Pertsonalak eta saioarenak)
+
+Audio eta bideo ezarpenak 
+
+“3.2.1 Erabili beharreko beste gailuen ezarpenak” atalean azaldu dira  kontuan izan beharrekoak (kontsultatu atal hau) 
+
+Jakinarazpenei buruzko ezarpenak 
+
+Ezarpen hauek jakinarazpenak kudeatzea ahalbidetzen dute, adibidez, “Norbait saiora sartu edo irten denean”,  “Norbaitek txat bidez mezua argitaratzen duenean”, “Norbaitek eskua altxatzen duenean”. Ezarpen hauek erabiltzaileenak dira, pertsonalak. Beraz, saio bakoitzaren hasieran erabiltzaileei  gehien komeni zaiena aukera dezaketela azaltzea gomendatzen da.
+
+Saioaren ezarpenak 
+
+Atal honetan zehazten dira “Partaide” (Participante) rolak izango dituen baimenak. eGela / eGelaPI plataformetatik bilera gunea sortzen denean, baimen guztiak markatuta azaltzen dira. Konfigurazio hau aldatzea gomendatzen da transmisioen kalitatea bermatzeko eta soinu itzulerak saihesteko.  
+
+
+
+
+
+Edukiak partekatu (Pantaila partekatu, Fitxategiak aurkeztu eta Arbela)
+
+Arbel hutsa partekatu 
+
+Arbelak marrak eta formak egiteko aukera  eta testua idazteko aukera eskaintzen ditu . 
+
+Aplikazioa / Pantaila partekatu 
+
+“Aplikazioa / pantaila partekatu” (Compartir aplicación / pantalla) (1)* gainean sakatuz gero, aparteko leiho bat zabalduko da, non “Pantaila osoa” (Toda la pantaila) (2.1), “Aplikazioko leiho” ( Ventana de la aplicación) (2.2) eta “Chormeko fitxa” (Pestaña de Chrome) **(2.3) aukera daitezkeen. Horietako bat aukeratu ondoren (3), “Partekatu” (Compartir) botoia aktibatuko da (4).  
+
+
+
+* Pantaila harrapaketa hau Chrome nabigatzailearekin egin da. 
+
+** Aukera hau Chrome nabigatzailea erabiltzen denean dago eskuragarri soilik.  
+
+“Pantaila osoa” (Toda la pantalla) edo bilera gauzatzen ari den leihoa “Aplikazioko leihoa” aukeratuta partekatuz gero, kiribil bat sortuko da bertan dagoen edukiarekin- irudian ikus daitekeen bezala.   
+
+
+
+Hau gertatuz gero, fitxaz aldatzea nahiko da efektu hau desagertzeko. Baina agertzea saihesteko, ondorengo prozedura jarrai daiteke: 
+
+Nabigatzaileko bi leiho erabili, bata bilera gunerako eta bestea, erakutsi nahi diren edukietarako. 
+
+Edukia partekatzean “Aplikazioko leihoa” (Ventana de la aplicación) aukeratu eta bilera birtuala gauzatzen ari ez den leihoa aukeratu.  
+
+Gaineratu behar da baita, “Pantaila osoa” (Pantalla completa) edo “Chromeko fitxa” (1) (Pestaña de Chrome) aukerak aukeratuz gero, gunean sortzen ari den audioa transmititzea posible da. Ondorengo irudian UPV/EHUko Yotube (2) ataria aukeratu da eta bertan “Audioa partekatu” (3) (Compartir audio) aukera markatu da.       
+
+
+
+Edukia partekatzen bukatzeko, goialdean eskuinean azaltzen den “Stop” ikonoa sakatu beharko da (1).   
+
+
+
+Fitxategiak partekatu 
+
+Fitxategi bat partekatzeko, “Fitxategiak gehitu” (Agregar archivos) (1) sakatu edo fitxategia laukizuzen gris honetara ekarri (arrastatu). 
+
+
+
+Irudian irakur daitekeen bezala, irudi fitxategiak, Powerpoint aurkezpenak eta PDF.ak parteka daitezke soilik.   
+
+
+
+Irudiak erakusteko eraldatu behar dira (2), prozesu honek pare bat minutu iraun ditzake tamaina handiko fitxategiak izanez gero. Beraz, ikasleekin saioa edo bilera hasi aurretik fitxategiak igota izatea gomendatzen da.   
+
+
+
+Fitxategiak eraldatu direnean “Partekatu orain” (Compartir ahora) (1) aukera daiteke.  
+
+
+
+“Partekatu orain” (Compartir ahora) sakatu ondore, dokumentuko orriak partekatzeko prest daude (1). Beraietako bat aukeratzen ez den bitartean ez zaie pantailan partaideei erakutsiko. 
+
+
+
+Behealdean  azaltzen diren geziekin orrietan aurrera egitea posible izango da.    
+
+Fitxategi hauek, partekatzen diren arte. irakaslearen esku daude bakarrik.
+
+Partaideak (Partaideen zerrenda eta aurkezle bihurtu)
+
+Atal honetan partaideen zerrenda ikus daiteke, rol ezberdinen arabera sailkatuta, irudian ikus daitekeen bezala:  
+
+
+
+Saioko partaide bakoitzeko mikrofonoa aktibatuta duen (1), izena (2), seinalearen kalitatea (3)  eta partaideen kontrol panela (4). 
+
+Ondoko irudian “partaideen kontrol panelak”(Controles del asistente) eskaintzen dituen aukerak ikus daitezke. 
+
+
+
+Aukera hauekin moderatzaileak ondoko ekintzak baimentzen ditu: “txat mezu zehatz bat bidali” (“Enviar un mensaje de chat directo” ), “aurkezle bihurtu” (Convertir en presentador), “isilarazi” (Silenciar) eta “saiotik atera” (Eliminar de la sesión) . Erabiltzaile bat isilarazten denean ez da zaio bere mikrofonoa aktibatzeko baimena kentzen; itzulera edo erretornoak sortzen dituen mikrofonoa isiltzeko modu bat da soilik. 
+
+Hurrengo irudian ikus daiteke, nola “partaide” (participante) rola izan duen bati “aurkezle”(presentador) rola eman dakiokeen.  
+
+
+
+Txat komunikazio tresna
+
+“Txat” (chat) tresnak komunikazio bide azkar bat mantentzeko aukera eskaintzen du, zalantzak argitzeko edo izan daitezkeen konexio arazoak konpontzeko. Irudian ikus daitekeen bezala, “txat” bat dago “moderatzaile rola dutenentzat, eta beste bat, orokorra. 
+
+Saioaren interakzioak dinamizatzea (egoerak, audio- eta bideo-kontrola eta hitz-txandak) 
+
+Kontrolgune honek 4 elementu ditu: “Nire egoera eta Ezarpenak” (1) (Mi estado y Ajustes), “Audioa partekatu” (2) ( Compartir audio), “Bideoa partekatu” (3) (Compartir video) eta “Eskua altxatu” (4) (Levantar la mano). 
+
+
+
+Nire egoera eta ezarpenak (Feedback azkarrak "egoeraren" bidez)
+
+Botoi hau sakatuz (1), partaideen artean emotikonoen bidez bakoitzaren momentuko egoera adieraztea ahalbidetzen da.
+
+
+
+Honela, galdeketa edo sondeo azkarrak egin eta feedback arinak jaso daitezke. Emotikono hauek erabiltzaileen zerrendan 30 segundoko denbora tartean erakutsiko dira. (1).  
+
+Audio eta bideo kontrolak 
+
+Botoi hauek bileran norbere audio eta bideoa aktibatu eta desaktibatzeko aukera eskaintzen dute. 
+
+
+
+Ondokoa gomendatzen da: 
+
+Audioa desaktibatu hitz egiten ez denean, soinu itzulerak sahiesteko. 
+
+Bideoa desaktibatu pantailaren gehiengoan okupatzen duen edukia partekatzen denean eta konexio arazoak hatzematen direnean. 
+
+Eskua altxatu 
+
+“Eskua altxatu” (“levantar la mano”) botoiak partaideei  hitza eskatzeko aukera ematen die. Hurrengo irudian aukera hau aktibatuta agertzen da. 
+
+
+
+Erabiltzailearen ikonoaren alboan azaltzen den zenbakiak hitza eskatu dutenen arteko hurrenkera identifikatzen du (1). Gainera, moderatzaileak “eskua jaits” diezaioke hitza eskatu dionari.
+
+
+
+
+
+
+
+Grabaketak
+
+Grabazioak hasteko, "Hasi grabazioa" (1) sakatu behar da ezkerreko alboko panelean. Rol moderatzailea duten erabiltzaileek bakarrik eskura dute aukera hori.
+
+
+
+Grabaketa bat hasten denean, partaide guztiek ikus dezakete hori adierazten duen marka (1). Gainera, aparteko mezu batek saioa grabatzen hasi dela jakinaraziko du baita (2).  
+
+Grabaketa gelditzeko “Gelditu grabaketa” (Detener grabación) (1) sakatu. 
+
+ eGela / eGelaPI bidez sortutako saioetan grabaketak jardueraren orrian bilduko dira. eGela edo eGelaPItik kanpo sortutako guneetan (https://ehu.eus/bilerak) grabaketak ezkerraldeako zutabeko zabalgarrian (1), ”Grabaketak” (grabaciones) atalean aurki daitezke. Grabaketaren izenaren gainean sakatuz gero (3), ”Ikusi orain” (Mirar ahora) aukera agertuko da eta bideoaren erreprodukzioa hasiko da.
+
+
+
+
+
+Grabazioak mantentzeko eta ezabatzeko protokoloa
+
+Grabazioak mantentzeari lotutako kostu ekonomikoa murrizteko, automatikoki ezabatzeko protokolo bat ezarri da grabazioak egin eta 15 egunera. Protokolo hau plataforma guztiei aplikatzen zaie (eGela eta eGelaPI), baita gela birtual bati lotuta ez dauden grabazioei ere (https://www.ehu.eus/bilerak).
+
+Grabazio guztiak deskarga daitezke aldi horretan. Grabazio horietarako sarbidea 15 eguneko epe horretatik aurrera luzatu nahi bada, bi aukera hauek proposatzen dira.
+
+EHUtb bideo-biltegia
+
+EHUtb zerbitzuak (https://ehutb.ehu.eus /) aukera ematen du bideoak argitaratzeko. Gainera, kolektiboei (Saila, Irakasleak, Unibertsitatea, Internet) edo pasahitz bidezko bideoak ikusteko aukera muga daiteke.
+
+Multimedia edukiak EHUtb Zerbitzura igo ahal izateko, beharrezkoa da lehenik eta behin erabiltzaileak EHUtb Zerbitzuan alta emanda egotea. EHUtb Zerbitzuan alta emateko eskaera Erabiltzaileentzako Zerbitzuaren bidez egiten da ((154400 edo cau@ehu.eus / informazio gehiago orri honetan).
+
+Bideoa argitaratzeko inprimakian (1), "Metadatuak" erlaitzean (2), aukera daiteke zer kolektibok duen sarbidea ezartzeko. Bideoa eGelan txertatu nahi bada, "Internet" aukera markatu beharko da (3).
+
+
+
+
+
+Gainera, bideoa argitaratu ondoren, pasahitz bat ezar daiteke. "Edukien kudeatzailea" fitxan sartu eta pasahitza ezartzeko bideoa hautatuko dugu. Orriaren behealdera jaitsiko gara irudian agertzen den taulara heltzeko.
+
+
+
+"Publicación" (1) erlaitzean "Barreieatze profila" (2) alda daiteke, eta pasahitz bat ezarri (3), eGela edo eGelaPI ikastaro batean argitaratu daitekeena bideoaren estekarekin batera. Ezin da sarrerarik egin sartzeko pasahitza duten ikastaroekin.
+
+Informazio gehiago EHUtb eskuliburuan: https://ehutb.ehu.eus/help
+
+EHUbox hodeian biltegiratzea
+
+PDI eta AZP kolektiboen LDAP kontu guztiek hodeian biltegiratzeko 50 GB-ko espazioa dute. Bideo-fitxategi bat direktorio honetara igo ondoren, hurrengo irudian agertzen den "partekatu" (1) ikonoa erabil dezakegu (2) aukeren panela zabaltzeko. Partekatzeko esteka bat sor daiteke, gorriz nabarmendutako + zeinua sakatuz (3).
+
+
+
+
+
+Behin lotura sortuta, paper-euskarrian kopiatzeko aukera ematen duen ikono bat agertzen da. Esteka hori ikastaro batean argitaratu daiteke, eta kanpoko orri batera eramango gaitu. Bertan, bideo ikus edo deskarga daiteke.
+
+
+
+Informazio gehiago: https://www.ehu.eus/es/group/ikt-tic/ehubox

@@ -1,0 +1,213 @@
+Komunikaziorako tresnak: mezularitza eta foroak 
+
+Irakasleentzako eskuliburua
+
+3. bertsioa (2016/09/09)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Honako eskuliburu hau Universidad del País Vasco / Euskal Herriko Unibertsitateko eCampus-ek landu du.
+
+ Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago.  Lizentzia horren kopia ikusteko, sartu http://creativecommons.org/licenses/by-nc-sa/3.0/es/ helbidean
+
+Edukiak
+
+	Komunikaziorako tresnak	2
+
+	Mezularitza	2
+
+	Foroaren konfigurazioa eta harpidetza aukerak	5
+
+	Eztabaida zehatzetara harpidetzeko aukera	7
+
+	Harpidedun kopurua	7
+
+	Eztabaidak finkatu	8
+
+	Lotura iraunkorra	9
+
+	Taldeekin lan egitean mezuak bizkoiztu	9
+
+
+
+Komunikaziorako tresnak
+
+eGelak komunikaziorako bi tresna ditu: barne mezularitza, zeinari esker banakako edo talde mezuak bidaltzea posible den eta foroak. Komunikaziorako sistema bi hauek posta elektronikoari lotuta daudenez; profilaren ezarpenak zeintzuk direnen arabera, mezu bat mezularitza edo foro bitartez jasotzean, posible da jakinarazpena norbere kontuan jasotzea ere.
+
+Atal honetan honen inguruko azalpen orokor bat emango da; baita posta elektroniko bidezko jakinarazpenak nola finkatu ere.
+
+Mezularitza
+
+eGelako partaide bati mezu bat bidaltzeko partaide zerrendara (“Partaide” atal) jo eta bere profilean sakatzea baino ez dugu. Behin bere profilean, mezua bidaltzeko formulariora daraman esteka azalduko da. Hurrengo irudian, IKASLE1 erabiltzailea IRAKASLE1aren profilera sartu da mezu bat bidaltzeko.
+
+
+
+27. irudia: profilean mezu bat bidaltzeko agertzen den esteka
+
+“Mezua bidali” sakatzean, mezu horren edukia idazteko gunea zabaltzen da.
+
+
+
+28. irudia: mezua idazteko gunea
+
+Mezu honen hartzaileak Nabigazioa > Nire profila >Mezuak bidez, “irakurri gabeko mezu bat” duela ikusiko du. Gainera erabiltzaileak jakinarazpenak nola konfiguratuta dituenaren arabera, beste jakinarazpen batzuk ere izan ahal izango ditu, hala nola: posta elektroniko bidez edo eGelara sartzean mezuaren aurrebista laster-leiho baten bidez erakutsiz.
+
+
+
+29. irudia: irakurri gabeko mezua
+
+Behin mezua irakurtzean, mezu hau “Mezularitza-nabigazio” ko “azken aldiko elkarrizketak” bezala agertuko da.
+
+
+
+
+
+30. irudia: jasotako mezua
+
+Komunikazio sistema hau egokia izan daiteke banakako jakinarazpenetarako, baina arazo batzuk ditu:
+
+Talde bati bidalitako mezuetan, ez dira jasotzaile guztiak azaltzen mezuaren erregistroan.
+
+Jakinarazpenak erabiltzaileek zehaztutako ezarpenen araberakoak dira, posible da beraz, mezuaren jasotzaileak berau inoiz ez irakurtzea.
+
+Mezu bat ikasle guztiei bidali nahi izanez gero, FOROA da sistemarik egokiena.
+
+Ikasle talde jakin bati mezua bidaltzeko, adibidez jarduera bat entregatu ez dutenei, eta bidalitako mezuen erregistro bat izateko, ondorengo prozedura jarraitu daiteke: 
+
+Ikastaroaren baitan, Nabigazioa > Oraingo ikastaroa > Partaideak atalera joan
+
+Partaide guztiaz ikusten ditugula baieztatu – berez lehenengo 20ak erakusten ditu- horretarako “erakutsi denak” (partaideen taularen azpian) sakatu.
+
+“Aukeratutako erabiltzaileekin / Mezua bidali” aukeratu zabaltzen den menu hedagarrian.
+
+Izen eta helbideak aukeratu eta kopiatu 26. irudian agertzen den bezala
+
+Kalkulu orri (MS Excel adib.) berri bat zabaldu eta bertan kopiatutakoa itsatsi
+
+Posta -elektronikoen helbideak azaltzen dituen zutabea hautatu
+
+Azkenik, ohiko korreo aplikazioa erabiliz (eGela-z kanpokoa) jasotzaile eremuan aurretik hautatutako helbideak itsatsi
+
+
+
+31. irudia: partaide zerrenda
+
+Foroaren konfigurazioa eta harpidetza aukerak
+
+eGelan foroa da komunikazio tresnarik garrantzitsuena, izan ere prmia ezberdinetara egokitzen den komunikazio-sistema eskaintzan baitu. Erabilpen desberdinak dituzten foro mota ezberdinak existitzen dira. Irakasleak gainera, harpidetza aukerak zehaztu ditzake.
+
+Foro bat sortzeko 1) “Edizio aktibatu” sakatu 2) nahi dugun blokean jarri 3) “Gehitu jarduera edo baliabidea” gainean sakatu eta 4) Foroa aukeratu.
+
+Foro motak
+
+Berrien foroa (Novedades): foro hau 0 blokean agertuko da, berez, eGelan ikastaro bat sortzean. Foro honen ezaugarrietako bat ikasle guztiak harpidetuak daudela eta bertan azaltzen diren mezuak erantzutea ezinezkoa dela eta
+
+Erabilera orokorrerako foro arrunta: edonork has dezake gai berri bat eta sortuta daudenetan parte hartu.
+
+Eztabaida arrunt bakarra:  eztabaida gai bakar bat dauka bakarrik. Gai zehatz baten inguruko eztabaida baterako erabilgarri izan daiteke.
+
+Pertsona bakoitzak eztabaida bat bidaltzen du:  pertsona bakoitzak zehazki eztabaida gai berri bat bidal dezake eta guztiek erantzun dezakete
+
+G et E foroa: foro hau erantzuna izatea nahi den galdera bat dagoenena erabiltzen da. G&E foroan, tutoreek galdera bat proposatu eta ikasleek erantzun posibleak igotzen dituzte. Foro mota honetan, ikasleak lehenik eta behin erantzuna ematea ezinbestekoa da besteenak ikusi ahal izateko.
+
+Foroetara harpidetza konfiguratu eta egiaztatu
+
+Foroaren ezarpenak zehazterakoan Harpidetza et ajarraipena/ Harpidetza-mota  atal azaltzen da. Aukerak ondoko hauek dira:
+
+1) Harpidetza aukeran (printzipioz ez da aktibatuta azaltzen baina erabiltzaileak aldatzerik badu)
+
+	2) Harpidetza behartua
+
+3) Harpidetza automatikoa (printzipioz aktibatuta azaltzen da baina erabiltzaileak aldatzerik badu) eta
+
+	4) Harpidetza desgaituta
+
+
+
+(32. irudia: harpidetza motak)
+
+Berriak foroa (Avisos)
+
+
+
+Berriak foroa
+
+Ikastaro bat sortzen denean elementu bakar bat dauka, foro bat non ikasleek ezin duten parte hartu eta denak harpidetuta dauden. “Berriak” da foro honen izena. 
+
+Eztabaida zehatzetara harpidetzeko aukera
+
+
+
+Foroak "harpidetza automatikoa" edo "harpidetza aukeran" baldin badu, eztabaida jakin batzuetara harpidetzeko aukera eskaintzen du- horretarako eztabaida baikoitzaren eskuinaldean azaltzen den ikonoa sakatuz. 
+
+
+
+Ikono horrek, puntuak, eztabaida horretako jakinarazpenak ez dituela jasoko adierazten du
+
+Bigarren ikono honek, aldiz, jakinarazpenak jasoko dituela adierazten du
+
+
+
+Eztabaidaren baitan harpidetuta edo harpidetzeko aukera ematen digun beste adierazle bat azaltzen da. 
+
+
+
+Harpidedun kopurua 
+
+Forora harpidetutakoen kontsulta egitean orain kopurua erakusten digu eta ikastaroan matrikulatuta daudenekin konparatu daiteke. Ondoren erakusten dugun ikastaroan 5 dira matrikulatuta daudenak eta foroan, aldiz, 2 daude soilik harpidetuta. 
+
+
+
+OHARRA: informazio hau edizioa desaktibatuta dagoenean erakusten da. Aktibaturik izanez gero, irakasleari harpidetutakoen zerrenda aldatzeko aukera erakusten zaio. 
+
+Eztabaidak finkatu
+
+Irakasleak eztabaida bat beti goialdean azaldu dadila finkatu dezake. Aukera hau eztabaidaren barne edo lehen mezua idaztean eskuragarri azaltzen da.
+
+
+
+Eztabaida bat "finkatzen" denean ikono bat azaltzen da hori adieraziz.
+
+
+
+Lotura iraunkorra
+
+Foroetako mezu bakoitzak lotura iraunkor bat dauka, horrela aipamen zehatzagoak egiteko aukera dagoelarik.
+
+
+
+"Lotura iraunkorra"(1) aukeraren gainean sakatu ondoren, mezua marra urdin batekin ezberdintzen da (2) . Eztabaida mezura daraman esteka (3) kopiatu daiteke.
+
+
+
+Taldeekin lan egitean mezuak bikoiztu
+
+Foro bat “talde moduan” konfiguratzen denean, irakasle rola duenak talde guztiei erakutsiko zaien mezu orokor bat idatz dezake, eta taldeak haina eztabaida-hari izan. Horretarako ondorengo irudian azaltzen den aukera markatu beharko da.
+
+
+
+
+
+
+
+9Erabiltzaileen kudeaketarako eta komunikaziorako tresnak
+
+
+
+
+
+
+
+
+
+11eGela gunean matrikulatutako erabiltzaileak (Moodle 2.5)

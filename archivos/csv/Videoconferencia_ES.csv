@@ -1,0 +1,181 @@
+Text,Class
+Videoconferencias con Collaborate Ultra ,videoconferencia
+BBC,videoconferencia
+Creación de una sala virtual conectada a eGela / eGelaPI,videoconferencia
+Configuración de la sala en eGela / eGela PI,videoconferencia
+General,videoconferencia
+Otras configuraciones,videoconferencia
+Acceso a la sala desde eGela / eGela PI,videoconferencia
+Creación de una sala virtual NO vinculada a eGela /eGelaPI,videoconferencia
+Entrada en la sala virtual de Blackboard Collaborate Ultra,videoconferencia
+Compatibilidad de navegadores y sistemas operativos,videoconferencia
+Ajustes de periféricos,videoconferencia
+Comprobar la salida de audio local (antes de entrar),videoconferencia
+Compartir el micrófono (entrada de audio),videoconferencia
+Compartir la cámara,videoconferencia
+Ajustes de audio y vídeo,videoconferencia
+Tutoriales (tour usuario),videoconferencia
+Roles en la sala virtual,videoconferencia
+Presentar contenidos y gestionar la sala,videoconferencia
+Iniciar / detener grabaciones y Cerrar sesión (Opciones en el panel izquierdo para el Rol moderador/a),videoconferencia
+"Gestión de contenidos, asistentes y permisos en la sala y ajustes personales (Opciones del panel derecho para el Rol moderador/",videoconferencia
+Mis ajustes (Ajustes personales y ajustes de la sala),videoconferencia
+Ajustes de audio y vídeo,videoconferencia
+Ajustes de notificaciones,videoconferencia
+Ajustes de la sesión,videoconferencia
+"Compartir contenidos (Compartir pantalla, Presentar archivos y Pizarra interactiva)",videoconferencia
+Compartir pizarra en blanco,videoconferencia
+Compartir aplicación / pantalla,videoconferencia
+Compartir archivos,videoconferencia
+Asistentes (Listado de asistentes y convertir en presentador),videoconferencia
+Chat,videoconferencia
+"Dinamizar las interacciones en el sala (Estados, Control de audio y vídeo y Turnos de palabra",videoconferencia
+Mi estado y ajustes,videoconferencia
+Control de audio y vídeo,videoconferencia
+Levantar la mano,videoconferencia
+Grabaciones,videoconferencia
+Protocolo de mantenimiento y eliminación de las grabaciones,videoconferencia
+Repositorio de vídeos EHUtb,videoconferencia
+Almacenamiento en la nube EHUbox,videoconferencia
+Creación de una sala virtual conectada a eGela / eGelaPI,videoconferencia
+"En el caso de no contar con un aula virtual, puede solicitarla en la plataforma que corresponda:",videoconferencia
+"eGela: El profesorado con carga docente asignada en GAUR en las asignaturas de grado, másteres oficiales, títulos propios y aulas de doctorado puede solicitar el aula virtual correspondiente en la plataforma eGela. Dicha solicitud se realizará a través del Gestor de Aulas Virtuales. Este gestor permite al profesorado dar de alta sus aulas virtuales eGela y otras operaciones relacionadas con la gestión de las mismas, como fusionar grupos, consultar su almacén de copias de seguridad de cursos pasados... También se ubican en eGela las Aulas Virtuales Transversales, que pueden definirse a nivel de curso, grado, máster y título propio.",videoconferencia
+"eGelaPI: Puede solicitar un aula virtual en eGela PI cualquier miembro de la UPV/EHU, PDI o PAS, que justifique esta necesidad y cuente con el respaldo del órgano o unidad administrativa que proceda, siempre que quede fuera de las categorías de cursos especificadas para eGela en el punto anterior. El procedimiento para la solicitud de cursos en eGelaPI se realiza en Área personal > Mis solicitudes de cursos. Más información en este enlace.",videoconferencia
+Configuración de la sala en eGela / eGela PI,videoconferencia
+"Para crear una sala de Blackboard Collaborate Ultra en un aula virtual de eGela / eGelaPi, 1) active la edición, 2) haga clic sobre “Añade una actividad o un recurso” en la sección correspondiente y 3) seleccione la actividad “Collaborate”. ",videoconferencia
+General,videoconferencia
+En el siguiente formulario se configuran las opciones del apartado General. ,videoconferencia
+Los dos primeros campos se corresponden con: ,videoconferencia
+"El “Nombre de sesión”, que se muestra en la página principal del curso y, como título, en la página de la actividad.",videoconferencia
+"La “Descripción”, que se muestra en la página de la actividad y, opcionalmente, en la página principal del curso (ver casilla 2.1). ",videoconferencia
+La fecha y hora de “Inicio”. La sala estará disponible 15 minutos antes de la hora indicada. ,videoconferencia
+"La “Duración” de la sesión. Si se elige la opción “Duración del curso”, la sala estará siempre disponible a partir de la fecha de inicio escogida. ",videoconferencia
+Otras configuraciones,videoconferencia
+En la imagen a continuación se muestran el resto del formulario de configuración.,videoconferencia
+"Aunque la calificación pueda activarse, esta debería realizarse en el propio “Libro de calificaciones” Enlace al manual.",videoconferencia
+"Dentro del apartado “Ajustes comunes del módulo”, puede activarse el modo de grupos “Separados” o “Visibles. Ambas configuraciones tendrán el mismo efecto, cada estudiante accederá a una sala correspondiente a su grupo. Se recomienda, sin embargo, utilizar las opciones de “Grupos de trabajo” propias de Blackboard Collaborate Ultra. ",videoconferencia
+"NOTA: Si la configuración de grupos se ha hecho a nivel de curso, de podrá cambiar a nivel de actividad, salvo que se haya forzado (Ver más información en el manual). En ese caso, si se quiere hacer una reunión con todo el alumnado del aula virtual, se puede recurrir a una reunión NO vinculada a eGela /eGela PI (Ver apartado 2: Creación de una sala virtual NO vinculada a eGela /eGelaPI)",videoconferencia
+"Las salas de reuniones pueden tener restricciones de acceso, como cualquier otra actividad.",videoconferencia
+"Si se han activado las opciones de “Rastreo de finalización” en el panel de Gestión del curso > Configuración del curso > Editar la configuración del curso, podrán marcarse los eventos “recibir una calificación” o “unirse a la sesión” para completar la condición de finalización.  ",videoconferencia
+Acceso a la sala desde eGela / eGela PI,videoconferencia
+"Una vez terminada la configuración, se crea la página de la entrada en la sesión. Pulsar el botón “Unirse a la sesión” para entrar en la sala. Si no aparece este botón, revise los valores introducidos en los campos “Inicio” y Duración” de la configuración. ",videoconferencia
+Creación de una sala virtual NO vinculada a eGela /eGelaPI,videoconferencia
+Este servicio está disponible en la dirección https://ehu.eus/bilerak.,videoconferencia
+"Después de introducir las credenciales LDAP, se presenta una página con el listado de salas y el botón “Crear sesión” (1). Deben introducirse el nombre de sesión, la fecha y los ajustes de sesión. ",videoconferencia
+Estos son los ajustes de sesión recomendados para una sala con asistencia numerosa (más de 10 participantes). Para dar voz a participantes concretos se les podrá otorgar puntualmente otro rol. (Ver apartado 5.2.3 Asistentes),videoconferencia
+"La imagen siguiente muestra el modo de acceso a una sala virtual ya creada. Cuando se crea una sala virtual no vinculada a eGela / eGelaPI, todo/as lo/as asistentes salvo el/la creador/a del aula entrarán como invitados. Primero debemos elegir el rol asociado a la entrada como invitado “Participante” o “Presentador” (2). A continuación, se copia el enlace (3), que se puede enviar a quien proceda a través de un mensaje de correo electrónico, por ejemplo. Se recomienda usar el rol “Participante” siempre que se ajuste a la dinámica de la sesión. (Ver apartado 4: ""Roles en la sala virtual"").",videoconferencia
+"Con este enlace los participantes accederán directamente a la sala, después de escribir el nombre con el que quieren aparecer. No es necesario contar con credenciales LDAP para acceder a la sala",videoconferencia
+"Sin embargo, como se muestra en la imagen siguiente, el/la creador(a) de la sala debe acceder para tener el rol de “Moderador”, pulsando sobre los tres puntos (1) y a continuación sobre “Unirse a la reunión” (2) ",videoconferencia
+"Además, el/la creador(a) de la sala puede ofrecer un número de ingreso telefónico a participantes que no dispongan de una conexión de Internet. Este enlace permite escuchar y hablar, pero no ver los contenidos mostrados en la pantalla. ",videoconferencia
+Entrada en la sala virtual de Blackboard Collaborate Ultra,videoconferencia
+Compatibilidad de navegadores y sistemas operativos,videoconferencia
+En esta dirección se puede encontrar información actualizada sobre navegadores y sistemas operativos. ,videoconferencia
+https://help.blackboard.com/es-es/Collaborate/Ultra/Moderator/Get_Started/Browser_Support,videoconferencia
+"En la siguiente tabla, descargada el 11/03/2020, las combinaciones de sistemas operativos y navegadores compatibles, destacando la importancia de utilizar versiones actualizadas de los navegadores.",videoconferencia
+Ajustes de periféricos,videoconferencia
+Comprobar la salida de audio local (antes de entrar),videoconferencia
+"Antes de entrar en la sala, conviene comprobar la salida de audio que está seleccionada en el equipo. En la siguiente imagen se muestran las opciones de configuración en un equipo con Windows 7 como sistema operativo. ",videoconferencia
+En la siguiente imagen se muestra el cuadro de diálogo para la selección de dispositivos de reproducción. ,videoconferencia
+"En el cuadro de diálogo aparecen los dispositivos para reproducción de audio disponibles en el equipo. El tick verde indica el/ los dispositivos predeterminado(s). Para marcar como predeterminado otro dispositivo, clicar con el botón derecho sobre el dispositivo deseado y marcar las opciones correspondientes.",videoconferencia
+Compartir el micrófono (entrada de audio),videoconferencia
+"Al iniciar la sesión, aparece un cuadro de diálogo, donde se indica el dispositivo predeterminado para la entrada de audio (1) y se muestra el nivel de sonido que entra por esta vía (2). Además, un menú desplegable (3) permite seleccionar otro entre el resto de los dispositivos disponibles en el equipo. ",videoconferencia
+"Si el audio es satisfactorio, pulsar sobre “Sí, funciona” (4). En caso contrario, pulsando sobre “No, necesito ayuda”, accedemos a la web de soporte de Blackboard Collaborate. ",videoconferencia
+También es posible que sea desde el navegador y no desde la herramienta donde se haga esta elección (captura tomada con Firefox). ,videoconferencia
+"Para mejorar la calidad del audio de la sesión y evitar retornos, se recomienda utilizar cascos con micrófono integrado. También es importante mantener el mínimo necesario de micrófonos activados durante la sesión. ",videoconferencia
+Compartir la cámara,videoconferencia
+"Después de seleccionar el dispositivo de entrada de audio, un cuadro de diálogo del navegador nos pide permisos para usar el dispositivo de cámara: ",videoconferencia
+Captura con Chrome,videoconferencia
+Captura con Firefox,videoconferencia
+"A continuación, la herramienta nos pide confirmar que la cámara está lista para su uso, pulsando sobre “Sí funciona” (1). La imagen de la cámara no se compartirá hasta que se active, usando el botón con icono de cámara de los controles de la parte inferior de la página (2).  ",videoconferencia
+Ajustes de audio y vídeo,videoconferencia
+"En la imagen siguiente se muestran las opciones del apartado “Ajustes de audio y vídeo” de la pestaña “Mis ajustes” del panel desplegable derecho (ver Apartado 5 ""Funcionalidades de la sala virtual"" para localizar la ubicación del Panel derecho). . ",videoconferencia
+"Si los dispositivos no están funcionando correctamente, se puede reiniciar el proceso de asignación de permisos y selección el apartado “Configure su cámara y su micrófono” (1) de dicho apartado",videoconferencia
+"Además, cada participante en la reunión puede usar el número de la sala y su pin personal (2) para recibir y emitir audio. Cada pin corresponde a un usuario y anula su entrada y salida convencionales de audio. Esta llamada tiene el coste correspondiente a una llamada interprovincial. ",videoconferencia
+"Por otra parte, se pueden revocar los permisos otorgados al navegador pulsando sobre el elemento indicado. ",videoconferencia
+Tutoriales (tour usuario),videoconferencia
+"Cuando se realiza la primera entrada en una sala virtual con un equipo, aparece la opción de “Iniciar tutorial” (1). Para saltar esta opción, pulsar sobre “Más tarde” (2)",videoconferencia
+Roles en la sala virtual,videoconferencia
+Existen tres roles diferenciados dentro de la sala virtual:,videoconferencia
+"Con el rol “Moderador” se puede gestionar los usuarios de la sala y sus roles, presentar contenidos e iniciar grabaciones. Este será el rol 1) del profesorado que acceda a una sala virtual desde un aula virtual de eGela / eGela PI y 2) de quienes hayan creado una sala virtual en la página https://ehu.eus/bilerak (Ver apartado 2 Creación de una sala virtual NO vinculada a eGela / eGelaPI)",videoconferencia
+"Con el rol “Presentador” se puede compartir pizarra, pantalla y archivos, pero NO puede usar el resto de las opciones de la pestaña “Compartir contenido” (Sondeos, Temporizador, Grupos de trabajo). Tampoco puede gestionar usuarios ni grabaciones.",videoconferencia
+Los permisos del rol “Participante” están definidos en los ajustes de la sesión. Este es el rol del alumnado que acceda a una sala virtual desde un aula virtual de eGela / eGela.,videoconferencia
+"En las salas creadas en la página https://ehu.eus/bilerak lo/as usuario/as entran como invitados, con los permisos que se hayan determinado en la configuración (Ver apartado 2 Creación de una sala virtual NO vinculada a eGela / eGelaPI)",videoconferencia
+Presentar contenidos y gestionar la sala,videoconferencia
+En la imagen siguiente se muestra una captura de la pantalla completa con los paneles izquierdo desplegados. ,videoconferencia
+Se destacan los siguientes elementos:,videoconferencia
+Panel desplegable izquierdo. Puede desplegarse desde el icono en la parte superior izquierda (1.1). En este panel está la opción “Iniciar grabación” (1.2) y “Cerrar sesión” (1.3). ,videoconferencia
+"Panel desplegable derecho: Puede desplegarse desde el icono en la parte inferior derecha (2.1). En la parte inferior están también los iconos para acceder a las distintas pestañas: “Chat”, “Asistentes”, “Compartir contenido” y “Mis ajustes”. ",videoconferencia
+"Controles en la parte inferior central: “Mi estado y Ajustes”, “Compartir audio”, “Compartir vídeo” y “Levantar la mano”. ",videoconferencia
+Iniciar / detener grabaciones y Cerrar sesión (Opciones en el panel izquierdo para el Rol moderador/a),videoconferencia
+"En este apartado destacamos la funcionalidad de la grabación, que se inicia como se muestra en la imagen (1). Ver más adelante el apartado específico sobre la gestión de grabaciones. Además, en la parte inferior, se encuentra la opción para ""Cerrar sesión"" (2). ",videoconferencia
+"Gestión de contenidos, asistentes y permisos en la sala y ajustes personales (Opciones del panel derecho para el Rol moderador/a)",videoconferencia
+Mis ajustes (Ajustes personales y ajustes de la sala),videoconferencia
+Ajustes de audio y vídeo,videoconferencia
+Las opciones de este apartado han sido tratadas en el apartado “3.2 Ajustes de periféricos”. Consulte el apartado 3.2.4 de este manual.,videoconferencia
+Ajustes de notificaciones,videoconferencia
+"Estos ajustes permiten gestionar las notificaciones cuando “Alguien se unió o abandonó el grupo o la sesión de trabajo”, “Alguien publica un mensaje de chat” o “Alguien levanta la mano”. Estos ajustes son personales,  y por lo tanto al comienzo de una sesión conviene explicar a lo/as participantes que pueden escoger la configuración que más les conviene.  ",videoconferencia
+Ajustes de la sesión,videoconferencia
+"En este apartado se especifican los permisos del rol “Participante”. Cuando se ha creado una sala desde eGela / eGelaPI, todos los permisos aparecen marcados por defecto. Se recomienda cambiar esta configuración para prevenir retornos y asegurar una buena calidad de las transmisiones. ",videoconferencia
+"Compartir contenidos (Compartir pantalla, Presentar archivos y Pizarra interactiva)",videoconferencia
+Compartir pizarra en blanco,videoconferencia
+"La pizarra permite realizar trazos, hacer formas y escribir texto. ",videoconferencia
+Compartir aplicación / pantalla,videoconferencia
+"Pulsando sobre “Compartir aplicación / pantalla” (1)* aparece una ventana emergente donde puede se puede seleccionar “Toda la pantalla” (2.1), ""Ventana de la aplicación"" (2.2) y ""Pestaña de Chrome"" ** (2.3). Después de seleccionar una de las opciones (3), el botón “Compartir” quedará activado (4). ",videoconferencia
+* Esta captura se ha tomado con el navegador Chrome. ,videoconferencia
+** Esta opción solo está disponible cuando se usa el navegador Chrome. ,videoconferencia
+"En el caso de compartir “Toda la pantalla” o la misma ventana en la que se está realizando la reunión en la opción “Ventana de la aplicación” se formará un bucle con el contenido de la misma, como se muestra a continuación: ",videoconferencia
+"Si esto ocurre, es suficiente con cambiar de pestaña para que se cierre este bucle. Pero para evitar que ocurra, se puede seguir el siguiente procedimiento: ",videoconferencia
+"Utilizar dos ventanas del navegador, una para la página de la reunión virtual y otra para los contenidos que queremos mostrar.",videoconferencia
+"A la hora de compartir contenido, escoger la opción “Ventana de aplicación” y seleccionar la ventana donde no está esta la reunión virtual. ",videoconferencia
+"Además, si escogemos las opciones “Toda la pantalla” o “Una pestaña de Chrome” (1) utilizando el navegador Chrome, es posible transmitir el audio que se está reproduciendo en la misma. En la imagen siguiente se ha seleccionado el portal de YouTube de la UPV/EHU (2) y está marcada la opción “Compartir audio”(3). ",videoconferencia
+"Para dejar de compartir un contenido, pulsamos sobre el icono “Stop”, en la parte superior derecha (1). ",videoconferencia
+Compartir archivos,videoconferencia
+"Para compartir un archivo, pinchar sobre Agregar archivos (1) o arrastrar el archivo sobre este rectángulo gris. ",videoconferencia
+"Como se indica en la imagen, solo se pueden compartir archivos de imagen, presentaciones de Powerpoint y PDF. ",videoconferencia
+"Las imágenes deben convertirse para ser mostradas, un proceso (1) que puede tardar uno o dos minutos con archivos de tamaño grande. Por lo tanto, es recomendable subir los archivos antes de comenzar la sesión con el alumnado. ",videoconferencia
+"Una vez que los archivos se han convertido, se puede pulsar sobre “Compartir ahora” (1). ",videoconferencia
+"Cuando se ha pulsado sobre “Compartir ahora”, las páginas del documento están disponibles para ser compartidas (1). Hasta que no se selecciona una no se muestra en la pantalla a los participantes. ",videoconferencia
+"Cuando se selecciona una página ()1), esta se muestra en la pantalla al resto de los participantes. Los controles en la parte inferior (2) permiten avanzar a las páginas siguientes. ",videoconferencia
+Estos archivos solo están disponibles para el profesorado hasta el momento en el que se comparten. ,videoconferencia
+Asistentes (Listado de asistentes y convertir en presentador),videoconferencia
+"En este apartado se puede ver la lista de participantes, organizada por roles, como se muestra en la imagen siguiente: ",videoconferencia
+"Para cada asistente en la sala, se puede ver si tiene micrófono activo (1), el nombre (2), la calidad de la señal (3) y los controles del asistente (4). ",videoconferencia
+La siguiente imagen muestra las opciones incluidas en los “Controles del asistente”. ,videoconferencia
+"Con estos controles, el/la moderador/a permite, entre otras acciones, “Enviar un mensaje de chat directo”, “Convertir en presentador”, “Silenciar” y “Eliminar de la sesión”. Cuando se silencia a un usuario no se le elimina el permiso para volver a activar su micrófono; se trata sobre todo de una herramienta para silenciar un micrófono que esté produciendo retornos. Para evitar que el rol ""Participante"" pueda activar su micrófono, ver apartado 5.2.1.3 ""Ajustes de Sesión.  ",videoconferencia
+En la siguiente imagen se muestra cómo se ha asignado el rol de “Presentador” a un usuario que tenía el rol de “Participante”.,videoconferencia
+Chat,videoconferencia
+"La pestaña “Chat” permite mantener un canal de comunicación ágil para resolver dudas o solucionar problemas con asistentes que tengan problemas de conexión. Como se muestra en la imagen, hay un chat para el rol “Moderador/a” y otro general. ",videoconferencia
+"Dinamizar las interacciones en el sala (Estados, Control de audio y vídeo y Turnos de palabra)",videoconferencia
+"Estos controles cuentan con 4 elementos: ""Mi estado y Ajustes”(1), “Compartir audio” (2), “Compartir vídeo”(3) y “Levantar la mano”(4). ",videoconferencia
+Mi estado y ajustes,videoconferencia
+"Pulsando sobre el control ""Mi estado y ajustes"" (1) se despliega un panel que permite interactuar con lo/as asistentes a través de emoticonos. ",videoconferencia
+De esta manera se pueden realizar sondeos rápidos y obtener retroalimentación de forma ágil. Estos emoticonos se muestran en la lista de asistentes durante 30 segundos (1). ,videoconferencia
+Control de audio y vídeo,videoconferencia
+Estos controles permiten activar y desactivar nuestro audio y vídeo cuando estamos en una reunión. ,videoconferencia
+Se recomienda:,videoconferencia
+"Desactivar el audio cuando no estemos hablando, para reducir la posibilidad de retornos, que provocarán un desagradable ruido de fondo. ",videoconferencia
+Desactivar el vídeo si se está compartiendo un contenido que ocupa la mayor parte de la pantalla y siempre que se aprecien problemas de conectividad. ,videoconferencia
+Levantar la mano,videoconferencia
+"El control ""Levantar la mano"" permite que lo/as asistentes pidan la palabra. En la imagen siguiente se muestra el control activado.",videoconferencia
+"Un número situado al lado del icono del usuario permite identificar el orden en el que se ha pedido la palabra (1). Además, una ventana emergente permite al moderador/a ""bajar la mano"" de una petición de turno de palabra. ",videoconferencia
+Grabaciones,videoconferencia
+"Para iniciar las grabaciones se pulsa sobre ""Iniciar grabación"" (1) en el panel lateral izquierdo. Únicamente los usuarios con rol moderador pueden acceder a esta opción. ",videoconferencia
+"Cuando se ha iniciado una grabación, todos los asistentes pueden ver la señal indicativa (1). Además, un mensaje emergente anuncia que se ha comenzado la sesión (2). ",videoconferencia
+"Para detener una grabación, pulsar sobre “Detener grabación” (1)",videoconferencia
+Las grabaciones de un curso de eGela / eGelaPI se muestran en la página de la actividad. ,videoconferencia
+"En el caso de las grabaciones realizadas en salas creadas desde https://ehu.eus/bilerak , las grabaciones se pueden encontrar en la columna desplegable izquierda (1), en el apartado grabaciones (2). Pulsando sobre el nombre de la grabación (3) aparece la opción ""Mirar ahora"", que abrirá la reproducción del vídeo en una nueva pestaña del navegador. ",videoconferencia
+Protocolo de mantenimiento y eliminación de las grabaciones,videoconferencia
+"Para reducir el coste económico asociado al mantenimiento de las grabaciones se ha establecido un protocolo de eliminación automática a los 15 días de su realización. Este protocolo se aplica a todas las plataformas (eGela y eGelaPI), así como a las grabaciones no vinculadas a un aula virtual (https://www.ehu.eus/bilerak).",videoconferencia
+Todas las grabaciones pueden descargarse durante este periodo. Si se quiere prolongar el acceso a estas grabaciones más allá de este periodo de 15 días se proponen las dos opciones siguientes. ,videoconferencia
+Repositorio de vídeos EHUtb,videoconferencia
+"El servicio EHUtb (https://ehutb.ehu.eus/) permite la publicación de vídeos y la restricción de su visionado a colectivos (Departamento, Profesorado, Universidad, Internet) o por contraseña. ",videoconferencia
+"Para poder subir contenidos multimedia al Servicio EHUtb, primero es necesario que el usuario esté dado de alta en el Servicio EHUtb. La solicitud para darse de alta en el Servicio EHUtb se hace a través del CAU (154400 o cau@ehu.eus / más información de contacto en esta página ). ",videoconferencia
+"En el formulario de publicación del vídeo (1), en la pestaña ""Metadatos"" (2) se puede seleccionar el colectivo que tiene acceso al mismo. Si se quiere realizar una inserción del vídeo en eGela será necesario marcar la opción ""Internet"". ",videoconferencia
+"Además, una vez publicado el vídeo, se puede establecer una contraseña. Accedemos a la pestaña ""Gestor de contenidos"" y seleccionamos el vídeo sobre el que establecer la contraseña. Descendemos a la parte inferior de la página para acceder a la tabla que se muestra en la imagen. ",videoconferencia
+"En la pestaña ""Publicación"" (1) se puede modificar el ""Perfil de difusión"" (2) y establecer una contraseña (3), que puede publicarse en un curso de eGela o eGelaPI junto al enlace del vídeo. No se puede hacer inserciones con cursos que tengan una contraseña de acceso. ",videoconferencia
+Más información en el manual de EHUtb: https://ehutb.ehu.eus/help,videoconferencia
+Almacenamiento en la nube EHUbox,videoconferencia
+"Todas las cuentas LDAP de los colectivos PDI y PAS tienen un espacio de 50GB de almacenamiento en la nube. Después de subir un archivo de vídeo a este directorio, podemos usar el icono ""Compartir"" (1) que aparece en la siguiente imagen para desplegar el panel de opciones (2). Se puede crear un enlace para compartir pulsando sobre el signo + destacado en rojo (3). ",videoconferencia
+"Una vez creado el enlace, aparece un icono que permite copiarlo en el portapapeles. Este enlace se puede publicar en un curso y nos llevará a una página externa donde se podrá ver o descargar, como se muestra en la imagen. ",videoconferencia
+Más información en https://www.ehu.eus/es/group/ikt-tic/ehubox,videoconferencia
+4,videoconferencia

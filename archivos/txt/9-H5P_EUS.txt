@@ -1,0 +1,157 @@
+H5 eduki interaktiboak
+
+Irakasleentzako eskuliburua 
+
+Bertsioa  (2020/10/09)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Honako eskuliburu hau Unversidad del Pais Vasco/ Euskal Herriko unibertsitateko eCampus-ek andu duEste manual ha sido desarrollado por eCampus 
+
+
+
+Lan hau  Creative Commons-en Nazioarteko 3.0  Azterkte- Ez komertzial- Partekatu lizentziaren mende dago. Lizentzia horren kopia ikusteko, sartu  https://creativecommons.org/licenses/by-nc-sa/3.0/es/  helbidean
+
+Edukien aurkibidea
+
+	Edukien edizio eta konfigurazioa	3
+
+	Eduki mota aukeratu	3
+
+	Erakusteko aukerak (Berrerabiltzea eta Copyright-a)	6
+
+	Erantzunen kalifikazio eta berrikuspena	7
+
+
+
+
+
+
+H5P eduki interaktiboak edukiak sortzeko zerrenda zabala eskaintzen du, non azalpenezko eta autoebaluaziorako aukerak aurki daitezkeen. Adibidez, aurkezpen edo bideo batean galdera edo estekak ezar daitezke. Gainera, ondoz ondoko ataletan eduki mota ezberdinak gehitzea ahalbidetzen duten orriak sor daitezke. Azken finean, eduki interaktibo eta dinamikoak editatzeko aukera azkar eta intuitiboa eskaintzen du.  
+
+
+
+Edukien edizio eta konfigurazioa
+
+Eduki mota aukeratu 
+
+Lehenik eta behi, H5P eduki mota aukeratu behar da (1). H5P berak tutorialak eta adibideak eskuragarri jartzen ditu, konfigurazio ezarpenak zehazteko formularioan bertan- “Zehaztasunak” (2) gainean sakatuz. Gainera, adibideak deskargatzeko eta eGelara igotzeko aukera eskaintzen da, bertan funtzionamendua konprobatu eta konfigurazioa aztertzeko (3).
+
+
+
+Ondorengo dokumentuan eskuragarri dauden eduki mota ezberdinak kategoria ezberdinetan (“Agregatzaileak”, “Autoebaluaziorakoak”, “Eskuzko ebaluaziorakoak” eta “Edukiak aurkeztekoak”)  sailkatuta azaltzen dira  
+
+Bideo honetan mota ezberdinei buruzko azalpena, adibideetara sarbidea eta hauek ikastaro batean kargatzeko prozedura eta H5P baliabideen konfigurazioari buruzko hainbat alderdi  ikus daitezke. 
+
+“Jardueraren araberako H5P baliabidea aukeratu” bideora esteka
+
+Behin eduki mota aukeratzen denean konfigurazio formularioan bizpahiru atal berri azaltzen dira: ediziorako gunea, non edukiak sortu, irudiak, bideoak edo kanpoko baliabideak gehi daitezkeen; konfigurazio eta ezarpenetarako atala, eduki mota ezberdinen araberako izenburu eta aukera ezberdinekin eta hirugarren atala, “Parametro eta testuak” izenekoa, non automatikoki azaltzen diren testu kateen hizkuntza aukera daitekeen (ondorengo atala ikusi)
+
+Eskaintzen diren atalak eduki motaren araberakoak dira. Ondoren bi eduki motei buruzko adibideak erakutsiko ditugu. H5P web orrian beste eduki motei buruzko tutorialak eskuragarri daudela goratzen dizuegu. 
+
+Interactive video
+
+Eduki honek bideo jakin baten baitan interakzioak gehitzeko (galderak, bideoaren beste une batzuetara estekak, kanpoko baliabideetara esteka, youtube-ra estekak, mp4, webm eta ogg fitxategiak)  aukera ematen du. Hurrengo irudian ediziorako elementu orokorrak aurkezten dira:  
+
+Irudi honen goialdean bideoaren ediziorako hiru atalak ikuds daitezke (1): “1. urratsa: bideoa igo/ kapsulatu”, “2. urratsa: gehitu interakzioak” eta “3. Urratsa: aurkibidea ataza”.
+
+“2. urratsa: gehitu interakzioak” aukeratzen denean, bideoaren baitan txerta daitezkeen interakzio aukera ezberdinei buruzko menua azaltzen da
+
+Behealdean, iraupena adierazten duen lerroan (3) interakzioa txertatu nahi den puntua aukera daiteke
+
+Iraupen lerroaren bukaeran erantzunak bidaltzeko pantaila azaltzen da (4). Interakzio bakoitzean aukeratu diren erantzunak pantaila honetan baieztatu behar dira. Elementu hau ohartu gabe gera daitezkeenez, gomendagarria da puntu honetan galderen bat gehitzea edo “3. urrats”eko aukera erabiltzea puntu honetan interakzioa izateko.  Beste aukera bat, iraupen lerroaren beste puntu batean bidalketarako pantaila sortzea izan daiteke (izarra edizioa aktibaturik dagoela sakatu, aukera honetako menua zabal dadin). 
+
+ 
+
+Ondoren bi bideo ikus daitezke: lehenengoan, irakasle ikuspegitik konfigurazio prozesua azaltzen da; bigarrenean aldiz, ikaslearen ikuspegia erakusten da. 
+
+EHUTBko bideoak erabiltzea “Interactive video” jarduera batean
+
+
+
+EHUTBren bideo bat Interactive Videon integratu ahal izateko, beharrezkoa da "Jaisteko URLa" izatea. URL hori bideoa EHUTBn argitaratu duen erabiltzaileak bakarrik eskura dute.
+
+"Jaisteko URLa" honetara lortzeko, sartu EHUTBn LDAP kredentzialekin, igo diren bideoen zerrendara sartu eta dagokion bideoa hautatu. Orriaren behealdean irudian agertzen den taula agertuko da. Sakatu "Embed" (1) erlaitza eta kopiatu " Jaisteko URLa " (2), bideoa H5Pren "Interactive video" jarduera bati gehitzeko.
+
+
+
+
+
+Column
+
+Aukera honi esker, azalpenezko edukiak eta jarduerak gehituz orrialde bat osa daiteke. Column aukeraren baitan H5P aukera gehienak azaltzen dira, Interactive video eta Course presentation barne, eduki orokorrak (testu  blokeak edo irudiak) gehitzeko aukeraz gain . 
+
+Ondorengo bideoan “Column” motako baliabidearen konfigurazio prozedurari buruzko bideoa ikus daiteke, bertan irudi bat, audio fitxategia, testua eta autoebaluazio bat gehitu direlarik. 
+
+Parametro eta testuak (baliabideen hizkuntza) 
+
+Atal honetan automatikoki eduki eta jardueretan azaltzen den testu kateen hizkuntza aukera daiteke.  
+
+
+
+
+
+Euskara eta gaztelania ia eduki mota guztietarako eskuragarri dira. H5Pk, besterik adierazi ezean, sortutako baliabideari eGelan nabigaziorako aukeratutako hizkuntza esleitzen dio.  
+
+Erakusteko aukerak (Berrerabiltzea eta Copyright-a) 
+
+Atal honetan H5P edukien behealdean azaltzen diren aukerak zehazten dira. eGelak berez duen konfigurazioarekin, irakasle rolarekin, “Berrerabiltze” aukera erakutsiko da, zeinak .h5p fitxategi bat deskargatzeko aukera eskainiko- markatuta azaldu ez arren. duen. 
+
+
+
+
+Ondorengo irudian ikaslearen ikuspegiak dituen aukerak azaltzen dira. Besterik adieraz ezean azaltzen den konfigurazioarekin (A aukera), ikasleek ez dute markoan inolako aukerarik ikusten. Aldiz, konfigurazioan B aukeran erakusten diren  aukerak markatuz gero (“Baimendu jaistea” edo “Enbotatzeko aukera”), ikasleek aukera horiek bideratzen dituzten botoiak ikusiko dituzte; hau da, berrerabiltzeko fitxategien deskarga eta H5P instalatuta dagoen beste plataforma batean eduki hauek txertatzea ahalbidetzen duen kodea. 
+
+
+
+
+
+Erabilera eskubideei buruzko informazioa erakusten duen botoia datuak sartu diren kasuetan soilik azaltzen da. Irakasle zein ikasle ikuspegian azaltzen da.  
+
+Erantzunen kalifikazio eta berrikuspena 
+
+H5P baliabide orok ”kalifikatzailea liburuan” zutabe berri bat gehitzen du. Baina normalean jarduera hauek praktika eta autoebaluaziora bideratzen direnez, gomendagarria da “kalifikatzaile liburuaren baitan guztira 0 duen kategoria batean biltzea (ikusi “Kalifikazio-kategoria” (1) hurrengo irudian)
+
+Gainera, gainditzeko balio bat adierazten bada (2) “Jarduera-osaketa” zehazterakoan “Ikasleak kalifikazioa jaso beharko du jarduera hau osatzeko” aukera markatu ahal izango da gainditzeko irizpide bezala. 
+
+
+
+Ikasleen emaitzak ikusteko “Kalifikazio liburura” joan behar da. Lupa formako ikonoan sakatuz gero ikasle bakoitzak eman dituen erantzunak ikus daitezke, H5P eduki mota batzuk informazio hau gordetzen ez duten arren.
+
+
+
+
+
+
+
+11
+
+11Edukien edizio eta konfigurazioa
+
+
+
+
+
+6
+
+6Edukien edizio eta konfigurazioa

@@ -1,0 +1,526 @@
+Herramientas de seguimiento, restricción de acceso e insignias
+
+Manual para el profesorado 
+
+Versión 1 (09/09/2018)
+
+
+
+
+
+
+
+El presente manual ha sido desarrollado por el eCampus de la Universidad del País Vasco / Euskal Herriko Unibertsitatea
+
+Esta obra está bajo una licencia Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Internacional de Creative Commons. Para ver una copia de esta licencia, visite http://creativecommons.org/licenses/by-nc-sa/3.0/es/.
+
+Indice de contenidos
+
+	Participantes	3
+
+	Informes	4
+
+	Registros	5
+
+	Registros activos	5
+
+	Actividad del curso:	5
+
+	Participación en el curso	6
+
+	Herramientas de rastreo (Finalización de la actividad)	7
+
+	¿Cómo habilitar estas funciones?	7
+
+	Opciones de configuración de finalidad de la actividad	7
+
+	Configurar la calificación mínima para aprobar	9
+
+	¿Dónde veremos esta información?	10
+
+	Estadísticas	10
+
+	Bloque “Estado de finalización”	11
+
+	Configuración	11
+
+	Visualización del bloque “Estado de finalización”	15
+
+	Finalización de curso	17
+
+	Configuración	17
+
+	Restricción de acceso	21
+
+	Configuración de las condiciones (1) restringido pero visible	22
+
+	Configuración de las condiciones (2) Elemento oculto	23
+
+	Eliminar una restricción de acceso	24
+
+	Insignias (o Badges)	24
+
+	Configuración	25
+
+	Añadir una insignia nueva	25
+
+	Gestionar insignias	26
+
+	Gestión de las insignias recibidas	27
+
+	Enlaces ocultos en “secciones huérfanas”	29
+
+
+
+
+
+
+
+
+Participantes
+
+En la sección “Participantes” se puede ver el listado de usuarios matriculados en el curso. Este listado tiene funciones distintas de la sección Administración > Usuarios porque en esta última se pueden cambiar, dar de alta/baja a los usuarios y modificar sus roles. 
+
+
+
+En el listado de “Participantes” podemos seleccionar a todos o algunos de los estudiantes y realizar una serie de acciones sobre los mismos, como enviar un mensaje o añadir una nota.
+
+Por defecto, el listado de “Participantes” está ordenado en función del último acceso a la plataforma y se muestran únicamente los 20 primeros. Cuando el número de usuarios es superior a veinte aparece en la parte inferior de la tabla un menú para acceder al resto de las páginas y una opción para mostrar la tabla completa en una sola página. 
+
+En la parte superior a la tabla aparecen una serie de menús desplegables que permiten filtrar las filas mostradas por tabla (ver imagen a continuación).
+
+
+
+Este menú permite cambiar el curso donde se están consultando los datos de participantes
+
+Este menú permite mostrar únicamente el rol seleccionado
+
+Este menú permite mostrar únicamente los estudiantes de un determinado grupo
+
+Este menú permite detectar qué estudiantes llevan más del periodo seleccionado sin acceder al curso 
+
+Este menú permite alternar entre la vista “Resumen” y “Detalles del usuario”, donde se incluyen enlaces a secciones del perfil del usuario (Blog, notas…).
+
+En la parte inferior a la tabla de participantes podemos encontrar las opciones para Seleccionar todos / No seleccionar ninguno y el menú con las opciones disponibles sobre los usuarios seleccionados: 
+
+
+
+La primera de las opciones permite enviar un mensaje (más información sobre este aspecto en el apartado “Mensajería”) 
+
+La segunda y tercera opciones permite añadir un “nota”, individualizada en el primer caso y colectiva en el segundo. El término “nota” podría ser confuso y conviene aclarar que no se trata de una calificación, sino de una anotación, un texto donde el docente puede apuntar una información concreta relacionada con ese usuario o grupo de usuarios. También es importante destacar que las notas pueden tener tres niveles de visibilidad o contextos (ver imagen a continuación)
+
+
+
+Una nota personal sólo será visible por su autor. Una nota de curso será visible por todos los docentes del aula virtual. Una nota a nivel de sitio será visible por todos los usuarios que tengan rol de docente en algún curso de eGela. 
+
+Las “notas” que pueden asociarse a los usuarios desde la tabla de “Participantes” son textos o anotaciones. Si se publican a nivel de “Sitio” serán visibles por todos los usuarios que tengan rol de gestor en eGela.
+
+Informes
+
+Una forma rápida de controlar la actividad en un curso es consultar la tabla de participantes y comprobar si los estudiantes están accediendo de forma regular. Sin embargo, para tener una información más precisa se pueden consultar varios apartados en la sección Administración > Informes. En la siguiente imagen se han señalado las opciones incluidas en la sección Informes, con información sobre la forma de activarlas o la plataforma donde están disponibles:
+
+Las opciones incluidas en el recuadro 1 de la imagen a continuación (Registros, Registros activos, Actividad en el curso, Participación en el curso y Finalización de la actividad) están disponibles en eGela y eGelaPi. 
+
+La opción “Finalización de la actividad” debe ser activada en los ajustes del curso para que aparezca en este menú
+
+La opción “Estadísticas” está disponible únicamente en eGelaPi
+
+
+
+
+
+Registros 
+
+Este apartado nos ofrece un conjunto de menús desplegables permite filtrar las acciones realizadas por todos los usuarios que han entrado en el curso por criterios cono “Grupo”, “Nombre de participantes”, “Fecha”, “Actividad o recurso”, “Acción (ver, agregar, actualizar, borrar). Los resultados pueden mostrarse en la propia página o descargarse en un fichero.  Incluyen la hora, la dirección IP, el nombre del usuario, la acción realizada y el recurso o actividad donde ha sido realizada.
+
+Los registros guardan huella de un número importante de acciones realizadas en el ámbito de un curso (entendido como aula virtual) por todos los usuarios matriculados y otros usuarios con acceso al curso (administradores). Las acciones que quedan registradas son el acceso a los distintos apartados, la descarga de archivos, las aportaciones realizadas en las actividades y las modificaciones realizadas por los usuarios con permisos de edición. Se trata por lo tanto una herramienta muy útil a la hora de analizar el desarrollo del curso, las pérdidas de información, los errores en el funcionamiento de la plataforma… Sin embargo, son “datos brutos” y trabajar con ellos puede resultar complejo. La explicación sobre cómo trabajar con los recursos queda fuera del alcance de este manual. 
+
+Registros activos 
+
+Nos presenta una tabla similar a la anterior con los diez últimos registros activos se muestra en una ventana emergente
+
+Actividad del curso:
+
+ Se muestra una tabla con información general del curso, con una fila por recurso o actividad y las siguientes columnas: Vistas, Entrada del blog relacionadas, Último acceso. Es un recurso interesante para analizar si los participantes están accediendo a todos los apartados del curso. También es útil para valorar el avance en el curso cuando los participantes no han realizado entregas y por lo tanto el avance no se refleja en la tabla de “Finalización de la actividad”. 
+
+
+
+Los registros de la tabla “Actividad en el curso” incluyen también a los usuarios con rol docente, como puede apreciarse en el registro destacado con un recuadro rojo en la imagen 6. En este caso, se trata de un documento no disponible para el alumnado y por lo tanto los registros reflejados pertenecen únicamente a usuarios con rol docente. En el resto de los casos no hay forma de discriminar la actividad reflejada en la tabla en función del rol del usuario
+
+Participación en el curso
+
+Este apartado se muestra información sobre cada usuario en cada uno de los apartados del curso. Como puede verse en la imagen a continuación, el formulario permite escoger 1) un recurso o actividad del curso, 2) la fecha a partir de la cual se recogen los registros, 3) el rol de usuario que se busca analizar y 4) los tipos de acciones que se recogen (Vista o Mensaje). La tabla de resultados muestra 5) el número de usuarios para los cuales hay registros en cada una de las consulta y 6) el número de registros de cada participante. 
+
+
+
+Herramientas de rastreo (Finalización de la actividad)
+
+Las herramientas de rastreo completan la información ofrecida por la plataforma sobre el progreso de los estudiantes en las actividades del curso. Es importante destacar que en este caso la información debemos pensar por lo tanto en dos facetas diferenciadas:
+
+la información ofrecida al estudiante sobre su avance en las tareas
+
+la información global a la que puede acceder docente sobre el avance del conjunto de los estudiantes
+
+Además, podríamos hablar de una tercera faceta, dado que el rastreo de finalización informa a la propia plataforma sobre el progerso de los estudiantes, permitiendo así controlar su acceso a los recursos y actividades en función de determinadas condiciones.
+
+¿Cómo habilitar estas funciones?
+
+Estas opciones están desactivadas por defecto. Para activarlas hay que marcar la opción señalada en la siguiente imagen en Administración del curso > Editar ajustes
+
+
+
+Una vez hayamos habilitado el rastreo del grado de finalización para el curso tendremos las opciones que se muestran en la imagen a continuación en todos los formularios de ajustes de todos los recursos y actividades de nuestro curso.
+
+El rastreo de finalización. El docente podrá elegir distintos criterios en función de cada tipo de recurso o actividad para determinar cuándo se han superado
+
+La restricción de acceso a un recurso o actividad, en función del cumplimiento de distintas condiciones en otros recursos o actividades del curso. 
+
+
+
+Opciones de configuración de finalidad de la actividad
+
+En primer lugar nos encontraremos con un menú que nos presenta 3 opciones:
+
+
+
+No indicar finalización de la actividad (el rastreo está deshabilitado)
+
+Los estudiantes pueden marcar manualmente la actividad como completada
+
+Mostrar la actividad como completada cuando se cumplan las condiciones
+
+Cuando la segunda o tercera opción está marcada, en la página principal del curso aparece una casilla asociada al recurso o actividad correspondiente.
+
+En el caso de la segunda opción, el estudiante verá una casilla que puede marcar manualmente cuando lo decida, lo que quedará marcado con un tick azul. El docente verá un tick gris que le indicará que la actividad está configurada para marcado manual.
+
+
+
+En el caso de la tercera opción (Mostrar la actividad como completada cuando se cumplan las condiciones) se presentan una serie de condiciones, que varían en función del tipo de recurso o actividad. 
+
+Requerir ver: el estudiante debe ver esta actividad para finalizarla. Este es el caso habitual en los recursos, pero también está disponible en casi todos los casos. El docente debe elegir entre un dato extraído de los registros, pero que puede ser engañoso puesto que no tenemos información sobre la atención real prestada al recurso, o un dato facilitado por el propio estudiante, que depende de la subjetividad del mismo.
+
+Requerir mensajes o réplicas: en las actividades con foro se pueden elegir distintos umbrales de intervención para marcar la actividad como completa. 
+
+En función de la configuración de la actividad y de la forma en que el estudiante haya cumplido las actividades establecidas las casillas mostrarán distinta información. El docente verá en todos los casos la última de las mostradas en la imagen (automática habilitada).
+
+
+
+Además el formulario puede marcar una fecha límite de entrega para que la condición se cumpla. Esta fecha no tiene por qué coincidir con la fecha de entrega estipulada en el enunciado de la tarea ni es visible a los estudiantes. 
+
+Importante: no es posible realizar cambios en la condiciones cuando los estudiantes han avanzado en el curso sin perder la información almacenada en las tablas de la base de datos. 
+
+Configurar la calificación mínima para aprobar
+
+Para poder determinar si una actividad está aprobada es necesario establecer una nota mínima. Para ello se puede usar el campo específico en el apartado Calificación de los ajustes de la actividad. En la siguiente imagen de ejemplo se muestra el formulario de ajustes de una tarea. 
+
+Esta configuración permite condicionar la superación de la actividad a una calificación mínima. 
+
+
+
+Además, como se muestra en la imagen anterior, las calificaciones que no superen el umbral establecido aparecerán en rojo en la columna correspondiente del “Libro de calificaciones”. 
+
+¿Dónde veremos esta información?
+
+En la imagen a continuación se muestra la vista para los estudiantes, que verán esta información en una casilla asociada a dicho elemento.
+
+
+
+Los docentes pueden ver en el apartado Administración del curso > Informes >  Finalización de la actividad una tabla donde se muestran todos los elementos del curso (recurso y actividades) y todos los estudiantes.
+
+
+
+
+
+Es importante tener en cuenta que desde la vista del alumnado no se puede consultar cuáles son las condiciones establecidas para la “finalización de la actividad”. Por lo tanto, en muchas ocasiones, puede ser conveniente explicar las condiciones establecida en el enunciado de las actividades. 
+
+Estadísticas
+
+Las estadísticas solo están disponibles en eGelaPi dado que en plataformas con un volumen alto de usuarios pueden comprometer el rendimiento. Muestran en un gráfico el volumen de actividad (número bruto de registros) en tramos semanales. En el formulario se puede escoger 1) el curso sobre el que se va a realizar la consulta, 2) los roles de usuario que se van a incluir en la consulta y 3) el periodo sobre el que se realiza la consulta. 
+
+
+
+Bloque “Estado de finalización”
+
+El bloque “Estado de finalización” complementa las funcionalidades ofrecidas por las herramientas de rastreo de la finalización de la actividad, permitiendo una visibilidad mejor del progreso del alumnado en el curso, tanto en la vista de cada estudiante como en la vista del equipo docente. Gracias a este bloque se puede mostrar una “barra de progreso” donde cada segmento muestra todos o algunos de los elementos del curso (Recursos o actividades). En función del estado finalización de cada uno de estos segmentos, el color de los mismos varía: Azul (no realizado), Verde (realizado y superado) y Rojo (realizado y no superado).
+
+Configuración
+
+Para poder trabajar con este bloque deberemos tener actividades y/o recursos donde hayamos establecido condiciones de finalización. Para los ejemplos de este manual vamos a trabajar con un recurso y dos actividades que cuentan con esta configuración, como se puede apreciar en la siguiente imagen.
+
+
+
+A continuación debemos insertar este bloque en el curso. Para realizar esta acción: 1) activar la edición y 2), en la parte inferior de la barra lateral izquierda, seleccionar el bloque “Estado de finalización”. 
+
+
+
+Una vez realizada esta opción, el bloque recién insertado aparece en la misma barra lateral izquierda, encima del selector de bloques. 
+
+
+
+Pulsando sobre el icono señalado en la imagen anterior para desplegar un menú, donde elegiremos la primera opción “Configurar bloque Estado de finalización”. En este menú también se puede “Ocultar” y “Borrar” este bloque. 
+
+La siguiente imagen muestra el formulario de ajustes del bloque. 
+
+
+
+Esta opción nos permite elegir entre dos criterios para ordenar los recursos y actividades incluidos en la barra. Si no se ha usado el criterio fecha en la configuración de la finalización de la actividad, es preferible utilizar la opción “Ordenación en el curso”.
+
+Este mensaje nos indica que no todos elementos incluidos en la barra tienen configurada una fecha como criterio de finalización.
+
+Cuando los elementos incluidos en la barra son numerosos podemos escoger entre varias soluciones para mejorar su presentación.
+
+Si se activa esta opción, los iconos mostrados se incluyen en cada segmento de la barra, además de los colores, para mostrar el estado de finalización. 
+
+Si se activa esta opción, el porcentaje de progreso se incluye en la vista de los estudiantes. 
+
+Esta opción nos permite desplegar más opciones, que se muestran en la siguiente imagen.
+
+
+
+Esta opción nos permite que el bloque esté visible para todos los participantes o para un determinado grupo.
+
+Esta opción nos permite modificar el nombre del bloque. Siempre aparecerá en mayúsculas.
+
+Eligiendo la opción “Actividades seleccionadas” se pueden seleccionar los elementos a incluir en la barra entre aquellos que tengan configuración de finalización de actividad. Para seleccionar más de un elemento o deseleccionar elementos utilizar la tecla Ctrl. 
+
+
+
+También se puede encontrar en la página de ajustes del bloque las opciones para situar el bloque en un lugar específico de las columnas laterales izquierda y derecha. En la imagen siguiente se han marcado las opciones para situar el bloque en la parte superior de la columna derecha y solo en “Cualquier tipo de página principal del curso”, evitando así que aparezca en página de recursos o actividades que no tienen por defecto columna lateral derecha. 
+
+Es importante marcar las mismas opciones en los apartados “Dónde aparece este bloque” (1) y “En esta página” (2). De otra manera, en la página en la que estábamos situados cuando hemos abierto la configuración del bloque, éste se mostrará de acuerdo a las indicaciones del segundo apartado.
+
+
+
+Visualización del bloque “Estado de finalización”
+
+En la siguiente imagen se muestra la vista del bloque “Estado de finalización” de una estudiante de ejemplo, sobre el que se han realizado las siguientes configuraciones: incluir iconos, mostrar porcentajes a los estudiantes y modificación del nombre del bloque. 
+
+
+
+Además, en la vista para el profesorado, el bloque tiene un enlace a la “Vista general de estudiantes”, que ofrece la tabla que se muestra en la siguiente imagen.
+
+
+
+Finalmente, en la siguiente imagen se muestra la situación del bloque en la página principal del curso. 
+
+
+
+
+
+
+Finalización de curso
+
+La funcionalidad “Finalización del curso” permite establecer un conjunto de condiciones para que se alcance el estado de “Finalizado”. Estas condiciones incluyen:
+
+Criterios cuantitativos superar un umbral de calificación en el curso, la “Finalización de actividad” de elementos del curso (Recursos o actividades) o periodo de matriculación en el curso 
+
+Criterios basados en la evaluación o la autoevaluación manuales 
+
+Criterios basados en la superación de otros cursos
+
+Su objetivo fundamental es el reporte del cumplimiento de los objetivos del curso. También puede ser una condición para la generación de otros eventos, como la asignación de una insignia a cada estudiante que obtenga el estado “Finalizado” en el curso. 
+
+Configuración
+
+Al contrario que la “Finalización de la actividad”, esta funcionalidad está siempre activada. Sin embargo, para su correcta configuración deberemos revisar los siguientes pasos:
+
+Deberemos establecer las condiciones para la finalización del curso.
+
+Es conveniente habilitar el “Rastreo de finalización”  en los ajustes del curso (Finalización de la actividad) porque de esta forma se puede incorpora el estado de “Finalización de la actividad” como criterio para la “Finalización del curso”.
+
+Para que el alumnado pueda acceder al informe de “Finalización de curso” hay que añadir el bloque “Estado de finalización del curso”.
+
+Si se elige la condición “Auto-completar”, será necesario añadir el bloque “Autocompletar” al curso, para que el alumnado pueda realizar esta acción. Este manual no cubre esta opción. 
+
+Para comenzar la configuración accedemos al menú Administración > Administración del curso > Finalización del curso. 
+
+
+
+En esta página encontraremos un conjunto de condiciones que pueden ser utilizadas para establecer las condiciones de “Finalización de curso”.
+
+
+
+En primer lugar deberemos elegir si para alcanzar la “Finalización de curso” deben cumplirse “Todas” o “Algunas” condiciones. 
+
+Mostramos a continuación la configuración de dos tipos de condiciones: Actividades finalizadas y Finalización manual por otros. 
+
+
+
+Como se puede ver en la imagen, se ha marcado como condición la “Finalización de la actividad” de tres elementos. Para usar esta condición es necesario tener activado el “Rastreo de finalización” en los ajustes de curso. 
+
+
+
+En la condición “Finalización manual por otros” se ha marcado que el profesorado (rol docente) podrá marcar manualmente el curso como finalizado. 
+
+
+
+A continuación, en la parte inferior de la columna lateral izquierda del curso, elegir el bloque “Estado de finalización del curso” en el menú “Agregar un bloque”. 
+
+En la siguiente imagen se muestran el bloque “Estado de finalización del curso” una vez insertado en el curso. Como se puede apreciar, la vista es distinta en función del rol. En ambos casos, hay un enlace al informe del estado de finalización. 
+
+
+
+En la imagen a continuación se muestra el informe del docente (Para acceder a este informe pulsamos sobre “Ver informe del curso” en el bloque “Estado de finalización del curso”.
+
+
+
+Cuando se han configurado condiciones para la “Finalización del curso” aparece un nuevo menú en el bloque de “Administración del curso” con el mismo nombre. En el nivel superior, 1) la página que se ha accedido anteriormente para la configuración de las condiciones. Dentro de “Informes”, 2) se accede al mismo informe que se ha mostrado en la página anterior. 
+
+
+
+En la siguiente página se muestra el informe que se muestra cuando el alumnado pulsa sobre “Más detalles” en el bloque de “Estado de finalización del curso”.
+
+
+
+
+
+Restricción de acceso
+
+Esta funcionalidad permite establecer condiciones para que el alumnado pueda acceder o ver determinados elementos en un curso:
+
+Se pueden establecer condiciones para que determinados elementos de un curso puedan quedar ocultos o con acceso restringido 
+
+Estos elementos serán visibles y/o accesibles cuando cada estudiante cumpla las condiciones que se hayan establecido.
+
+Estas restricciones se pueden establecer sobre todos los elementos del área central del curso (Recursos y actividades) y sobre las secciones. 
+
+Para establecer estas condiciones se debe acceder a los ajustes del recurso, actividad o sección. Como se puede apreciar en la siguiente imagen, se pueden establecer condiciones sobre “Finalización de la actividad”, “Fecha”, “Calificación”, “Grupo”, “Agrupamiento”, y “Perfil del usuario”. 
+
+
+
+
+
+Algunas de estas restricciones no estarán disponibles si no se han creado previamente elementos de estas categorías. El número de opciones disponibles depende de las configuraciones previas en el curso, de manera que todas las opciones que aparecen destacadas con un punteado en rojo en la imagen anterior se muestran únicamente cuando efectivamente se hayan creado en el curso grupos, agrupamientos y/o actividades donde se  hayan marcado condiciones de finalización de actividad. La imagen siguiente muestra el apartado “Restricciones de acceso” cuando ya se han especificado algunas restricciones o condiciones de acceso. Las imágenes siguientes a la que aparece a continuación muestran respectivamente la vista del estudiante cuando se ha marcado que “todo” debe cumplirse o “cualquiera” de las opciones debe cumplirse.
+
+Configuración de las condiciones (1) restringido pero visible
+
+
+
+
+
+
+
+
+
+Como se puede apreciar en las imágenes anteriores, el título del elemento con restricciones queda en gris. Además, debajo de dicho título se exponen las condiciones que el usuario debe cumplir. Una vez se ha cumplido la condición observaremos lo siguiente:
+
+En la vista de cada estudiante, cuando se cumple la condición el título vuelve a tener el color azul y la información de las condiciones desaparece.
+
+En la vista del docente, se mantendrá en gris mientras haya estudiantes que no hayan cumplido las condiciones. La información sobre las condiciones siempre estará visible. 
+
+Configuración de las condiciones (2) Elemento oculto
+
+Para que el elemento sobre el que se está aplicando la restricción quede oculto hasta que se cumplan las condiciones establecidas debe pulsar sobre el icono señalado en la siguiente imagen. 
+
+
+
+Cuando se ha establecido esta configuración el elemento queda oculto para el alumnado. El profesorado seguirá viendo estas imágenes, con la indicación de que se encuentra oculto para el alumnado que no haya cumplido las condiciones establecidas. 
+
+
+
+
+
+ 
+
+Eliminar una restricción de acceso
+
+Para eliminar una restricción de acceso se debe pulsar sobre el aspa señalada en la siguiente imagen. 
+
+
+
+Insignias (o Badges)
+
+Las insignias son reconocimientos que se puede otorgar a un/a estudiante por alcanzar un objetivo determinado. Se pueden asignar de forma automática o manual. Pueden ser utilizados en dinámicas de juegos o para incentivar la participación del alumnado.
+
+Las insignias se pueden asignar a nivel de curso  o a nivel de sitio.
+
+Se muestran en el perfil de lo/as usuario/as. Cuando se han asignado a nivel de curso serán visibles por quienes estén matriculados en el mismo curso. 
+
+Son completamente compatibles con Mozilla Open Badges y por lo tanto pueden exportarse a la “mochila” de OpenBadges y desde allí adjuntarse a cuentas de redes sociales (Linkedin, Facebook…). 
+
+Configuración
+
+Añadir una insignia nueva
+
+
+
+
+
+Accedemos al apartado Insignias > Añadir una nueva insignia en el bloque de Administración del curso. En este sub-apartado encontramos un formulario donde debemos determinar el nombre, la imagen asociada y el nombre del "agente o entidad" emisora. Este último es un campo de texto plano, podemos poner lo que nos parezca. Además, podemos determinar la duración en el tiempo de esta insignia (por defecto indefinida).
+
+
+
+Las imágenes para crear los badges deben ser cuadradas para poder aparecer completas,  y no deben ser demasiado grandes. Openbadges es una página que os solicitará el mail, pero que ofrece una herramienta bastante intuitiva para diseñar estas imágenes.
+
+Una vez aceptados los cambios la aplicación nos conduce directamente a la página de ajustes de esa insignia dentro de la sección Gestionar insignias, donde lo primero que deberemos decidir es la forma en que esta insignia va a ser otorgada.
+
+Gestionar insignias
+
+Criterios
+
+Concesión manual por rol: se debe establecer los roles que pueden otorgar esta insignia y si es necesario que todos los roles la acepten.
+
+Finalización del curso: las opciones disponibles dependen de las condiciones previamente establecidas en el apartado "Finalización del curso". Por defecto se puede establecer desde el gestor de las insignias una calificación mínima y una fecha como condición para obtener la insignia
+
+Finalización de la actividad: las opciones disponibles dependen de las actividades para las que se haya marcado previamente una condición de finalización de la actividad.
+
+
+
+Habilitar acceso
+
+Una vez definido el criterio, es necesario “habilitar acceso” (1) a la insignia para que pueda ser asignada. 
+
+
+
+Gestionar insignias
+
+La página donde se habilita el acceso a las insignias es la misma donde se puede gestionar las insignias. Consta de distintas pestañas donde 2) “Visión global” muestra la información general, 3) “Editar detalles” permite editar los datos que se han introducido al crear la insignia, 4) “Criterio” muestra y permite modificar el/los criterio(s), 5) “Mensaje” permite editar el mensaje de notificación y 6) lista los destinatarios. Si se otorga manualmente, se pueden seleccionar los destinatarios desde los ajustes de la insignia, en la pestaña Destinatarios. Una vez otorgada no se puede retirar, salvo cuando se borra la insignia, momento en el que podemos elegir si mantener o eliminar las insignias detentadas por lo/as usuario/as.
+
+En el momento en que la insignia es emitida una vez muchos de sus ajustes quedan bloqueados (criterios, caducidad...).
+
+Gestión de las insignias recibidas
+
+Cuando una insignia ha sido asignada el/la destinatario/a recibe una notificación por correo. Además, quien haya recibido una insignia podrá acceder a la misma:
+
+Dentro del contexto del curso, en el apartado Navegación > Curso actual > Insignias > Insignias del curso.
+
+
+
+
+En la sección Preferencias > Insignias > Gestionar insignias
+
+
+
+
+
+En la parte inferior al icono de la insignia hay botones que permiten 1) descarga la insignia y 2) ocultar/ mostrar la insignia. 
+
+Si se descarga la insignia, esta puede ser incluida en la “mochila” de OpenBadges para ser mostrada públicamente. OpenBadges verifica la autenticidad de la insignia antes de incluirla en la mochila del /de la usuario/a. Las insignias almacenadas en la “mochila” pueden ser añadidas a colecciones, que  pueden publicarse en cuentas de redes sociales como Linkedin o  Twitter. 
+
+Además, dentro de Preferencias > Insignias > Preferencias de insignias se puede desmarcar la opción para que las insignias que se hayan obtenido aparezcan de forma automática en el perfil. Únicamente las insignias otorgadas a nivel de sitio (plataforma) serán visibles para el conjunto de lo/as usuario/as de la plataforma. 
+
+
+
+Enlaces ocultos en “secciones huérfanas”
+
+Una sección huérfana es una sección con contenido que ha quedado fuera del número de secciones establecido para el curso. Por ejemplo, un curso con una única sección pero que sección número dos tiene un documento. 
+
+
+
+Para el alumnado y el profesorado si no tiene el modo de edición, esta sección queda completamente oculta, pero será accesible si se le facilita el enlace dentro del curso. Esta opción permite por lo tanto poder incluir enlaces a documentos en el contexto del curso sin incluirlo como recurso del mismo. 
+
+
+
+
+
+10 herramientas de seguimiento, restricción de acceso e insignias
+
+
+
+
+
+
+
+
+
+2 herramientas de seguimiento, restricción de acceso e insignias

@@ -1,0 +1,286 @@
+Erabiltzaileen kudeaketarako tresnak: erabiltzaile gehitu eta taldeak 
+
+Irakasleentzako eskuliburua
+
+3. bertsioa (2016/09/09)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Honako eskuliburu hau Universidad del País Vasco / Euskal Herriko Unibertsitateko eCampus-ek landu du.
+
+ Lan hau Creative Commons-en Nazioarteko 3.0 lizentziaren mendeko Azterketa-Ez komertzial-Partekatu lizentziaren mende dago.  Lizentzia horren kopia ikusteko, sartu http://creativecommons.org/licenses/by-nc-sa/3.0/es/ helbidean
+
+Edukiak  
+
+	Matrikulatutako erabiltzaileak	3
+
+	Atariko oharra	3
+
+	Matrikulatu “Matrikulatutako erabiltzaileak” aukeraren bidez	3
+
+	Beste matrikulazio metodo batzuk (eGELA PI)	5
+
+	CSV edo TXT gunetik matrikulatu	5
+
+	Matrikulazio automatikoa (ikasleak)	6
+
+	Aginte Panela: Profila eta Aukerak	7
+
+	Partaideak	9
+
+	Taldeak eta taldekatzeak	10
+
+	Taldeak eta taldekatzeak, zer dira?	10
+
+	Kurtsoko erabiltzaileak talde eta/edo taldekatzeetan antolatu	10
+
+	Taldeak ikastaro mailan	12
+
+	Taldeak kurtsoko jardueretan erabili	12
+
+	Mugatu eskuragarritasuna taldekatzeari jarduera/baliabide mailan	13
+
+
+
+
+
+
+
+
+Matrikulatutako erabiltzaileak
+
+Atariko oharra
+
+eGelan erabiltzaileak kudeatzeko tresna aztertzen hasi aurretik, plataforma hau testuinguru instituzionalean kokatzen den heinean, horrek erabiltzaileengan eragin zuzena daukala azpimarratu behar da; hau da:
+
+eGelan, Gela birtualen Kudeatzailearen  bidez, GAUR-eko datuak islatzen dira. Hau dela eta, gela birtualak irakasleek, GAUR en azaltzen diren datu akademikoak kontutan izanik, egiten dituzten eskariaren ondorioz sortzen dira. Datu hau kontutan izanik, erabilgarri den kasuetarako dagoeneko sortuak diren eskuliburu eta tutorialak erabiliko ditugu (Gelak nola sortu, erabiltzaileen matrikulazioa, aurretik sortuta dauden gela birtualetan irakasleak auto-matrikulatu). Material guzti hau, UPV/EHUko eCampus-aren web orrian duzue eskuragarri:
+
+https://www.ehu.eus/eu/web/ecampus/ikasgela-birtualak-ir (3. atala)
+
+Aipatu behar da baita, eGela-k matrikulaziorako dituen tresnak Kudeatzaileak dituenarekin gainjartzen direla. Baina hau horrela izan arren, kasu zehatz batzuetan baino ez da erabiltzea aholkatzen- eta horrela azaltzen dugu dokumentu honetan.
+
+Matrikulatu “Matrikulatutako erabiltzaileak” aukeraren bidez
+
+Matrikulazioa Kudeaketa > Ikastaroaren kudeaketa > Erabiltzaileak > Matrikulatutako erabiltzaileak aukeraren bidez gauzatzen da.
+
+
+
+1.irudia Matrikulatu erabiltzaileak
+
+“Matrikulatutako erabiltzaileak” sakatu ondoren, orri hau agertuko zaigu.
+
+
+
+2. irudia: Matrikulatutako erabiltzaileak
+
+Orri honetan izango dugu gure ikastaroko partaideen zerrenda eta horiek ikastaroan duten rola. Taularen goialdean eta behealdean bi botoi daude (Matrikulatu erabiltzaileak). Botoia bi aldiz agertzea erabilgarria izango da gure ikastaroan partaide asko badaude, eta erosotasun handiagoa eskainiko digu partaideak kudeatzeko.
+
+Azpimarratu behar dugu eGELA zerbitzuan ikasgelak sortzea eta irakasleak nahiz ikasleak sartzea “Ikasgela Birtualen Kudeatzailea” aplikazioaren bidez egiten dela automatikoki. Gainera, aplikazio horretan aukera izango dugu gure ikasgeletan beste pertsona batzuk sartzeko (betiere, ez badute irakaskuntza esleituta GAUR gunean talde horretan edo ez badaude hor matrikulatuta).
+
+eCampus-etik gomendatzen dugu bide hori erabiltzeko, atal honetan deskribatutakoaren ordez; izan ere, Kudeatzailean irudikatzen da eta gure ikastaroko  erregistroetan isla izango dute.
+
+“Matrikulatu erabiltzaileak” botoia sakatuz gero, beste pantaila bat agertuko zaigu. Han,  LDAP erabiltzailea eta pasahitza erabilita gutxienez behin plataforman identifikatutako pertsonen “rolak esleitu” ahal izango ditugu.
+
+
+
+
+
+
+
+3. irudia: Matrikulatu erabiltzaileak 
+
+
+
+Plataforman baimendutako pertsona guztien zerrenda agertuko zaigu. Sartu nahi dugun pertsona erabiltzailea aurkitzeko, “Bilatu” aukera erabiliko dugu. Testu-kaxan idatziko dugu pertsonaren izena edo helbide elektronikoa, eta, ondoren, “Bilatu” botoia sakatuko dugu. Agertzen ez bada, eskatu beharko genioke behin eGELA plataforman sartzeko bere LDAP eta pasahitzarekin, gure ikastaroan gehitu ahal izateko. LDAP kontuak aktibo egon behar du; bestela, ez digu utziko plataformara sartzen. Arazo hori askotan izaten da “Besteak” taldeko pertsona erabiltzaileen artean; izan ere, horrela sortutako kontuak urtebetera iraungitzen dira.
+
+Goialdean agertzen den goitibeherako menuan aukeratuko dugu pertsona horri esleitu nahi diogun rola (“ikaslea” edo “irakaslea, “edizio baimenik gabeko irakaslea”), eta “Matrikulatu” botoia sakatuko dugu. Prozesu hori errepikatuko dugu gehitu nahi ditugun pertsona guztiekin eta denak sartzen amaitu ondoren, “Amaitu erabiltzaileak matrikulatzen” botoian klik egingo dugu.
+
+Beste matrikulazio metodo batzuk (eGELA PI)
+
+CSV edo TXT gunetik matrikulatu
+
+
+
+Erabiltzaileen posta elektroniko helbide instituzionala (@ehu.eus), LDAP edo NAN zenbakidun  zerrenda izanez gero, “csv gunetik matrikulatu” aukera erabiliz, denak multzoan matrikulatu ahal izango dira.
+
+
+
+ 3.1 irudia: “csv edo txt gunetik matrikulatu” aukera 
+
+
+
+3.2 irudia: Matrikulatu beharreko erabiltzaileen zerrenda
+
+“csv gunetik matrikulatu” aukera sakatzerakoan beste orri bat irekiko zaigu, non pertsona zerrenda horri izendatu nahi diogun rola hautatu eta fitxategi bat atxiki beharko den. Fitxategi honek ondoko baldintzak izan beharko ditu: 1) fitxategia .txt edo .csv 2) lerro bakoitzean matrikulatu beharreko erabiltzaileen LDAP,  NAN zenbakia  edo posta elektroniko helbide instituzionala (@ehu.eus) 3) datu ezberdinak nahastu ahal dira.
+
+Fitxategia bidali ostean bi pantaila azalduko dira, alde batetik, beronek dituen datuak baieztatzen dituena eta bestetik, inportazioaren emaitza. Matrikulatu diren erabiltzaileen kopurua azaltzen da eta akatsik izanez gero, hau gertatu izanaren arrazoia.
+
+
+
+Matrikulazio automatikoa (ikasleak)
+
+
+
+Eskuzko matrikulazioaz gain, eGelaPIn matrikulazio automatikoa ere konfigura daiteke. eGelan metodo hau ezgaitua dago- GAURko datuetatik hartzen dira eta datuak. 
+
+
+
+3.3 irudia:  1) Matikulazio automatikoa aktibatu eta konfiguratzeko aukerak 2) Matrikulazio automatikoa metodoa gehituz 
+
+Metodo hau, berez, ezgaitua azaltzen da baina irakasleek berau edo beste metodo bat aukera dezake bakoitza bere baldintza multzoekin (matrikulazio-giltza, matrikulazio epea…) 
+
+"Kudeaketa/erabiltzaileak/matrikulazio metodoak” menutik konfiguratu ahal izango dugu gure ikastaroa matrikulazio automatikoa baimentzeko. Plataforman benetakotzat egiaztatu den erabiltzaile bati aukera hori baimenduz gero, gure ikastarora sartzen ahalegindu ahal izango du, eta une horretan gako bat eskatuko zaio. Gakoa idatzitakoan, automatikoki matrikulatuta geratuko da ikastaroan ikasle gisa (sartzeko gakoa behin bakarrik idatzi beharko du).
+
+Irakaslearen erantzukizuna da ikastaroan parte har dezaketen ikasleei jakinaraztea auto-matrikularako gakoa.
+
+Hasteko, matrikulazio automatikoa metodoa aktibatu behar dugu gure ikastaroan. Horretarako, “Kudeaketa/erabiltzaileak” menuan agertzen den “Matrikulazio metodoak” lotura sakatuko dugu. Aukera hori aktibatu ahal izango dugun orria irekiko zaigu, “Editatu” ikonoan sakatuz.
+
+Aginte Panela: Profila eta Aukerak
+
+Erabiltzailearekin zer ikusi zuzena duten gaiak elkartu dira menu honetan.
+
+
+
+Aginte-panela, Profila, Kalifikazioak (matrikulatutako ikastaro guztietako kalifikazio orokorra), Mezuak eta Aukerak menu honetan dauden orain eskuragarri. Aukera guzti hauek aurreko bertsioan Kudeaketa > Nire Profilaren ezarpenak atalean ageri ziren.
+
+
+
+"Profila editatu" aukeraren baitan ageri ziren aukera batzuk orain "Aukerak" barruan azaltzen dira. Hala nola, "foroetako mezuak e-postaz nola jaso,  Aginte panela > Aukerak > Erabiltzailearen kontua > Foroaren hobespenak baitan azaltzen da.
+
+
+
+Partaideak
+
+“Partaideak” atalean ikastaroan matrikulatutako erabiltzaileen zerrenda azaltzen da. Atal honetan azaltzen diren aukerak Kudeaketa > Erabiltzaileak atalean daudenetatik bereiztu behar dira – azken honetan erabiltzaileei alta/baja ematea, rolak aldatzea … aukerak daude. 
+
+
+
+4. irudia: Partaideen zerrenda
+
+Azaltzen den partaide zerrendatik, partaide guztiak edo baten bat aukeratu eta horiekin ekintza desberdinak egiteko aukera dago.
+
+Besterik adierazi ezean, “Partaideak” zerrenda plataformara izandako azken sarreraren arabera ordenatuko da eta lehenengo 20ak erakutsiko ditu soilik. Kopuru hau baino gehiago direnean taularen beheko aldean orri desberdinetan banatzeko aukera edo orri bakar batean azaltzeko aukera izango da.
+
+Taularen goiko aldean bilaketa mugatzeko aukera desberdinak ematen dituen zenbait menu daude (6. irudia)
+
+
+
+5. irudia: partaideen zerrendan bilaketa aukerak
+
+
+
+Menu honek kurtsoz aldatzeko aukera ematen du
+
+Rola aldatzeko aukera ematen du
+
+Bilaketa taldeen arabera egiteko aukera ematen du
+
+Epe jakin  bat baino gehiago sartu gabe egon diren erabiltzaileak bilatzeko aukera ematen du
+
+Zerrenda aurkezteko era aukera daiteke (“Laburra” edo “Xehetasunekin”)
+
+Taularen beheko aldean, aukeratu guztiak  edo bat ere ez  ikus daiteke eta aukeratutako partaideekin egin daitezkeen ekintzen zerrenda, hau da:
+
+
+
+6. irudia: aukeratutako erabiltzaileentzat ekintzak
+
+Mezua bidaltzeko aukera (honen inguruko informazioa “Mezularitza” atalean)
+
+Oharra, banakakoa edo guztientzakoa, gehitzeko aukera. Irakasleari erabiltzaile jakin bati buruz edo orokorrean oharpen bat gehitzeko aukera ematen dio. Aipatu baita, ohar hauek hiru testuinguru izan ditzaketela (ikusi 8. irudia)
+
+
+
+7. irudia: “ohar” bat argitaratzeko testuinguruak
+
+Ohar “pertsonala” egileak bakarrik ikusiko du. “Ikastaro”ko oharra ikasgelako irakasle guztiek ikusiko dute. “Gunea” mailako oharra aldiz, eGela-n irakasle rola duten edozeinek ikusiko du.
+
+Taldeak eta taldekatzeak
+
+Taldeak eta taldekatzeak, zer dira?
+
+Taldea kurtso bateko erabiltzaile multzo bat da. Taldeak sortzearen helburua partaideek multzo txikietan antolatzea da. Zereginak taldeka bidaltzeko konfiguratu daitezke baita.  
+
+Taldekatzeak talde multzoak dira. Beraz taldeak sortzea derrigorrezkoa da, gero erabiliko ez badira ere. Taldekatzeen helburua baliabide edo jarduera batera eskuragarritasuna mugatzea izango da 
+
+Kurtsoko erabiltzaileak talde eta/edo taldekatzeetan antolatu
+
+Taldeak eta taldekatzeak antolatzeko Kudeaketa > Erabiltzaileak> Taldeak aukeratuko beharko da. 
+
+Ondoren,  hiru ataletan antolaturik- Taldeak, Taldekatzeak, Ikuspegi orokorra- ondorengo aukerak aurkeztuko dira. Ondorengo irudian, Taldeak atalean daudenak ikusten dira:
+
+
+
+
+
+
+
+8. Irudia: Taldeak atalean dauden aukerak
+
+Sortu taldea (1) eta Automatikoki sortutako taldeak (2) aukerek taldean sartu nahi ditugun erabiltzaileak aukeratzea ahalbidetzen du. Eskuz eginez gero Gehitu/kendu erabiltzaileak aukera erabili beharko da taldea osatzeko. Inportatu taldeak (3) aukera erabiliz beste kurtso bateko taldeen ezaugarriak erreplikatzako aukera izango da (izena, deskribapena...) baina EZ erabiltzaileak
+
+Kudeaketa >  Ikastaroaren kudeaketa > Ezarpenak editatu > Taldeak  atalean  kurtso osoko jarduerek taldeen bidez funtziona dezaten zehaztu daiteke.  "Behartu talde-modua" aukeratuz gero, jarduera guztiak talde bezala funtzionatuko dute. 
+
+
+
+Taldekatzeak atalean taldekatzeak sortu eta bakoitzean sartu nahi ditugun taldeak zehazteko aukera izango da. 
+
+1) Taldekatzearen ezarpenak: izena eta deskribapena
+
+2) Taldekatzea osatuko duten taldeen aukeraketa
+
+3) Taldekatze berria sortu
+
+Taldeak ikastaro mailan
+
+Talde modua ikastaro mailan konfigura daiteke. Jarduera guztiak konfigurazio honetara egokitu beharko dira. Honela, eduki eta jarduera berdinak izan daitezke talde ezberdinentzat, baina batak bestearena ikusi gabe. "Behartu talde-modua" aukeratuta ez badago, konfigurazio hau jarduera bati egoki dakioke- eta ez ikastaro osoari. Talde-modua behartuta egonez gero, aldiz, aukeraketa hau gailenduko da zeregin guztietan eta “Partaideak” atalean ikasleek beraien taldekoak ikusiko dituzte soilik. 
+
+
+
+Taldeak kurtsoko jardueretan erabili 
+
+Talde-modua jarduera guztietan aktiba daiteke, Glosategia, Ikasgaia eta SCORM-ean izan ezik. Horretarako Kudeaketa >jarduera bakoitzaren ezarpenak> Moduluaren ezarpen bateratuak atalean zehaztu beharko da talde modua.
+
+
+
+10. irudia:  Jardueraren baitan “Talde-Modua” konfiguratu
+
+Taldeek ezin elkar ikusi ikasle bakoitzak bere taldea baino ezin du ikusi; gainerakoak ezin ditu ikusi
+
+Taldeek elkar ikusten dute ikasle bakoitzak bere taldean egiten du lan gaina gainerakoak zertan ari diren ikusten du
+
+Adibidez, foro bat talde-moduan konfiguratzean, eztabaidak foroko partaideen artean gauzatzen dira, eta ez gela guztiko erabiltzaileen artean. Zereginetan aldiz, bidalketak taldeka gauzatzea zehaztu daiteke baita -ondorengo gaian sakonduko da aukera hau.
+
+Mugatu eskuragarritasuna taldekatzeari jarduera/baliabide mailan 
+
+Elementu batera eskuragarritasuna mugatzeko bi modu daude:
+
+1. Jarduerentzat, “Moduluaren ezarpen orokorretan”. “Talde modua”n taldeek ezin elkar ikusi edo taldeek elkar ikusten dute  aukeraturik badago, taldekatzeetako bat aukera daiteke. Taldekatze horretako parte ez denak, elementu horretara sartu ahal izango du baina ez ditu ekarpenak ikusiko. Irakasleak jardueraren alboan, berau zein taldekatzeri esleitu zaion adierazten dion oharra izango du
+
+2. Baliabide eta jarduerentzat. “Mugatu eskuragarritasuna” atalaren baitan. Kontutan izan behar da, taldekatzerik sortu ez baldin bada, irizpide hau ez dela azalduko eskuragarritasuna mugatzeko baldintzen artean. 
+
+
+
+
+
+
+
+8Erabiltzaileen kudeaketarako eta komunikaziorako tresnak
+
+
+
+
+
+
+
+18eGela gunean matrikulatutako erabiltzaileak (Moodle 2.5)
