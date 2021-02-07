@@ -8,7 +8,10 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
+
+from rasa.shared.core.events import SessionStarted, ActionExecuted
 from rasa_sdk import Action, Tracker
+from rasa_sdk.events import EventType
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta
 #
@@ -41,13 +44,12 @@ class ActionDefaultFallback(Action):
 
         pregunta = tracker.latest_message.get('text')
         clase,tema,url=clasificarPregunta(pregunta)
-        textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+tema+"\nUrl: "
-        print(textRespuesta)
+        textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "
         dispatcher.utter_message(text=textRespuesta)
         dispatcher.utter_message(attachment=url)
 
         buttons = [{"payload": "/affirm", "title": "Si"},{"payload": "/deny", "title": "No"}]
-        dispatcher.utter_button_message("¿Te ha servido de ayuda?",buttons)
+        dispatcher.utter_message(text="¿Te ha servido de ayuda?",buttons=buttons)
 
         #Me he dado cuenta q los manuales en pdf son mas cortros que los del doc. entonces las paginas no cuadran.
 

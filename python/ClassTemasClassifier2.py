@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 from networkx.drawing.tests.test_pylab import plt
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import SGDClassifier, LogisticRegression
@@ -14,11 +15,11 @@ from sklearn.svm import LinearSVC, SVC
 import warnings
 warnings.filterwarnings('ignore')
 print("CUESTIONARIOS")
-df=pd.read_csv('../archivos/csv/CuestionariosXTemas_ES.csv',sep=',')
+df=pd.read_csv('../archivos/csv/CuestionariosXTemas_ESCapado.csv',sep=',')
 
 print("len total: ",len(df))
-
-df_x=df["Text"]
+lista = range(100)
+df_x=df["Text"].values.astype('U')
 df_y=df["Class"]
 
 cv = TfidfVectorizer(min_df=1,stop_words='english')
@@ -36,7 +37,6 @@ a=x_traincv.toarray()
 
 cv1.inverse_transform(a[0])
 
-x_train.iloc[0]
 x_testcv=cv1.transform(x_test)
 x_testcv.toarray()
 
@@ -61,27 +61,12 @@ confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=
 print (confusion_matrix)
 
 
-count=0
-lenthreshold=0  # los q clasifica con threshold>0.7
-print("\n")
-for i in range (len(predicion)):
-    if max(threshold[i])>0.10:
-        lenthreshold=lenthreshold+1
-        if predicion[i]==real[i]:
-            count=count+1
-        else:
-            print("Text: ",x_test.iloc[i], "predicion:  ", predicion[i],"  real:   ",real[i], " y ",max(threshold[i]))
-print("Bien clasificados: ",count, "\nThreshold > 0.1 ",lenthreshold )
-
-print("Cuantos son sin diferenciar los threshold ",len(predicion))  #no trabajaria 30.
-
 
 #6- Clasificador
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "MULTINOMIALNB", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -89,19 +74,17 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "MULTINOMIALNB fit_prior=False", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -109,146 +92,141 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "RANDOM FOREST", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
 
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
     mnb=RandomForestClassifier(n_estimators = 200, max_depth = 3, random_state = 0)
-    print("\niteracion:", x)
+
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "LINEAR SVC", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
     mnb=LinearSVC()
-    print("\niteracion:", x)
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "LINEAR SVC 2", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
-    mnb=LinearSVC(random_state=0, tol=1e-5)
-    print("\niteracion:", x)
+    svc=LinearSVC(random_state=0, tol=1e-5)
+    mnb = CalibratedClassifierCV(svc)
+
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
+    p=mnb.predict_proba(x_testcv)
+    #print(p)
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 #----------------------
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "Logistic Regression", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
     mnb=LogisticRegression(random_state=0)
-    print("\niteracion:", x)
+
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "MULTINOMIALNB", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
     mnb=SGDClassifier(loss='hinge', penalty='l2',alpha=1e-3, random_state=42)
-    print("\niteracion:", x)
+
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "GRID SEARCH CV", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
     mnb=GridSearchCV(estimator=SVC(),param_grid={'C': [1, 10], 'kernel': ('linear', 'rbf')},cv=5, n_jobs=-1)
-    print("\niteracion:", x)
+
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "GridSearchCV con mas variables", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
-    print("\niteracion:", x)
+
     #https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_digits.html
     tuned_parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
                          'C': [1, 10, 100, 1000]},
@@ -256,16 +234,12 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
 
     clf = GridSearchCV(SVC(), tuned_parameters)
     clf.fit(x_traincv, y_train)
-    print("Best parameters set found on development set:")
-    print(clf.best_params_)
-    print("Detailed classification report:")
     y_pred = clf.predict(x_testcv)
-    print(metrics.classification_report(y_test, y_pred))
-    print()
-    print("accuracy ", metrics.accuracy_score(y_test, y_pred))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, y_pred))
     accuracy += metrics.accuracy_score(y_test, y_pred)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 
 
@@ -274,11 +248,11 @@ print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
 print("\n\n-----------------------------------------------------------------------")
 
 print("\n\nVIDEOCONFERENCIA")
-df=pd.read_csv('../archivos/csv/VideoconferenciaXTemas_ES.csv',sep=',')
+df=pd.read_csv('../archivos/csv/VideoconferenciaXTemas_ESCapado.csv',sep=',')
 
 print("len total: ",len(df))
 
-df_x=df["Text"]
+df_x=df["Text"].values.astype('U')
 df_y=df["Class"]
 
 cv = TfidfVectorizer(min_df=1,stop_words='english')
@@ -296,7 +270,6 @@ a=x_traincv.toarray()
 
 cv1.inverse_transform(a[0])
 
-x_train.iloc[0]
 x_testcv=cv1.transform(x_test)
 x_testcv.toarray()
 
@@ -321,27 +294,12 @@ confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=
 print (confusion_matrix)
 
 
-count=0
-lenthreshold=0  # los q clasifica con threshold>0.7
-print("\n")
-for i in range (len(predicion)):
-    if max(threshold[i])>0.10:
-        lenthreshold=lenthreshold+1
-        if predicion[i]==real[i]:
-            count=count+1
-        else:
-            print("Text: ",x_test.iloc[i], "predicion:  ", predicion[i],"  real:   ",real[i], " y ",max(threshold[i]))
-print("Bien clasificados: ",count, "\nThreshold > 0.1 ",lenthreshold )
-
-print("Cuantos son sin diferenciar los threshold ",len(predicion))  #no trabajaria 30.
-
-
 #6- Clasificador
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "MULTINOMIALNB", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
+
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -349,19 +307,17 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "MULTINOMIALNB fit_prior=False", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -369,19 +325,17 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "RANDOM FOREST", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -389,19 +343,17 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "LINEAR SVC", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -409,19 +361,17 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "LINEAR SVC", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -429,13 +379,12 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 
 
@@ -446,8 +395,7 @@ print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "Logistic Regression", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -455,19 +403,17 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "SGD CLASSIFIER", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -475,13 +421,12 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 """
 parameters = {'vect__ngram_range': [(1, 1), (1, 2)],'tfidf__use_idf': (True, False),'clf__alpha': (1e-2, 1e-3),}
@@ -493,8 +438,7 @@ gs_clf.best_params_
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "GRID SEARCH CV", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -502,20 +446,18 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
     mnb.fit(x_traincv,y_train)
     #Sacamos la predicción
     predicion=mnb.predict(x_testcv)
-    print(metrics.classification_report(y_test, predicion))
     confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
-    print (confusion_matrix)
-    print("accuracy ", metrics.accuracy_score(y_test, predicion))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, predicion))
     accuracy += metrics.accuracy_score(y_test, predicion)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 
 print("----------------------------------------------------------------------------------")
 print('\033[1m', "GridSearchCV con mas variables", '\033[0m')
 accuracy = 0.0
-for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    print("\niteracion:", x)
+for x in list(lista):
     x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.2)  # random_state=4
     x_traincv = cv1.fit_transform(x_train)
     x_testcv = cv1.transform(x_test)
@@ -526,15 +468,12 @@ for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
 
     clf = GridSearchCV(SVC(), tuned_parameters)
     clf.fit(x_traincv, y_train)
-    print("Best parameters set found on development set:")
-    print(clf.best_params_)
-    print("Detailed classification report:")
+
     y_pred = clf.predict(x_testcv)
-    print(metrics.classification_report(y_test, y_pred))
-    print()
-    print("accuracy ", metrics.accuracy_score(y_test, y_pred))
+
+    print("iteracion:", x,"  accuracy ", metrics.accuracy_score(y_test, y_pred))
     accuracy += metrics.accuracy_score(y_test, y_pred)
-    print("\n")
-print('\033[1m', "ACCURACY MEDIO: ", accuracy / 10, '\033[0m')
+
+print('\033[1m', "ACCURACY MEDIO: ", accuracy / 100, '\033[0m')
 
 

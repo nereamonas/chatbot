@@ -2,10 +2,6 @@ version: "2.0"
 
 stories:
 
-- story: fallback
-  steps:
-  - intent: nlu_fallback
-  - action: action_default_fallback
 
 - story: fallback
   steps:
@@ -20,3 +16,6 @@ stories:
   - action: action_default_fallback
   - intent: deny
   - action: utter_noHaSidoDeAyuda
+
+
+

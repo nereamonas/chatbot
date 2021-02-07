@@ -13,7 +13,12 @@ df=pd.read_csv('../archivos/csv/concatenate.csv',sep=',')
 print("len total: ",len(df),"\nLen videoconferencia: ",len(df[df.Class=='videoconferencia']),"\nLen cuestionarios: ",len(df[df.Class=='cuestionarios']))
 
 #3- TfIdf Vectorized. Y separamos para train y test
-cv = TfidfVectorizer(min_df=1,stop_words='english')
+cv = TfidfVectorizer(min_df=1,stop_words='english',use_idf=True,sublinear_tf = True,norm='l2')  #tokenizer=tokenizer,
+#cv = TfidfVectorizer(max_features=20000, strip_accents='unicode',stop_words='english',analyzer='word', use_idf=True,  ngram_range=(1,2),sublinear_tf= True , norm='l2')
+
+# tfidf = vect.fit_transform(x_train)
+# sum norm l2 documents
+#vect_sum = tfidf.sum(axis=1)
 cTest=df["Text"]
 for x in cTest:
     print(x)
@@ -62,6 +67,24 @@ for i in range (len(predicion)):
 print("Bien clasificados: ",count, "\nThreshold > 0.7 ",lenthreshold, "\nPorcenaje correcto: ",count/lenthreshold)
 
 print("Cuantos son sin diferenciar los threshold ",len(predicion))  #no trabajaria 30.
+
+
+#--------------------------------------------------------------------------------
+
+
+
+mnb=MultinomialNB(fit_prior=False)
+print("\n\nMULTINOMIALNB fit_prior=False")
+mnb.fit(x_traincv,y_train)
+#Sacamos la predicción
+predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
+print(metrics.classification_report(y_test, predicion))
+confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
+print (confusion_matrix)
+
+
+
 
 
 

@@ -21,17 +21,21 @@ cv = TfidfVectorizer(min_df=1,stop_words='english')
 cTest=df["Text"]
 x_train, x_test, y_train, y_test = train_test_split(df["Text"], df["Class"], test_size=0.2, random_state=4)
 
+x_train, x_test2, y_train, y_test2 = train_test_split(x_train, y_train, test_size=0.2, random_state=4)
+
+
 #5- fit transform
 x_traincv=cv.fit_transform(x_train)
 x_testcv=cv.transform(x_test)
-
+x_test2cv=cv.transform(x_test2)
 #6- Clasificador
 mnb = MultinomialNB()  #0.930693
 print("MULTINOMIALNB")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
-print(metrics.classification_report(y_test, predicion))
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
+print("Resultados de test: ",metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
 
@@ -40,6 +44,7 @@ print("\n\nMULTINOMIALNB fit_prior=False")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -48,10 +53,12 @@ MultinomialNB(alpha = 1.0, class_prior = None, fit_prior = False)
 print("\n\nMULTINOMIALNB fit_prior=False ...")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
-predicion=mnb.predict(x_testcv)
-print(metrics.classification_report(y_test, predicion))
-confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
+predicion=mnb.predict(x_test2cv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
+print(metrics.classification_report(y_test2, predicion))
+confusion_matrix = pd.crosstab(y_test2, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
+
 
 
 mnb=RandomForestClassifier(n_estimators = 200, max_depth = 3, random_state = 0)
@@ -59,6 +66,7 @@ print("\n\nRANDOM FOREST")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -70,6 +78,7 @@ print("\n\nLINEAR SVC")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -79,6 +88,7 @@ print("\n\nLINEAR SVC")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -116,6 +126,7 @@ print("\n\nLogistic Regression")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -126,6 +137,7 @@ print("\n\nSGD CLASSIFIER")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -136,6 +148,7 @@ print("\n\nGRID SEARCH CV")
 mnb.fit(x_traincv,y_train)
 #Sacamos la predicción
 predicion=mnb.predict(x_testcv)
+print("precisión entranamiento: {0: .2f}".format(mnb.score(x_traincv, y_train)))
 print(metrics.classification_report(y_test, predicion))
 confusion_matrix = pd.crosstab(y_test, predicion, rownames=['Actual'], colnames=['Predicted'])
 print (confusion_matrix)
@@ -173,3 +186,9 @@ cv = ShuffleSplit(n_splits=5, test_size=0.3, random_state=0)
 scores = cross_val_score(clf, x_traincv, y_train, cv=cv)
 print(scores)
 """
+
+
+#https://www.aprendemachinelearning.com/que-es-overfitting-y-underfitting-y-como-solucionarlo/
+#https://relopezbriega.github.io/blog/2016/05/29/machine-learning-con-python-sobreajuste/
+#https://stackoverflow.com/questions/56207277/am-i-having-an-overfitting-problem-with-my-text-classification
+#https://stackoverflow.com/questions/62186526/should-my-model-always-give-100-accuracy-on-training-dataset
