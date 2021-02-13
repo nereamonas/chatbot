@@ -1,0 +1,51 @@
+requirements:
+
+//INSTALAR RASA Y RASA X
+sudo apt update
+sudo apt install python3-dev python3-pip
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip3 install -U pip
+pip3 install rasa
+pip install --upgrade pip==20.2
+pip install -U rasa-x --extra-index-url https://pypi.rasa.com/simple
+pip install -U rasa-x --extra-index-url https://pypi.rasa.com/simple
+
+//CREAR Y MANEJAR UN PROYECTO
+mkdir chatbotEHU
+cd chatbotEHU/
+//Iniciar un nuevo proiekto
+rasa init
+//Entrenarlo
+rasa train
+//Probarlo
+rasa shell
+//Abrir rasa x
+rasa x
+
+
+//LIBRERIAS PYTHON NECESARIAS
+pip3 install nltk
+pip3 install pandas
+pip3 install stop_words
+pip3 install spacy
+pip3 install sklearn
+pip3 install autocorrect
+pip3 install unicode
+python -m spacy download 'es_core_news_sm'
+
+
+//ENLACE GITHUB DEL PROYECTO
+https://github.com/nereamonas/chatbot
+
+
+
+//COMPARTIR CHATBOT
+En Rasa x - conversations - arriba a la derecha 'Share with guest testers' - Generate link
+Eso te da un link de localhost. para poder acceder de otro sitio vamos a usar ngrok
+https://ngrok.com/download  - descargas de ahí, y descipeas
+Luego inicias sesion en esa pagina. y te saldra un enlace como este
+./ngrok authtoken 1oQ3MaHpAgNRAM3l6rWbmSBVZcw_5DtPJ4KLMSQoL2WF6xkCT    -- lo ejecutas. pero con los datos de tu perfil
+./ngrok http 5002     --lo inicias, y te sale un enlace tipo
+http://67e4437af34b.ngrok.io      -- cambias eso x localhost:5002 y listo, se puede compartir ese link
+
