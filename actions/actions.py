@@ -8,12 +8,11 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
-
-from rasa.shared.core.events import SessionStarted, ActionExecuted
+#
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import EventType
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta
+
 #
 #
 # class ActionHelloWorld(Action):
@@ -30,7 +29,6 @@ from actions.Clasificador import clasificarPregunta
 #         return []
 
 
-
 class ActionDefaultFallback(Action):
     """Executes the fallback action and goes back to the previous state
     of the dialogue"""
@@ -44,7 +42,7 @@ class ActionDefaultFallback(Action):
 
         pregunta = tracker.latest_message.get('text')
         clase,tema,url=clasificarPregunta(pregunta)
-        textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "
+        textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "+url
         dispatcher.utter_message(text=textRespuesta)
         dispatcher.utter_message(attachment=url)
 

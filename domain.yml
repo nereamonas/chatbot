@@ -1,33 +1,57 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-
-responses:
-  utter_saludar:
-  - text: "Hola, tienes alguna pregunta?"
-
-  utter_diPregunta:
-  - text: "Dime tu pregunta, intentaré ayudarte"
-
-  utter_noDiPregunta:
-  - text: "Vale, cualquier cosa que necesites puedes consultarme"
-
-  utter_goodbye:
-  - text: "Adios"
-
-  utter_haSidoDeAyuda:
-  - text: "Muchas gracias"
-
-  utter_noHaSidoDeAyuda:
-  - text: "Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona"
-
-actions:
-  - action_default_fallback
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- que_haces:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: |-
+      Hola! Soy un chatbot, que puede responder preguntas sobre dos temas: Videoconferencias y Cuestionarios 
+      Como estas?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Aquí algo apra alegrarte:'
+  utter_did_that_help:
+  - text: Te ha ayudado?
+  utter_happy:
+  - text: Genial, me alegro!
+  utter_goodbye:
+  - text: Adios
+  utter_iamabot:
+  - text: 'Soy un chatbot, que puede responder preguntas sobre dos temas: Videoconferencias y Cuestionarios'
+  utter_saludar:
+  - text: Hola, tienes alguna pregunta?
+  utter_diPregunta:
+  - text: Dime tu pregunta, intentaré ayudarte
+  utter_noDiPregunta:
+  - text: Vale, cualquier cosa que necesites puedes consultarme
+  utter_haSidoDeAyuda:
+  - text: Muchas gracias
+  utter_noHaSidoDeAyuda:
+  - text: Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona
+actions:
+- action_default_fallback
+forms: {}
+e2e_actions: []

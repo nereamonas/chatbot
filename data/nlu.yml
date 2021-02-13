@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -10,19 +9,41 @@ nlu:
     - buenas tardes
     - egun on
     - arratsalde on
-
 - intent: goodbye
   examples: |
     - Agur
     - Adios
-
 - intent: affirm
   examples: |
     - bai
     - si
     - claro
-
 - intent: deny
   examples: |
     - no
     - ez
+- intent: mood_great
+  examples: |
+    - bien
+    - muy bien
+    - feliz
+    - contenta
+    - genial
+- intent: mood_unhappy
+  examples: |
+    - triste
+    - enfadada
+    - aburrida
+    - mal
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres un chatbot?
+    - estoy hablando con un robot?
+- intent: que_haces
+  examples: |
+    - que haces?
+    - que preguntas puedes resolver?
+- intent: nlu_fallback
+  examples: |
+    - compartir pantalla
