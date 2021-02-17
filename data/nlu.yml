@@ -47,3 +47,7 @@ nlu:
 - intent: nlu_fallback
   examples: |
     - compartir pantalla
+    - como puedo compartir contenido en bbc
+    - dinamizar contenido en bbc
+    - talde edo erabiltzaile salbuespena
+    - galderak sortu

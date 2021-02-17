@@ -24,7 +24,7 @@ pipeline:
      constrain_similarities: true
      model_confidence: cosine
    - name: FallbackClassifier
-     threshold: 0.7
+     threshold: 0.8
 #     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.

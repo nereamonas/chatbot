@@ -41,13 +41,26 @@ class ActionDefaultFallback(Action):
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         pregunta = tracker.latest_message.get('text')
-        clase,tema,url=clasificarPregunta(pregunta)
+        clase,tema,url,idioma=clasificarPregunta(pregunta)
         textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "+url
-        dispatcher.utter_message(text=textRespuesta)
-        dispatcher.utter_message(attachment=url)
+        textoHaServidoDeAyuda="¿Te ha servido de ayuda?"
+        textoRespuestaUsuario = 'Tu pregunta puede pertenece al tema ' + clase + ", sección " + str(tema) + "\n[Quizá encuentres tu respuesta aquí](" + url + ')'
+        buttons = [{"payload": "/affirm", "title": "Si"}, {"payload": "/deny", "title": "No"}]
+        if idioma=='eu':
+            if clase=='videoconferencia':
+                clase='Bideokonferentzia'
+            elif clase=='cuestionarios':
+                clase='Galdetegiak'
+            url=url.replace('/es/','/eu/')
+            textRespuesta = 'Sailkatutako klasea: ' + clase + "\nSailkatutako gaia: " + str(tema) + "\nUrl: " + url
+            textoHaServidoDeAyuda = "Lagungarria izan da?"
+            textoRespuestaUsuario = 'Zure galdera ' + clase + " gaiko, " + str(tema) + " atalekoa izan daiteke \n[Seguruenik erantzuna hemen topatuko duzu](" + url + ')'
+            buttons = [{"payload": "/affirm", "title": "Bai"}, {"payload": "/deny", "title": "Ez"}]
 
-        buttons = [{"payload": "/affirm", "title": "Si"},{"payload": "/deny", "title": "No"}]
-        dispatcher.utter_message(text="¿Te ha servido de ayuda?",buttons=buttons)
+        #dispatcher.utter_message(text=textRespuesta)
+        #dispatcher.utter_message(attachment=url)
+        dispatcher.utter_message(text=textoRespuestaUsuario)
+        dispatcher.utter_message(text=textoHaServidoDeAyuda,buttons=buttons)
 
         #Me he dado cuenta q los manuales en pdf son mas cortros que los del doc. entonces las paginas no cuadran.
 

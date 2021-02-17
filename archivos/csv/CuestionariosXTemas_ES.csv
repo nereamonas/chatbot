@@ -219,54 +219,6 @@ Retroalimentación sobre respuestas correctas y calificación general oculta has
 "En el apartado ""Opciones de revisión"", el único elemento necesario para que las calificaciones aparezcan en el ""Libro de Calificaciones"" es la casilla ""Puntos"" en la columna ""Después de cerrar el cuestionario. Esta casilla puede marcarse con posterioridad, después de que se haya revisado la calificación del cuestionario. ",8
 "Finalizando del configuración en ""Editar cuestionario""",8
 "Cuando hemos finalizado de especificar las opciones en el formulario ""Editar ajustes"" pasamos al formulario ""Editar cuestionario"", donde podremos usar las opciones para utilizar preguntas aleatorias (1) y Reordenar las preguntas al azar. ",8
-"Consultar los ""Resultados"" y retroalimentación",9
-Recalificar,9
-Anular una pregunta?,9
-Reutilizar cuestionarios y preguntas,10
-Duplicar cuestionarios dentro de un curso,10
-Importar cuestionarios de otros cursos,10
-Importar / Exportar preguntas desde el banco de preguntas,10
-"Para importar y exportar archivos de preguntas, utilizaremos los correspondientes enlaces del bloque “Administración”.",10
-Desde Campus Virtual recomendamos de entre los formatos admitidos para la importación y exportación de archivos los fomatos GIFT y Moodle XML porque son los únicos que podemos encontrar en ambas categorías.,10
-El proceso de exportación e importación de las preguntas es el siguiente:,10
-Accedemos al curso donde tenemos las preguntas que queremos utilizar en otro curso,10
-En la página principal del curso clicamos en el bloque actividades sobre el enlace “cuestionarios” o procedemos a editar el cuestionario del que queremos exportar las preguntas a un archivo (Ver página siguiente).,10
-Imagen 11: Bloque actividades,10
-Clicamos sobre el enlace exportar,10
-"Imagen 13: Administración del cuestionario, exportar",10
-Y se nos abrirá la siguiente página (ver imagen 14):,10
-"a) Elegimos el formato GIFT  o Moodle XML (En la ayuda podemos ver qué formato se adapta mejor a nuestras necesidades, porque explica para que vale cada uno de ellos).",10
-"b) Seleccionamos mediante una pestaña desplegable, la categoría donde se encuentran las preguntas que queremos exportar.",10
-c) Marcamos las casillas “Escribir categoría a archivo” y “Escribir contexto a archivo”.,10
-d) Una vez hecho todo lo anterior pinchamos en “Exportar preguntas a un archivo”.,10
-Imagen 14: Exportar preguntas ,10
-"La imagen siguiente nos ofrece las opciones de descargar. Seleccionamos guardar archivo. Se trata de un archivo de intercambio de información en formato XML, es decir, es un archivo de código preparado para que lo lean las máquinas, no las personas",10
-Imagen  15: Opciones de descargar archivo de preguntas exportadas,10
-"La aplicación nos dará un nombre descriptivo del archivo pero si queremos cambiarlo, elegimos la opción “Guardar como”",10
-Una vez que ya tenemos el archivo con las preguntas podemos realizar la importación de las preguntas. Nos situaremos en el curso donde queremos disponer de las preguntas. Pulsamos sobre el enlace importar,10
-"Imagen 16: Administración, banco de preguntas, importar",10
-Se nos abre la siguiente página (ver imagen 17):,10
-Elegimos el formato en el que hayamos realizado la exportación del archivo que vamos a importar.,10
-Clicamos encima de la pestaña “General” para que aparezcan todas las posibles opciones. ,10
-"Seleccionamos mediante una pestaña desplegable, la categoría donde queremos importar las preguntas.",10
- Marcamos las casillas “Obtener categoría de archivo” y “Obtener contexto de archivo”.,10
-" En la opción “Coincidir calificaciones”, marcamos la casilla “Error si la calificación no está en lista”.",10
- En la opción “Detenerse si se produce un error” marcamos “no”.,10
-"En el apartado “Importar preguntas de un archivo” O bien, pulsamos en el botón “Seleccione un archivo…”   “Subir un archivo” “Examinar…”  dentro de nuestro ordenador elegimos el archivo que habíamos exportado anteriormente y pinchamos en “Subir este archivo”. O bien, si nuestro navegador nos lo permite, arrastramos directamente el archivo exportado anteriormente al cuadro del apartado “Importar preguntas de un archivo”(en el caso de IE deberemos tener una versión igual o superior a la 10)",10
-Pulsamos el botón importar,10
-Imagen 17: Importar archivo,10
-"Imagen 18: Importar archivos, opciones menú general",10
-5.- Nos aparece en la pantalla el texto “Procesando preguntas del archivo importado” y todas las preguntas que hemos importado en una lista.,10
-6.- Clicamos en el botón “continuar” que nos aparece debajo del todo y ya tenemos las preguntas en el nuevo curso.,10
-Imagen 19: Importando preguntas,10
-"Para meter las preguntas en el cuestionario que queramos, sólo tendremos que ir al cuestionario y elegir las preguntas que nos interesen del banco de preguntas que hemos importado.",10
-"Imagen 20: Editando cuestionario, añadir preguntas",10
-Esta será la forma de proceder si al recuperar nuestros cuestionarios vemos que no nos aparecen las preguntas en el banco de preguntas por haberlas asociado al cuestionario en vez de a una categoría tal y como se ha explicado en la página 4 de este documento o en cualquier caso que queramos importar preguntas a nuestro banco de preguntas.,10
-Correo de Daniel ,10
-"Explicación cómo redactar todos los formatos que admite el formato GIFT para escribir cualquier tipo de pregunta de tipo test (incluyendo comentarios / puntuaciones parciales / numéricas / respuesta corta, etc..)",10
-Está bastante bien:,10
-https://www.youtube.com/watch?v=LesDv6ezv6w,10
-https://www.youtube.com/watch?v=LesDv6ezv6w,10
 Banco de preguntas y cuestionarios del curso,1
 tipos de cuestionarios,1
 diferencia entre banco de preguntas y cuestionarios,1
@@ -329,8 +281,3 @@ añadir preguntas aleatorias,7
 ejemplo de configuracion de un examen,8
 configuracion de examen,8
 como deberia configurar un cuestionario para un examen,8
-importar preguntas a un cuestionario en formato xml,10
-exportar preguntas de un cuestionario,10
-exportar preguntas en formato xml,10
-en que formato puedo importar o exportar las preguntas,10
-importar automaticamente preguntas al cuestionario,10

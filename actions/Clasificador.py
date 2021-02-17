@@ -13,6 +13,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC, LinearSVC
 from stop_words import get_stop_words
+from googletrans import Translator
+import googletrans
 print(os.getcwd())
 pathAbs=os.getcwd()
 
@@ -99,6 +101,11 @@ svcCuestionarios=LinearSVC(random_state=0, tol=1e-5)
 mnbCuestionarios = CalibratedClassifierCV(svcCuestionarios)
 mnbCuestionarios.fit(x_traincvCuestionarios, y_trainCuestionarios)  # lo entreno con el train
 
+def traducirCastellano(text):
+    traductor = Translator()
+    traduccion = traductor.translate(text, dest='es')
+    print(f"{traduccion.origin} ({traduccion.src}) --> {traduccion.text} ({traduccion.dest})")
+    return traduccion.text, traduccion.src
 
 def clasificador(clase,text):
     if (clase == 'clase'):
@@ -130,14 +137,15 @@ def conseguirPaginaCorrespondiente(clase, tema):
 
 def clasificarPregunta(pregunta):
     print("Pregunta: ",pregunta)
-    clasePredecida, threshold = clasificador('clase',pregunta)
+    preguntaCastellano, idioma=traducirCastellano(pregunta)
+    clasePredecida, threshold = clasificador('clase',preguntaCastellano)
     if threshold > 0.50:  # si el threshold es >50% clasificaremos como que será correcta la clase que predice
         # mirar el foro de la clase
         # si no se en cuentra mirar en el manual de la clase
-        temaPredecido, thresholdTema = clasificador(clasePredecida, pregunta)
+        temaPredecido, thresholdTema = clasificador(clasePredecida, preguntaCastellano)
 
         # Habria que mirar el threshold. pero de momento que lo haga siempre
         # Conseguimos la url que le corresponde al tema y clase
         url = conseguirPaginaCorrespondiente(clasePredecida, temaPredecido)
     print("Clase predecida: ", clasePredecida, "  Threshold clase: ", threshold, "\nTema predecido: ", temaPredecido, "  Threshold tema: ",thresholdTema,"\n")
-    return clasePredecida,temaPredecido,url
+    return clasePredecida,temaPredecido,url,idioma
