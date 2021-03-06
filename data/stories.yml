@@ -34,11 +34,11 @@ stories:
   - intent: nlu_fallback
   - action: action_default_fallback
   - intent: affirm
-  - action: utter_haSidoDeAyuda
+  - action: action_haSidoDeAyuda
 
 - story: fallback
   steps:
   - intent: nlu_fallback
   - action: action_default_fallback
   - intent: deny
-  - action: utter_noHaSidoDeAyuda
+  - action: action_noHaSidoDeAyuda

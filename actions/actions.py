@@ -12,7 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta
-
+from actions.PreguntasBienOMalClasificadasACSV import añadir
 #
 #
 # class ActionHelloWorld(Action):
@@ -67,3 +67,50 @@ class ActionDefaultFallback(Action):
 
 # dispatcher.utter_message('<a href="">Click para abrir el manual</a>')
 # dispatcher.utter_message('[Click para abrir el manual](https://www.ehu.eus/documents/1852718/14189177/Bilera+birtualak++Collaborate-rekin+Irakasleentzako+eskuliburua.pdf/a393e0d9-29ee-5e8c-9122-d1983a4939d5)')
+
+
+class ActionNoHaSidoDeAyuda(Action):
+
+     def name(self) -> Text:
+        return "action_noHaSidoDeAyuda"
+
+     def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+         preguntaUsuario = tracker.events[len(tracker.events) - 8].get('text')
+         respuestaBot = tracker.events[len(tracker.events) - 5].get('text')
+         añadir('mal', preguntaUsuario, respuestaBot)
+         dispatcher.utter_message(text="Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona")
+
+         return []
+
+
+class ActionHeaSidoDeAyuda(Action):
+
+    def name(self) -> Text:
+        return "action_haSidoDeAyuda"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        preguntaUsuario=tracker.events[len(tracker.events)-8].get('text')
+        respuestaBot=tracker.events[len(tracker.events) - 5].get('text')
+        añadir('bien',preguntaUsuario,respuestaBot)
+        dispatcher.utter_message(text="Muchas gracias")
+
+        return []
+
+
+class ActionSesionStart(Action):
+
+    def name(self) -> Text:
+        return "action_session_start"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="HOLA")
+
+        return []

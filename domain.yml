@@ -53,5 +53,8 @@ responses:
   - text: Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona
 actions:
 - action_default_fallback
+- action_noHaSidoDeAyuda
+- action_haSidoDeAyuda
+- action_session_start
 forms: {}
 e2e_actions: []

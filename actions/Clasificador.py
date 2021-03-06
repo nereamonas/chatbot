@@ -71,14 +71,11 @@ def clasificador(clase,text):
     elif (clase == 'cuestionarios'):
         mnb=mnbCuestionarios
         cv=cvCuestionarios
-    print (text)
     x_testcv = cv.transform(text)
     # Sacamos la predicción
     predicion = mnb.predict(x_testcv)
     # nos dará el threshold de cada clase
     threshold= mnb.predict_proba(x_testcv)
-    print(clase)
-    print(threshold)
     return predicion[0], max(threshold[0])
 
 def conseguirPaginaCorrespondiente(clase, tema):
