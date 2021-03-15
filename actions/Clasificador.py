@@ -3,9 +3,9 @@ import pandas as pd
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC, LinearSVC
-from googletrans import Translator
 
 from actions.Capar import capar
+from actions.Traductor import traducirCastellano
 
 print(os.getcwd())
 pathAbs=os.getcwd()
@@ -55,11 +55,6 @@ svcCuestionarios=LinearSVC(random_state=0, tol=1e-5)
 mnbCuestionarios = CalibratedClassifierCV(svcCuestionarios)
 mnbCuestionarios.fit(x_traincvCuestionarios, y_trainCuestionarios)  # lo entreno con el train
 
-def traducirCastellano(text):
-    traductor = Translator()
-    traduccion = traductor.translate(text, dest='es')
-    print(f"{traduccion.origin} ({traduccion.src}) --> {traduccion.text} ({traduccion.dest})")
-    return traduccion.text, traduccion.src
 
 def clasificador(clase,text):
     if (clase == 'clase'):
@@ -85,7 +80,7 @@ def conseguirPaginaCorrespondiente(clase, tema):
     df_1 = df.loc[clasee]
     subclase = df_1.loc[:, 'SubClass'] == int(tema)
     df_2 = df_1.loc[subclase]
-    url = df_2.values[0][2]
+    url = df_2.values[0][3]
     return url
 
 def clasificarPregunta(pregunta):

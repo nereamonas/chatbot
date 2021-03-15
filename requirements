@@ -25,6 +25,7 @@ rasa x
 
 
 //LIBRERIAS PYTHON NECESARIAS
+pip3 install docx2txt
 pip3 install nltk
 pip3 install pandas
 pip3 install stop_words

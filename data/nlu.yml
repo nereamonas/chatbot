@@ -55,3 +55,6 @@ nlu:
     - creaar preguntas de verdadero y falso
     - quiero saber todos los tipos de preguntas que se pueden crear
     - que tipos de pregunta se pueden crear
+- intent: buscarPorBotones
+  examples: |
+    - buscarPorBotones{"temaTitulo": "Grabaciones"}

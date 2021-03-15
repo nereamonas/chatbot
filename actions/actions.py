@@ -13,6 +13,8 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta
 from actions.PreguntasBienOMalClasificadasACSV import añadir
+import os
+import pandas as pd
 #
 #
 # class ActionHelloWorld(Action):
@@ -45,7 +47,7 @@ class ActionDefaultFallback(Action):
         textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "+url
         textoHaServidoDeAyuda="¿Te ha servido de ayuda?"
         textoRespuestaUsuario = 'Tu pregunta puede pertenece al tema ' + clase + ", sección " + str(tema) + "\n[Quizá encuentres tu respuesta aquí](" + url + ')'
-        buttons = [{"payload": "/affirm", "title": "Si"}, {"payload": "/deny", "title": "No"}]
+        buttons = [{"payload": "/affirm{\"idioma\": \"" + idioma + "\"}", "title": "Si"}, {"payload": "/deny{\"idioma\": \"" + idioma + "\"}", "title": "No"}]
         if idioma=='eu':
             if clase=='videoconferencia':
                 clase='Bideokonferentzia'
@@ -55,7 +57,7 @@ class ActionDefaultFallback(Action):
             textRespuesta = 'Sailkatutako klasea: ' + clase + "\nSailkatutako gaia: " + str(tema) + "\nUrl: " + url
             textoHaServidoDeAyuda = "Lagungarria izan da?"
             textoRespuestaUsuario = 'Zure galdera ' + clase + " gaiko, " + str(tema) + " atalekoa izan daiteke \n[Seguruenik erantzuna hemen topatuko duzu](" + url + ')'
-            buttons = [{"payload": "/affirm", "title": "Bai"}, {"payload": "/deny", "title": "Ez"}]
+            buttons = [{"payload": "/affirm{\"idioma\": \"" + idioma + "\"}", "title": "Bai"}, {"payload": "/deny{\"idioma\": \"" + idioma + "\"}", "title": "Ez"}]  #al deny le pasamos el idioma del usuario
 
         #dispatcher.utter_message(text=textRespuesta)
         #dispatcher.utter_message(attachment=url)
@@ -77,15 +79,40 @@ class ActionNoHaSidoDeAyuda(Action):
      def run(self, dispatcher: CollectingDispatcher,
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-         preguntaUsuario = tracker.events[len(tracker.events) - 8].get('text')
-         respuestaBot = tracker.events[len(tracker.events) - 5].get('text')
+
+         idioma=tracker.latest_message.get('entities')[0].get('value')  # asi cojo el valor del entity idioma
+         for event in (list(reversed(tracker.events)))[:5]:
+             if event.get("event") == "user":
+                 preguntaUsuario = event.get("text")
+             if event.get("event") == "bot":
+                 respuestaBot = event.get("text")
+         preguntaUsuario=tracker.events[len(tracker.events)-8].get('text')
+         respuestaBot=tracker.events[len(tracker.events) - 5].get('text')
          añadir('mal', preguntaUsuario, respuestaBot)
-         dispatcher.utter_message(text="Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona")
+
+         pathAbs = os.getcwd()
+         if(idioma=='eu'):
+             df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondienteEU.csv', sep=',')
+             textoRespuesta1="Sentitzen dut lagundu ez izatea"
+             textoRespuesta2="Saia gaitezen beste modu batera. Ze gairi buruz doa zure galdera?"
+         else:
+             df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondiente.csv', sep=',')
+             textoRespuesta1 ="Sentimos no haberte podido ayudar."
+             textoRespuesta2 ="Vamos a probar de otra manera. ¿Sobre cual de estos temas trata tu pregunta?"
+         uniqueClases=df['Class'].unique()
+         buttons = []
+         for i in uniqueClases:
+             payload = "/claseBotones{\"claseTitulo\": \"" + i+ "\", \"idioma\": \""+idioma+"\"}"
+             buttons.append({"title": i, "payload": payload})
+
+         dispatcher.utter_message(text=textoRespuesta1)
+
+         dispatcher.utter_message(text=textoRespuesta2, buttons=buttons)
 
          return []
 
 
-class ActionHeaSidoDeAyuda(Action):
+class ActionHaSidoDeAyuda(Action):
 
     def name(self) -> Text:
         return "action_haSidoDeAyuda"
@@ -94,13 +121,84 @@ class ActionHeaSidoDeAyuda(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        idioma = tracker.latest_message.get('entities')[0].get('value')
+        if (idioma=='eu'):
+            textoRespuesta="Eskerrik asko"
+        else:
+            textoRespuesta="Muchas gracias"
+
+        for event in (list(reversed(tracker.events)))[:5]:
+            if event.get("event")=="user":
+                preguntaUsuario = event.get("text")
+            if event.get("event") == "bot":
+                respuestaBot=event.get("text")
+
         preguntaUsuario=tracker.events[len(tracker.events)-8].get('text')
         respuestaBot=tracker.events[len(tracker.events) - 5].get('text')
         añadir('bien',preguntaUsuario,respuestaBot)
-        dispatcher.utter_message(text="Muchas gracias")
+        dispatcher.utter_message(text=textoRespuesta)
 
         return []
 
+
+
+class ActionBotonesClase(Action):
+
+    def name(self) -> Text:
+        return "action_botonesClase"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        idioma=tracker.latest_message.get('entities')[1].get('value')  #Cogemos el entity que hemos guardado del idioma
+        clase=tracker.latest_message.get('entities')[0].get('value')  # cogemos el entity que hemos guardado de titulo
+
+        # Tenemos q mandarle botones
+        pathAbs = os.getcwd()
+        if (idioma == 'eu'):
+            df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondienteEU.csv', sep=',')
+            textoRespuesta=clase+" gaiaren barnean, hauetako ze aukerei dagokio zure galdera?"
+        else:
+            df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondiente.csv', sep=',')
+            textoRespuesta ="Dentro del tema "+clase+" cual de estas opciones concuerda más con tu pregunta? "
+        clasee = df.loc[:, 'Class'] == clase
+        df_1 = df.loc[clasee]
+        buttons = []
+        for i in range(len(df_1)):
+            payload = "/buscarPorBotones{\"temaTitulo\": \"" + df_1.values[i][2] + "\", \"idioma\": \""+idioma+"\"}"
+            buttons.append({"title": df_1.values[i][2], "payload": payload})
+
+        dispatcher.utter_message(text=textoRespuesta, buttons=buttons)
+
+        return []
+
+
+class ActionPagBoton(Action):
+
+    def name(self) -> Text:
+        return "action_pagBoton"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        titulo = tracker.latest_message.get('entities')[0].get('value')  # asi cojo el valor del entity idioma
+        idioma = tracker.latest_message.get('entities')[1].get('value')  # asi cojo el valor del entity idioma
+
+        pathAbs = os.getcwd()
+        if (idioma == 'eu'):
+            df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondienteEU.csv', sep=',')
+            textoRespuesta="[Seguruenik erantzuna hemen topatuko duzu]("
+        else:
+            df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondiente.csv', sep=',')
+            textoRespuesta="[Quizá encuentres tu respuesta aquí]("
+        titulo = df.loc[:, 'titulo'] == titulo
+        df_1 = df.loc[titulo]
+        url = df_1.values[0][3]
+
+        dispatcher.utter_message(text=textoRespuesta + url + ')')
+
+        return []
 
 class ActionSesionStart(Action):
 

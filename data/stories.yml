@@ -36,9 +36,64 @@ stories:
   - intent: affirm
   - action: action_haSidoDeAyuda
 
+
 - story: fallback
   steps:
   - intent: nlu_fallback
   - action: action_default_fallback
   - intent: deny
+    entities:
+    - or:
+        - idioma: "es"
+        - idioma: "eu"
   - action: action_noHaSidoDeAyuda
+  - intent: claseBotones
+    entities:
+    - or:
+        - claseTitulo: "videoconferencia"
+        - claseTitulo: "cuestionarios"
+        - claseTitulo: "bideokonferentzia"
+        - claseTitulo: "galdetegiak"
+    - or:
+        - idioma: "es"
+        - idioma: "eu"
+  - action: action_botonesClase
+  - intent: buscarPorBotones
+    entities:
+    - or:
+      - temaTitulo: "Creación de una sala virtual conectada a eGela / eGelaPI"
+      - temaTitulo: "Creación de una sala virtual NO vinculada a eGela / eGelaPI"
+      - temaTitulo: "Entrada en la sala virtual de Blackboard Collaborate Ultra"
+      - temaTitulo: "Roles en la sala virtual"
+      - temaTitulo: "Presentar contenidos y gestionar la sala"
+      - temaTitulo: "Dinamizar las interacciones en la sala. Estados, Controles de audio y video y Turnos de palabra"
+      - temaTitulo: "Grabaciones"
+      - temaTitulo: "Banco de preguntas y cuestionario del curso"
+      - temaTitulo: "Organizar las preguntas en el “Banco de Preguntas”"
+      - temaTitulo: "Crear diferentes tipos de preguntas"
+      - temaTitulo: "Elaboración del cuestionario. Organización de las herramientas"
+      - temaTitulo: "Elaboración del cuestionario. Configurar el funcionamiento en “Editar ajustes”"
+      - temaTitulo: "Elaboración del cuestionario. Excepciones de usuario o de grupo"
+      - temaTitulo: "Elaboración del cuestionario. Añadir preguntas en “Editar Cuestionario”"
+      - temaTitulo: "Ejemplo de configuración de un examen"
+      - temaTitulo: "Bileretarako gune birtual bat sortu eGela / eGelaPIn"
+      - temaTitulo: "eGela / eGelaPItik kanpo bilera gunea sortu"
+      - temaTitulo: "Blackboard Collaborate Ultra bilera gunera sarbidea"
+      - temaTitulo: "Bilera guneko rolak"
+      - temaTitulo: "Saioak moderatzea eta edukiak aurkeztea"
+      - temaTitulo: "Saioaren interakzioak dinamizatzea. Egoerak, audio- eta bideo-kontrola eta hitz-txandak"
+      - temaTitulo: "Grabaketak"
+      - temaTitulo: "Galdera-bankua eta galdetegiak ikastaroan"
+      - temaTitulo: "“Galdera-bankuan” galderak antolatu"
+      - temaTitulo: "Galdera mota ezberdinak sortu"
+      - temaTitulo: "Galdetegien elaborazioa. Tresnen antolakuntza"
+      - temaTitulo: "Galdetegien elaborazioa. “Editatu ezarpenak” formularioan funtzionamendua konfiguratu"
+      - temaTitulo: "Galdetegien elaborazioa. Talde edo erabiltzaile-salbuespenak"
+      - temaTitulo: "Galdetegien elaborazioa. Galderak gehitu"
+      - temaTitulo: "Azterketa baten konfigurazio adibidea"
+    - or:
+        - idioma: "es"
+        - idioma: "eu"
+  - action: action_pagBoton
+
+

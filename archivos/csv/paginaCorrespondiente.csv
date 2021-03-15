@@ -1,17 +1,16 @@
-Class,SubClass,Page
-videoconferencia,1,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/creacion-sala-egela-egelapi
-videoconferencia,2,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/creacion-sala-no-vinculada-egela-egelapi
-videoconferencia,3,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/entrada-sala-virtual
-videoconferencia,4,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/roles
-videoconferencia,5,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/funcionalidades
-videoconferencia,6,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/dinamizacion
-videoconferencia,7,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/grabaciones
-cuestionarios,1,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/banco-preguntas-y-cuestionarios
-cuestionarios,2,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/organizar-preguntas
-cuestionarios,3,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/crear-preguntas
-cuestionarios,4,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/organizacion-herramientas
-cuestionarios,5,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/configurar-funcionamiento
-cuestionarios,6,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/excepciones
-cuestionarios,7,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/anadir-preguntas
-cuestionarios,8,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/configuracion-examen
-cuestionarios,10,no esta 
+Class,SubClass,titulo,Page
+videoconferencia,1,Creación de una sala virtual conectada a eGela / eGelaPI,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/creacion-sala-egela-egelapi
+videoconferencia,2,Creación de una sala virtual NO vinculada a eGela / eGelaPI,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/creacion-sala-no-vinculada-egela-egelapi
+videoconferencia,3,Entrada en la sala virtual de Blackboard Collaborate Ultra,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/entrada-sala-virtual
+videoconferencia,4,Roles en la sala virtual,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/roles
+videoconferencia,5,Presentar contenidos y gestionar la sala,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/funcionalidades
+videoconferencia,6,"Dinamizar las interacciones en la sala. Estados, Controles de audio y video y Turnos de palabra",https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/dinamizacion
+videoconferencia,7,Grabaciones,https://www.ehu.eus/es/web/ecampus/blackboard-collaborate-ultra/grabaciones
+cuestionarios,1,Banco de preguntas y cuestionario del curso,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/banco-preguntas-y-cuestionarios
+cuestionarios,2,Organizar las preguntas en el “Banco de Preguntas”,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/organizar-preguntas
+cuestionarios,3,Crear diferentes tipos de preguntas,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/crear-preguntas
+cuestionarios,4,Elaboración del cuestionario. Organización de las herramientas,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/organizacion-herramientas
+cuestionarios,5,Elaboración del cuestionario. Configurar el funcionamiento en “Editar ajustes”,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/configurar-funcionamiento
+cuestionarios,6,Elaboración del cuestionario. Excepciones de usuario o de grupo,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/excepciones
+cuestionarios,7,Elaboración del cuestionario. Añadir preguntas en “Editar Cuestionario”,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/anadir-preguntas
+cuestionarios,8,Ejemplo de configuración de un examen,https://www.ehu.eus/es/web/ecampus/cuestionarios-egela/configuracion-examen

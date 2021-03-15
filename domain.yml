@@ -23,7 +23,12 @@ intents:
     use_entities: true
 - que_haces:
     use_entities: true
-entities: []
+- buscarPorBotones:
+    use_entities: true
+- claseBotones:
+    use_entities: true
+entities:
+- or
 slots: {}
 responses:
   utter_greet:
@@ -32,7 +37,7 @@ responses:
       Como estas?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Aquí algo apra alegrarte:'
+    text: 'Aquí algo para alegrarte:'
   utter_did_that_help:
   - text: Te ha ayudado?
   utter_happy:
@@ -55,6 +60,7 @@ actions:
 - action_default_fallback
 - action_noHaSidoDeAyuda
 - action_haSidoDeAyuda
-- action_session_start
+- action_pagBoton
+- action_botonesClase
 forms: {}
 e2e_actions: []

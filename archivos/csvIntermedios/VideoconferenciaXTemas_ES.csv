@@ -1,0 +1,234 @@
+Text,Class
+Creación de una sala virtual conectada a eGela / eGelaPI,1
+"En el caso de no contar con un aula virtual, puede solicitarla en la plataforma que corresponda:",1
+"eGela: El profesorado con carga docente asignada en GAUR en las asignaturas de grado, másteres oficiales, títulos propios y aulas de doctorado puede solicitar el aula virtual correspondiente en la plataforma eGela. Dicha solicitud se realizará a través del Gestor de Aulas Virtuales. Este gestor permite al profesorado dar de alta sus aulas virtuales eGela y otras operaciones relacionadas con la gestión de las mismas, como fusionar grupos, consultar su almacén de copias de seguridad de cursos pasados... También se ubican en eGela las Aulas Virtuales Transversales, que pueden definirse a nivel de curso, grado, máster y título propio.",1
+"eGelaPI: Puede solicitar un aula virtual en eGela PI cualquier miembro de la UPV/EHU, PDI o PAS, que justifique esta necesidad y cuente con el respaldo del órgano o unidad administrativa que proceda, siempre que quede fuera de las categorías de cursos especificadas para eGela en el punto anterior. El procedimiento para la solicitud de cursos en eGelaPI se realiza en Área personal > Mis solicitudes de cursos. Más información en este enlace.",1
+Configuración de la sala en eGela / eGela PI,1
+"Para crear una sala de Blackboard Collaborate Ultra en un aula virtual de eGela / eGelaPi, 1) active la edición, 2) haga clic sobre “Añade una actividad o un recurso” en la sección correspondiente y 3) seleccione la actividad “Collaborate”. ",1
+General,1
+En el siguiente formulario se configuran las opciones del apartado General. ,1
+Los dos primeros campos se corresponden con: ,1
+"El “Nombre de sesión”, que se muestra en la página principal del curso y, como título, en la página de la actividad.",1
+"La “Descripción”, que se muestra en la página de la actividad y, opcionalmente, en la página principal del curso (ver casilla 2.1). ",1
+La fecha y hora de “Inicio”. La sala estará disponible 15 minutos antes de la hora indicada. ,1
+"La “Duración” de la sesión. Si se elige la opción “Duración del curso”, la sala estará siempre disponible a partir de la fecha de inicio escogida. ",1
+Otras configuraciones,1
+En la imagen a continuación se muestran el resto del formulario de configuración.,1
+"Aunque la calificación pueda activarse, esta debería realizarse en el propio “Libro de calificaciones” Enlace al manual.",1
+"Dentro del apartado “Ajustes comunes del módulo”, puede activarse el modo de grupos “Separados” o “Visibles. Ambas configuraciones tendrán el mismo efecto, cada estudiante accederá a una sala correspondiente a su grupo. Se recomienda, sin embargo, utilizar las opciones de “Grupos de trabajo” propias de Blackboard Collaborate Ultra. ",1
+"NOTA: Si la configuración de grupos se ha hecho a nivel de curso, de podrá cambiar a nivel de actividad, salvo que se haya forzado (Ver más información en el manual). En ese caso, si se quiere hacer una reunión con todo el alumnado del aula virtual, se puede recurrir a una reunión NO vinculada a eGela /eGela PI (Ver apartado 2: Creación de una sala virtual NO vinculada a eGela /eGelaPI)",1
+"Las salas de reuniones pueden tener restricciones de acceso, como cualquier otra actividad.",1
+"Si se han activado las opciones de “Rastreo de finalización” en el panel de Gestión del curso > Configuración del curso > Editar la configuración del curso, podrán marcarse los eventos “recibir una calificación” o “unirse a la sesión” para completar la condición de finalización.  ",1
+Acceso a la sala desde eGela / eGela PI,1
+"Una vez terminada la configuración, se crea la página de la entrada en la sesión. Pulsar el botón “Unirse a la sesión” para entrar en la sala. Si no aparece este botón, revise los valores introducidos en los campos “Inicio” y Duración” de la configuración. ",1
+Creación de una sala virtual NO vinculada a eGela /eGelaPI,2
+Este servicio está disponible en la dirección https://ehu.eus/bilerak.,2
+"Después de introducir las credenciales LDAP, se presenta una página con el listado de salas y el botón “Crear sesión” (1). Deben introducirse el nombre de sesión, la fecha y los ajustes de sesión. ",2
+Estos son los ajustes de sesión recomendados para una sala con asistencia numerosa (más de 10 participantes). Para dar voz a participantes concretos se les podrá otorgar puntualmente otro rol. (Ver apartado 5.2.3 Asistentes),2
+"La imagen siguiente muestra el modo de acceso a una sala virtual ya creada. Cuando se crea una sala virtual no vinculada a eGela / eGelaPI, todo/as lo/as asistentes salvo el/la creador/a del aula entrarán como invitados. Primero debemos elegir el rol asociado a la entrada como invitado “Participante” o “Presentador” (2). A continuación, se copia el enlace (3), que se puede enviar a quien proceda a través de un mensaje de correo electrónico, por ejemplo. Se recomienda usar el rol “Participante” siempre que se ajuste a la dinámica de la sesión. (Ver apartado 4: ""Roles en la sala virtual"").",2
+"Con este enlace los participantes accederán directamente a la sala, después de escribir el nombre con el que quieren aparecer. No es necesario contar con credenciales LDAP para acceder a la sala",2
+"Sin embargo, como se muestra en la imagen siguiente, el/la creador(a) de la sala debe acceder para tener el rol de “Moderador”, pulsando sobre los tres puntos (1) y a continuación sobre “Unirse a la reunión” (2) ",2
+"Además, el/la creador(a) de la sala puede ofrecer un número de ingreso telefónico a participantes que no dispongan de una conexión de Internet. Este enlace permite escuchar y hablar, pero no ver los contenidos mostrados en la pantalla. ",2
+Entrada en la sala virtual de Blackboard Collaborate Ultra,3
+Compatibilidad de navegadores y sistemas operativos,3
+En esta dirección se puede encontrar información actualizada sobre navegadores y sistemas operativos. ,3
+https://help.blackboard.com/es-es/Collaborate/Ultra/Moderator/Get_Started/Browser_Support,3
+"En la siguiente tabla, descargada el 11/03/2020, las combinaciones de sistemas operativos y navegadores compatibles, destacando la importancia de utilizar versiones actualizadas de los navegadores.",3
+Ajustes de periféricos,3
+Comprobar la salida de audio local (antes de entrar),3
+"Antes de entrar en la sala, conviene comprobar la salida de audio que está seleccionada en el equipo. En la siguiente imagen se muestran las opciones de configuración en un equipo con Windows 7 como sistema operativo. ",3
+En la siguiente imagen se muestra el cuadro de diálogo para la selección de dispositivos de reproducción. ,3
+"En el cuadro de diálogo aparecen los dispositivos para reproducción de audio disponibles en el equipo. El tick verde indica el/ los dispositivos predeterminado(s). Para marcar como predeterminado otro dispositivo, clicar con el botón derecho sobre el dispositivo deseado y marcar las opciones correspondientes.",3
+Compartir el micrófono (entrada de audio),3
+"Al iniciar la sesión, aparece un cuadro de diálogo, donde se indica el dispositivo predeterminado para la entrada de audio (1) y se muestra el nivel de sonido que entra por esta vía (2). Además, un menú desplegable (3) permite seleccionar otro entre el resto de los dispositivos disponibles en el equipo. ",3
+"Si el audio es satisfactorio, pulsar sobre “Sí, funciona” (4). En caso contrario, pulsando sobre “No, necesito ayuda”, accedemos a la web de soporte de Blackboard Collaborate. ",3
+También es posible que sea desde el navegador y no desde la herramienta donde se haga esta elección (captura tomada con Firefox). ,3
+"Para mejorar la calidad del audio de la sesión y evitar retornos, se recomienda utilizar cascos con micrófono integrado. También es importante mantener el mínimo necesario de micrófonos activados durante la sesión. ",3
+Compartir la cámara,3
+"Después de seleccionar el dispositivo de entrada de audio, un cuadro de diálogo del navegador nos pide permisos para usar el dispositivo de cámara: ",3
+Captura con Chrome,3
+Captura con Firefox,3
+"A continuación, la herramienta nos pide confirmar que la cámara está lista para su uso, pulsando sobre “Sí funciona” (1). La imagen de la cámara no se compartirá hasta que se active, usando el botón con icono de cámara de los controles de la parte inferior de la página (2).  ",3
+Ajustes de audio y vídeo,3
+"En la imagen siguiente se muestran las opciones del apartado “Ajustes de audio y vídeo” de la pestaña “Mis ajustes” del panel desplegable derecho (ver Apartado 5 ""Funcionalidades de la sala virtual"" para localizar la ubicación del Panel derecho). . ",3
+"Si los dispositivos no están funcionando correctamente, se puede reiniciar el proceso de asignación de permisos y selección el apartado “Configure su cámara y su micrófono” (1) de dicho apartado",3
+"Además, cada participante en la reunión puede usar el número de la sala y su pin personal (2) para recibir y emitir audio. Cada pin corresponde a un usuario y anula su entrada y salida convencionales de audio. Esta llamada tiene el coste correspondiente a una llamada interprovincial. ",3
+"Por otra parte, se pueden revocar los permisos otorgados al navegador pulsando sobre el elemento indicado. ",3
+Tutoriales (tour usuario),3
+"Cuando se realiza la primera entrada en una sala virtual con un equipo, aparece la opción de “Iniciar tutorial” (1). Para saltar esta opción, pulsar sobre “Más tarde” (2)",3
+Roles en la sala virtual,4
+Existen tres roles diferenciados dentro de la sala virtual:,4
+"Con el rol “Moderador” se puede gestionar los usuarios de la sala y sus roles, presentar contenidos e iniciar grabaciones. Este será el rol 1) del profesorado que acceda a una sala virtual desde un aula virtual de eGela / eGela PI y 2) de quienes hayan creado una sala virtual en la página https://ehu.eus/bilerak (Ver apartado 2 Creación de una sala virtual NO vinculada a eGela / eGelaPI)",4
+"Con el rol “Presentador” se puede compartir pizarra, pantalla y archivos, pero NO puede usar el resto de las opciones de la pestaña “Compartir contenido” (Sondeos, Temporizador, Grupos de trabajo). Tampoco puede gestionar usuarios ni grabaciones.",4
+Los permisos del rol “Participante” están definidos en los ajustes de la sesión. Este es el rol del alumnado que acceda a una sala virtual desde un aula virtual de eGela / eGela.,4
+"En las salas creadas en la página https://ehu.eus/bilerak lo/as usuario/as entran como invitados, con los permisos que se hayan determinado en la configuración (Ver apartado 2 Creación de una sala virtual NO vinculada a eGela / eGelaPI)",4
+Presentar contenidos y gestionar la sala,5
+En la imagen siguiente se muestra una captura de la pantalla completa con los paneles izquierdo desplegados. ,5
+Se destacan los siguientes elementos:,5
+Panel desplegable izquierdo. Puede desplegarse desde el icono en la parte superior izquierda (1.1). En este panel está la opción “Iniciar grabación” (1.2) y “Cerrar sesión” (1.3). ,5
+"Panel desplegable derecho: Puede desplegarse desde el icono en la parte inferior derecha (2.1). En la parte inferior están también los iconos para acceder a las distintas pestañas: “Chat”, “Asistentes”, “Compartir contenido” y “Mis ajustes”. ",5
+"Controles en la parte inferior central: “Mi estado y Ajustes”, “Compartir audio”, “Compartir vídeo” y “Levantar la mano”. ",5
+Iniciar / detener grabaciones y Cerrar sesión (Opciones en el panel izquierdo para el Rol moderador/a),5
+"En este apartado destacamos la funcionalidad de la grabación, que se inicia como se muestra en la imagen (1). Ver más adelante el apartado específico sobre la gestión de grabaciones. Además, en la parte inferior, se encuentra la opción para ""Cerrar sesión"" (2). ",5
+"Gestión de contenidos, asistentes y permisos en la sala y ajustes personales (Opciones del panel derecho para el Rol moderador/a)",5
+Mis ajustes (Ajustes personales y ajustes de la sala),5
+Ajustes de audio y vídeo,5
+Las opciones de este apartado han sido tratadas en el apartado “3.2 Ajustes de periféricos”. Consulte el apartado 3.2.4 de este manual.,5
+Ajustes de notificaciones,5
+"Estos ajustes permiten gestionar las notificaciones cuando “Alguien se unió o abandonó el grupo o la sesión de trabajo”, “Alguien publica un mensaje de chat” o “Alguien levanta la mano”. Estos ajustes son personales,  y por lo tanto al comienzo de una sesión conviene explicar a lo/as participantes que pueden escoger la configuración que más les conviene.  ",5
+Ajustes de la sesión,5
+"En este apartado se especifican los permisos del rol “Participante”. Cuando se ha creado una sala desde eGela / eGelaPI, todos los permisos aparecen marcados por defecto. Se recomienda cambiar esta configuración para prevenir retornos y asegurar una buena calidad de las transmisiones. ",5
+"Compartir contenidos (Compartir pantalla, Presentar archivos y Pizarra interactiva)",5
+Compartir pizarra en blanco,5
+"La pizarra permite realizar trazos, hacer formas y escribir texto. ",5
+Compartir aplicación / pantalla,5
+"Pulsando sobre “Compartir aplicación / pantalla” (1)* aparece una ventana emergente donde puede se puede seleccionar “Toda la pantalla” (2.1), ""Ventana de la aplicación"" (2.2) y ""Pestaña de Chrome"" ** (2.3). Después de seleccionar una de las opciones (3), el botón “Compartir” quedará activado (4). ",5
+* Esta captura se ha tomado con el navegador Chrome. ,5
+** Esta opción solo está disponible cuando se usa el navegador Chrome. ,5
+"En el caso de compartir “Toda la pantalla” o la misma ventana en la que se está realizando la reunión en la opción “Ventana de la aplicación” se formará un bucle con el contenido de la misma, como se muestra a continuación: ",5
+"Si esto ocurre, es suficiente con cambiar de pestaña para que se cierre este bucle. Pero para evitar que ocurra, se puede seguir el siguiente procedimiento: ",5
+"Utilizar dos ventanas del navegador, una para la página de la reunión virtual y otra para los contenidos que queremos mostrar.",5
+"A la hora de compartir contenido, escoger la opción “Ventana de aplicación” y seleccionar la ventana donde no está esta la reunión virtual. ",5
+"Además, si escogemos las opciones “Toda la pantalla” o “Una pestaña de Chrome” (1) utilizando el navegador Chrome, es posible transmitir el audio que se está reproduciendo en la misma. En la imagen siguiente se ha seleccionado el portal de YouTube de la UPV/EHU (2) y está marcada la opción “Compartir audio”(3). ",5
+"Para dejar de compartir un contenido, pulsamos sobre el icono “Stop”, en la parte superior derecha (1). ",5
+Compartir archivos,5
+"Para compartir un archivo, pinchar sobre Agregar archivos (1) o arrastrar el archivo sobre este rectángulo gris. ",5
+"Como se indica en la imagen, solo se pueden compartir archivos de imagen, presentaciones de Powerpoint y PDF. ",5
+"Las imágenes deben convertirse para ser mostradas, un proceso (1) que puede tardar uno o dos minutos con archivos de tamaño grande. Por lo tanto, es recomendable subir los archivos antes de comenzar la sesión con el alumnado. ",5
+"Una vez que los archivos se han convertido, se puede pulsar sobre “Compartir ahora” (1). ",5
+"Cuando se ha pulsado sobre “Compartir ahora”, las páginas del documento están disponibles para ser compartidas (1). Hasta que no se selecciona una no se muestra en la pantalla a los participantes. ",5
+"Cuando se selecciona una página ()1), esta se muestra en la pantalla al resto de los participantes. Los controles en la parte inferior (2) permiten avanzar a las páginas siguientes. ",5
+Estos archivos solo están disponibles para el profesorado hasta el momento en el que se comparten. ,5
+Asistentes (Listado de asistentes y convertir en presentador),5
+"En este apartado se puede ver la lista de participantes, organizada por roles, como se muestra en la imagen siguiente: ",5
+"Para cada asistente en la sala, se puede ver si tiene micrófono activo (1), el nombre (2), la calidad de la señal (3) y los controles del asistente (4). ",5
+La siguiente imagen muestra las opciones incluidas en los “Controles del asistente”. ,5
+"Con estos controles, el/la moderador/a permite, entre otras acciones, “Enviar un mensaje de chat directo”, “Convertir en presentador”, “Silenciar” y “Eliminar de la sesión”. Cuando se silencia a un usuario no se le elimina el permiso para volver a activar su micrófono; se trata sobre todo de una herramienta para silenciar un micrófono que esté produciendo retornos. Para evitar que el rol ""Participante"" pueda activar su micrófono, ver apartado 5.2.1.3 ""Ajustes de Sesión.  ",5
+En la siguiente imagen se muestra cómo se ha asignado el rol de “Presentador” a un usuario que tenía el rol de “Participante”.,5
+Chat,5
+"La pestaña “Chat” permite mantener un canal de comunicación ágil para resolver dudas o solucionar problemas con asistentes que tengan problemas de conexión. Como se muestra en la imagen, hay un chat para el rol “Moderador/a” y otro general. ",5
+"Dinamizar las interacciones en el sala (Estados, Control de audio y vídeo y Turnos de palabra)",6
+"Estos controles cuentan con 4 elementos: ""Mi estado y Ajustes”(1), “Compartir audio” (2), “Compartir vídeo”(3) y “Levantar la mano”(4). ",6
+Mi estado y ajustes,6
+"Pulsando sobre el control ""Mi estado y ajustes"" (1) se despliega un panel que permite interactuar con lo/as asistentes a través de emoticonos. ",6
+De esta manera se pueden realizar sondeos rápidos y obtener retroalimentación de forma ágil. Estos emoticonos se muestran en la lista de asistentes durante 30 segundos (1). ,6
+Control de audio y vídeo,6
+Estos controles permiten activar y desactivar nuestro audio y vídeo cuando estamos en una reunión. ,6
+Se recomienda:,6
+"Desactivar el audio cuando no estemos hablando, para reducir la posibilidad de retornos, que provocarán un desagradable ruido de fondo. ",6
+Desactivar el vídeo si se está compartiendo un contenido que ocupa la mayor parte de la pantalla y siempre que se aprecien problemas de conectividad. ,6
+Levantar la mano,6
+"El control ""Levantar la mano"" permite que lo/as asistentes pidan la palabra. En la imagen siguiente se muestra el control activado.",6
+"Un número situado al lado del icono del usuario permite identificar el orden en el que se ha pedido la palabra (1). Además, una ventana emergente permite al moderador/a ""bajar la mano"" de una petición de turno de palabra. ",6
+Grabaciones,7
+"Para iniciar las grabaciones se pulsa sobre ""Iniciar grabación"" (1) en el panel lateral izquierdo. Únicamente los usuarios con rol moderador pueden acceder a esta opción. ",7
+"Cuando se ha iniciado una grabación, todos los asistentes pueden ver la señal indicativa (1). Además, un mensaje emergente anuncia que se ha comenzado la sesión (2). ",7
+"Para detener una grabación, pulsar sobre “Detener grabación” (1)",7
+Las grabaciones de un curso de eGela / eGelaPI se muestran en la página de la actividad. ,7
+"En el caso de las grabaciones realizadas en salas creadas desde https://ehu.eus/bilerak , las grabaciones se pueden encontrar en la columna desplegable izquierda (1), en el apartado grabaciones (2). Pulsando sobre el nombre de la grabación (3) aparece la opción ""Mirar ahora"", que abrirá la reproducción del vídeo en una nueva pestaña del navegador. ",7
+Protocolo de mantenimiento y eliminación de las grabaciones,7
+"Para reducir el coste económico asociado al mantenimiento de las grabaciones se ha establecido un protocolo de eliminación automática a los 15 días de su realización. Este protocolo se aplica a todas las plataformas (eGela y eGelaPI), así como a las grabaciones no vinculadas a un aula virtual (https://www.ehu.eus/bilerak).",7
+Todas las grabaciones pueden descargarse durante este periodo. Si se quiere prolongar el acceso a estas grabaciones más allá de este periodo de 15 días se proponen las dos opciones siguientes. ,7
+Repositorio de vídeos EHUtb,7
+"El servicio EHUtb (https://ehutb.ehu.eus/) permite la publicación de vídeos y la restricción de su visionado a colectivos (Departamento, Profesorado, Universidad, Internet) o por contraseña. ",7
+"Para poder subir contenidos multimedia al Servicio EHUtb, primero es necesario que el usuario esté dado de alta en el Servicio EHUtb. La solicitud para darse de alta en el Servicio EHUtb se hace a través del CAU (154400 o cau@ehu.eus / más información de contacto en esta página ). ",7
+"En el formulario de publicación del vídeo (1), en la pestaña ""Metadatos"" (2) se puede seleccionar el colectivo que tiene acceso al mismo. Si se quiere realizar una inserción del vídeo en eGela será necesario marcar la opción ""Internet"". ",7
+"Además, una vez publicado el vídeo, se puede establecer una contraseña. Accedemos a la pestaña ""Gestor de contenidos"" y seleccionamos el vídeo sobre el que establecer la contraseña. Descendemos a la parte inferior de la página para acceder a la tabla que se muestra en la imagen. ",7
+"En la pestaña ""Publicación"" (1) se puede modificar el ""Perfil de difusión"" (2) y establecer una contraseña (3), que puede publicarse en un curso de eGela o eGelaPI junto al enlace del vídeo. No se puede hacer inserciones con cursos que tengan una contraseña de acceso. ",7
+Más información en el manual de EHUtb: https://ehutb.ehu.eus/help,7
+Almacenamiento en la nube EHUbox,7
+"Todas las cuentas LDAP de los colectivos PDI y PAS tienen un espacio de 50GB de almacenamiento en la nube. Después de subir un archivo de vídeo a este directorio, podemos usar el icono ""Compartir"" (1) que aparece en la siguiente imagen para desplegar el panel de opciones (2). Se puede crear un enlace para compartir pulsando sobre el signo + destacado en rojo (3). ",7
+"Una vez creado el enlace, aparece un icono que permite copiarlo en el portapapeles. Este enlace se puede publicar en un curso y nos llevará a una página externa donde se podrá ver o descargar, como se muestra en la imagen. ",7
+Más información en https://www.ehu.eus/es/group/ikt-tic/ehubox,7
+Crear una sala virtual conectada a eGela / eGelaPi,1
+Como puedo crear una sala virtual conectada a eGela / eGelaPi,1
+Solicitar una aula virtual,1
+quien puede solicitar la creacion de un aula virtual,1
+como configurar una sala virtual en eGela eGelaPi eGela PI,1
+Crear una sala en blackboard o bbc,1
+como acceder a una sala desde eGela eGela pi,1
+unirse a una sesion de blackboard,1
+unirse a una sesion de bbc,1
+Creacion de una sala virtual NO conectada a egela egelapi,2
+no vinculada a egela,2
+como entrar en la sala virtual de blackboard,3
+como entrar en la sala de bbc,3
+Compatibilidad de navegadores y sistemas operativos,3
+compatibilidad de sistemas operativos,3
+ajustar los perifericos,3
+comprobar salida de audio local,3
+compartir microfono,3
+compartir camara,3
+Ajustes de audio y vídeo,3
+ajustes de video,3
+ajuste de audio,3
+ajustes de audio y video,3
+tutorial de blackboard,3
+Roles en la sala virtual,4
+roles en blackboard,4
+rol de moderador,4
+rol de presentador,4
+rol de participante,4
+Presentar contenido,5
+gestionar la sala,5
+funcionamiento panel lateral,5
+iniciar grabaciones,5
+detener grabaciones,5
+como cerrar la sesion,5
+permiso de sala,5
+compartir contenido ,5
+compartir pizarra en blanco,5
+ajuste de notificacion,5
+ajuste de sesion,5
+ajustes de la sala,5
+Compartir aplicación / pantalla,5
+compartir aplicación,5
+compartir pantalla,5
+compartir archivos,5
+asistentes de la sala,5
+convertir a un usuario en presentador,5
+ver informacion de cada asistente,5
+uso del chat de bbc,5
+dinamizar las iteracciones de la sala,6
+ver mi estado,6
+ver mis ajustes,6
+ver el estado de otros usuarios,6
+control bajo de audio y video,6
+levantar la mano,6
+levanta la mano para hablar,6
+grabaciones,7
+grabar las clases con bbc,7
+como detener una grabacion de bbc,7
+subir una grabacion a egela,7
+como eliminar una grabacion,7
+repositorio de video EHUtb,7
+EHUbox,7
+almacenamiento nuve EHUBox,7
+crear una sala vinculada a egela,1
+crear un servicio de reunion externo,2
+creacion de un blackboard no conectado a egela,2
+crear una sala externa,2
+nuevo blackboard exterior,2
+como puedo crear una nueva sala virtual sin que la tenga que vincular a egela,2
+como creo una clase de blackboard desde egela,1
+establecer un nombre de sesion a una sala,1
+como activar el modo de grupos,1
+como me uno a una sesion,1
+como elijo la salida de audio que quiero utilizar en una aula,3
+configurar la salida de audio en bbc ,3
+acceso a un sitio de reunión de la bbc,3
+un presentador que beneficios tiene frente a un participante ,4
+como les mando un pdf mediante bbc ,5
+puedo mandar una foto a mis alumnos por la sala de bbc,5
+donde puedo ver todos los alumnos que hay dentro de la sala,5
+donde ver los asistentes que hay en la clase,5
+puedo ver en algún sitio la lista de participantes? ,5
+puedo ver si un alumno tiene el microfono encendido o no? ,5
+puedo ver si un participante esta con el micro encendido,5
+manejar los controles del asistente,5
+puedo silenciar a un alumno en una clase?,5
+¿Es posible gestionar los turnos de palabras? ,6
+¿puedo cambiar mi situación? ,6
+crear un espacio de reunión fuera de egela,2
+como puedo dividir en grupos a los alumnos en una sala,1
+Quiero crear un sitio de reunión,1
