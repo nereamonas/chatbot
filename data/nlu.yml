@@ -40,10 +40,10 @@ nlu:
     - eres un bot?
     - eres un chatbot?
     - estoy hablando con un robot?
-- intent: que_haces
-  examples: |
     - que haces?
     - que preguntas puedes resolver?
+    - que sabes hacer?
+    - puedes hacer algo más?
 - intent: nlu_fallback
   examples: |
     - compartir pantalla
@@ -55,6 +55,4 @@ nlu:
     - creaar preguntas de verdadero y falso
     - quiero saber todos los tipos de preguntas que se pueden crear
     - que tipos de pregunta se pueden crear
-- intent: buscarPorBotones
-  examples: |
-    - buscarPorBotones{"temaTitulo": "Grabaciones"}
+

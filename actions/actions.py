@@ -10,9 +10,10 @@
 from typing import Any, Text, Dict, List
 #
 from rasa_sdk import Action, Tracker
+from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta
-from actions.PreguntasBienOMalClasificadasACSV import añadir
+from actions.FeedbackACSV import añadirFeedBackManuales, añadirFeedBackBotones, añadirTodasLasPreguntasRealizadas
 import os
 import pandas as pd
 #
@@ -47,7 +48,7 @@ class ActionDefaultFallback(Action):
         textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "+url
         textoHaServidoDeAyuda="¿Te ha servido de ayuda?"
         textoRespuestaUsuario = 'Tu pregunta puede pertenece al tema ' + clase + ", sección " + str(tema) + "\n[Quizá encuentres tu respuesta aquí](" + url + ')'
-        buttons = [{"payload": "/affirm{\"idioma\": \"" + idioma + "\"}", "title": "Si"}, {"payload": "/deny{\"idioma\": \"" + idioma + "\"}", "title": "No"}]
+        buttons = [{"payload": "/affirm", "title": "Si"}, {"payload": "/deny", "title": "No"}]
         if idioma=='eu':
             if clase=='videoconferencia':
                 clase='Bideokonferentzia'
@@ -57,19 +58,14 @@ class ActionDefaultFallback(Action):
             textRespuesta = 'Sailkatutako klasea: ' + clase + "\nSailkatutako gaia: " + str(tema) + "\nUrl: " + url
             textoHaServidoDeAyuda = "Lagungarria izan da?"
             textoRespuestaUsuario = 'Zure galdera ' + clase + " gaiko, " + str(tema) + " atalekoa izan daiteke \n[Seguruenik erantzuna hemen topatuko duzu](" + url + ')'
-            buttons = [{"payload": "/affirm{\"idioma\": \"" + idioma + "\"}", "title": "Bai"}, {"payload": "/deny{\"idioma\": \"" + idioma + "\"}", "title": "Ez"}]  #al deny le pasamos el idioma del usuario
-
+            buttons = [{"payload": "/affirm", "title": "Bai"}, {"payload": "/deny", "title": "Ez"}]  #al deny le pasamos el idioma del usuario
         #dispatcher.utter_message(text=textRespuesta)
         #dispatcher.utter_message(attachment=url)
         dispatcher.utter_message(text=textoRespuestaUsuario)
         dispatcher.utter_message(text=textoHaServidoDeAyuda,buttons=buttons)
-
-        #Me he dado cuenta q los manuales en pdf son mas cortros que los del doc. entonces las paginas no cuadran.
-
-
-# dispatcher.utter_message('<a href="">Click para abrir el manual</a>')
-# dispatcher.utter_message('[Click para abrir el manual](https://www.ehu.eus/documents/1852718/14189177/Bilera+birtualak++Collaborate-rekin+Irakasleentzako+eskuliburua.pdf/a393e0d9-29ee-5e8c-9122-d1983a4939d5)')
-
+        añadirTodasLasPreguntasRealizadas(pregunta,textoRespuestaUsuario)
+        # Almacenamos el idioma en un slot, un slot es como la memoria del bot. asi en to do momento podremos saber el idioma en el que ha hablado el usuairo
+        return [SlotSet("idioma",idioma)]
 
 class ActionNoHaSidoDeAyuda(Action):
 
@@ -80,15 +76,9 @@ class ActionNoHaSidoDeAyuda(Action):
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-         idioma=tracker.latest_message.get('entities')[0].get('value')  # asi cojo el valor del entity idioma
-         for event in (list(reversed(tracker.events)))[:5]:
-             if event.get("event") == "user":
-                 preguntaUsuario = event.get("text")
-             if event.get("event") == "bot":
-                 respuestaBot = event.get("text")
-         preguntaUsuario=tracker.events[len(tracker.events)-8].get('text')
-         respuestaBot=tracker.events[len(tracker.events) - 5].get('text')
-         añadir('mal', preguntaUsuario, respuestaBot)
+         idioma=tracker.get_slot('idioma') # asi cojo el valor del slot idioma
+         preguntaUsuario=tracker.events[len(tracker.events)-9].get('text')
+         añadirFeedBackManuales('mal', preguntaUsuario)
 
          pathAbs = os.getcwd()
          if(idioma=='eu'):
@@ -102,11 +92,10 @@ class ActionNoHaSidoDeAyuda(Action):
          uniqueClases=df['Class'].unique()
          buttons = []
          for i in uniqueClases:
-             payload = "/claseBotones{\"claseTitulo\": \"" + i+ "\", \"idioma\": \""+idioma+"\"}"
+             payload = "/claseBotones{\"claseTitulo\": \"" + i+ "\"}"
              buttons.append({"title": i, "payload": payload})
 
          dispatcher.utter_message(text=textoRespuesta1)
-
          dispatcher.utter_message(text=textoRespuesta2, buttons=buttons)
 
          return []
@@ -121,21 +110,14 @@ class ActionHaSidoDeAyuda(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        idioma = tracker.latest_message.get('entities')[0].get('value')
+        idioma = tracker.get_slot('idioma')  # asi cojo el valor del slot idioma
         if (idioma=='eu'):
             textoRespuesta="Eskerrik asko"
         else:
             textoRespuesta="Muchas gracias"
 
-        for event in (list(reversed(tracker.events)))[:5]:
-            if event.get("event")=="user":
-                preguntaUsuario = event.get("text")
-            if event.get("event") == "bot":
-                respuestaBot=event.get("text")
-
-        preguntaUsuario=tracker.events[len(tracker.events)-8].get('text')
-        respuestaBot=tracker.events[len(tracker.events) - 5].get('text')
-        añadir('bien',preguntaUsuario,respuestaBot)
+        preguntaUsuario=tracker.events[len(tracker.events)-9].get('text')
+        añadirFeedBackManuales('bien',preguntaUsuario)
         dispatcher.utter_message(text=textoRespuesta)
 
         return []
@@ -150,7 +132,8 @@ class ActionBotonesClase(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        idioma=tracker.latest_message.get('entities')[1].get('value')  #Cogemos el entity que hemos guardado del idioma
+
+        idioma = tracker.get_slot('idioma')  # asi cojo el valor del slot idioma
         clase=tracker.latest_message.get('entities')[0].get('value')  # cogemos el entity que hemos guardado de titulo
 
         # Tenemos q mandarle botones
@@ -165,7 +148,7 @@ class ActionBotonesClase(Action):
         df_1 = df.loc[clasee]
         buttons = []
         for i in range(len(df_1)):
-            payload = "/buscarPorBotones{\"temaTitulo\": \"" + df_1.values[i][2] + "\", \"idioma\": \""+idioma+"\"}"
+            payload = "/buscarPorBotones{\"temaTitulo\": \"" + df_1.values[i][2] + "\"}"
             buttons.append({"title": df_1.values[i][2], "payload": payload})
 
         dispatcher.utter_message(text=textoRespuesta, buttons=buttons)
@@ -183,20 +166,75 @@ class ActionPagBoton(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         titulo = tracker.latest_message.get('entities')[0].get('value')  # asi cojo el valor del entity idioma
-        idioma = tracker.latest_message.get('entities')[1].get('value')  # asi cojo el valor del entity idioma
+        idioma = tracker.get_slot('idioma')  # asi cojo el valor del slot idioma
 
         pathAbs = os.getcwd()
         if (idioma == 'eu'):
             df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondienteEU.csv', sep=',')
             textoRespuesta="[Seguruenik erantzuna hemen topatuko duzu]("
+            textoHaServidoDeAyuda = "Lagungarria izan da?"
+            buttons = [{"payload": "/affirm", "title": "Bai"},
+                       {"payload": "/deny","title": "Ez"}]  # al deny le pasamos el idioma del usuario
         else:
             df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondiente.csv', sep=',')
             textoRespuesta="[Quizá encuentres tu respuesta aquí]("
+            textoHaServidoDeAyuda = "¿Te ha servido de ayuda?"
+            buttons = [{"payload": "/affirm", "title": "Si"},
+                       {"payload": "/deny", "title": "No"}]
         titulo = df.loc[:, 'titulo'] == titulo
         df_1 = df.loc[titulo]
         url = df_1.values[0][3]
 
         dispatcher.utter_message(text=textoRespuesta + url + ')')
+        dispatcher.utter_message(text=textoHaServidoDeAyuda,buttons=buttons)
+
+        return []
+
+
+class ActionNoHaSidoDeAyudaBotones(Action):
+
+     def name(self) -> Text:
+        return "action_noHaSidoDeAyudaBotones"
+
+     def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+
+         idioma=tracker.get_slot('idioma') # asi cojo el valor del slot idioma
+         pregunta = tracker.events[len(tracker.events) - 26].get('text')  #Cojo del x mensaje del usuario la pregunta
+
+         if(idioma=='eu'):
+             textoRespuesta1="Sentitzen dut lagundu ez izatea"
+         else:
+             textoRespuesta1 ="Sentimos no haberte podido ayudar."
+
+         añadirFeedBackBotones('mal', pregunta)
+
+         dispatcher.utter_message(text=textoRespuesta1)
+
+         return []
+
+
+class ActionHaSidoDeAyudaBotones(Action):
+
+    def name(self) -> Text:
+        return "action_haSidoDeAyudaBotones"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        idioma = tracker.get_slot('idioma')  # asi cojo el valor del slot idioma
+        pregunta = tracker.events[len(tracker.events) - 26].get('text')  # Cojo del x mensaje del usuario la pregunta
+
+        if (idioma=='eu'):
+            textoRespuesta="Eskerrik asko"
+        else:
+            textoRespuesta="Muchas gracias"
+
+        añadirFeedBackBotones('bien', pregunta)
+        dispatcher.utter_message(text=textoRespuesta)
 
         return []
 
@@ -209,6 +247,21 @@ class ActionSesionStart(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="HOLA")
+        dispatcher.utter_message(text="Hola! Soy un chatbot, que puede responder preguntas sobre dos temas: Videoconferencias y Cuestionarios. \n Házme una pregunta y te daré la respuesta.")
 
         return []
+
+
+"""
+Pruebas tracker
+cont=0
+        for event in (list(reversed(tracker.events)))[:35]:
+            if event.get("event") == "user":
+                print(cont)
+                print(" USER  "+event.get("text"))
+            if event.get("event") == "bot":
+                print(cont)
+                print(" BOT  "+event.get("text"))
+            cont+=1
+
+"""

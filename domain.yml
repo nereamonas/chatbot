@@ -21,15 +21,19 @@ intents:
     use_entities: true
 - nlu_fallback:
     use_entities: true
-- que_haces:
-    use_entities: true
 - buscarPorBotones:
     use_entities: true
 - claseBotones:
     use_entities: true
 entities:
-- or
-slots: {}
+- temaTitulo
+- claseTitulo
+slots:
+  idioma:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
 responses:
   utter_greet:
   - text: |-
@@ -45,22 +49,16 @@ responses:
   utter_goodbye:
   - text: Adios
   utter_iamabot:
-  - text: 'Soy un chatbot, que puede responder preguntas sobre dos temas: Videoconferencias y Cuestionarios'
+  - text: 'Soy un chatbot, que puede responder preguntas sobre dos temas: Videoconferencias y Cuestionarios. \n Házme una pregunta y te daré la respuesta.'
   utter_saludar:
   - text: Hola, tienes alguna pregunta?
-  utter_diPregunta:
-  - text: Dime tu pregunta, intentaré ayudarte
-  utter_noDiPregunta:
-  - text: Vale, cualquier cosa que necesites puedes consultarme
-  utter_haSidoDeAyuda:
-  - text: Muchas gracias
-  utter_noHaSidoDeAyuda:
-  - text: Sentimos no haberte podido ayudar. Redirigiremos tu pregunta a una persona
 actions:
 - action_default_fallback
 - action_noHaSidoDeAyuda
 - action_haSidoDeAyuda
 - action_pagBoton
 - action_botonesClase
+- action_noHaSidoDeAyudaBotones
+- action_haSidoDeAyudaBotones
 forms: {}
 e2e_actions: []
