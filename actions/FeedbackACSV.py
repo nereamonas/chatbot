@@ -19,7 +19,7 @@ def añadirTodasLasPreguntasRealizadas(preguntaUsuario, respuestaBot):
     df.loc[size, 'Clase'] = clase
     df.loc[size, 'Tema'] = tema
     df.to_csv(pathAbs+'/archivos/Feedback/FeedbackCompleto.csv', index=False)
-    print("se ha añadido en el fichero FeedbackCompleto.csv el elemento: [" + preguntaUsuario +", "+clase+", "+tema+"] \n")
+    print("se ha añadido en el fichero FeedbackCompleto.csv el elemento: [" + preguntaUsuario +", "+clase+", "+str(tema)+"] \n")
 
 def añadirFeedBackManuales(estado, preguntaUsuario):
     # Rellenamos tambn el csv de feedback completo
