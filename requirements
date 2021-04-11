@@ -51,3 +51,6 @@ Luego inicias sesion en esa pagina. y te saldra un enlace como este
 ./ngrok http 5002     --lo inicias, y te sale un enlace tipo
 http://67e4437af34b.ngrok.io      -- cambias eso x localhost:5002 y listo, se puede compartir ese link
 
+Comandos que hay que dejar lanzados para que funcione la web:
+rasa run -m models --enable-api --cors "*" --debug
+rasa run actions --cors "*" --debug

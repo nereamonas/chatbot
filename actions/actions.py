@@ -12,7 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
-from actions.Clasificador import clasificarPregunta
+from actions.Clasificador import clasificarPregunta, inicializarModelo
 from actions.FeedbackACSV import añadirFeedBackManuales, añadirFeedBackBotones, añadirTodasLasPreguntasRealizadas
 import os
 import pandas as pd
@@ -31,6 +31,7 @@ import pandas as pd
 #
 #         return []
 
+inicializarModelo(False) #Inicializamos el modelo. True si queremos que cree un nuevo modelo. False si queremos que cargue un modelo en concreto
 
 class ActionDefaultFallback(Action):
     """Executes the fallback action and goes back to the previous state
