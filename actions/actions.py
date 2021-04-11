@@ -48,7 +48,7 @@ class ActionDefaultFallback(Action):
         clase,tema,url,idioma=clasificarPregunta(pregunta)
         textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "+url
         textoHaServidoDeAyuda="¿Te ha servido de ayuda?"
-        textoRespuestaUsuario = 'Tu pregunta puede pertenece al tema ' + clase + ", sección " + str(tema) + "\n[Quizá encuentres tu respuesta aquí](" + url + ')'
+        textoRespuestaUsuario = 'Tu pregunta puede pertenecer al tema ' + clase + ", sección " + str(tema) + "\n[Quizá encuentres tu respuesta aquí](" + url + ')'
         buttons = [{"payload": "/affirm", "title": "Si"}, {"payload": "/deny", "title": "No"}]
         if idioma=='eu':
             if clase=='videoconferencia':

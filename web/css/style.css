@@ -73,8 +73,8 @@
 }
 
 .chatroom .chats .chat a{
-    text-decoration:none;
-    color: #f7ac16
+    text-decoration:underline;
+    color: #ff6100
 }
 
 .chatroom .chats .chat ol,.chatroom .chats .chat ul{
@@ -251,9 +251,9 @@
 /*# sourceMappingURL=/Chatroom.css.map */
 
 
-/*Tipo de letra y texto
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}*/
+#Tipo de letra y texto
+body {font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; }
+* {box-sizing: border-box;}
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 

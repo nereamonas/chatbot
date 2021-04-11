@@ -35,6 +35,10 @@ nlu:
     - enfadada
     - aburrida
     - mal
+- intent: quetal
+  examples: |
+    - que tal estas?
+    - que tal
 - intent: bot_challenge
   examples: |
     - eres un bot?
