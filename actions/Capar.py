@@ -2,7 +2,6 @@ import re
 
 import nltk
 import spacy
-from autocorrect import Speller
 from unicodedata import normalize
 from stop_words import get_stop_words
 
