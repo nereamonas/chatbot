@@ -51,3 +51,35 @@ def añadirFeedBackBotones(estado, preguntaUsuario):
     df.to_csv(pathAbs + '/archivos/Feedback/FeedbackCompleto.csv', index=False)
     print("se ha actualizado en el fichero FeedbackCompleto.csv el elemento: " + preguntaUsuario + " con el feedback Botones a " + estado+"\n")
 
+
+def añadirFeedBackBotonesClase(clase, preguntaUsuario):
+    #Despues de intentar redirigir la pregunta del usuario mediante botones, guardaremos en bien o mal clasificados el feedback del usuario
+    # Rellenamos tambn el csv de feedback completo
+    df = pd.read_csv(pathAbs + '/archivos/Feedback/FeedbackCompleto.csv', sep=',')
+    i = len(df) - 1
+    continuar = True
+    while (continuar):
+        if (preguntaUsuario in df._get_value(i, 'Pregunta')):  # miramos si la pregunta esta dentro
+            continuar = False
+            df.loc[i, "ClaseBotones"] = clase
+        else:
+            i -= 1
+    df.to_csv(pathAbs + '/archivos/Feedback/FeedbackCompleto.csv', index=False)
+    print("se ha actualizado en el fichero FeedbackCompleto.csv el elemento: " + preguntaUsuario + " con el feedback Botones Clase a " + clase+"\n")
+
+
+def añadirFeedBackBotonesTema(tema, preguntaUsuario):
+    #Despues de intentar redirigir la pregunta del usuario mediante botones, guardaremos en bien o mal clasificados el feedback del usuario
+    # Rellenamos tambn el csv de feedback completo
+    df = pd.read_csv(pathAbs + '/archivos/Feedback/FeedbackCompleto.csv', sep=',')
+    i = len(df) - 1
+    continuar = True
+    while (continuar):
+        if (preguntaUsuario in df._get_value(i, 'Pregunta')):  # miramos si la pregunta esta dentro
+            continuar = False
+            df.loc[i, "TemaBotones"] = tema
+        else:
+            i -= 1
+    df.to_csv(pathAbs + '/archivos/Feedback/FeedbackCompleto.csv', index=False)
+    print("se ha actualizado en el fichero FeedbackCompleto.csv el elemento: " + preguntaUsuario + " con el feedback Botones tema a " + str(tema) +"\n")
+

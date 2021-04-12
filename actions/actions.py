@@ -13,7 +13,8 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta, inicializarModelo
-from actions.FeedbackACSV import añadirFeedBackManuales, añadirFeedBackBotones, añadirTodasLasPreguntasRealizadas
+from actions.FeedbackACSV import añadirFeedBackManuales, añadirFeedBackBotones, añadirTodasLasPreguntasRealizadas, \
+    añadirFeedBackBotonesTema, añadirFeedBackBotonesClase
 import os
 import pandas as pd
 #
@@ -137,6 +138,9 @@ class ActionBotonesClase(Action):
         idioma = tracker.get_slot('idioma')  # asi cojo el valor del slot idioma
         clase=tracker.latest_message.get('entities')[0].get('value')  # cogemos el entity que hemos guardado de titulo
 
+        preguntaUsuario=tracker.events[len(tracker.events) - 15].get("text")
+        añadirFeedBackBotonesClase(clase,preguntaUsuario)
+
         # Tenemos q mandarle botones
         pathAbs = os.getcwd()
         if (idioma == 'eu'):
@@ -169,6 +173,9 @@ class ActionPagBoton(Action):
         titulo = tracker.latest_message.get('entities')[0].get('value')  # asi cojo el valor del entity idioma
         idioma = tracker.get_slot('idioma')  # asi cojo el valor del slot idioma
 
+        preguntaUsuario=tracker.events[len(tracker.events) - 20].get("text")
+
+
         pathAbs = os.getcwd()
         if (idioma == 'eu'):
             df = pd.read_csv(pathAbs + '/archivos/csv/paginaCorrespondienteEU.csv', sep=',')
@@ -185,6 +192,9 @@ class ActionPagBoton(Action):
         titulo = df.loc[:, 'titulo'] == titulo
         df_1 = df.loc[titulo]
         url = df_1.values[0][3]
+        tema = df_1.values[0][1]
+
+        añadirFeedBackBotonesTema(tema, preguntaUsuario)
 
         dispatcher.utter_message(text=textoRespuesta + url + ')')
         dispatcher.utter_message(text=textoHaServidoDeAyuda,buttons=buttons)
