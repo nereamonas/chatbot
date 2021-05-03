@@ -54,3 +54,18 @@ http://67e4437af34b.ngrok.io      -- cambias eso x localhost:5002 y listo, se pu
 Comandos que hay que dejar lanzados para que funcione la web:
 rasa run -m models --enable-api --cors "*" --debug
 rasa run actions --cors "*" --debug
+
+
+Para lanzar la web:
+INSTALAR YARN.
+sudo apt remove cmdtest
+sudo apt remove yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update
+sudo apt-get install yarn -y
+yarn install
+yarn watch
+
+Lanzar la web:
+yarn serve   // y nos lanzará en http://127.0.0.1:8080/

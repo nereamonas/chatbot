@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./dist/Chatroom.css">
+    <link rel="stylesheet" type="text/css" href="./Chatroom.css">
+    <title>Chatroom Example</title>
+  </head>
+<body>
+<div class="chat-popup" id="myForm">
+  <div class="chat-container"></div>
+</div>
+  <!--<script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"></script>-->
+  <script src="./dist/Chatroom.js"></script>
+  <script type="text/javascript">
+    window.chatroom = new window.Chatroom({
+  host: "http://localhost:5005",
+      title: "Chatbot",
+      container: document.querySelector(".chat-container"),
+      welcomeMessage: "¡Hola! Soy un chatbot que puede responder preguntas sobre dos temas: Videoconferencias y Cuestionarios \n Házme una pregunta y te daré la respuesta.",
+      speechRecognition: "es-ES",
+      voiceLang: "es-ES"
+});
+window.chatroom.openChat();
+  </script>
+</body>
+</html>
