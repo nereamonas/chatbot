@@ -13,8 +13,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from actions.Clasificador import clasificarPregunta, inicializarModelo
-from actions.FeedbackACSV import añadirFeedBackManuales, añadirFeedBackBotones, añadirTodasLasPreguntasRealizadas, \
-    añadirFeedBackBotonesTema, añadirFeedBackBotonesClase
+from actions.FeedbackACSV import añadirFeedBackManuales, añadirFeedBackBotones, añadirFeedBackBotonesTema, añadirFeedBackBotonesClase, añadirATodasLasPreguntasRealizadas
 import os
 import pandas as pd
 #
@@ -47,7 +46,6 @@ class ActionDefaultFallback(Action):
 
         pregunta = tracker.latest_message.get('text')
         clase,tema,url,idioma=clasificarPregunta(pregunta)
-        textRespuesta='Clase clasificada: '+clase+ "\nTema predecido: "+str(tema)+"\nUrl: "+url
         textoHaServidoDeAyuda="¿Te ha servido de ayuda?"
         textoRespuestaUsuario = 'Tu pregunta puede pertenecer al tema ' + clase + ", sección " + str(tema) + "\n[Quizá encuentres tu respuesta aquí](" + url + ')'
         buttons = [{"payload": "/affirm", "title": "Si"}, {"payload": "/deny", "title": "No"}]
@@ -57,15 +55,12 @@ class ActionDefaultFallback(Action):
             elif clase=='cuestionarios':
                 clase='Galdetegiak'
             url=url.replace('/es/','/eu/')
-            textRespuesta = 'Sailkatutako klasea: ' + clase + "\nSailkatutako gaia: " + str(tema) + "\nUrl: " + url
             textoHaServidoDeAyuda = "Lagungarria izan da?"
             textoRespuestaUsuario = 'Zure galdera ' + clase + " gaiko, " + str(tema) + " atalekoa izan daiteke \n[Seguruenik erantzuna hemen topatuko duzu](" + url + ')'
             buttons = [{"payload": "/affirm", "title": "Bai"}, {"payload": "/deny", "title": "Ez"}]  #al deny le pasamos el idioma del usuario
-        #dispatcher.utter_message(text=textRespuesta)
-        #dispatcher.utter_message(attachment=url)
         dispatcher.utter_message(text=textoRespuestaUsuario)
         dispatcher.utter_message(text=textoHaServidoDeAyuda,buttons=buttons)
-        añadirTodasLasPreguntasRealizadas(pregunta,textoRespuestaUsuario)
+        añadirATodasLasPreguntasRealizadas(pregunta,clase,tema)
         # Almacenamos el idioma en un slot, un slot es como la memoria del bot. asi en to do momento podremos saber el idioma en el que ha hablado el usuairo
         return [SlotSet("idioma",idioma)]
 
